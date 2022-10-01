@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vokabeln</title>
+        <script src="Englisch.js" defer></script>
+        <script src="Latein.js" defer></script>
+        <script src="script.js" defer></script>
+
+
+
+
+    </head>
+    <body class="body">
+
+
+      
+
+            
+        <img id="background" >
+
+            
+         
+            
+
+
+
+
+        <div class="search_div">
+            <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
+                <option disabled selected>Vokabeln</option>
+                <option class="auswahl_Vokabeltest" value="#lek_Vokabeltest_Lektion">Vokabeltest</option>
+                <option class="bold" value="#all">Alle</option>
+                <option class="bold" value="#all_latein">Latein</option>
+
+                <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
+                <option value="#lek_01">01</option>
+                <option value="#lek_02">02</option>
+                <option value="#lek_03">03</option>
+                <option value="#lek_04">04</option>
+                <option value="#lek_05">05</option>
+                <option value="#lek_06">06</option>
+                <option value="#lek_07">07</option>
+                <option value="#lek_08">08</option>
+                <option value="#lek_09">09</option>
+                <option value="#lek_10">10</option>
+                <option value="#lek_11">11</option>
+                <option value="#lek_12">12</option>
+                <option value="#lek_13">13</option>
+                <option value="#lek_14">14</option>
+                <option value="#lek_15">15</option>
+                <option value="#lek_16">16</option>
+                <option value="#lek_17">17</option>
+                <option value="#lek_18">18</option>
+                <option value="#lek_19">19</option>
+                <option value="#lek_20">20</option>
+                <option value="#lek_21">21</option>
+                <option value="#lek_22">22</option>
+                <option value="#lek_23">23</option>
+                <option value="#lek_24">24</option>
+                <option value="#lek_25">25</option>
+                <option value="#lek_26">26</option>
+                <option value="#lek_27">27</option>
+                <option value="#lek_28">28</option>
+                <option value="#lek_29">29</option>
+                <option class="bold" value="#all_englisch">Englisch</option>
+                <option class="bold" value="#all_klasse_8">Klasse 8</option>
+                <option value="#p_Englisch_Klasse_8_Unit1_Text_smart_1_Drama">Unit 1 Text smart 1&nbsp;</option>
+                <option value="#p_Englisch_Klasse_8_AC2_cultures_2_the_USA">AC2 cultures 2 the USA&nbsp;</option>
+                <option value="#p_Englisch_Klasse_8_Unit_2_S_174">Unit 2 S. 174&nbsp;</option>
+                <option value="#p_Englisch_Klasse_8_Unit_2_S_179_180">Unit 2 S. 179 + 180&nbsp;</option>
+                <option value="#p_Englisch_Klasse_8_Unit_2_S_181">Unit 2 S. 181&nbsp;</option>
+                <option value="#p_Englisch_Klasse_8_Unit_3_S_184">Unit 3 S. 184&nbsp;</option>
+                <option value="#p_Englisch_Klasse_8_Unit_3_S_188">Unit 3 S. 188&nbsp;</option>
+                <option class="bold" value="#all_klasse_9">Klasse 9</option>
+                <option value="#p_Englisch_Klasse_9_Unit_1_S_149">Unit 1 S. 149&nbsp;</option>
+
+            </select>
+
+            <ion-icon name="lernen_button" class="lernen_button" onclick="lernen()">Lernen</ion-icon>       
+        </div>    
+
+
+
+
+
+
+
+          
+            <div class="all_all">
+        
+        
+        
+        
+        
+
+
+        
+        
+        
+        <div class="insgesamtVokabeltest_Lektion">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest Englisch S. 149</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                        </tr>
+                        <tbody id="tableVokabeltest_Lektion">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+
+
+        
+        
+        <div class="insgesamt01">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 01</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table01">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt02">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 02</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table02">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt03">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 03</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table03">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+          
+        
+        
+        <div class="insgesamt04">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 04</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table04">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt05">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 05</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table05">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt06">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 06</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table06">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt07">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 07</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table07">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt08">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 08</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table08">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+
+        
+
+        
+       <div class="insgesamt09">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 09</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table09">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt10">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 10</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table10">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt11">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 11</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table11">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+        <div class="insgesamt12">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 12</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table12">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+        
+
+
+
+        <div class="insgesamt13">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 13</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table13">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+        
+
+
+
+        <div class="insgesamt14">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 14</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table14">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+
+
+
+        <div class="insgesamt15">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 15</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table15">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="insgesamt16">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 16</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        <tbody id="table16">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            
+        </div>
+
+
+        <div class="insgesamt17">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 17</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table17">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+
+        <div class="insgesamt18">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 18</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table18">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        
+        
+
+        <div class="insgesamt19">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 19</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table19">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+        
+
+        <div class="insgesamt20">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 20</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table20">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        
+        <div class="insgesamt21">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 21</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table21">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+        
+        <div class="insgesamt22">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 22</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table22">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        <div class="insgesamt23">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 23</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table23">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+        <div class="insgesamt24">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 24</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table24">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+        <div class="insgesamt25">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 25</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table25">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        
+
+        <div class="insgesamt26">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 26</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table26">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        
+
+
+
+
+        
+
+        <div class="insgesamt27">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 27</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table27">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+                
+        <div class="insgesamt28">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 28</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table28">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+        
+
+        
+
+
+                
+        <div class="insgesamt29">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 29</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table29">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+                
+        
+        
+        <div class="insgesamtVokabeln_aus_keiner_Lektion">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeln aus keiner Lektion</p>
+
+<section class="insgesamt_tabelle">
+    <div class="insgesamt_tabelle_inside">
+        <table class="table">
+            <tr  class="headline">
+                <th>Latein</th>
+                <th>Deutsch</th>
+                <th>Sonstiges</th>
+            </tr>
+            <tbody id="tableVokabeln_aus_keiner_Lektion">
+                
+            </tbody>
+        </table>
+    </div>
+</section>
+</div>
+
+
+
+        
+        
+        <div class="insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama">
+            <p id="englisch_anzeige">Englisch</p>
+            <p id="englisch_class_anzeige">Klasse 8</p>
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Unit 1 Text smart 1 Drama</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+        <div class="insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA">
+
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">AC2 cultures 2 the USA</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_8_AC2_cultures_2_the_USA">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+        <div class="insgesamt_Englisch_Klasse_8_Unit_2_S_174">
+
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Unit 2 S. 174</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_8_Unit_2_S_174">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        <div class="insgesamt_Englisch_Klasse_8_Unit_2_S_179_180">
+
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Unit 2 S. 179 + 180</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_8_Unit_2_S_179_180">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        <div class="insgesamt_Englisch_Klasse_8_Unit_2_S_181">
+
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Unit 2 S. 181</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_8_Unit_2_S_181">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        <div class="insgesamt_Englisch_Klasse_8_Unit_3_S_184">
+
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Unit 3 S. 184</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_8_Unit_3_S_184">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        <div class="insgesamt_Englisch_Klasse_8_Unit_3_S_188">
+
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Unit 3 S. 188</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_8_Unit_3_S_188">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        <div class="insgesamt_Englisch_Klasse_9_Unit_1_S_149">
+            <p id="englisch_class_anzeige">Klasse 9</p>
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Unit 1 S. 149</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        
+                        <tbody id="table_Englisch_Klasse_9_Unit_1_S_149">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="lernen_auswahl_englisch_oder_latein">
+    <div onclick="lernen_hide_menü()">
+        <img class="lernen_hide_menü_x_btn" src="https://img.icons8.com/ios/1000/000000/cancel.png"/>
+    </div>
+    <ion-icon name="latein_lektion_auswahlmenü_btn" class="latein_lektion_auswahlmenü_btn" onclick="latein_lektion_auswahlmenü()" >Latein</ion-icon>
+    <ion-icon name="englisch_lektion_auswahlmenü_btn" class="englisch_lektion_auswahlmenü_btn" onclick="englisch_lektion_auswahlmenü()" >Englisch</ion-icon>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="lernen_auswahl_latein">
+    <div onclick="lernen_hide_menü()">
+        <img class="lernen_hide_menü_x_btn" src="https://img.icons8.com/ios/1000/000000/cancel.png"/>
+    </div>
+
+    <div onclick="zurück_pfeil_btn()">
+        <img  class="zurück_pfeil_btn" src="https://img.icons8.com/ios/1000/000000/circled-left-2.png"/>
+    </div>
+
+
+    <div class="checkbox-container">
+
+        <form class="latein_form">
+            <div class="lernen_auswählen_vokabeltest">
+ 
+      </div>
+            <div class="lernen_auswählen_1-10">
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion01" type="checkbox" id="lernen_01">
+          <label for="lernen_01">Lektion 01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_01" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion02" type="checkbox" id="lernen_02">
+          <label for="lernen_02">Lektion 02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_02" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion03" type="checkbox" id="lernen_03">
+          <label for="lernen_03">Lektion 03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_03" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion04" type="checkbox" id="lernen_04">
+          <label for="lernen_04">Lektion 04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_04" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion05" type="checkbox" id="lernen_05">
+          <label for="lernen_05">Lektion 05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_05" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion06" type="checkbox" id="lernen_06">
+          <label for="lernen_06">Lektion 06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_06" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion07" type="checkbox" id="lernen_07">
+          <label for="lernen_07">Lektion 07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_07" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion08" type="checkbox" id="lernen_08">
+          <label for="lernen_08">Lektion 08&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_08" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion09" type="checkbox" id="lernen_09">
+          <label for="lernen_09">Lektion 09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_09" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion10" type="checkbox" id="lernen_10">
+          <label for="lernen_10">Lektion 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_10" class="länge"></p></label>
+      </div>
+    </div>
+    
+
+    <div class="lernen_auswählen_11-20">
+
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion11" type="checkbox" id="lernen_11">
+          <label for="lernen_11">Lektion 11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_11" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion12" type="checkbox" id="lernen_12">
+          <label for="lernen_12">Lektion 12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_12" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion13" type="checkbox" id="lernen_13">
+          <label for="lernen_13">Lektion 13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_13" class="länge"></p></label>
+      </div>
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion14" type="checkbox" id="lernen_14">
+          <label for="lernen_14">Lektion 14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_14" class="länge"></p></label>
+      </div>
+      <div class="checkbox">
+          <input name="lernen_checked" value="Lektion15" type="checkbox" id="lernen_15">
+        <label for="lernen_15">Lektion 15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_15" class="länge"></p</label>
+      </div>
+      <div class="checkbox">
+        <input name="lernen_checked" value="Lektion16" type="checkbox" id="lernen_16">
+          <label for="lernen_16">Lektion 16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_16" class="länge"></p</label>
+      </div>
+      <div class="checkbox">
+        <input name="lernen_checked" value="Lektion17" type="checkbox" id="lernen_17">
+        <label for="lernen_17">Lektion 17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_17" class="länge"></p</label>
+      </div>
+      <div class="checkbox">
+        <input name="lernen_checked" value="Lektion18" type="checkbox" id="lernen_18">
+        <label for="lernen_18">Lektion 18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_18" class="länge"></p</label>
+        </div>
+      <div class="checkbox">
+        <input name="lernen_checked" value="Lektion19" type="checkbox" id="lernen_19">
+        <label for="lernen_19">Lektion 19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_19" class="länge"></p</label>
+        </div>
+      <div class="checkbox">
+        <input name="lernen_checked" value="Lektion20" type="checkbox" id="lernen_20">
+        <label for="lernen_20">Lektion 20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_20" class="länge"></p</label>
+        </div>
+    </div>
+    
+    
+    <div class="lernen_auswählen_21-30">
+        
+        
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion21" type="checkbox" id="lernen_21">
+            <label for="lernen_21">Lektion 21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_21" class="länge"></p</label>
+            </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion22" type="checkbox" id="lernen_22">
+                <label for="lernen_22">Lektion 22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_22" class="länge"></p</label>
+                </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion23" type="checkbox" id="lernen_23">
+                <label for="lernen_23">Lektion 23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_23" class="länge"></p</label>
+                </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion24" type="checkbox" id="lernen_24">
+                <label for="lernen_24">Lektion 24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_24" class="länge"></p</label>
+                </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion25" type="checkbox" id="lernen_25">
+                <label for="lernen_25">Lektion 25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_25" class="länge"></p</label>
+                </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion26" type="checkbox" id="lernen_26">
+                <label for="lernen_26">Lektion 26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_26" class="länge"></p</label>
+                </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion27" type="checkbox" id="lernen_27">
+                <label for="lernen_27">Lektion 27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_27" class="länge"></p</label>
+                </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion28" type="checkbox" id="lernen_28">
+                <label for="lernen_28">Lektion 28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_28" class="länge"></p</label>
+                </div>
+            <div class="checkbox">
+                <input name="lernen_checked" value="Lektion29" type="checkbox" id="lernen_29">
+                <label for="lernen_29">Lektion 29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_29" class="länge"></p</label>
+                </div>
+                
+                
+                
+            </div>
+        </form>
+
+        <form class="checkbox_haken_mit_ohne_sonstige_formen_form">
+            <div class="checkbox_haken_mit_ohne_sonstige_formen">
+              <input checked name="checkbox_haken_mit_ohne_sonstige_formen_checked" value="checkbox_haken_mit_ohne_sonstige_formen_value" type="checkbox" id="checkbox_haken_mit_ohne_sonstige_formen">
+              <label for="checkbox_haken_mit_ohne_sonstige_formen">Mit sonstigen Formen</label>
+              </div>
+              </form>
+
+
+
+
+    <ion-icon name="lernen_einfach_weiter_button" class="lernen_einfach_weiter_button" onclick="lernen_einfach_weiter()">Lernen - <br> Einfach</ion-icon>
+    <ion-icon name="lernen_standard_weiter_button" class="lernen_standard_weiter_button" onclick="lernen_standard_weiter()" >Lernen -  <br> Standard</ion-icon>
+</div>
+</div>
+
+
+
+
+
+    <div class="lernen_auswahl_englisch">
+        <div onclick="lernen_hide_menü()">
+            <img class="lernen_hide_menü_x_btn" src="https://img.icons8.com/ios/1000/000000/cancel.png"/>
+        </div>
+    
+        <div onclick="zurück_pfeil_btn()">
+            <img  class="zurück_pfeil_btn" src="https://img.icons8.com/ios/1000/000000/circled-left-2.png"/>
+        </div>
+
+
+            <div class="checkbox-container">
+                <form class="englisch_form">
+                    <div class="checkbox">
+                        <input name="lernen_checked" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
+                      <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_Vokabeltest_Lektion" class="länge"></p></label>
+                  </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_8_Unit1_Text_smart_1_Drama" type="checkbox" id="lernen_Englisch_Klasse_8_Unit1_Text_smart_1_Drama">
+        <label for="lernen_Englisch_Klasse_8_Unit1_Text_smart_1_Drama">Unit 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_Englisch_Klasse_8_Unit1_Text_smart_1_Drama" class="länge"></p</label>
+      </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_8_AC2_cultures_2_the_USA" type="checkbox" id="lernen_Englisch_Klasse_8_AC2_cultures_2_the_USA">
+        <label for="lernen_Englisch_Klasse_8_AC2_cultures_2_the_USA">AC2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_Englisch_Klasse_8_AC2_cultures_2_the_USA" class="länge"></p</label>
+        </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_8_Unit_2_S_174" type="checkbox" id="lernen_Englisch_Klasse_8_Unit_2_S_174">
+        <label for="lernen_Englisch_Klasse_8_Unit_2_S_174">Unit 2 S.174 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_Englisch_Klasse_8_Unit_2_S_174" class="länge"></p</label>
+        </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_8_Unit_2_S_179_180" type="checkbox" id="lernen_Englisch_Klasse_8_Unit_2_S_179_180">
+        <label for="lernen_Englisch_Klasse_8_Unit_2_S_179_180">Unit 2 S.179 + 180 &nbsp;&nbsp;<p id="länge_Englisch_Klasse_8_Unit_2_S_179_180" class="länge"></p</label>
+        </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_8_Unit_2_S_181" type="checkbox" id="lernen_Englisch_Klasse_8_Unit_2_S_181">
+        <label for="lernen_Englisch_Klasse_8_Unit_2_S_181">Unit 2 S.181 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_Englisch_Klasse_8_Unit_2_S_181" class="länge"></p</label>
+        </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_8_Unit_3_S_184" type="checkbox" id="lernen_Englisch_Klasse_8_Unit_3_S_184">
+        <label for="lernen_Englisch_Klasse_8_Unit_3_S_184">Unit 3 S.184 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_Englisch_Klasse_8_Unit_3_S_184" class="länge"></p</label>
+        </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_8_Unit_3_S_188" type="checkbox" id="lernen_Englisch_Klasse_8_Unit_3_S_188">
+        <label for="lernen_Englisch_Klasse_8_Unit_3_S_188">Unit 3 S.188 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_Englisch_Klasse_8_Unit_3_S_188" class="länge"></p</label>
+        </div>
+      <div class="checkbox_englisch">
+        <input name="lernen_checked" value="Englisch_Klasse_9_Unit_1_S_149" type="checkbox" id="lernen_Englisch_Klasse_9_Unit_1_S_149">
+        <label for="lernen_Englisch_Klasse_9_Unit_1_S_149">Unit 1 S.149 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_Englisch_Klasse_9_Unit_1_S_149" class="länge"></p</label>
+        </div>
+        </form>    
+      
+
+        </div>
+        <ion-icon name="lernen_einfach_weiter_button" class="lernen_einfach_weiter_button" onclick="lernen_einfach_weiter()">Lernen - <br> Einfach</ion-icon>
+        <ion-icon name="lernen_standard_weiter_button" class="lernen_standard_weiter_button"  onclick="lernen_standard_weiter()">Lernen - <br> Standard</ion-icon>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="all_lernen">
+    <div onclick="lernen_fertig()">
+        <img class="lernen_hide_x_btn" src="https://img.icons8.com/ios/1000/000000/cancel.png"/>
+    </div>
+    
+    <p id="lernen_lek" class="lernen_lek"></p> 
+    <p id="länge_lek" class="länge_lek"></p>
+    <p id="noch_länge_lek" class="noch_länge_lek"></p>
+
+    <p id="gesamt_fehleranzahl" class="gesamt_fehleranzahl"></p>
+    
+ <div class="all_lernen_standard">
+    
+    <p id="lernen_lat" class="lernen_lat"></p>
+    <div class="div_lernen_de_sonst">
+    <p id="lernen_de_sonst" class="lernen_de_sonst"></p>
+    </div>
+
+    <div class="btn_gewusst_nichtgewusst">
+        <button class="btn-nicht_gewusst" onclick="nicht_gewusst()"><span class="text_color_white">Nicht Gewusst</span></button>
+        <button class="btn-gewusst" onclick="gewusst()"><span>Gewusst</span></button>
+</div>
+ </div>
+<div class="all_lernen_einfach">
+
+    <button class="lernen_einfach_btn_1 , lernen_einfach_btn" id="lernen_einfach_btn_1" onclick="lernen_einfach_btn_1()"><span></span></button>
+    <button class="lernen_einfach_btn_2 , lernen_einfach_btn" id="lernen_einfach_btn_2" onclick="lernen_einfach_btn_2()"><span></span></button>
+    <button class="lernen_einfach_btn_3 , lernen_einfach_btn" id="lernen_einfach_btn_3" onclick="lernen_einfach_btn_3()"><span></span></button>
+
+
+
+</div>
+
+</div>
+
+
+<div class="version_div">
+    <img class="version_hide_menü_x_btn" onclick="hide_version_div_btn()" src="https://img.icons8.com/ios/1000/000000/cancel.png"/>
+    <div onclick="fehler_seite_zurück_pfeil_btn()">
+        <img  class="fehler_seite_zurück_pfeil_btn" src="https://img.icons8.com/ios/1000/000000/circled-left-2.png"/>
+    </div>
+    <p class="version_headline">Version</p>
+    <p class="version_number_latest">&nbsp;&nbsp;1.3.6</p>
+    <p class="letzte_aktualisierung" id="letzte_aktualisierung">Letzte Aktualisierung</p>
+<img class="version_info" onclick="version_info()" src="https://img.icons8.com/pastel-glyph/512/000000/info--v1.png"/>
+<ul class="patch_notes">
+
+    <li>Die Englischvokabeln von S. 149 sind nun enthalten.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.3.5</p>
+    <li>Lektion 27 + 28 und die nützlichen Vokabeln für die Arbeit sind nun auf der Startseite ganz oben.</li><br>
+    <li>Hier in der Versionsinfo gibt es nun eine Anzeige, wann die Website das letze Mal aktuallisiert wurde.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.3.4</p>
+    <li>Lektion 29 ist nun verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.3.3</p>
+    <li>Kleine Designänderung</li><br>
+    <li>Die Vokabeln für den Vokabeltest wurden entfernt.</li><br>
+    <li>Lektion 28 ist nun verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.3.2</p>
+    <li>Lektion 27 ist nun mit den Formen, die wir lernen sollen (alle aus dem Buch), in der Vokabeltest-Lektion ganz oben vorhanden.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.3.1</p>
+    <li>Vokabeln, die in keiner Lektion enthalten sind, sind nun verfügbar</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.3.0</p>
+    <li>Lektion 27 ist nun verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.9</p>
+    <li>Die Schriftart wurde angepasst. Die Buchstaben ī, ō, ē, ā und ū sind nun auch im gleichen Stil wie die anderen Buchstaben.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.8</p>
+    <li>Die Vokabeln für den Vokabeltest wurden entfernt.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.7</p>
+    <li>Anpassungen in den Vokabeln für den Vokabeltest</li><br>
+    <li>Lektion 26 ist nun verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.6</p>
+    <li>Es gibt nun ein anderes Konzept, wie für Vokabeltests gelernt werden kann. Der Lernprozess verändert sich nicht. Die Vokabeln, die wir für einen Vokabeltest lernen sollen, ersetzen jetzt keine Lektion mehr. Wenn wir etwas lernen sollen, werden die Vokabeln ganz oben in der Gesamtübersicht und auch ganz oben im Lernen-Auswahl-Menü angezeigt. Ist aktuell nichts zu lernen, werden diese beiden Sachen einfach ausgeblendet. Diese Veränderung macht es sehr viel einfacher für mich, da ich nur die Vokabeln, die wir lernen sollen, in meiner Datenbank hinzufügen und eine Variable in meinem Script auf von false auf true setzen muss.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.5</p>
+    <li>Die Lektion 24 ist nun wieder vollständig verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.4</p>
+    <li>In der Versionsinfo wurde ein Fehler bezüglich des Schließens behoben. Dies funktioniert nun wieder korrekt.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.3</p>
+    <li>Im Lernen-Modus wurde ein Couter namens "Gesamte Fehleranzahl" hinzugefügt. Dieser erhöht sich, wenn man einen Fehler macht. Dabei ist es egal, ob man bei dieser Vokabel schonmal einen Fehler gemacht hat oder nicht. Diese Funktion wird in Zukunft wahrscheinlich auch noch hinzugefügt, aber noch nicht jetzt, da es ist ein wenig komplizierter ist.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.2</p>
+    <li>Lektion 25 ist nun verfügbar.</li><br>
+    <li>Die Lektion 24 ist nun für den Vokabeltest angepasst. Es sind nur noch Vokabeln und Formen enthalten, die im Test drankommen. Diese Änderung werde ich nach dem Test wieder rückgängig machen.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.1</p>
+    <li>Lektion 24 ist nun verfügbar.</li><br>
+    <li>Neue Hintergrundbilder wurden hinzugefügt. Es sind nun insgesamt 14, die zufällig angezeigt werden.</li><br>
+    <li>Die x Buttons zum Schließen von bspw. Menüs funktionieren alle nun wieder korrekt.</li><br>
+    <li>Auf Geräten mit "spezielleren" Bildschirmgrößen werden nun alle Fenster und Menüs korrekt angezeigt. Geräte mit kleineren Bildschirmen (Handys) werden jedoch noch nicht vollständig unterstützt.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.2.0</p>
+    <li>Lektion 23 ist nun verfügbar.</li><br>
+    <li>Die Lektion 22 ist nun für den Vokabeltest angepasst. Es sind nur noch Vokabeln und Formen enthalten, die im Test drankommen. Diese Änderung werde ich nach dem Test wieder rückgängig machen.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.8</p>
+    <li>Lektion 22 ist nun verfügbar.</li><br>
+    <li>Englisch Vokabeln S. 188 sind nun verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.7</p>
+    <li>Lektion 21 ist nun wieder normal verfügbar.</li><br>
+    <li>Neue Hintergrundbilder wurden hinzugefügt.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.6</p>
+    <li>Die Vokabelliste für die Arbeit ist nun statt der Lektion 21 verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.5</p>
+    <li>In der Lernen-Modus Lektionsauswahl gibt es nun ein Feld, mitdem man die sonstigen Formen abwählen kann. <br> Standardmäßig sind diese aber enthalten. Das Abwählen der sonstigen Formen ist beim Lernen-Einfach Modus besonders nützlich, da sie oft die richtige Lösung verraten.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.4</p>
+    <li>Die Englischvokabeln von S. 184 sind nun enthalten.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.3</p>
+    <li>Die Vokabeln, die wir lernen sollen wurden auf das angepasst, was er uns vorhin gesagt hat.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.2</p>
+    <li>Es wurden kleine Verbesserungen in der Vokabel-Datenbank vorgenommen.</li><br>
+    <li>Der Lernen-Modus Einfach ist nun in vollem Umfang benutzbar. Es treten nun keine <a class="fehler_seite_hier" onclick="fehler_seite()">Fehler</a> mehr auf.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.1</p>
+    <li>Aktuell gibt es statt Lektion 21 die Vokabeln, die wir für den Test lernen sollen.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.1.0</p>
+    <li>Es gibt nun eine Fehler-Seite, auf der ich alle Fehler und Probleme auf der Seite dokumentiere. Um zu dieser Seite zu gelangen, klicke <a class="fehler_seite_hier" onclick="fehler_seite()">hier</a></li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.0.9</p>
+    <li>Der neue Lernen-Modus "Einfach" ist nun verfügbar, aber hat noch einen Fehler. Es passiert zufällig und relativ oft, dass nicht angezeigt wird, ob man die richtige Übersetzung angeklickt hat oder nicht. Dieser Fehler beschränkt sich jedoch nur auf das Aufleuchten der richtigen/falschen Option. <br> Der Lernen-Modus Einfach ist also noch in der Beta-Phase.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.0.8</p>
+    <li>Aktuell sind in der Lektion 19 nur die Vokabeln enthalten, die wir für den Test (Freitag, 25.02.22) lernen müssen.</li><br>
+    <li>Ich bin gerade dabei, einen neuen Lernen-Modus zu entwickeln. Dabei wird eine Vokabel angezeigt und man muss aus drei Optionen die richtige Übersetzung auswählen. Aktuell funktioniert der Modus noch nicht. In den nächsten Versionen wird dieser freigeschaltet.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.0.7</p>
+    <li>Neue Englisch Vokabeln</li><br>
+    <li>Lektion 20 ist nun verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.0.6</p>
+    <li>Lektion 19 ist nun verfügbar.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.0.5</p>
+    <li>Das generelle Design wurde überarbeitet.</li><br>
+    <li>Hintergründe, die sich bei jedem neu laden der Seite automatische wechseln oder nach 10 Min.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+
+    <p class="version_number">1.0.4</p>
+    <li>Die Abstände der Elemente sollten nun auch im Auswahl-Menü passen.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+
+    <p class="version_number">1.0.3</p>
+    <li>Das x in der Versions-Info ist nun nicht mehr fixiert, aber dafür funktioniert die Hitbox wieder richtig.</li><br>
+    <li>Die Abstände der Elemente zum Bildschirmrand im Lernen-Menü stimmen nun entgültig.</li><br>
+    <li>Der Source-Code für diese Seite beträgt aktuell 3734 Zeilen.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+
+    <p class="version_number">1.0.2</p>
+    <li>Die Englisch Vokabeln von S. 174 sind nun auch enthalten.</li><br>
+    <li>Im Lernen-Menü sollten die Abstände der Elemente zum Bildschirmrand jetzt stimmen.</li><br>
+    <li>Ein paar kleinere Bugs gefixed.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+
+    <p class="version_number">1.0.1</p>
+    <li>Das Lernen-Menü kann nun mit dem x in der oberen rechten Ecke geschlossen werden.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+
+    <p class="version_number">1.0</p>
+    <li>Alle latein Vokabeln sind nun enthalten (Die, die wir bis jetzt hatten).</li><br>
+    <li>Das Menü kann man erreichen, indem man mit der Maus über den oberen Bildschrimrand fährt.</li><br>
+    <li>Im Menü sind aktuell enthalten : <br>1.<br> Der linke Button, mitdem man schnell die verschiedenen Vokabeltabellen erreichen kann. <br>2.<br>  Der Lernen Butten, überden man das Lernen-Menü erreichen kann. </li><br>
+    <li>Aktuell ist es noch nicht möglich mehrere Lektionen aufeinmal zu lernen.</li><br>
+    <li>Im Lernen-Menü : <br> Die Vokabel wird  mit der Leertaste aufgedeckt. Dann kann entschieden werden, ob man die Vokabel gewusst hat oder nicht. Dies kann entweder mit den beiden Buttons eingegegben werden oder über die Tasten c/v (nicht gewusst) oder n/m (gewusst). Die Vokabel muss zwingend aufgedeckt werden, bevor die Eingabe (gewusst/nicht gewusst) getätigt wird.</li><br>
+    <li>Projektstart : <br> ca. anfang-mitte 2021</li><br>
+
+</ul>
+<ul class="fehler_seite">
+<h2>Fehler-Seite</h2><br>
+<li>Beim Menüpunkt, beidem man schnell zu Lektionen springen kann, wird beim erstmaligen Auswählen (beim starten der Website) ein neuer Tab geöffnet. In diesem neuen Tab passiert dies nicht erneut.</li><br>
+</ul>
+</div>
+</div>
+    </body>
+    </html>

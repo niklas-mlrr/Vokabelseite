@@ -1,0 +1,2051 @@
+@font-face {
+  font-family: Chirota_Regular;
+  src: url(Chirota\ Regular.otf);
+}
+
+:root {
+  --primary-light: #8abdff;
+  --primary: #fcaa5d;
+  --primary-dark: #fcaa5d;
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  color: black;
+  text-align: center;
+
+
+}
+
+#background {
+  filter: blur(2px);
+
+  opacity: 80%;
+  z-index: 1;
+  position: fixed;
+  left: 0%;
+  
+  height: 1080px;
+  width: 1920px;
+}
+
+
+body {
+  font-family: 'Chirota_Regular';
+  position: relative;
+  min-height: 100vh;
+  display: var(--primary-light);
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+
+.insgesamt_tabelle {
+
+
+  z-index: 1;
+  position: relative;
+
+
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
+  backdrop-filter: blur(8px) saturate(100%);
+  -webkit-backdrop-filter: blur(8px) saturate(100%);
+
+  border-radius: 40px;
+  display: inline-block;
+  margin-top: 0px;
+
+
+  margin-top: 1.5cm;
+  margin-bottom: 1.5cm;
+  margin-left: 0.7cm;
+  margin-right: 0.7cm;
+
+
+}
+
+
+
+
+.insgesamt_tabelle_inside {
+  padding: 20px;
+  margin-top: 0.3cm;
+  margin-bottom: 0.5cm;
+  margin-left: 0.7cm;
+  margin-right: 0.7cm;
+
+}
+
+.table {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+.lernen_auswahl_Vokabeltest_Lektion {
+  border-width: 5px;
+  width: 260px;
+  border-bottom-style: dotted;
+
+  border-spacing: 100px 100px;
+
+}
+#tableVokabeltest_Lektion {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+
+}
+
+#tableVokabeln_aus_keiner_Lektion {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table01 {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table02 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table03 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table04 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table05 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table06 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table07 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table08 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table09 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table10 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table11 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table12 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table13 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table14 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table15 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table16 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+
+
+}
+
+#table17 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table18 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table19 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table20 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table21 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table22 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table23 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table24 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table25 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table26 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table27 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table28 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table29 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table_Englisch_Klasse_8_AC2_cultures_2_the_USA {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table_Englisch_Klasse_8_Unit_2_S_174 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table_Englisch_Klasse_8_Unit_2_S_179_180 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table_Englisch_Klasse_8_Unit_2_S_181 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#table_Englisch_Klasse_8_Unit_3_S_184 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table_Englisch_Klasse_8_Unit_3_S_188 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table_Englisch_Klasse_9_Unit_1_S_149 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+
+.headline {
+  border-bottom: 0.3mm solid rgb(0, 0, 0);
+  font-size: 33px;
+}
+
+.row {
+  border-bottom: 0.2mm solid rgb(0, 0, 0);
+  border-left: 0.2mm solid rgb(0, 0, 0);
+  border-right: 0.2mm solid rgb(0, 0, 0);
+
+}
+
+
+.first {
+  border-right: 0.2mm dashed rgba(0, 0, 0);
+
+}
+
+.second {
+  border-right: 0.3mm dashed rgba(0, 0, 0);
+}
+
+.eng_first {
+  border-right: 0.2mm dashed rgba(0, 0, 0);
+
+}
+
+.eng_second {
+  border-right: 0.2mm solid rgba(0, 0, 0);
+}
+
+
+
+td,
+th {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+}
+
+
+
+.search_div {
+  z-index: 400;
+  width: 3000px;
+  height: 130px;
+  font-size: 30px;
+  border-radius: 1rem;
+  position: fixed;
+  left: 45.7%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  opacity: 90%;
+
+}
+
+
+
+.search_div:not(:hover) .Lektion_select {
+  transition: ease-in-out 0.3s;
+  opacity: 0%;
+  z-index: 5;
+
+  position: relative;
+  top: 23.9%;
+
+}
+
+
+.search_div:not(:hover) .lernen_button {
+  transition: ease-in-out 0.3s;
+  opacity: 0%;
+  z-index: 5;
+
+  position: relative;
+  top: 53.9%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Lektion_select {
+  cursor: pointer;
+  font-family: 'Chirota_Regular';
+  position: relative;
+  height: 80px;
+  width: 200px;
+  padding: 8px 12px;
+  border-radius: 1rem;
+  font-size: 30px;
+  top: -125px;
+  left: 50px;
+}
+
+
+@keyframes lektion_auswahl_fade {
+
+  0% {
+    left: 50px;
+    top: -125px;
+  }
+
+  100% {
+    left: 50px;
+    top: 31px;
+
+  }
+}
+
+
+
+
+.search_div:hover select {
+  animation-name: lektion_auswahl_fade;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes lernen_button_fade {
+
+  0% {
+    left: 160px;
+    top: -80px;
+    ;
+  }
+
+  100% {
+    left: 160px;
+    top: 70px;
+
+  }
+}
+
+.search_div:hover .lernen_button {
+
+  animation-name: lernen_button_fade;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lernen_button {
+  border: #767676 solid 1px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  position: relative;
+  top: -80px;
+  left: 160px;
+  height: 80px;
+  width: 95px;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000000;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Lektion_select:focus,
+.Lektion_select:hover,
+.lernen_button:focus,
+.lernen_button:hover {
+  outline: none;
+  border: 1px solid #bbbbbb;
+}
+
+.Lektion_select option {
+  background: white;
+
+}
+
+.Lektion_anzeige {
+  position: relative;
+  font-size: 55px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 30px;
+  z-index: 3;
+}
+
+#englisch_anzeige {
+  z-index: 8;
+  position: relative;
+  font-size: 70px;
+  transform: translate(-50%, );
+  top: 30px;
+  font-weight: bold;
+}
+
+#englisch_class_anzeige {
+  z-index: 8;
+  position: relative;
+  font-size: 60px;
+  transform: translate(-50%, );
+  top: 30px;
+}
+
+
+
+
+
+.hidden {
+  visibility: hidden;
+  display: none;
+  z-index: -10;
+}
+
+
+
+
+
+
+
+.lernen_auswahl_englisch_oder_latein {
+  font-size: 25px;
+  z-index: 6;
+  position: absolute;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
+  backdrop-filter: blur(8px) saturate(100%);
+  -webkit-backdrop-filter: blur(8px) saturate(100%);
+
+  width: 270px;
+  height: 230px;
+  display: inline-grid;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.lernen_auswahl_latein {
+  font-size: 25px;
+  z-index: 6;
+  position: absolute;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
+  backdrop-filter: blur(8px) saturate(100%);
+  -webkit-backdrop-filter: blur(8px) saturate(100%);
+
+
+  width: 1200px;
+  height: 85%;
+  display: inline-grid;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+
+
+
+
+
+
+
+.latein_form {
+  height: 1000px;
+  width: 750px;
+  
+}
+
+.lernen_auswählen_vokabeltest {
+  position: relative;
+  top: 3%;
+  left: 61%;
+  width: 400px;
+
+}
+
+
+.lernen_auswählen_1-10 {
+  position: relative;
+  top: 3%;
+  left: 10%;
+
+}
+
+
+.lernen_auswählen_11-20 {
+  position: relative;
+
+  top: -55%;
+  left: 61%;
+
+}
+
+.lernen_auswählen_21-30 {
+  position: relative;
+
+  top: -113%;
+  left: 110%;
+
+}
+
+
+
+
+
+
+.lernen_auswahl_englisch {
+  font-size: 25px;
+  z-index: 6;
+  position: absolute;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
+  backdrop-filter: blur(8px) saturate(100%);
+  -webkit-backdrop-filter: blur(8px) saturate(100%);
+
+  height: 800px;
+  width: 410px;
+  display: inline-grid;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.englisch_form {
+  position: relative;
+
+  transform: translate(-50%, -50%);
+  top: 70px;
+  left: 62%;
+}
+
+
+.checkbox {
+  position: relative;
+  height: 50%;
+  left: 30px;
+  justify-content: center;
+}
+
+.checkbox_englisch {
+  position: relative;
+  height: 50%;
+  left: 30px;
+  justify-content: center;
+}
+
+
+.checkbox-container label {
+  cursor: pointer;
+  display: flex;
+
+}
+
+.checkbox-container input[type='checkbox'] {
+  cursor: pointer;
+  opacity: 0;
+  
+}
+
+.checkbox-container label::before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  border-radius: .15em;
+  margin-right: .5em;
+  border: .05em solid black;
+  
+}
+
+.checkbox-container label:hover::before,
+.checkbox-container input[type='checkbox']:hover+label::before {
+  background-color: #888888;
+  
+}
+
+.checkbox-container input[type='checkbox']:focus+label::before {
+  box-shadow: 0 0 20px #b1b1b1;
+  
+}
+
+
+
+.checkbox-container input[type='checkbox']:checked+label::before {
+  content: '\002714';
+  background-color: #585858;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+
+
+
+
+.latein_lektion_auswahlmenü_btn {
+  transform: translate(-50%);
+  position: relative;
+  height: 45px;
+  width: 170px;
+  top: -20%;
+  left: 50%;
+  cursor: pointer;
+  background-color: rgb(71, 71, 71);
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: white;
+
+}
+
+.latein_lektion_auswahlmenü_btn:hover,
+.latein_lektion_auswahlmenü_btn:focus {
+  background-color: rgb(88, 88, 88);
+}
+
+
+.englisch_lektion_auswahlmenü_btn {
+  transform: translate(-50%);
+  position: relative;
+  height: 45px;
+  width: 170px;
+  top: -25%;
+  left: 50%;
+  cursor: pointer;
+  background-color: rgb(71, 71, 71);
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.englisch_lektion_auswahlmenü_btn:hover,
+.englisch_lektion_auswahlmenü_btn:focus {
+  background-color: rgb(88, 88, 88);
+}
+
+
+.lernen_einfach_weiter_button {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 80px;
+  width: 150px;
+  bottom: 0%;
+  left: 30%;
+  cursor: pointer;
+  background-color: rgb(71, 71, 71);
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.lernen_einfach_weiter_button:hover,
+.lernen_einfach_weiter_button:focus {
+  background-color: rgb(88, 88, 88);
+}
+
+
+
+.lernen_standard_weiter_button {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 80px;
+  width: 150px;
+  bottom: 0%;
+  left: 70%;
+  cursor: pointer;
+  background-color: rgb(71, 71, 71);
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.lernen_standard_weiter_button:hover,
+.lernen_standard_weiter_button:focus {
+  background-color: rgb(88, 88, 88);
+}
+
+
+
+
+.lernen_einfach_btn {
+  font-family: Chirota_Regular;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 270px;
+  width: 320px;
+  bottom: -10%;
+  font-size: 30px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
+  backdrop-filter: blur(8px) saturate(100%);
+  -webkit-backdrop-filter: blur(8px) saturate(100%);
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: black;
+  border: none;
+}
+
+#lernen_einfach_btn_1 {
+  left: 17%;
+}
+
+#lernen_einfach_btn_2 {
+  left: 50%;
+}
+
+#lernen_einfach_btn_3 {
+  left: 83%;
+}
+
+
+.lernen_einfach_richtig {
+
+  background-color: #8ae216ce;
+
+
+}
+
+
+
+
+
+
+.lernen_einfach_falsch {
+  background-color: #ff3f2af5;
+}
+
+
+
+
+
+
+
+.lernen_hide_menü_x_btn {
+  z-index: 100000;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 44px;
+  right: -15px;
+  top: 30px;
+}
+
+
+.lernen_hide_x_btn {
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 44px;
+  top: 27px;
+  right: -15px;
+
+}
+
+.zurück_pfeil_btn {
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 44px;
+  left: 30px;
+  top: 30px;
+
+}
+
+.blur {
+  filter: blur(2px);
+}
+
+.blur .search_div {
+  top: 100px;
+}
+
+.länge {
+  color: #808080;
+  right: 30px;
+}
+
+
+.lernen_design_css {
+
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
+  backdrop-filter: blur(8px) saturate(100%);
+  -webkit-backdrop-filter: blur(8px) saturate(100%);
+
+
+}
+
+.all_lernen {
+
+  font-size: 25px;
+  z-index: 1;
+  position: absolute;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 47%;
+  left: 50%;
+
+  width: 1200px;
+  height: 65%;
+  display: inline-grid;
+  align-items: center;
+  border-radius: 1.5rem;
+
+}
+
+#lernen_lek {
+  color: #313131;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -70px;
+  left: 50%;
+  font-size: 45px;
+  width: 1500px;
+
+}
+
+.lernen_lat {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 50%;
+  font-size: 50px;
+
+  animation-name: lernen_lat;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+.lernen_de_sonst {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: -460px;
+  left: 50%;
+  font-size: 50px;
+  width: 1000px;
+
+  animation-name: lernen_de_sonst;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+@keyframes lernen_lösung_lat {
+
+  0% {
+    top: 25%;
+  }
+
+  100% {
+    top: 20%;
+
+  }
+}
+
+
+@keyframes lernen_lösung_de_sonst {
+
+  0% {
+    opacity: 0%;
+    bottom: -1000px;
+
+  }
+
+  100% {
+    opacity: 100%;
+    bottom: 0%;
+  }
+}
+
+
+
+
+
+@keyframes lernen_lat {
+
+  0% {
+    top: 20%;
+  }
+
+  100% {
+    top: 25%;
+
+  }
+}
+
+
+@keyframes lernen_de_sonst {
+
+  0% {
+    bottom: 0%;
+
+  }
+
+  100% {
+    bottom: -1000px;
+  }
+}
+
+.lösung_gezeigt_lat {
+
+  animation-name: lernen_lösung_lat;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+.lösung_gezeigt_de_sonst {
+
+  animation-name: lernen_lösung_de_sonst;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+.länge_lek {
+  color: #313131;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -37px;
+  left: 50%;
+  font-size: 22px;
+}
+
+.noch_länge_lek {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -15px;
+  left: 50%;
+  font-size: 22px;
+}
+
+
+
+.gesamt_fehleranzahl {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -25px;
+  left: 20%;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+.btn_gewusst_nichtgewusst {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: -180px;
+  left: 50%;
+}
+
+
+
+
+
+
+
+
+/* button_gewusst */
+.btn-gewusst {
+  font-family: Chirota_Regular;
+
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+
+  outline: none;
+
+
+
+  width: 210px;
+  height: 80px;
+  font-size: 30px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(139, 139, 139);
+  background: linear-gradient(0deg, #89e216 0%, #a8ee4e 100%);
+}
+
+.btn-gewusst:hover {
+  color: #a8ee4e;
+  box-shadow: none;
+}
+
+.btn-gewusst:before,
+.btn-gewusst:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #64a410;
+  box-shadow:
+    -1px -1px 5px 0px #6ea12c,
+    7px 7px 20px 0px #51850d;
+
+  transition: 1500ms ease all;
+}
+
+.btn-gewusst:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btn-gewusst:hover:before,
+.btn-gewusst:hover:after {
+  width: 100%;
+  transition: 700ms ease all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button_nicht_gewusst */
+.btn-nicht_gewusst {
+  margin-right: 50px;
+  font-family: Chirota_Regular;
+
+  color: rgb(255, 0, 1);
+  border-radius: 5px;
+  padding: 10px 25px;
+
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+
+  outline: none;
+
+
+
+  width: 210px;
+  height: 80px;
+  font-size: 30px;
+
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: linear-gradient(0deg, #c02d1d 0%, #dd3422 100%);
+}
+
+.btn-nicht_gewusst:hover {
+  color: #dd3422;
+  box-shadow: none;
+}
+
+.btn-nicht_gewusst:before,
+.btn-nicht_gewusst:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #932317;
+  box-shadow:
+    -1px -1px 5px 0px #dd3422,
+    7px 7px 20px 0px #c02d1d;
+
+  transition: 2500ms ease all;
+}
+
+.btn-nicht_gewusst:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btn-nicht_gewusst:hover:before,
+.btn-nicht_gewusst:hover:after {
+  width: 100%;
+  transition: 900ms ease all;
+}
+
+.text_color_white {
+  color: white;
+}
+
+
+
+.version_div {
+  position: fixed;
+  transform: translate(50%, 50%);
+
+  right: 85px;
+  bottom: 65px;
+  height: 95px;
+  width: 140px;
+  border: black 3px dashed;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.version_headline {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  font-size: 35px;
+  left: 50%;
+  top: 20px;
+
+}
+
+.version_number_latest {
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  position: relative;
+  left: 30px;
+  top: 18px;
+  width: 190px;
+}
+
+.version_number {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.version_info {
+  position: absolute;
+  right: 8px;
+  bottom: 4px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+
+}
+
+.version_div_groß {
+  animation-name: version_div_groß;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  overflow-y: scroll;
+
+}
+
+@keyframes version_div_groß {
+  0% {}
+
+  100% {
+    height: 450px;
+    width: 700px;
+    right: 50%;
+    bottom: 60%;
+
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+
+
+    border: none;
+
+  }
+}
+
+
+
+.version_info_groß {
+  animation-name: version_info_groß;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes version_info_groß {
+  0% {}
+
+  100% {
+    opacity: 0%;
+
+  }
+}
+
+
+
+.version_headline_groß {
+  position: relative;
+  animation-name: version_headline_groß;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes version_headline_groß {
+  0% {}
+
+  100% {
+    font-size: 50px;
+    top: 30px;
+    left: 45%;
+  }
+}
+
+
+
+.version_number_latest_groß {
+
+  position: relative;
+  animation-name: version_number_latest_groß;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes version_number_latest_groß {
+  0% {}
+
+  100% {
+    text-decoration: underline;
+    font-size: 50px;
+    top: -27px;
+    left: 427px;
+  }
+}
+
+
+
+
+
+.version_hide_menü_x_btn_groß {
+
+  animation-name: version_hide_menü_x_btn_groß;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes version_hide_menü_x_btn_groß {
+  0% {}
+
+  100% {
+    opacity: 100%;
+
+
+
+    z-index: 100000;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    height: 44px;
+    right: -48%;
+    top: 8%;
+  }
+}
+
+
+.version_hide_menü_x_btn {
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  position: relative;
+  height: 44px;
+  right: -550px;
+  top: 150px;
+
+}
+
+
+.noscroll {
+  overflow: hidden;
+}
+
+
+
+.patch_notes {
+  position: relative;
+  transform: translate(-50%);
+  font-size: 30px;
+  opacity: 0%;
+  top: 0px;
+  left: 50%;
+  width: 550px;
+}
+
+
+.patch_notes_groß {
+
+  animation-name: patch_notes_groß;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes patch_notes_groß {
+  0% {}
+
+  100% {
+    opacity: 100%;
+    top: 0px;
+    left: 50%;
+
+  }
+}
+
+
+
+.bold {
+
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-v2 {
+  font: 300 .935rem 'Oswald', sans-serif;
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+  padding: 15px 5px;
+  -webkit-transition: color .2s linear;
+  -moz-transition: color .2s linear;
+  -o-transition: color .2s linear;
+  transition: color .2s linear;
+  -webkit-transform: perspective(1px) translateZ(0);
+  -moz-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fdb145;
+  border: 2px solid #fdb145;
+  background-color: transparent;
+}
+
+.btn-v2:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-v2:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-v2::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: transform, -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
+  -webkit-transform: scaleY(0);
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+
+.btn-v2 {
+  color: #4adfd1;
+  border: 2px solid #4adfd1;
+}
+
+.btn-v2::before {
+  background: #4adfd1;
+}
+
+.btn-v2:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-v2:focus {
+  text-decoration: none;
+}
+
+.btn-v2:hover::before,
+.btn-v2:focus::before,
+.btn-v2:active::before {
+  -webkit-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  -moz-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  -o-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  -webkit-transform: scaleY(1);
+  -moz-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+
+
+
+.fehler_seite_hier {
+  text-decoration: underline dashed;
+  cursor: pointer;
+}
+
+.fehler_seite {
+  position: relative;
+  transform: translate(-50%);
+  font-size: 30px;
+  left: 50%;
+  width: 550px;
+}
+
+
+
+
+.fehler_seite_groß {
+
+  animation-name: fehler_seite_groß;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes fehler_seite_groß {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+    top: 0px;
+    left: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.fehler_seite_zurück_pfeil_btn {
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 44px;
+  right: 600px;
+  top: 40px;
+
+}
+
+.fehler_seite_zurück_pfeil_btn_groß {
+  animation-name: fehler_seite_zurück_pfeil_btn_groß;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fehler_seite_zurück_pfeil_btn_groß {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+
+  }
+}
+
+
+
+.checkbox_haken_mit_ohne_sonstige_formen_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.checkbox_haken_mit_ohne_sonstige_formen {
+
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%);
+
+  height: 45px;
+  width: 350px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+.letzte_aktualisierung {
+  position: relative;
+  top: -60px;
+  font-size: 20px;
+  color: rgb(80, 80, 80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-height: 1100px) {
+  
+  .checkbox_haken_mit_ohne_sonstige_formen {
+    top: 89%;
+  }
+}
+@media (max-height: 800px) {
+  
+  .checkbox_haken_mit_ohne_sonstige_formen {
+    top: 85%;
+  }
+}
+@media (max-height: 700px) {
+  
+  .checkbox_haken_mit_ohne_sonstige_formen {
+    top: 83%;
+  }
+}
+@media (max-height: 700px) {
+  
+  .checkbox_haken_mit_ohne_sonstige_formen {
+    top: 83%;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-height: 920px) {
+
+  .lernen_lat, .lernen_de_sonst {
+    font-size: 40px;
+  }
+  
+  .lernen_einfach_btn {
+  
+    height: 230px;
+    width: 300px;
+    bottom: -10%;
+    font-size: 25px;
+  
+  }
+
+  .checkbox_haken_mit_ohne_sonstige_formen {
+    top: 86%;
+  }
+
+
+
+
+  .lernen_auswahl_latein {
+  height: 90%;
+  }
+  .lernen_auswahl_englisch {
+    height: 80%;
+  }
+
+
+
+  .lernen_auswählen_1-10 {
+    position: relative;
+    top: 3%;
+    left: 10%;
+  }
+  
+  .lernen_auswählen_11-20 {
+    position: relative;
+    top: -55%;
+    left: 61%;
+  }
+  
+  .lernen_auswählen_21-30 {
+    position: relative;
+    top: -113%;
+    left: 110%;
+  }
+}
+
+
+
+
+@media (max-height: 870px) {
+
+  .lernen_auswahl_latein {
+    height: 90%;
+  }
+  .lernen_auswahl_englisch {
+    height: 80%;
+  }
+
+  .checkbox {
+    height: 43px;
+    width: 250px;
+    margin: 0px;
+  }
+  .checkbox_englisch {
+    height: 50px;
+    width: 350px;
+    margin: 0px;
+  }
+
+  .englisch_form {
+    top: 30px;
+  }
+
+  .lernen_auswählen_1-10 {
+    position: relative;
+    top: 3%;
+    left: 10%;
+  }
+  
+  .lernen_auswählen_11-20 {
+    position: relative;
+    top: -40%;
+    left: 61%;
+  }
+  
+  .lernen_auswählen_21-30 {
+    position: relative;
+    top: -83%;
+    left: 110%;
+  }
+}
+
+
+
+@media (max-height: 760px) {
+
+  .lernen_lat, .lernen_de_sonst {
+  font-size: 35px;
+  }
+
+
+}
