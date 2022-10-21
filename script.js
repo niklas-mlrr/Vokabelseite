@@ -2652,12 +2652,3 @@ function fehler_seite_zurück_pfeil_btn() {
 	fehler_seite_groß[0].classList.remove('fehler_seite_groß');
 	fehler_seite_zurück_pfeil_btn_[0].classList.add('hidden');
 }
-
-//test
-//test
-//test
-//test 6
-//test 7 Vom Browser
-//test 8 stable
-//test 9
-//test 10
