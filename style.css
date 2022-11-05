@@ -415,6 +415,13 @@ html {
   empty-cells: show;
   font-size: 25px;
 }
+#table_Englisch_Klasse_9_Unit_1_S_150_151 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
 
 
 .headline {

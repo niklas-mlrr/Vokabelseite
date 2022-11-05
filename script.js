@@ -812,6 +812,25 @@ function buildTableEnglisch_Klasse_9_Unit_1_S_149(data) {
 }
 
 
+buildTableEnglisch_Klasse_9_Unit_1_S_150_151(Englisch_Klasse_9_Unit_1_S_150_151)
+
+
+function buildTableEnglisch_Klasse_9_Unit_1_S_150_151(data) {
+	var table_Englisch_Klasse_9_Unit_1_S_150_151 = document.getElementById('table_Englisch_Klasse_9_Unit_1_S_150_151')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="eng_first">${data[i].first}</td>
+						<td class="eng_second">${data[i].second}</td>
+				  </tr>`
+		table_Englisch_Klasse_9_Unit_1_S_150_151.innerHTML += row
+
+
+	}
+}
+
+
 
 
 
@@ -954,6 +973,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#p_Englisch_Klasse_9_Unit_1_S_149") {
 		hide_all_außer_Englisch_Klasse_9_Unit_1_S_149()
 	}
+	if (userOption.value == "#p_Englisch_Klasse_9_Unit_1_S_150_151") {
+		hide_all_außer_Englisch_Klasse_9_Unit_1_S_150_151()
+	}
 }
 
 
@@ -1012,6 +1034,7 @@ insgesamt_Englisch_Klasse_8_Unit_2_S_181 = document.getElementsByClassName('insg
 insgesamt_Englisch_Klasse_8_Unit_3_S_184 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_3_S_184')
 insgesamt_Englisch_Klasse_8_Unit_3_S_188 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_3_S_188')
 insgesamt_Englisch_Klasse_9_Unit_1_S_149 = document.getElementsByClassName('insgesamt_Englisch_Klasse_9_Unit_1_S_149')
+insgesamt_Englisch_Klasse_9_Unit_1_S_150_151 = document.getElementsByClassName('insgesamt_Englisch_Klasse_9_Unit_1_S_150_151')
 all_lernen = document.getElementsByClassName('all_lernen')
 
 all_lernen[0].classList.add('hidden');
@@ -1064,6 +1087,7 @@ function hide_all() {
 	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.add('hidden');
 	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.add('hidden');
 	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.add('hidden');
+	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.add('hidden');
 
 }
 
@@ -1111,6 +1135,7 @@ function all() {
 	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
+	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
 
 }
 
@@ -1174,6 +1199,7 @@ function all_englisch() {
 		insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
 
 		insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
+		insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
 
 }
 
@@ -1200,6 +1226,7 @@ function all_klasse_9_englisch() {
 		}
 
 	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
+	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
 
 }
 
@@ -1512,6 +1539,14 @@ function hide_all_außer_Englisch_Klasse_9_Unit_1_S_149() {
 		}
 }
 
+function hide_all_außer_Englisch_Klasse_9_Unit_1_S_150_151() {
+	hide_all()
+	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+
 
 
 lernen_auswahl_englisch_oder_latein = document.getElementsByClassName('lernen_auswahl_englisch_oder_latein')
@@ -1615,6 +1650,7 @@ document.getElementById('länge_Englisch_Klasse_8_Unit_2_S_181').innerHTML = Eng
 document.getElementById('länge_Englisch_Klasse_8_Unit_3_S_184').innerHTML = Englisch_Klasse_8_Unit_3_S_184.length
 document.getElementById('länge_Englisch_Klasse_8_Unit_3_S_188').innerHTML = Englisch_Klasse_8_Unit_3_S_188.length
 document.getElementById('länge_Englisch_Klasse_9_Unit_1_S_149').innerHTML = Englisch_Klasse_9_Unit_1_S_149.length
+document.getElementById('länge_Englisch_Klasse_9_Unit_1_S_150_151').innerHTML = Englisch_Klasse_9_Unit_1_S_150_151.length
 
 
 
@@ -1828,6 +1864,9 @@ function lernen_weiter() {
 			}
 			if (checkboxField[i].value == "Englisch_Klasse_9_Unit_1_S_149") {
 				lernen_noch_länge = Englisch_Klasse_9_Unit_1_S_149.length
+			}
+			if (checkboxField[i].value == "Englisch_Klasse_9_Unit_1_S_150_151") {
+				lernen_noch_länge = Englisch_Klasse_9_Unit_1_S_150_151.length
 			}
 			window.addEventListener("keydown", lösung_anzeigen_event, false)
 
@@ -2130,6 +2169,7 @@ function lernen_fertig() {
 	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
+	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
 
 
 
@@ -2490,6 +2530,12 @@ function neue_vok_standard() {
 		lernen_lektion_anzeige = "Englisch Klasse 9 Unit 1 S. 149"
 		länge_lek = "Gesamt : " + Englisch_Klasse_9_Unit_1_S_149.length + " Wörter"
 		länge_lek_number = Englisch_Klasse_9_Unit_1_S_149.length
+	}
+	if (ausgewählt_lektion.value == "Englisch_Klasse_9_Unit_1_S_150_151") {
+		random_item = Englisch_Klasse_9_Unit_1_S_150_151[Math.floor(Math.random() * Englisch_Klasse_9_Unit_1_S_150_151.length)];
+		lernen_lektion_anzeige = "Englisch Klasse 9 Unit 1 S. 150 + 151"
+		länge_lek = "Gesamt : " + Englisch_Klasse_9_Unit_1_S_150_151.length + " Wörter"
+		länge_lek_number = Englisch_Klasse_9_Unit_1_S_150_151.length
 	}
 
 

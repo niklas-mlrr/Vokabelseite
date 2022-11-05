@@ -1140,3 +1140,197 @@ var Englisch_Klasse_9_Unit_1_S_149  = [
 
 
 
+var Englisch_Klasse_9_Unit_1_S_150_151  = [
+
+
+    {'first':'Schläger (Tischtennis; Baseball)', 
+    'second':'bat', 
+    'third':''},
+
+    {'first':'Nachname; Familienname', 
+    'second':'last name', 
+    'third':''},
+
+    {'first':'bestehen', 
+    'second':'to pass', 
+    'third':''},
+
+    {'first':'medizinisch, ärztlich; Medizin-', 
+    'second':'medical', 
+    'third':''},
+
+    {'first':'Untersuchung; Prüfung', 
+    'second':'examination', 
+    'third':''},
+
+    {'first':'verschwinden', 
+    'second':'to disappear', 
+    'third':''},
+
+    {'first':'Ururgroßvater', 
+    'second':'great-great-grandfather', 
+    'third':''},
+
+    {'first':'schrecklich, schlimm; furchtbar', 
+    'second':'terrible', 
+    'third':''},
+
+    {'first':'sich eine Infektion / einen Infekt holen', 
+    'second':'to catch an infection', 
+    'third':''},
+
+    {'first':'ruhig, friedlich', 
+    'second':'calm', 
+    'third':''},
+
+    {'first':'Glücklicherweise', 
+    'second':'luckily', 
+    'third':''},
+
+    {'first':'Ehrlich (gesagt)', 
+    'second':'honestly', 
+    'third':''},
+
+    {'first':'eigentlich', 
+    'second':'actually', 
+    'third':''},
+
+    {'first':'vielleicht', 
+    'second':'perhaps', 
+    'third':''},
+
+    {'first':'offensichtlich', 
+    'second':'obviously', 
+    'third':''},
+
+    {'first':'Natürlich', 
+    'second':'of course', 
+    'third':''},
+
+    {'first':'sowieso', 
+    'second':'anyway', 
+    'third':''},
+
+    {'first':'Dennoch', 
+    'second':'however', 
+    'third':''},
+
+    {'first':'Trinkwasser', 
+    'second':'drinking water', 
+    'third':''},
+
+    {'first':'tatsächlich, eigentlich; genau genommen', 
+    'second':'in fact', 
+    'third':''},
+
+    {'first':'schaffen (etw. zu tun)', 
+    'second':'to manage (to do sth)', 
+    'third':''},
+
+    {'first':'Reservat', 
+    'second':'reservation', 
+    'third':''},
+
+    {'first':'erkennen; anerkennen', 
+    'second':'to recognize', 
+    'third':''},
+
+    {'first':'neben; daneben; darüber hinaus', 
+    'second':'in addition to', 
+    'third':''},
+
+    {'first':'trösten; ermutigen', 
+    'second':'to comfort', 
+    'third':''},
+
+    {'first':'verängstigt ', 
+    'second':'frightened', 
+    'third':''},
+
+    {'first':'waren ausgestiegen', 
+    'second':'had gotten off', 
+    'third':''},
+
+    {'first':'erleichtert', 
+    'second':'relieved', 
+    'third':''},
+
+    {'first':'anstrengend', 
+    'second':'exhausting', 
+    'third':''},
+
+    {'first':'Unterlagen; Papiere', 
+    'second':'papers', 
+    'third':''},
+
+    {'first':'ganz von vorn beginnen', 
+    'second':'to start all over again', 
+    'third':''},
+
+    {'first':'Statistik', 
+    'second':'statistics', 
+    'third':''},
+
+    {'first':'Tabelle', 
+    'second':'table', 
+    'third':''},
+
+    {'first':'Säulendiagramm; Balkendiagramm', 
+    'second':'bar graph', 
+    'third':''},
+
+    {'first':'Kurvendiagramm', 
+    'second':'line graph', 
+    'third':''},
+
+    {'first':'Kuchendiagramm; Tortendiagramm', 
+    'second':'pie chart', 
+    'third':''},
+
+    {'first':'veröffentlichen; publizieren; verlegen', 
+    'second':'to publish', 
+    'third':''},
+
+    {'first':'Mehrheit; Mehrzahl', 
+    'second':'majority', 
+    'third':''},
+
+    {'first':'Minderheit', 
+    'second':'minority', 
+    'third':''},
+
+    {'first':'Prozent', 
+    'second':'percent (im Pl. gleich)', 
+    'third':''},
+
+    {'first':'steigen um', 
+    'second':'to grow by', 
+    'third':''},
+
+    {'first':'andeuten; nahelegen', 
+    'second':'to suggest', 
+    'third':''},
+
+    {'first':'Schluss; Schlussfolgerung', 
+    'second':'conclusion', 
+    'third':''},
+
+    {'first':'Notwendigkeit', 
+    'second':'necessity', 
+    'third':''},
+
+    {'first':'Kommunikationsnetz; Nachrichtennetz', 
+    'second':'communications network', 
+    'third':''},
+
+    {'first':'von Angesicht zu Angesicht; Auge in Auge', 
+    'second':'face-to-face', 
+    'third':''},
+
+
+
+
+
+
+
+]
