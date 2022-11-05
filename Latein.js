@@ -5,106 +5,189 @@ var Vokabeltest_Lektion = [
 
 
 
-	{'first':'Nation', 
-    'second':'nation', 
+	{'first':'Schläger (Tischtennis; Baseball)', 
+    'second':'bat', 
     'third':''},
 
-    {'first':'Innovation; Neuerung', 
-    'second':'innovation', 
+    {'first':'Nachname; Familienname', 
+    'second':'last name', 
     'third':''},
 
-    {'first':'Transport', 
-    'second':'transportation', 
-    'third':''},
-
-    {'first':'innovativ; kreativ', 
-    'second':'innovative', 
-    'third':''},
-
-    {'first':'nachdem', 
-    'second':'after', 
-    'third':''},
-
-    {'first':'kolonisieren', 
-    'second':'to colonize', 
-    'third':''},
-
-    {'first':'permanent; dauerhaft', 
-    'second':'permanent', 
-    'third':''},
-
-    {'first':'Siedlung', 
-    'second':'settlement', 
-    'third':''},
-
-    {'first':'bis (zu dem Zeitpunkt)', 
-    'second':'by the time', 
-    'third':''},
-
-    {'first':'östlich; Ost-', 
-    'second':'eastern', 
-    'third':''},
-    
-    {'first':'erklären', 
-    'second':'to declare', 
-    'third':''},
-
-    {'first':'behandeln', 
-    'second':'to treat', 
-    'third':''},
-
-    {'first':'Armee', 
-    'second':'army', 
-    'third':''},
-
-    {'first':'General', 
-    'second':'general', 
-    'third':''},
-
-    {'first':'Siedler/-in', 
-    'second':'settler', 
-    'third':''},
-
-    {'first':'leiden (unter)', 
-    'second':'to suffer (from)', 
-    'third':''},
-
-    {'first':'Haupt-; Spitzen-', 
-    'second':'peak', 
-    'third':''},
-
-    {'first':'insgesamt', 
-    'second':'a total of', 
-    'third':''},
-
-    {'first':'durchgehen; vorbeigehen (an); passieren', 
+    {'first':'bestehen', 
     'second':'to pass', 
     'third':''},
 
-    {'first':'vereint; vereinigt', 
-    'second':'united', 
+    {'first':'medizinisch, ärztlich; Medizin-', 
+    'second':'medical', 
     'third':''},
 
-    {'first':'Fremde/-r', 
-    'second':'stranger', 
+    {'first':'Untersuchung; Prüfung', 
+    'second':'examination', 
     'third':''},
 
-    {'first':'besonders; vor allem', 
-    'second':'especially', 
+    {'first':'verschwinden', 
+    'second':'to disappear', 
     'third':''},
 
-    {'first':'abstammen von; herstammen von', 
-    'second':'to descend from', 
+    {'first':'Ururgroßvater', 
+    'second':'great-great-grandfather', 
     'third':''},
 
-    {'first':'Habseligkeiten; Hab und Gut', 
-    'second':'belongings', 
+    {'first':'schrecklich, schlimm; furchtbar', 
+    'second':'terrible', 
     'third':''},
 
-    {'first':'Planwagen', 
-    'second':'covered wagon', 
+    {'first':'sich eine Infektion / einen Infekt holen', 
+    'second':'to catch an infection', 
     'third':''},
 
+    {'first':'ruhig, friedlich', 
+    'second':'calm', 
+    'third':''},
+
+    {'first':'Glücklicherweise', 
+    'second':'luckily', 
+    'third':''},
+
+    {'first':'Ehrlich (gesagt)', 
+    'second':'honestly', 
+    'third':''},
+
+    {'first':'eigentlich', 
+    'second':'actually', 
+    'third':''},
+
+    {'first':'vielleicht', 
+    'second':'perhaps', 
+    'third':''},
+
+    {'first':'offensichtlich', 
+    'second':'obviously', 
+    'third':''},
+
+    {'first':'Natürlich', 
+    'second':'of course', 
+    'third':''},
+
+    {'first':'sowieso', 
+    'second':'anyway', 
+    'third':''},
+
+    {'first':'Dennoch', 
+    'second':'however', 
+    'third':''},
+
+    {'first':'Trinkwasser', 
+    'second':'drinking water', 
+    'third':''},
+
+    {'first':'tatsächlich, eigentlich; genau genommen', 
+    'second':'in fact', 
+    'third':''},
+
+    {'first':'schaffen (etw. zu tun)', 
+    'second':'to manage (to do sth)', 
+    'third':''},
+
+    {'first':'Reservat', 
+    'second':'reservation', 
+    'third':''},
+
+    {'first':'erkennen; anerkennen', 
+    'second':'to recognize', 
+    'third':''},
+
+    {'first':'neben; daneben; darüber hinaus', 
+    'second':'in addition to', 
+    'third':''},
+
+    {'first':'trösten; ermutigen', 
+    'second':'to comfort', 
+    'third':''},
+
+    {'first':'verängstigt ', 
+    'second':'frightened', 
+    'third':''},
+
+    {'first':'waren ausgestiegen', 
+    'second':'had gotten off', 
+    'third':''},
+
+    {'first':'erleichtert', 
+    'second':'relieved', 
+    'third':''},
+
+    {'first':'anstrengend', 
+    'second':'exhausting', 
+    'third':''},
+
+    {'first':'Unterlagen; Papiere', 
+    'second':'papers', 
+    'third':''},
+
+    {'first':'ganz von vorn beginnen', 
+    'second':'to start all over again', 
+    'third':''},
+
+    {'first':'Statistik', 
+    'second':'statistics', 
+    'third':''},
+
+    {'first':'Tabelle', 
+    'second':'table', 
+    'third':''},
+
+    {'first':'Säulendiagramm; Balkendiagramm', 
+    'second':'bar graph', 
+    'third':''},
+
+    {'first':'Kurvendiagramm', 
+    'second':'line graph', 
+    'third':''},
+
+    {'first':'Kuchendiagramm; Tortendiagramm', 
+    'second':'pie chart', 
+    'third':''},
+
+    {'first':'veröffentlichen; publizieren; verlegen', 
+    'second':'to publish', 
+    'third':''},
+
+    {'first':'Mehrheit; Mehrzahl', 
+    'second':'majority', 
+    'third':''},
+
+    {'first':'Minderheit', 
+    'second':'minority', 
+    'third':''},
+
+    {'first':'Prozent', 
+    'second':'percent (im Pl. gleich)', 
+    'third':''},
+
+    {'first':'steigen um', 
+    'second':'to grow by', 
+    'third':''},
+
+    {'first':'andeuten; nahelegen', 
+    'second':'to suggest', 
+    'third':''},
+
+    {'first':'Schluss; Schlussfolgerung', 
+    'second':'conclusion', 
+    'third':''},
+
+    {'first':'Notwendigkeit', 
+    'second':'necessity', 
+    'third':''},
+
+    {'first':'Kommunikationsnetz; Nachrichtennetz', 
+    'second':'communications network', 
+    'third':''},
+
+    {'first':'von Angesicht zu Angesicht; Auge in Auge', 
+    'second':'face-to-face', 
+    'third':''},
 
 
 
