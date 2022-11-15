@@ -5,189 +5,101 @@ var Vokabeltest_Lektion = [
 
 
 
-	{'first':'Schläger (Tischtennis; Baseball)', 
-    'second':'bat', 
-    'third':''},
+	{'first':'labor', 
+	'second':'Anstrengung, Arbeit', 
+	'third':'labōris m.'},
 
-    {'first':'Nachname; Familienname', 
-    'second':'last name', 
-    'third':''},
+	{'first':'ferre', 
+	'second':'tragen, ertragen, <br> berichten (im Pass.= man erzählt)', 
+	'third':'ferō, tulī, lātum'},
 
-    {'first':'bestehen', 
-    'second':'to pass', 
-    'third':''},
+	{'first':'superior', 
+	'second':'der obere', 
+	'third':'superius (Gen. superiōris)'},
 
-    {'first':'medizinisch, ärztlich; Medizin-', 
-    'second':'medical', 
-    'third':''},
+	{'first':'īnferior', 
+	'second':'der untere', 
+	'third':'īnferius (Gen. īnferiōris)'},
 
-    {'first':'Untersuchung; Prüfung', 
-    'second':'examination', 
-    'third':''},
+	{'first':'avis', 
+	'second':'Vogel', 
+	'third':'is f. (Gen. Pl. avium)'},
 
-    {'first':'verschwinden', 
-    'second':'to disappear', 
-    'third':''},
+	{'first':'hic, haec, hoc', 
+	'second':'dieser, diese, dieses', 
+	'third':''},
 
-    {'first':'Ururgroßvater', 
-    'second':'great-great-grandfather', 
-    'third':''},
+	{'first':'mortālis', 
+	'second':'sterblich; Subst. Mensch', 
+	'third':'e'},
 
-    {'first':'schrecklich, schlimm; furchtbar', 
-    'second':'terrible', 
-    'third':''},
+	{'first':'nauta', 
+	'second':'Seemann', 
+	'third':'ae m.'},
 
-    {'first':'sich eine Infektion / einen Infekt holen', 
-    'second':'to catch an infection', 
-    'third':''},
+	{'first':'ut', 
+	'second':'wie', 
+	'third':'(+ Indikativ)'},
 
-    {'first':'ruhig, friedlich', 
-    'second':'calm', 
-    'third':''},
+	{'first':'adhibēre', 
+	'second':'anwenden, hinzuziehen', 
+	'third':'-eo, -ui, -itum'},
 
-    {'first':'Glücklicherweise', 
-    'second':'luckily', 
-    'third':''},
+	{'first':'auris', 
+	'second':'Ohr', 
+	'third':'is f. (Gen. Pl. aurium)'},
 
-    {'first':'Ehrlich (gesagt)', 
-    'second':'honestly', 
-    'third':''},
+	{'first':'ille, illa, illud', 
+	'second':'jener, jene, jenes', 
+	'third':''},
 
-    {'first':'eigentlich', 
-    'second':'actually', 
-    'third':''},
+	{'first':'praecipere', 
+	'second':'vorschreiben, belehren', 
+	'third':'-cipiō, -cēpī, -ceptum'},
 
-    {'first':'vielleicht', 
-    'second':'perhaps', 
-    'third':''},
+	{'first':'līberāre', 
+	'second':'befreien', 
+	'third':'-o, -avi, -atum'},
 
-    {'first':'offensichtlich', 
-    'second':'obviously', 
-    'third':''},
+	{'first':'etsī', 
+	'second':'auch wenn, obwohl', 
+	'third':''},
 
-    {'first':'Natürlich', 
-    'second':'of course', 
-    'third':''},
+	{'first':'postulāre', 
+	'second':'fordern', 
+	'third':'-o, -avi, -atum'},
 
-    {'first':'sowieso', 
-    'second':'anyway', 
-    'third':''},
+	{'first':'saxum', 
+	'second':'Felsen', 
+	'third':'ī'},
 
-    {'first':'Dennoch', 
-    'second':'however', 
-    'third':''},
+	{'first':'incendere', 
+	'second':'in Brand stecken', 
+	'third':'incendō, incendī, incēnsum'},
 
-    {'first':'Trinkwasser', 
-    'second':'drinking water', 
-    'third':''},
+	{'first':'rēctus', 
+	'second':'gerade, recht, richtig', 
+	'third':'a, um'},
 
-    {'first':'tatsächlich, eigentlich; genau genommen', 
-    'second':'in fact', 
-    'third':''},
+	{'first':'cursus', 
+	'second':'Lauf, Kurs', 
+	'third':'ūs m.'},
 
-    {'first':'schaffen (etw. zu tun)', 
-    'second':'to manage (to do sth)', 
-    'third':''},
+	{'first':'incolumis', 
+	'second':'unverletzt, wohlbehalten', 
+	'third':'e'},
 
-    {'first':'Reservat', 
-    'second':'reservation', 
-    'third':''},
+	{'first':'praeceps', 
+	'second':'kopfüber überstürtzt, steil', 
+	'third':'(Gen. praecipitis)'},
 
-    {'first':'erkennen; anerkennen', 
-    'second':'to recognize', 
-    'third':''},
+	{'first':'unda', 
+	'second':'Welle', 
+	'third':'ae'},
 
-    {'first':'neben; daneben; darüber hinaus', 
-    'second':'in addition to', 
-    'third':''},
-
-    {'first':'trösten; ermutigen', 
-    'second':'to comfort', 
-    'third':''},
-
-    {'first':'verängstigt ', 
-    'second':'frightened', 
-    'third':''},
-
-    {'first':'waren ausgestiegen', 
-    'second':'had gotten off', 
-    'third':''},
-
-    {'first':'erleichtert', 
-    'second':'relieved', 
-    'third':''},
-
-    {'first':'anstrengend', 
-    'second':'exhausting', 
-    'third':''},
-
-    {'first':'Unterlagen; Papiere', 
-    'second':'papers', 
-    'third':''},
-
-    {'first':'ganz von vorn beginnen', 
-    'second':'to start all over again', 
-    'third':''},
-
-    {'first':'Statistik', 
-    'second':'statistics', 
-    'third':''},
-
-    {'first':'Tabelle', 
-    'second':'table', 
-    'third':''},
-
-    {'first':'Säulendiagramm; Balkendiagramm', 
-    'second':'bar graph', 
-    'third':''},
-
-    {'first':'Kurvendiagramm', 
-    'second':'line graph', 
-    'third':''},
-
-    {'first':'Kuchendiagramm; Tortendiagramm', 
-    'second':'pie chart', 
-    'third':''},
-
-    {'first':'veröffentlichen; publizieren; verlegen', 
-    'second':'to publish', 
-    'third':''},
-
-    {'first':'Mehrheit; Mehrzahl', 
-    'second':'majority', 
-    'third':''},
-
-    {'first':'Minderheit', 
-    'second':'minority', 
-    'third':''},
-
-    {'first':'Prozent', 
-    'second':'percent (im Pl. gleich)', 
-    'third':''},
-
-    {'first':'steigen um', 
-    'second':'to grow by', 
-    'third':''},
-
-    {'first':'andeuten; nahelegen', 
-    'second':'to suggest', 
-    'third':''},
-
-    {'first':'Schluss; Schlussfolgerung', 
-    'second':'conclusion', 
-    'third':''},
-
-    {'first':'Notwendigkeit', 
-    'second':'necessity', 
-    'third':''},
-
-    {'first':'Kommunikationsnetz; Nachrichtennetz', 
-    'second':'communications network', 
-    'third':''},
-
-    {'first':'von Angesicht zu Angesicht; Auge in Auge', 
-    'second':'face-to-face', 
-    'third':''},
+	{'first':'conicere', 
+	'second':'(zusammen)werfen, <br> folgern, vermuten', 
+	'third':'-iciō, -iecī, -iectum'},
 
 
 

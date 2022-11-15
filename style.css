@@ -100,7 +100,10 @@ html {
 }
 .lernen_auswahl_Vokabeltest_Lektion {
   border-width: 5px;
+  width: 210px;
+  /* Wenn in Englisch Auswahl:
   width: 260px;
+   */
   border-bottom-style: dotted;
 
   border-spacing: 100px 100px;
@@ -345,6 +348,13 @@ html {
   font-size: 25px;
 }
 #table29 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table30 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
@@ -742,11 +752,10 @@ th {
 .lernen_auswählen_vokabeltest {
   position: relative;
   top: 3%;
-  left: 0%;
-  /* Wenn in Latein Auswahl:
   left: 61%;
+  /* Wenn in Englisch Auswahl:
+  left: 0%;
    */
-  width: 400px;
 
 }
 
