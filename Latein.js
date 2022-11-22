@@ -90,7 +90,7 @@ var Vokabeltest_Lektion = [
 	'third':'e'},
 
 	{'first':'praeceps', 
-	'second':'kopfüber überstürtzt, steil', 
+	'second':'kopfüber, überstürtzt, steil', 
 	'third':'(Gen. praecipitis)'},
 
 	{'first':'unda', 
@@ -4655,7 +4655,7 @@ var Lektion29  = [
 	'third':'e'},
 
 	{'first':'praeceps', 
-	'second':'kopfüber überstürtzt, steil', 
+	'second':'kopfüber, überstürtzt, steil', 
 	'third':'(Gen. praecipitis)'},
 
 	{'first':'unda', 
