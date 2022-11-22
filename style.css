@@ -1417,7 +1417,7 @@ th {
     -1px -1px 5px 0px #dd3422,
     7px 7px 20px 0px #c02d1d;
 
-  transition: 2500ms ease all;
+  transition: 1500ms ease all;
 }
 
 .btn-nicht_gewusst:after {
@@ -1430,7 +1430,7 @@ th {
 .btn-nicht_gewusst:hover:before,
 .btn-nicht_gewusst:hover:after {
   width: 100%;
-  transition: 900ms ease all;
+  transition: 700ms ease all;
 }
 
 .text_color_white {

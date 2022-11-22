@@ -23,7 +23,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'avis', 
 	'second':'Vogel', 
-	'third':'is f. (Gen. Pl. avium)'},
+	'third':'is f.'},
 
 	{'first':'hic, haec, hoc', 
 	'second':'dieser, diese, dieses', 
@@ -47,7 +47,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'auris', 
 	'second':'Ohr', 
-	'third':'is f. (Gen. Pl. aurium)'},
+	'third':'is f.'},
 
 	{'first':'ille, illa, illud', 
 	'second':'jener, jene, jenes', 
@@ -71,7 +71,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'saxum', 
 	'second':'Felsen', 
-	'third':'ī'},
+	'third':'ī n.'},
 
 	{'first':'incendere', 
 	'second':'in Brand stecken', 
@@ -95,7 +95,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'unda', 
 	'second':'Welle', 
-	'third':'ae'},
+	'third':'ae f.'},
 
 	{'first':'conicere', 
 	'second':'(zusammen)werfen, <br> folgern, vermuten', 
