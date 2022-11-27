@@ -103,6 +103,192 @@ var Vokabeltest_Lektion = [
 
 
 
+/*Alle Vokabeln aus dem Lektionstext*/
+
+	{'first':'socius', 
+	'second':'Bündnispartner, <br> Verbündeter, Kamerad', 
+	'third':'ī'},
+
+	{'first':'patria', 
+	'second':'Heimat', 
+	'third':'ae'},
+
+	{'first':'petere', 
+	'second':'» anpeilen «  <br> aufsuchen; sich begeben, <br> verlangen; (er)bitten, angreifen', 
+	'third':'petō, petīvī, petītum'},
+
+	{'first':'iam', 
+	'second':'schon', 
+	'third':'(Adv.)'},
+
+	{'first':'cum', 
+	'second':'1. (temporal)= als, nachdem <br> 2. (kausal)= weil <br> 3. (konzessiv)= obwohl', 
+	'third':'(+ Konj.)'},
+
+	{'first':'ad', 
+	'second':'zu; nach; bei; an', 
+	'third':'(+ Akk.)'},
+	{'first':'venīre', 
+	'second':'kommen', 
+	'third':'veniō, vēnī, ventum'},
+	
+	{'first':'parere', 
+	'second':'gebären, hervorbringen; erwerben', 
+	'third':'pariō'},
+	
+	{'first':'mulier', 
+	'second':'Frau', 
+	'third':'ris f.'},
+	
+	{'first':'habēre',
+	'second':'haben', 
+	'third':''},
+	{'first':'autem', 
+	'second':'aber', 
+	'third':''},
+	
+	{'first':'fātum', 
+	'second':'Götterspruch; Schicksal', 
+	'third':'ī'},
+	
+	{'first':'tam', 
+	'second':'so', 
+	'third':'(Adv.)'},
+
+	{'first':'diū', 
+	'second':'lange (zeitl.)', 
+	'third':'(Adv.)'},
+	
+	{'first':'vīvere', 
+	'second':'leben', 
+	'third':'vīvō, vīxī'},
+	
+	{'first':'quam', 
+	'second':'als', 
+	'third':'(nach einem Komparativ)'},
+	
+	{'first':'nēmō', 
+	'second':'niemand', 
+	'third':'nēminis'},
+	
+	{'first':'audīre', 
+	'second':'hören', 
+	'third':''},
+	{'first':'multī', 
+	'second':'viele', 
+	'third':'ae a'},
+	
+	{'first':'perniciēs', 
+	'second':'Verderben, Untergang', 
+	'third':'perniciēī f.'},
+	{'first':'vocāre', 
+	'second':'rufen, nennen', 
+	'third':''},
+	
+	{'first':'monēre', 
+	'second':'(er)mahnen', 
+	'third':''},
+	{'first':'dolus', 
+	'second':'List', 
+	'third':''},
+	
+	{'first':'claudere', 
+	'second':'(ab-/ein-)schließen', 
+	'third':'claudō, clausī, clausum'},
+	
+	{'first':'- que', 
+	'second':'und', 
+	'third':''},
+	
+	{'first':'iubēre', 
+	'second':'befehlen', 
+	'third':'iubeō, iussī, iussum'},
+	
+	{'first':'-ne . . . ?', 
+	'second':'[Fragepartikel]', 
+	'third':''},
+	
+	{'first':'appropinquāre', 
+	'second':'sich nähern', 
+	'third':''},
+	
+	{'first':'carmen', 
+	'second':'Lied; Gedicht; Gebet', 
+	'third':'n. (Nom. Pl. carmina)'},
+	
+	{'first':'dulcis', 
+	'second':'süß; angenehm', 
+	'third':'e'},
+	
+	{'first':'accipere', 
+	'second':'annehmen; bekommen, erfahren', 
+	'third':'accipiō, accēpī, acceptum'},
+	
+	{'first':'ācer', 
+	'second':'scharf; heftig', 
+	'third':'ācris, ācre'},
+	
+	{'first':'quiētus', 
+	'second':'ruhig', 
+	'third':'a, um'},
+
+	{'first':'animus', 
+	'second':'Geist; Sinn; Gesinnung; Herz, Mut', 
+	'third':'ī'},
+	
+	{'first':'regere', 
+	'second':'lenken; leiten; beherrschen', 
+	'third':'regō, rēxī, rēctum'},
+	
+	{'first':'tenēre', 
+	'second':'halten; haben', 
+	'third':''},
+	
+	{'first':'implōrāre', 
+	'second':'jmdn. anflehen', 
+	'third':''},
+	
+	{'first':'vinculum', 
+	'second':'Band; Fessel', 
+	'third':'ī'},
+	
+	{'first':'solvere', 
+	'second':'lösen, bezahlen', 
+	'third':'solvō, solvī, solūtum'},
+	
+	{'first':'modo', 
+	'second':'nur; gerade eben (noch)', 
+	'third':'(Adv.)'},
+	
+	{'first':'sīgnum', 
+	'second':'Zeichen, Feldzeichen, Statue', 
+	'third':''},
+	
+	{'first':'neglegere', 
+	'second':'nicht beachten; <br> missachten, vernachlässigen', 
+	'third':'neglegō'},
+	
+	{'first':'sīcut', 
+	'second':'so wie', 
+	'third':'(Adv.)'},
+	
+	{'first':'prōmittere', 
+	'second':'versprechen', 
+	'third':'prōmittō, prōmīsī, prōmissum'},
+	
+	{'first':'neque / nec', 
+	'second':'und nicht; aber nicht', 
+	'third':''},
+	//
+	{'first':'āmittere', 
+	'second':'verlieren', 
+	'third':'āmittō, āmīsī, āmissum'},
+
+	{'first':'superāre', 
+	'second':'besiegen; übertreffen', 
+	'third':''},
+
+
 
 
 ]
