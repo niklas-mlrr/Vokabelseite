@@ -1,4 +1,4 @@
-vokabeltest_lektion_anzeigen = true
+vokabeltest_lektion_anzeigen = false
 
 
 document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 22.11.22 16:30"
