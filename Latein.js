@@ -5,287 +5,92 @@ var Vokabeltest_Lektion = [
 
 
 
-	{'first':'labor', 
-	'second':'Anstrengung, Arbeit', 
-	'third':'labōris m.'},
+	{'first':'cōnstituere', 
+	'second':'aufstellen, festsetzen, beschliessen', 
+	'third':'-stituō, -stituī, -stitūtum'},
 
-	{'first':'ferre', 
-	'second':'tragen, ertragen, <br> berichten (im Pass.= man erzählt)', 
-	'third':'ferō, tulī, lātum'},
+	{'first':'ostendere', 
+	'second':'zeigen', 
+	'third':'ostendō, ostendī, ostentum'},
 
-	{'first':'superior', 
-	'second':'der obere', 
-	'third':'superius (Gen. superiōris)'},
+	{'first':'pōns', 
+	'second':'Brücke', 
+	'third':'pontis m.'},
 
-	{'first':'īnferior', 
-	'second':'der untere', 
-	'third':'īnferius (Gen. īnferiōris)'},
+	{'first':'trādūcere', 
+	'second':'hinüberführen', 
+	'third':'-dūcō, -dūxī, -ductum'},
 
-	{'first':'avis', 
-	'second':'Vogel', 
-	'third':'is f.'},
-
-	{'first':'hic, haec, hoc', 
-	'second':'dieser, diese, dieses', 
-	'third':''},
-
-	{'first':'mortālis', 
-	'second':'sterblich; Subst. Mensch', 
-	'third':'e'},
-
-	{'first':'nauta', 
-	'second':'Seemann', 
-	'third':'ae m.'},
-
-	{'first':'ut', 
-	'second':'wie', 
-	'third':'(+ Indikativ)'},
-
-	{'first':'adhibēre', 
-	'second':'anwenden, hinzuziehen', 
-	'third':'-eo, -ui, -itum'},
-
-	{'first':'auris', 
-	'second':'Ohr', 
-	'third':'is f.'},
-
-	{'first':'ille, illa, illud', 
-	'second':'jener, jene, jenes', 
-	'third':''},
-
-	{'first':'praecipere', 
-	'second':'vorschreiben, belehren', 
-	'third':'-cipiō, -cēpī, -ceptum'},
-
-	{'first':'līberāre', 
-	'second':'befreien', 
-	'third':'-o, -avi, -atum'},
-
-	{'first':'etsī', 
-	'second':'auch wenn, obwohl', 
-	'third':''},
-
-	{'first':'postulāre', 
-	'second':'fordern', 
-	'third':'-o, -avi, -atum'},
-
-	{'first':'saxum', 
-	'second':'Felsen', 
-	'third':'ī n.'},
-
-	{'first':'incendere', 
-	'second':'in Brand stecken', 
-	'third':'incendō, incendī, incēnsum'},
-
-	{'first':'rēctus', 
-	'second':'gerade, recht, richtig', 
-	'third':'a, um'},
-
-	{'first':'cursus', 
-	'second':'Lauf, Kurs', 
-	'third':'ūs m.'},
-
-	{'first':'incolumis', 
-	'second':'unverletzt, wohlbehalten', 
-	'third':'e'},
-
-	{'first':'praeceps', 
-	'second':'kopfüber, überstürtzt, steil', 
-	'third':'(Gen. praecipitis)'},
-
-	{'first':'unda', 
-	'second':'Welle', 
-	'third':'ae f.'},
-
-	{'first':'conicere', 
-	'second':'(zusammen)werfen, <br> folgern, vermuten', 
-	'third':'-iciō, -iecī, -iectum'},
-
-
-
-/*Alle Vokabeln aus dem Lektionstext*/
-
-	{'first':'socius', 
-	'second':'Bündnispartner, <br> Verbündeter, Kamerad', 
-	'third':'ī'},
-
-	{'first':'patria', 
-	'second':'Heimat', 
+	{'first':'silva', 
+	'second':'Wald', 
 	'third':'ae'},
 
-	{'first':'petere', 
-	'second':'» anpeilen «  <br> aufsuchen; sich begeben, <br> verlangen; (er)bitten, angreifen', 
-	'third':'petō, petīvī, petītum'},
+	{'first':'abdere', 
+	'second':'verbergen', 
+	'third':'-dō, -didī, -ditum'},
 
-	{'first':'iam', 
-	'second':'schon', 
-	'third':'(Adv.)'},
+	{'first':'vīcus', 
+	'second':'Dorf', 
+	'third':'ī'},
 
-	{'first':'cum', 
-	'second':'1. (temporal)= als, nachdem <br> 2. (kausal)= weil <br> 3. (konzessiv)= obwohl', 
-	'third':'(+ Konj.)'},
-
-	{'first':'ad', 
-	'second':'zu; nach; bei; an', 
+	{'first':'trāns', 
+	'second':'jenseits (einer Sache); über etw. hinüber', 
 	'third':'(+ Akk.)'},
-	{'first':'venīre', 
-	'second':'kommen', 
-	'third':'veniō, vēnī, ventum'},
-	
-	{'first':'parere', 
-	'second':'gebären, hervorbringen; erwerben', 
-	'third':'pariō'},
-	
-	{'first':'mulier', 
-	'second':'Frau', 
-	'third':'ris f.'},
-	
-	{'first':'habēre',
-	'second':'haben', 
+
+	{'first':'plūrēs', 
+	'second':'mehrere', 
+	'third':'Pl.'},
+
+	{'first':'intermittere', 
+	'second':'unterbrechen', 
+	'third':'-mittō, -misī, -missum'},
+
+	{'first':'prōferre', 
+	'second':'nach vorn tragen; vorantragen; erweitern', 
+	'third':'-ferō, -tuli, -lātum'},
+
+	{'first':'ūsque ad', 
+	'second':'bis zu', 
+	'third':'(+ Akk.)'},
+
+	{'first':'prōcēdere', 
+	'second':'vorrücken; Fortschritte machen', 
+	'third':'-cēdō, -cessī, -cessum'},
+
+	{'first':'ēvenīre', 
+	'second':'herauskommen, sich ereignen', 
+	'third':'-veniō, -vēni, -ventum'},
+
+	{'first':'bene ēvenīre', 
+	'second':'ein gutes Ende nehmen; gut ausgehen', 
 	'third':''},
-	{'first':'autem', 
-	'second':'aber', 
-	'third':''},
-	
-	{'first':'fātum', 
-	'second':'Götterspruch; Schicksal', 
-	'third':'ī'},
-	
-	{'first':'tam', 
-	'second':'so', 
+
+	{'first':'nātūra', 
+	'second':'Natur, Beschaffenheit', 
+	'third':'ae'},
+
+	{'first':'nimis', 
+	'second':'zu sehr, zu (+ Adj.)', 
 	'third':'(Adv.)'},
 
-	{'first':'diū', 
-	'second':'lange (zeitl.)', 
-	'third':'(Adv.)'},
-	
-	{'first':'vīvere', 
-	'second':'leben', 
-	'third':'vīvō, vīxī'},
-	
-	{'first':'quam', 
-	'second':'als', 
-	'third':'(nach einem Komparativ)'},
-	
-	{'first':'nēmō', 
-	'second':'niemand', 
-	'third':'nēminis'},
-	
-	{'first':'audīre', 
-	'second':'hören', 
-	'third':''},
-	{'first':'multī', 
-	'second':'viele', 
-	'third':'ae a'},
-	
-	{'first':'perniciēs', 
-	'second':'Verderben, Untergang', 
-	'third':'perniciēī f.'},
-	{'first':'vocāre', 
-	'second':'rufen, nennen', 
-	'third':''},
-	
-	{'first':'monēre', 
-	'second':'(er)mahnen', 
-	'third':''},
-	{'first':'dolus', 
-	'second':'List', 
-	'third':''},
-	
-	{'first':'claudere', 
-	'second':'(ab-/ein-)schließen', 
-	'third':'claudō, clausī, clausum'},
-	
-	{'first':'- que', 
-	'second':'und', 
-	'third':''},
-	
-	{'first':'iubēre', 
-	'second':'befehlen', 
-	'third':'iubeō, iussī, iussum'},
-	
-	{'first':'-ne . . . ?', 
-	'second':'[Fragepartikel]', 
-	'third':''},
-	
-	{'first':'appropinquāre', 
-	'second':'sich nähern', 
-	'third':''},
-	
-	{'first':'carmen', 
-	'second':'Lied; Gedicht; Gebet', 
-	'third':'n. (Nom. Pl. carmina)'},
-	
-	{'first':'dulcis', 
-	'second':'süß; angenehm', 
-	'third':'e'},
-	
-	{'first':'accipere', 
-	'second':'annehmen; bekommen, erfahren', 
-	'third':'accipiō, accēpī, acceptum'},
-	
-	{'first':'ācer', 
-	'second':'scharf; heftig', 
-	'third':'ācris, ācre'},
-	
-	{'first':'quiētus', 
-	'second':'ruhig', 
-	'third':'a, um'},
+	{'first':'palūs', 
+	'second':'Sumpf', 
+	'third':'palūdis f.'},
 
-	{'first':'animus', 
-	'second':'Geist; Sinn; Gesinnung; Herz, Mut', 
-	'third':'ī'},
-	
-	{'first':'regere', 
-	'second':'lenken; leiten; beherrschen', 
-	'third':'regō, rēxī, rēctum'},
-	
-	{'first':'tenēre', 
-	'second':'halten; haben', 
-	'third':''},
-	
-	{'first':'implōrāre', 
-	'second':'jmdn. anflehen', 
-	'third':''},
-	
-	{'first':'vinculum', 
-	'second':'Band; Fessel', 
-	'third':'ī'},
-	
-	{'first':'solvere', 
-	'second':'lösen, bezahlen', 
-	'third':'solvō, solvī, solūtum'},
-	
-	{'first':'modo', 
-	'second':'nur; gerade eben (noch)', 
-	'third':'(Adv.)'},
-	
-	{'first':'sīgnum', 
-	'second':'Zeichen, Feldzeichen, Statue', 
-	'third':''},
-	
-	{'first':'neglegere', 
-	'second':'nicht beachten; <br> missachten, vernachlässigen', 
-	'third':'neglegō'},
-	
-	{'first':'sīcut', 
-	'second':'so wie', 
-	'third':'(Adv.)'},
-	
-	{'first':'prōmittere', 
-	'second':'versprechen', 
-	'third':'prōmittō, prōmīsī, prōmissum'},
-	
-	{'first':'neque / nec', 
-	'second':'und nicht; aber nicht', 
-	'third':''},
-	//
-	{'first':'āmittere', 
-	'second':'verlieren', 
-	'third':'āmittō, āmīsī, āmissum'},
+	{'first':'hiems', 
+	'second':'Winter', 
+	'third':'hiemis f.'},
 
-	{'first':'superāre', 
-	'second':'besiegen; übertreffen', 
+	{'first':'inde', 
+	'second':'von dort, seitdem, <br> daraufhin, daher, deshalb', 
+	'third':'(Adv.)'},
+
+	{'first':'vallum', 
+	'second':'Palisaden, Wall (mit Palisaden)', 
+	'third':'ī'},
+
+	{'first':'mūnīre', 
+	'second':'befestigen', 
 	'third':''},
 
 
