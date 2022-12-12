@@ -361,6 +361,13 @@ html {
   empty-cells: show;
   font-size: 25px;
 }
+#table31 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
 
 #table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama {
 
