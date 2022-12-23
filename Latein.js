@@ -5120,7 +5120,7 @@ var Lektion32  = [
 	'third':'a, um'},
 
 	{'first':'supplicium', 
-	'second':'flehentliches Bitten, Opfer, Todesstrafe, Hinrichtung', 
+	'second':'flehentliches Bitten, <br> Opfer, Todesstrafe, Hinrichtung', 
 	'third':'ī'},
 
 	{'first':'crēber', 

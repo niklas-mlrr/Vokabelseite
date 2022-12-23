@@ -368,6 +368,13 @@ html {
   empty-cells: show;
   font-size: 25px;
 }
+#table32 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
 
 #table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama {
 
@@ -736,8 +743,8 @@ th {
   -webkit-backdrop-filter: blur(8px) saturate(100%);
 
 
-  width: 1200px;
-  height: 85%;
+  width: 1300px;
+  height: 82%;
   display: inline-grid;
   align-items: center;
   border-radius: 1.5rem;
@@ -753,7 +760,6 @@ th {
 .latein_form {
   height: 1000px;
   width: 750px;
-  
 }
 
 .lernen_auswählen_vokabeltest {
@@ -767,27 +773,27 @@ th {
 }
 
 
-.lernen_auswählen_1-10 {
+.lernen_auswählen_1-15 {
   position: relative;
-  top: 3%;
-  left: 10%;
+  top: 2%;
+  left: 8%;
 
 }
 
 
-.lernen_auswählen_11-20 {
+.lernen_auswählen_16-30 {
   position: relative;
 
-  top: -55%;
-  left: 61%;
+  top: -73%;
+  left: 51%;
 
 }
 
-.lernen_auswählen_21-30 {
+.lernen_auswählen_31-45 {
   position: relative;
 
-  top: -113%;
-  left: 110%;
+  top: -148%;
+  left: 94%;
 
 }
 
@@ -828,9 +834,11 @@ th {
 
 .checkbox {
   position: relative;
-  height: 50%;
   left: 30px;
   justify-content: center;
+  height: 50px;
+  width: 250px;
+  margin: 0px;
 }
 
 .checkbox_englisch {
@@ -932,6 +940,54 @@ th {
 .englisch_lektion_auswahlmenü_btn:focus {
   background-color: rgb(88, 88, 88);
 }
+
+/*  Latein  */
+
+.lernen_einfach_weiter_button_latein {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 80px;
+  width: 150px;
+  top: 40%;
+  right: 2%;
+  cursor: pointer;
+  background-color: rgb(71, 71, 71);
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.lernen_einfach_weiter_button_latein:hover,
+.lernen_einfach_weiter_button_latein:focus {
+  background-color: rgb(88, 88, 88);
+}
+
+
+
+.lernen_standard_weiter_button_latein {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 80px;
+  width: 150px;
+  top: 60%;
+  right: 2%;
+  cursor: pointer;
+  background-color: rgb(71, 71, 71);
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.lernen_standard_weiter_button_latein:hover,
+.lernen_standard_weiter_button_latein:focus {
+  background-color: rgb(88, 88, 88);
+}
+
+/*  Englisch  */
 
 
 .lernen_einfach_weiter_button {
@@ -1890,9 +1946,8 @@ th {
 .checkbox_haken_mit_ohne_sonstige_formen {
 
   position: absolute;
-  top: 88%;
-  left: 50%;
-  transform: translate(-50%);
+  top: 48%;
+  right: 1%;
 
   height: 45px;
   width: 350px;
@@ -1936,32 +1991,6 @@ th {
 
 
 
-@media (min-height: 1100px) {
-  
-  .checkbox_haken_mit_ohne_sonstige_formen {
-    top: 89%;
-  }
-}
-@media (max-height: 800px) {
-  
-  .checkbox_haken_mit_ohne_sonstige_formen {
-    top: 85%;
-  }
-}
-@media (max-height: 700px) {
-  
-  .checkbox_haken_mit_ohne_sonstige_formen {
-    top: 83%;
-  }
-}
-@media (max-height: 700px) {
-  
-  .checkbox_haken_mit_ohne_sonstige_formen {
-    top: 83%;
-  }
-}
-
-
 
 
 
@@ -1984,16 +2013,11 @@ th {
   
   }
 
-  .checkbox_haken_mit_ohne_sonstige_formen {
-    top: 86%;
-  }
 
 
 
 
-  .lernen_auswahl_latein {
-  height: 90%;
-  }
+
   .lernen_auswahl_englisch {
     height: 80%;
   }
@@ -2024,18 +2048,11 @@ th {
 
 @media (max-height: 870px) {
 
-  .lernen_auswahl_latein {
-    height: 90%;
-  }
   .lernen_auswahl_englisch {
     height: 80%;
   }
 
-  .checkbox {
-    height: 43px;
-    width: 250px;
-    margin: 0px;
-  }
+
   .checkbox_englisch {
     height: 50px;
     width: 350px;
@@ -2071,6 +2088,17 @@ th {
 
   .lernen_lat, .lernen_de_sonst {
   font-size: 35px;
+  }
+
+
+}
+
+
+
+@media (max-height: 100px) {
+
+  .lernen_auswahl_latein {
+    height: 90%;
   }
 
 
