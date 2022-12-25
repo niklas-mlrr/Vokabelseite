@@ -1,7 +1,7 @@
 vokabeltest_lektion_anzeigen = false
 
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 23.12.22 22:30"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 25.12.22 22:30"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -118,583 +118,63 @@ function buildTableVokabeln_aus_keiner_Lektion(data) {
 
 
 
-buildTable01(Lektion01)
+var tables = [
+	{ id: 'table01', data: Lektion01 },
+	{ id: 'table02', data: Lektion02 },
+	{ id: 'table03', data: Lektion03 },
+	{ id: 'table04', data: Lektion04 },
+	{ id: 'table05', data: Lektion05 },
+	{ id: 'table06', data: Lektion06 },
+	{ id: 'table07', data: Lektion07 },
+	{ id: 'table08', data: Lektion08 },
+	{ id: 'table09', data: Lektion09 },
+	{ id: 'table10', data: Lektion10 },
+	{ id: 'table11', data: Lektion11 },
+	{ id: 'table12', data: Lektion12 },
+	{ id: 'table13', data: Lektion13 },
+	{ id: 'table14', data: Lektion14 },
+	{ id: 'table15', data: Lektion15 },
+	{ id: 'table16', data: Lektion16 },
+	{ id: 'table17', data: Lektion17 },
+	{ id: 'table18', data: Lektion18 },
+	{ id: 'table19', data: Lektion19 },
+	{ id: 'table20', data: Lektion20 },
+	{ id: 'table21', data: Lektion21 },
+	{ id: 'table22', data: Lektion22 },
+	{ id: 'table23', data: Lektion23 },
+	{ id: 'table24', data: Lektion24 },
+	{ id: 'table25', data: Lektion25 },
+	{ id: 'table26', data: Lektion26 },
+	{ id: 'table27', data: Lektion27 },
+	{ id: 'table28', data: Lektion28 },
+	{ id: 'table29', data: Lektion29 },
+	{ id: 'table30', data: Lektion30 },
+	{ id: 'table31', data: Lektion31 },
+	{ id: 'table32', data: Lektion32 }
+  ];
+  
+  tables.forEach(function(tableData) {
+	var table = document.getElementById(tableData.id);
+	var data = tableData.data;
 
-function buildTable01(data) {
-	var table01 = document.getElementById('table01')
-
+	buildTable(table, data);
+  
+  
+  function buildTable(table, data) {
 	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table01.innerHTML += row
+	  var row = `<tr class="row">
+					<td class="first">${data[i].first}</td>
+					<td class="second">${data[i].second}</td>
+					<td>${data[i].third}</td>
+				  </tr>`;
+	  table.innerHTML += row;
 	}
-}
+  }
+  }
+  
+  );
 
 
-
-buildTable02(Lektion02)
-
-function buildTable02(data) {
-	var table02 = document.getElementById('table02')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table02.innerHTML += row
-	}
-}
-
-
-
-buildTable03(Lektion03)
-
-function buildTable03(data) {
-	var table03 = document.getElementById('table03')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table03.innerHTML += row
-	}
-}
-
-
-
-buildTable04(Lektion04)
-
-function buildTable04(data) {
-	var table04 = document.getElementById('table04')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table04.innerHTML += row
-	}
-}
-
-
-
-buildTable05(Lektion05)
-
-function buildTable05(data) {
-	var table05 = document.getElementById('table05')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table05.innerHTML += row
-	}
-}
-
-
-
-buildTable06(Lektion06)
-
-function buildTable06(data) {
-	var table06 = document.getElementById('table06')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table06.innerHTML += row
-	}
-}
-
-
-
-buildTable07(Lektion07)
-
-function buildTable07(data) {
-	var table07 = document.getElementById('table07')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table07.innerHTML += row
-	}
-}
-
-
-
-buildTable08(Lektion08)
-
-function buildTable08(data) {
-	var table08 = document.getElementById('table08')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table08.innerHTML += row
-	}
-}
-
-
-
-buildTable09(Lektion09)
-
-function buildTable09(data) {
-	var table09 = document.getElementById('table09')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table09.innerHTML += row
-	}
-}
-
-
-
-buildTable10(Lektion10)
-
-function buildTable10(data) {
-	var table10 = document.getElementById('table10')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table10.innerHTML += row
-	}
-}
-
-
-
-buildTable11(Lektion11)
-
-function buildTable11(data) {
-	var table11 = document.getElementById('table11')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table11.innerHTML += row
-	}
-}
-
-
-
-buildTable12(Lektion12)
-
-function buildTable12(data) {
-	var table12 = document.getElementById('table12')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table12.innerHTML += row
-	}
-}
-
-
-
-buildTable13(Lektion13)
-
-function buildTable13(data) {
-	var table13 = document.getElementById('table13')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table13.innerHTML += row
-	}
-}
-
-
-
-buildTable14(Lektion14)
-
-function buildTable14(data) {
-	var table14 = document.getElementById('table14')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table14.innerHTML += row
-	}
-}
-
-
-
-
-
-buildTable15(Lektion15)
-
-function buildTable15(data) {
-	var table15 = document.getElementById('table15')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table15.innerHTML += row
-
-
-	}
-}
-
-
-
-
-
-buildTable16(Lektion16)
-
-function buildTable16(data) {
-	var table16 = document.getElementById('table16')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table16.innerHTML += row
-
-
-	}
-}
-
-
-buildTable17(Lektion17)
-
-
-function buildTable17(data) {
-	var table17 = document.getElementById('table17')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table17.innerHTML += row
-
-
-	}
-}
-
-
-buildTable18(Lektion18)
-
-function buildTable18(data) {
-	var table18 = document.getElementById('table18')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table18.innerHTML += row
-	}
-}
-
-
-
-buildTable19(Lektion19)
-
-function buildTable19(data) {
-	var table19 = document.getElementById('table19')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table19.innerHTML += row
-	}
-}
-
-
-
-buildTable20(Lektion20)
-
-function buildTable20(data) {
-	var table20 = document.getElementById('table20')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table20.innerHTML += row
-	}
-}
-
-
-
-
-
-buildTable21(Lektion21)
-
-function buildTable21(data) {
-	var table21 = document.getElementById('table21')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table21.innerHTML += row
-	}
-}
-
-
-
-buildTable22(Lektion22)
-
-function buildTable22(data) {
-	var table22 = document.getElementById('table22')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table22.innerHTML += row
-	}
-}
-
-
-buildTable23(Lektion23)
-
-function buildTable23(data) {
-	var table23 = document.getElementById('table23')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table23.innerHTML += row
-	}
-}
-
-
-
-buildTable24(Lektion24)
-
-function buildTable24(data) {
-	var table24 = document.getElementById('table24')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table24.innerHTML += row
-	}
-}
-
-
-buildTable25(Lektion25)
-
-function buildTable25(data) {
-	var table25 = document.getElementById('table25')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table25.innerHTML += row
-	}
-}
-
-
-
-buildTable26(Lektion26)
-
-function buildTable26(data) {
-	var table26 = document.getElementById('table26')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table26.innerHTML += row
-	}
-}
-
-
-buildTable27(Lektion27)
-
-function buildTable27(data) {
-	var table27 = document.getElementById('table27')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table27.innerHTML += row
-	}
-}
-
-buildTable28(Lektion28)
-
-function buildTable28(data) {
-	var table28 = document.getElementById('table28')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table28.innerHTML += row
-	}
-}
-
-
-
-buildTable29(Lektion29)
-
-function buildTable29(data) {
-	var table29 = document.getElementById('table29')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table29.innerHTML += row
-	}
-}
-
-
-
-
-buildTable30(Lektion30)
-
-function buildTable30(data) {
-	var table30 = document.getElementById('table30')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table30.innerHTML += row
-	}
-}
-
-
-buildTable31(Lektion31)
-
-function buildTable31(data) {
-	var table31 = document.getElementById('table31')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table31.innerHTML += row
-	}
-}
-
-buildTable32(Lektion32)
-
-function buildTable32(data) {
-	var table32 = document.getElementById('table32')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
-		table32.innerHTML += row
-	}
-}
 
 
 
@@ -1091,6 +571,43 @@ selected_29 = document.getElementsByClassName('insgesamt29')
 selected_30 = document.getElementsByClassName('insgesamt30')
 selected_31 = document.getElementsByClassName('insgesamt31')
 selected_32 = document.getElementsByClassName('insgesamt32')
+
+const selected = [
+	selected_01,
+	selected_02,
+	selected_03,
+	selected_04,
+	selected_05,
+	selected_06,
+	selected_07,
+	selected_08,
+	selected_09,
+	selected_10,
+	selected_11,
+	selected_12,
+	selected_13,
+	selected_14,
+	selected_15,
+	selected_16,
+	selected_17,
+	selected_18,
+	selected_19,
+	selected_20,
+	selected_21,
+	selected_22,
+	selected_23,
+	selected_24,
+	selected_25,
+	selected_26,
+	selected_27,
+	selected_28,
+	selected_29,
+	selected_30,
+	selected_31,
+	selected_32
+];
+  
+
 insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama')
 insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA')
 insgesamt_Englisch_Klasse_8_Unit_2_S_174 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_2_S_174')
@@ -1113,40 +630,11 @@ function hide_all() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.remove('hidden');
 		}	
-		
+			
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.add('hidden');
-	selected_01[0].classList.add('hidden');
-	selected_02[0].classList.add('hidden');
-	selected_03[0].classList.add('hidden');
-	selected_04[0].classList.add('hidden');
-	selected_05[0].classList.add('hidden');
-	selected_06[0].classList.add('hidden');
-	selected_07[0].classList.add('hidden');
-	selected_08[0].classList.add('hidden');
-	selected_09[0].classList.add('hidden');
-	selected_10[0].classList.add('hidden');
-	selected_11[0].classList.add('hidden');
-	selected_12[0].classList.add('hidden');
-	selected_13[0].classList.add('hidden');
-	selected_14[0].classList.add('hidden');
-	selected_15[0].classList.add('hidden');
-	selected_16[0].classList.add('hidden');
-	selected_17[0].classList.add('hidden');
-	selected_18[0].classList.add('hidden');
-	selected_19[0].classList.add('hidden');
-	selected_20[0].classList.add('hidden');
-	selected_21[0].classList.add('hidden');
-	selected_22[0].classList.add('hidden');
-	selected_23[0].classList.add('hidden');
-	selected_24[0].classList.add('hidden');
-	selected_25[0].classList.add('hidden');
-	selected_26[0].classList.add('hidden');
-	selected_27[0].classList.add('hidden');
-	selected_28[0].classList.add('hidden');
-	selected_29[0].classList.add('hidden');
-	selected_30[0].classList.add('hidden');
-	selected_31[0].classList.add('hidden');
-	selected_32[0].classList.add('hidden');
+	for (const elem of selected) {
+		elem[0].classList.add('hidden');
+	  }
 	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.add('hidden');
 	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.add('hidden');
 	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.add('hidden');
@@ -1166,38 +654,9 @@ function all() {
 		}
 
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.remove('hidden');
-	selected_01[0].classList.remove('hidden');
-	selected_02[0].classList.remove('hidden');
-	selected_03[0].classList.remove('hidden');
-	selected_04[0].classList.remove('hidden');
-	selected_05[0].classList.remove('hidden');
-	selected_06[0].classList.remove('hidden');
-	selected_07[0].classList.remove('hidden');
-	selected_08[0].classList.remove('hidden');
-	selected_09[0].classList.remove('hidden');
-	selected_10[0].classList.remove('hidden');
-	selected_11[0].classList.remove('hidden');
-	selected_12[0].classList.remove('hidden');
-	selected_13[0].classList.remove('hidden');
-	selected_14[0].classList.remove('hidden');
-	selected_15[0].classList.remove('hidden');
-	selected_16[0].classList.remove('hidden');
-	selected_17[0].classList.remove('hidden');
-	selected_18[0].classList.remove('hidden');
-	selected_19[0].classList.remove('hidden');
-	selected_20[0].classList.remove('hidden');
-	selected_21[0].classList.remove('hidden');
-	selected_22[0].classList.remove('hidden');
-	selected_23[0].classList.remove('hidden');
-	selected_24[0].classList.remove('hidden');
-	selected_25[0].classList.remove('hidden');
-	selected_26[0].classList.remove('hidden');
-	selected_27[0].classList.remove('hidden');
-	selected_28[0].classList.remove('hidden');
-	selected_29[0].classList.remove('hidden');
-	selected_30[0].classList.remove('hidden');
-	selected_31[0].classList.remove('hidden');
-	selected_32[0].classList.remove('hidden');
+	for (const elem of selected) {
+		elem[0].classList.remove('hidden');
+	  }
 	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.remove('hidden');
@@ -1218,38 +677,9 @@ function all_latein() {
 	}
 
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.remove('hidden');
-	selected_01[0].classList.remove('hidden');
-	selected_02[0].classList.remove('hidden');
-	selected_03[0].classList.remove('hidden');
-	selected_04[0].classList.remove('hidden');
-	selected_05[0].classList.remove('hidden');
-	selected_06[0].classList.remove('hidden');
-	selected_07[0].classList.remove('hidden');
-	selected_08[0].classList.remove('hidden');
-	selected_09[0].classList.remove('hidden');
-	selected_10[0].classList.remove('hidden');
-	selected_11[0].classList.remove('hidden');
-	selected_12[0].classList.remove('hidden');
-	selected_13[0].classList.remove('hidden');
-	selected_14[0].classList.remove('hidden');
-	selected_15[0].classList.remove('hidden');
-	selected_16[0].classList.remove('hidden');
-	selected_17[0].classList.remove('hidden');
-	selected_18[0].classList.remove('hidden');
-	selected_19[0].classList.remove('hidden');
-	selected_20[0].classList.remove('hidden');
-	selected_21[0].classList.remove('hidden');
-	selected_22[0].classList.remove('hidden');
-	selected_23[0].classList.remove('hidden');
-	selected_24[0].classList.remove('hidden');
-	selected_25[0].classList.remove('hidden');
-	selected_26[0].classList.remove('hidden');
-	selected_27[0].classList.remove('hidden');
-	selected_28[0].classList.remove('hidden');
-	selected_29[0].classList.remove('hidden');
-	selected_30[0].classList.remove('hidden');
-	selected_31[0].classList.remove('hidden');
-	selected_32[0].classList.remove('hidden');
+	for (const elem of selected) {
+		elem[0].classList.remove('hidden');
+	  }
 
 }
 
@@ -2239,38 +1669,9 @@ function lernen_fertig() {
 		selected_Vokabeltest_Lektion[0].classList.remove('hidden');
 		}
 
-	selected_01[0].classList.remove('hidden');
-	selected_02[0].classList.remove('hidden');
-	selected_03[0].classList.remove('hidden');
-	selected_04[0].classList.remove('hidden');
-	selected_05[0].classList.remove('hidden');
-	selected_06[0].classList.remove('hidden');
-	selected_07[0].classList.remove('hidden');
-	selected_08[0].classList.remove('hidden');
-	selected_09[0].classList.remove('hidden');
-	selected_10[0].classList.remove('hidden');
-	selected_11[0].classList.remove('hidden');
-	selected_12[0].classList.remove('hidden');
-	selected_13[0].classList.remove('hidden');
-	selected_14[0].classList.remove('hidden');
-	selected_15[0].classList.remove('hidden');
-	selected_16[0].classList.remove('hidden');
-	selected_17[0].classList.remove('hidden');
-	selected_18[0].classList.remove('hidden');
-	selected_19[0].classList.remove('hidden');
-	selected_20[0].classList.remove('hidden');
-	selected_21[0].classList.remove('hidden');
-	selected_22[0].classList.remove('hidden');
-	selected_23[0].classList.remove('hidden');
-	selected_24[0].classList.remove('hidden');
-	selected_25[0].classList.remove('hidden');
-	selected_26[0].classList.remove('hidden');
-	selected_27[0].classList.remove('hidden');
-	selected_28[0].classList.remove('hidden');
-	selected_29[0].classList.remove('hidden');
-	selected_30[0].classList.remove('hidden');
-	selected_31[0].classList.remove('hidden');
-	selected_32[0].classList.remove('hidden');
+	for (const elem of selected) {
+		elem[0].classList.remove('hidden');
+	  }
 	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.remove('hidden');
 	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.remove('hidden');
@@ -2419,198 +1820,36 @@ function neue_vok_standard() {
 		länge_lek = "Gesamt : " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}
-	if (ausgewählt_lektion.value == "Lektion01") {
-		random_item = Lektion01[Math.floor(Math.random() * Lektion01.length)];
-		lernen_lektion_anzeige = "Lektion " + 01
-		länge_lek = "Gesamt : " + Lektion01.length + " Wörter"
-		länge_lek_number = Lektion01.length
+	
+
+
+/* Hier funktioniert es auch mit "Variabelzahlen" bis ins "unendliche" (Auch wenn die Zehnerstelle anders ist)
+   ChatGPTs ausgabe (ohne Kontext):
+
+   Die obige Schleife verwendet eine Template-Literal-Syntax, um die ID-Nummer in den ID-Namen und den Arraynamen einzufügen.
+
+   Der Code verwendet die toString-Methode und die padStart-Methode, um sicherzustellen, dass die ID-Nummer immer mit zwei Stellen 
+   angezeigt wird (z.B. "01" anstelle von "1"). Wenn der Wert von i bereits zwei Stellen hat, wird er unverändert zurückgegeben.
+
+   
+*/
+for (let i = 1; i <= 32; i++) {
+	let id = `Lektion${i.toString().padStart(2, '0')}`;
+	if (ausgewählt_lektion.value == id) {
+	  let array = window[id];
+	  random_item = array[Math.floor(Math.random() * array.length)];
+	  lernen_lektion_anzeige = `Lektion ${i}`;
+	  länge_lek = `Gesamt: ${array.length} Wörter`;
+	  länge_lek_number = array.length;
 	}
-	if (ausgewählt_lektion.value == "Lektion02") {
-		random_item = Lektion02[Math.floor(Math.random() * Lektion02.length)];
-		lernen_lektion_anzeige = "Lektion " + 02
-		länge_lek = "Gesamt : " + Lektion02.length + " Wörter"
-		länge_lek_number = Lektion02.length
-	}
-	if (ausgewählt_lektion.value == "Lektion03") {
-		random_item = Lektion03[Math.floor(Math.random() * Lektion03.length)];
-		lernen_lektion_anzeige = "Lektion " + 03
-		länge_lek = "Gesamt : " + Lektion03.length + " Wörter"
-		länge_lek_number = Lektion03.length
-	}
-	if (ausgewählt_lektion.value == "Lektion04") {
-		random_item = Lektion04[Math.floor(Math.random() * Lektion04.length)];
-		lernen_lektion_anzeige = "Lektion " + 04
-		länge_lek = "Gesamt : " + Lektion04.length + " Wörter"
-		länge_lek_number = Lektion04.length
-	}
-	if (ausgewählt_lektion.value == "Lektion05") {
-		random_item = Lektion05[Math.floor(Math.random() * Lektion05.length)];
-		lernen_lektion_anzeige = "Lektion " + 05
-		länge_lek = "Gesamt : " + Lektion05.length + " Wörter"
-		länge_lek_number = Lektion05.length
-	}
-	if (ausgewählt_lektion.value == "Lektion06") {
-		random_item = Lektion06[Math.floor(Math.random() * Lektion06.length)];
-		lernen_lektion_anzeige = "Lektion " + 06
-		länge_lek = "Gesamt : " + Lektion06.length + " Wörter"
-		länge_lek_number = Lektion06.length
-	}
-	if (ausgewählt_lektion.value == "Lektion07") {
-		random_item = Lektion07[Math.floor(Math.random() * Lektion07.length)];
-		lernen_lektion_anzeige = "Lektion " + 07
-		länge_lek = "Gesamt : " + Lektion07.length + " Wörter"
-		länge_lek_number = Lektion07.length
-	}
-	if (ausgewählt_lektion.value == "Lektion08") {
-		random_item = Lektion08[Math.floor(Math.random() * Lektion08.length)];
-		lernen_lektion_anzeige = "Lektion " + 08
-		länge_lek = "Gesamt : " + Lektion08.length + " Wörter"
-		länge_lek_number = Lektion08.length
-	}
-	if (ausgewählt_lektion.value == "Lektion09") {
-		random_item = Lektion09[Math.floor(Math.random() * Lektion09.length)];
-		lernen_lektion_anzeige = "Lektion " + 09
-		länge_lek = "Gesamt : " + Lektion09.length + " Wörter"
-		länge_lek_number = Lektion09.length
-	}
-	if (ausgewählt_lektion.value == "Lektion10") {
-		random_item = Lektion10[Math.floor(Math.random() * Lektion10.length)];
-		lernen_lektion_anzeige = "Lektion " + 10
-		länge_lek = "Gesamt : " + Lektion10.length + " Wörter"
-		länge_lek_number = Lektion10.length
-	}
-	if (ausgewählt_lektion.value == "Lektion11") {
-		random_item = Lektion11[Math.floor(Math.random() * Lektion11.length)];
-		lernen_lektion_anzeige = "Lektion " + 11
-		länge_lek = "Gesamt : " + Lektion11.length + " Wörter"
-		länge_lek_number = Lektion11.length
-	}
-	if (ausgewählt_lektion.value == "Lektion12") {
-		random_item = Lektion12[Math.floor(Math.random() * Lektion12.length)];
-		lernen_lektion_anzeige = "Lektion " + 12
-		länge_lek = "Gesamt : " + Lektion12.length + " Wörter"
-		länge_lek_number = Lektion12.length
-	}
-	if (ausgewählt_lektion.value == "Lektion13") {
-		random_item = Lektion13[Math.floor(Math.random() * Lektion13.length)];
-		lernen_lektion_anzeige = "Lektion " + 13
-		länge_lek = "Gesamt : " + Lektion13.length + " Wörter"
-		länge_lek_number = Lektion13.length
-	}
-	if (ausgewählt_lektion.value == "Lektion14") {
-		random_item = Lektion14[Math.floor(Math.random() * Lektion14.length)];
-		lernen_lektion_anzeige = "Lektion " + 14
-		länge_lek = "Gesamt : " + Lektion14.length + " Wörter"
-		länge_lek_number = Lektion14.length
-	}
-	if (ausgewählt_lektion.value == "Lektion15") {
-		random_item = Lektion15[Math.floor(Math.random() * Lektion15.length)];
-		lernen_lektion_anzeige = "Lektion " + 15
-		länge_lek = "Gesamt : " + Lektion15.length + " Wörter"
-		länge_lek_number = Lektion15.length
-	}
-	if (ausgewählt_lektion.value == "Lektion16") {
-		random_item = Lektion16[Math.floor(Math.random() * Lektion16.length)];
-		lernen_lektion_anzeige = "Lektion " + 16
-		länge_lek = "Gesamt : " + Lektion16.length + " Wörter"
-		länge_lek_number = Lektion16.length
-	}
-	if (ausgewählt_lektion.value == "Lektion17") {
-		random_item = Lektion17[Math.floor(Math.random() * Lektion17.length)];
-		lernen_lektion_anzeige = "Lektion " + 17
-		länge_lek = "Gesamt : " + Lektion17.length + " Wörter"
-		länge_lek_number = Lektion17.length
-	}
-	if (ausgewählt_lektion.value == "Lektion18") {
-		random_item = Lektion18[Math.floor(Math.random() * Lektion18.length)];
-		lernen_lektion_anzeige = "Lektion " + 18
-		länge_lek = "Gesamt : " + Lektion18.length + " Wörter"
-		länge_lek_number = Lektion18.length
-	}
-	if (ausgewählt_lektion.value == "Lektion19") {
-		random_item = Lektion19[Math.floor(Math.random() * Lektion19.length)];
-		lernen_lektion_anzeige = "Lektion " + 19
-		länge_lek = "Gesamt : " + Lektion19.length + " Wörter"
-		länge_lek_number = Lektion19.length
-	}
-	if (ausgewählt_lektion.value == "Lektion20") {
-		random_item = Lektion20[Math.floor(Math.random() * Lektion20.length)];
-		lernen_lektion_anzeige = "Lektion " + 20
-		länge_lek = "Gesamt : " + Lektion20.length + " Wörter"
-		länge_lek_number = Lektion20.length
-	}
-	if (ausgewählt_lektion.value == "Lektion21") {
-		random_item = Lektion21[Math.floor(Math.random() * Lektion21.length)];
-		lernen_lektion_anzeige = "Lektion " + 21
-		länge_lek = "Gesamt : " + Lektion21.length + " Wörter"
-		länge_lek_number = Lektion21.length
-	}
-	if (ausgewählt_lektion.value == "Lektion22") {
-		random_item = Lektion22[Math.floor(Math.random() * Lektion22.length)];
-		lernen_lektion_anzeige = "Lektion " + 22
-		länge_lek = "Gesamt : " + Lektion22.length + " Wörter"
-		länge_lek_number = Lektion22.length
-	}
-	if (ausgewählt_lektion.value == "Lektion23") {
-		random_item = Lektion23[Math.floor(Math.random() * Lektion23.length)];
-		lernen_lektion_anzeige = "Lektion " + 23
-		länge_lek = "Gesamt : " + Lektion23.length + " Wörter"
-		länge_lek_number = Lektion23.length
-	}
-	if (ausgewählt_lektion.value == "Lektion24") {
-		random_item = Lektion24[Math.floor(Math.random() * Lektion24.length)];
-		lernen_lektion_anzeige = "Lektion " + 24
-		länge_lek = "Gesamt : " + Lektion24.length + " Wörter"
-		länge_lek_number = Lektion24.length
-	}
-	if (ausgewählt_lektion.value == "Lektion25") {
-		random_item = Lektion25[Math.floor(Math.random() * Lektion25.length)];
-		lernen_lektion_anzeige = "Lektion " + 25
-		länge_lek = "Gesamt : " + Lektion25.length + " Wörter"
-		länge_lek_number = Lektion25.length
-	}
-	if (ausgewählt_lektion.value == "Lektion26") {
-		random_item = Lektion26[Math.floor(Math.random() * Lektion26.length)];
-		lernen_lektion_anzeige = "Lektion " + 26
-		länge_lek = "Gesamt : " + Lektion26.length + " Wörter"
-		länge_lek_number = Lektion26.length
-	}
-	if (ausgewählt_lektion.value == "Lektion27") {
-		random_item = Lektion27[Math.floor(Math.random() * Lektion27.length)];
-		lernen_lektion_anzeige = "Lektion " + 27
-		länge_lek = "Gesamt : " + Lektion27.length + " Wörter"
-		länge_lek_number = Lektion27.length
-	}
-	if (ausgewählt_lektion.value == "Lektion28") {
-		random_item = Lektion28[Math.floor(Math.random() * Lektion28.length)];
-		lernen_lektion_anzeige = "Lektion " + 28
-		länge_lek = "Gesamt : " + Lektion28.length + " Wörter"
-		länge_lek_number = Lektion28.length
-	}
-	if (ausgewählt_lektion.value == "Lektion29") {
-		random_item = Lektion29[Math.floor(Math.random() * Lektion29.length)];
-		lernen_lektion_anzeige = "Lektion " + 29
-		länge_lek = "Gesamt : " + Lektion29.length + " Wörter"
-		länge_lek_number = Lektion29.length
-	}
-	if (ausgewählt_lektion.value == "Lektion30") {
-		random_item = Lektion30[Math.floor(Math.random() * Lektion30.length)];
-		lernen_lektion_anzeige = "Lektion " + 30
-		länge_lek = "Gesamt : " + Lektion30.length + " Wörter"
-		länge_lek_number = Lektion30.length
-	}
-	if (ausgewählt_lektion.value == "Lektion31") {
-		random_item = Lektion31[Math.floor(Math.random() * Lektion31.length)];
-		lernen_lektion_anzeige = "Lektion " + 31
-		länge_lek = "Gesamt : " + Lektion31.length + " Wörter"
-		länge_lek_number = Lektion31.length
-	}
-	if (ausgewählt_lektion.value == "Lektion32") {
-		random_item = Lektion32[Math.floor(Math.random() * Lektion32.length)];
-		lernen_lektion_anzeige = "Lektion " + 32
-		länge_lek = "Gesamt : " + Lektion32.length + " Wörter"
-		länge_lek_number = Lektion32.length
-	}
+  }
+  
+
+
+
+
+
+
 	if (ausgewählt_lektion.value == "Englisch_Klasse_8_Unit1_Text_smart_1_Drama") {
 		random_item = Englisch_Klasse_8_Unit1_Text_smart_1_Drama[Math.floor(Math.random() * Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length)];
 		lernen_lektion_anzeige = "Englisch 8 Unit 1 Drama"
@@ -2826,7 +2065,3 @@ function fehler_seite_zurück_pfeil_btn() {
 	fehler_seite_groß[0].classList.remove('fehler_seite_groß');
 	fehler_seite_zurück_pfeil_btn_[0].classList.add('hidden');
 }
-
-//test 1
-//test Backup
-// test Backup 2
