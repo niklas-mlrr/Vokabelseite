@@ -5,94 +5,109 @@ var Vokabeltest_Lektion = [
 
 
 
-	{'first':'cōnstituere', 
-	'second':'aufstellen, festsetzen, beschliessen', 
-	'third':'-stituō, -stituī, -stitūtum'},
+	{'first':'iste', 
+	'second':'dieser (da)', 
+	'third':'ista, istud (Gen. istīus)'},
 
-	{'first':'ostendere', 
-	'second':'zeigen', 
-	'third':'ostendō, ostendī, ostentum'},
+	{'first':'fidēs', 
+	'second':'Vertrauenswürdigkeit, <br> Vertrauen, Treue, Glaube', 
+	'third':'eī f.'},
 
-	{'first':'pōns', 
-	'second':'Brücke', 
-	'third':'pontis m.'},
+	{'first':'suspicere', 
+	'second':'übernehmen, auf sich nehmen', 
+	'third':'-cipiō, -cēpī, -ceptum'},
 
-	{'first':'trādūcere', 
-	'second':'hinüberführen', 
-	'third':'-dūcō, -dūxī, -ductum'},
-
-	{'first':'silva', 
-	'second':'Wald', 
-	'third':'ae'},
-
-	{'first':'abdere', 
-	'second':'verbergen', 
-	'third':'-dō, -didī, -ditum'},
-
-	{'first':'vīcus', 
-	'second':'Dorf', 
-	'third':'ī'},
-
-	{'first':'trāns', 
-	'second':'jenseits (einer Sache); über etw. hinüber', 
+	{'first':'sē praebēre', 
+	'second':'sich erweisen als', 
 	'third':'(+ Akk.)'},
 
-	{'first':'plūrēs', 
-	'second':'mehrere', 
-	'third':'Pl.'},
+	{'first':'furor', 
+	'second':'Wut, Raserei', 
+	'third':'furōris m.'},
 
-	{'first':'intermittere', 
-	'second':'unterbrechen', 
-	'third':'-mittō, -misī, -missum'},
+	{'first':'pūblicus', 
+	'second':'öffentlich, staatlich', 
+	'third':'a, um'},
 
-	{'first':'prōferre', 
-	'second':'nach vorn tragen; vorantragen; erweitern', 
-	'third':'-ferō, -tuli, -lātum'},
+	{'first':'rēs pūblica', 
+	'second':'Staat, Gemeinwesen, Politik', 
+	'third':'reī pūblicae'},
 
-	{'first':'ūsque ad', 
-	'second':'bis zu', 
-	'third':'(+ Akk.)'},
+	{'first':'ēvertere', 
+	'second':'umkehren, umstürzen, zerstören, vernichten', 
+	'third':'-vertō, -vertī, -versum'},
 
-	{'first':'prōcēdere', 
-	'second':'vorrücken; Fortschritte machen', 
-	'third':'-cēdō, -cessī, -cessum'},
+	{'first':'prīnceps', 
+	'second':'der erste, der vornehmste; Subst.= Kaiser', 
+	'third':'prīncipis m.'},
 
-	{'first':'ēvenīre', 
-	'second':'herauskommen, sich ereignen', 
-	'third':'-veniō, -vēni, -ventum'},
+	{'first':'foedus', 
+	'second':'scheußlich, abstoßend', 
+	'third':'a, um'},
 
-	{'first':'bene ēvenīre', 
-	'second':'ein gutes Ende nehmen; gut ausgehen', 
-	'third':''},
+	{'first':'caput', 
+	'second':'Kopf, Haupstadt', 
+	'third':'capitis n.'},
 
-	{'first':'nātūra', 
-	'second':'Natur, Beschaffenheit', 
-	'third':'ae'},
+	{'first':'minimus', 
+	'second':'der kleinste, sehr klein', 
+	'third':'a, um'},
 
-	{'first':'nimis', 
-	'second':'zu sehr, zu (+ Adj.)', 
-	'third':'(Adv.)'},
+	{'first':'potestās', 
+	'second':'Amtsgewalt, Macht, Möglichkeit', 
+	'third':'tātis f.'},
 
-	{'first':'palūs', 
-	'second':'Sumpf', 
-	'third':'palūdis f.'},
+	{'first':'scelerātus', 
+	'second':'verbrecherisch; Subst.= Verbrecher', 
+	'third':'a, um'},
 
-	{'first':'hiems', 
-	'second':'Winter', 
-	'third':'hiemis f.'},
+	{'first':'summus', 
+	'second':'der oberste, der höchste, der letzte', 
+	'third':'a, um'},
 
-	{'first':'inde', 
-	'second':'von dort, seitdem, <br> daraufhin, daher, deshalb', 
-	'third':'(Adv.)'},
-
-	{'first':'vallum', 
-	'second':'Palisaden, Wall (mit Palisaden)', 
+	{'first':'supplicium', 
+	'second':'flehentliches Bitten, <br> Opfer, Todesstrafe, Hinrichtung', 
 	'third':'ī'},
 
-	{'first':'mūnīre', 
-	'second':'befestigen', 
+	{'first':'crēber', 
+	'second':'zahlreich, häufig', 
+	'third':'crēbra, crēbrum'},
+
+	{'first':'scelus', 
+	'second':'Verbrechen', 
+	'third':'sceleris n.'},
+
+	{'first':'crūdēlitās', 
+	'second':'Grausamkeit', 
+	'third':'tātis f.'},
+
+	{'first':'committere', 
+	'second':'veranstalten, überlassen, anvertrauen', 
+	'third':'mittō, mīsī, missum'},
+
+	{'first':'scelus committere', 
+	'second':'ein Verbrechen begehen', 
 	'third':''},
 
+	{'first':'occultus', 
+	'second':'verborgen, geheim', 
+	'third':'a, um'},
+
+	{'first':'lūx', 
+	'second':'Licht', 
+	'third':'lūcis f.'},
+
+	{'first':'sanguis', 
+	'second':'Blut', 
+	'third':'samguinis m.'},
+
+	{'first':'innocenta', 
+	'second':'Unschuld', 
+	'third':'ae'},
+
+	{'first':'crūsdēlis', 
+	'second':'grausam', 
+	'third':'e'},	
 
 
 
