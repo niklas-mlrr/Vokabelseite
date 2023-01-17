@@ -5,109 +5,125 @@ var Vokabeltest_Lektion = [
 
 
 
-	{'first':'iste', 
-	'second':'dieser (da)', 
-	'third':'ista, istud (Gen. istīus)'},
+	{'first':'castra', 
+	'second':'Lager (Sg.)', 
+	'third':'ōrum n. Pl.'},
 
-	{'first':'fidēs', 
-	'second':'Vertrauenswürdigkeit, <br> Vertrauen, Treue, Glaube', 
-	'third':'eī f.'},
-
-	{'first':'suspicere', 
-	'second':'übernehmen, auf sich nehmen', 
-	'third':'-cipiō, -cēpī, -ceptum'},
-
-	{'first':'sē praebēre', 
-	'second':'sich erweisen als', 
-	'third':'(+ Akk.)'},
-
-	{'first':'furor', 
-	'second':'Wut, Raserei', 
-	'third':'furōris m.'},
-
-	{'first':'pūblicus', 
-	'second':'öffentlich, staatlich', 
-	'third':'a, um'},
-
-	{'first':'rēs pūblica', 
-	'second':'Staat, Gemeinwesen, Politik', 
-	'third':'reī pūblicae'},
-
-	{'first':'ēvertere', 
-	'second':'umkehren, umstürzen, zerstören, vernichten', 
-	'third':'-vertō, -vertī, -versum'},
-
-	{'first':'prīnceps', 
-	'second':'der erste, der vornehmste; Subst.= Kaiser', 
-	'third':'prīncipis m.'},
-
-	{'first':'foedus', 
-	'second':'scheußlich, abstoßend', 
-	'third':'a, um'},
-
-	{'first':'caput', 
-	'second':'Kopf, Haupstadt', 
-	'third':'capitis n.'},
-
-	{'first':'minimus', 
-	'second':'der kleinste, sehr klein', 
-	'third':'a, um'},
-
-	{'first':'potestās', 
-	'second':'Amtsgewalt, Macht, Möglichkeit', 
-	'third':'tātis f.'},
-
-	{'first':'scelerātus', 
-	'second':'verbrecherisch; Subst.= Verbrecher', 
-	'third':'a, um'},
-
-	{'first':'summus', 
-	'second':'der oberste, der höchste, der letzte', 
-	'third':'a, um'},
-
-	{'first':'supplicium', 
-	'second':'flehentliches Bitten, <br> Opfer, Todesstrafe, Hinrichtung', 
-	'third':'ī'},
-
-	{'first':'crēber', 
-	'second':'zahlreich, häufig', 
-	'third':'crēbra, crēbrum'},
-
-	{'first':'scelus', 
-	'second':'Verbrechen', 
-	'third':'sceleris n.'},
-
-	{'first':'crūdēlitās', 
-	'second':'Grausamkeit', 
-	'third':'tātis f.'},
-
-	{'first':'committere', 
-	'second':'veranstalten, überlassen, anvertrauen', 
-	'third':'mittō, mīsī, missum'},
-
-	{'first':'scelus committere', 
-	'second':'ein Verbrechen begehen', 
+	{'first':'castra movēre', 
+	'second':'aufbrechen', 
 	'third':''},
 
-	{'first':'occultus', 
-	'second':'verborgen, geheim', 
+	{'first':'castra pōnere', 
+	'second':'ein Lager aufschlagen', 
+	'third':''},
+
+	{'first':'dux', 
+	'second':'(Heer-) Führer', 
+	'third':'ducis m.'},
+
+	{'first':'positus', 
+	'second':'gelegen', 
 	'third':'a, um'},
 
-	{'first':'lūx', 
-	'second':'Licht', 
-	'third':'lūcis f.'},
+	{'first':'ipse', 
+	'second':'selbst; persönlich, eben, genau, gerade', 
+	'third':'ipsa, ipsum (Gen. ipsius)'},
 
-	{'first':'sanguis', 
-	'second':'Blut', 
-	'third':'samguinis m.'},
+	{'first':'paene', 
+	'second':'fast', 
+	'third':'(Adv.)'},
 
-	{'first':'innocenta', 
-	'second':'Unschuld', 
-	'third':'ae'},
+	{'first':'mīlitāris', 
+	'second':'militärisch, Kriegs-(. . .)', 
+	'third':'e'},
 
-	{'first':'crūsdēlis', 
-	'second':'grausam', 
-	'third':'e'},	
+	{'first':'rēs mīlitāris', 
+	'second':'Kriegswesen', 
+	'third':'f.'},
+
+	{'first':'cōnsistere', 
+	'second':'sich aufstellen; stehenbleiben', 
+	'third':'-sistō, -stitī, -'},
+
+	{'first':'cōnsistere in', 
+	'second':'bestehen aus', 
+	'third':'(+ Abl.)'},
+
+	{'first':'parentēs', 
+	'second':'Eltern', 
+	'third':'parentum m. Pl.'},
+
+	{'first':'auctor', 
+	'second':'Urheber, Veranlasser; Stammvater', 
+	'third':'ōris m.'},
+
+	{'first':'quam ob rem', 
+	'second':'warum?, weshalb?', 
+	'third':''},
+
+	{'first':'crēscere', 
+	'second':'wachsen', 
+	'third':'crēscō, crēvī, crētum'},
+
+	{'first':'tantum', 
+	'second':'nur, so sehr, so viel', 
+	'third':'(Adv.)'},
+
+	{'first':'validus', 
+	'second':'stark, gesund', 
+	'third':'a, um'},
+
+	{'first':'nōnnūllī', 
+	'second':'einige, manche', 
+	'third':'ae, a'},
+
+	{'first':'convīvium', 
+	'second':'Gastmahl, Fest', 
+	'third':'ī'},
+
+	{'first':'armātus', 
+	'second':'bewaffnet', 
+	'third':'a, um'},
+
+	{'first':'religiō', 
+	'second':'Ehrfurcht, Gottesverehrung', 
+	'third':'iōnis f.'},
+
+	{'first':'cōnsuētūdō', 
+	'second':'Gewohnheit', 
+	'third':'dinis f.'},
+
+	{'first':'differe', 
+	'second':'1. auseinandertragen <br> 2. aufschieben (zeitlich) <br> 3. (sich) unterscheiden', 
+	'third':'differō, distulī, dīlātum'},
+
+	{'first':'excipere', 
+	'second':'aufnehmen, eine Ausnahme machen', 
+	'third':'-cipiō, -cēpī, -ceptum'},
+
+	{'first':'sōl', 
+	'second':'Sonne', 
+	'third':'sōlis m.'},
+	
+	{'first':'nūmen', 
+	'second':'göttliche Macht, Gottheit', 
+	'third':'nūminis n.'},
+
+	{'first':'praesēns', 
+	'second':'anwesend, gegenwärtig', 
+	'third':'(Gen. praesentis)'},
+
+	{'first':'caedere', 
+	'second':'fällen, niederhauen, töten', 
+	'third':'caedō, cecīdī, caesum'},
+
+	{'first':'turpis', 
+	'second':'hässlich, schändlich, (moralisch) schlecht', 
+	'third':'e'},
+
+	{'first':'animal', 
+	'second':'Lebewesen, Tier', 
+	'third':'ālis n.'},
 
 
 
