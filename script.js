@@ -1,7 +1,7 @@
-vokabeltest_lektion_anzeigen = true
+vokabeltest_lektion_anzeigen = false
 
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 17.01.23 15:00"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 03.02.23 21:00"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -150,7 +150,8 @@ var tables = [
 	{ id: 'table29', data: Lektion29 },
 	{ id: 'table30', data: Lektion30 },
 	{ id: 'table31', data: Lektion31 },
-	{ id: 'table32', data: Lektion32 }
+	{ id: 'table32', data: Lektion32 },
+	{ id: 'table33', data: Lektion33 }
   ];
   
   tables.forEach(function(tableData) {
@@ -491,6 +492,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_32") {
 		hide_all_außer32()
 	}
+	if (userOption.value == "#lek_33") {
+		hide_all_außer33()
+	}
 	if (userOption.value == "#p_Englisch_Klasse_8_Unit1_Text_smart_1_Drama") {
 		hide_all_außer_Englisch_Klasse_8_Unit1_Text_smart_1_Drama()
 	}
@@ -571,6 +575,7 @@ selected_29 = document.getElementsByClassName('insgesamt29')
 selected_30 = document.getElementsByClassName('insgesamt30')
 selected_31 = document.getElementsByClassName('insgesamt31')
 selected_32 = document.getElementsByClassName('insgesamt32')
+selected_33 = document.getElementsByClassName('insgesamt33')
 
 const selected = [
 	selected_01,
@@ -604,7 +609,8 @@ const selected = [
 	selected_29,
 	selected_30,
 	selected_31,
-	selected_32
+	selected_32,
+	selected_33
 ];
   
 
@@ -1001,6 +1007,13 @@ function hide_all_außer32() {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
 }
+function hide_all_außer33() {
+	hide_all()
+	selected_33[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
 
 function hide_all_außer_Englisch_Klasse_8_Unit1_Text_smart_1_Drama() {
 	hide_all()
@@ -1170,6 +1183,7 @@ document.getElementById('länge_29').innerHTML = Lektion29.length
 document.getElementById('länge_30').innerHTML = Lektion30.length
 document.getElementById('länge_31').innerHTML = Lektion31.length
 document.getElementById('länge_32').innerHTML = Lektion32.length
+document.getElementById('länge_33').innerHTML = Lektion33.length
 document.getElementById('länge_Englisch_Klasse_8_Unit1_Text_smart_1_Drama').innerHTML = Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length
 document.getElementById('länge_Englisch_Klasse_8_AC2_cultures_2_the_USA').innerHTML = Englisch_Klasse_8_AC2_cultures_2_the_USA.length
 document.getElementById('länge_Englisch_Klasse_8_Unit_2_S_174').innerHTML = Englisch_Klasse_8_Unit_2_S_174.length
@@ -1377,6 +1391,9 @@ function lernen_weiter() {
 			}
 			if (checkboxField[i].value == "Lektion32") {
 				lernen_noch_länge = Lektion32.length
+			}
+			if (checkboxField[i].value == "Lektion33") {
+				lernen_noch_länge = Lektion33.length
 			}
 			if (checkboxField[i].value == "Englisch_Klasse_8_Unit1_Text_smart_1_Drama") {
 				lernen_noch_länge = Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length
@@ -1833,7 +1850,7 @@ function neue_vok_standard() {
 
    
 */
-for (let i = 1; i <= 32; i++) {
+for (let i = 1; i <= 33; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
 	if (ausgewählt_lektion.value == id) {
 	  let array = window[id];
