@@ -383,76 +383,10 @@ html {
   empty-cells: show;
   font-size: 25px;
 }
-#table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama {
-  
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
 
-#table_Englisch_Klasse_8_AC2_cultures_2_the_USA {
 
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
 
-#table_Englisch_Klasse_8_Unit_2_S_174 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
 
-#table_Englisch_Klasse_8_Unit_2_S_179_180 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
-
-#table_Englisch_Klasse_8_Unit_2_S_181 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
-
-#table_Englisch_Klasse_8_Unit_3_S_184 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
-#table_Englisch_Klasse_8_Unit_3_S_188 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
-#table_Englisch_Klasse_9_Unit_1_S_149 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
-#table_Englisch_Klasse_9_Unit_1_S_150_151 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: 25px;
-}
 
 
 .headline {
@@ -681,22 +615,6 @@ th {
   z-index: 3;
 }
 
-#englisch_anzeige {
-  z-index: 8;
-  position: relative;
-  font-size: 70px;
-  transform: translate(-50%, );
-  top: 30px;
-  font-weight: bold;
-}
-
-#englisch_class_anzeige {
-  z-index: 8;
-  position: relative;
-  font-size: 60px;
-  transform: translate(-50%, );
-  top: 30px;
-}
 
 
 
@@ -714,26 +632,6 @@ th {
 
 
 
-.lernen_auswahl_englisch_oder_latein {
-  font-size: 25px;
-  z-index: 6;
-  position: absolute;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  top: 45%;
-  left: 50%;
-
-  background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
-  backdrop-filter: blur(8px) saturate(100%);
-  -webkit-backdrop-filter: blur(8px) saturate(100%);
-
-  width: 270px;
-  height: 230px;
-  display: inline-grid;
-  align-items: center;
-  border-radius: 1.5rem;
-}
 
 .lernen_auswahl_latein {
   font-size: 25px;
@@ -809,34 +707,7 @@ th {
 
 
 
-.lernen_auswahl_englisch {
-  font-size: 25px;
-  z-index: 6;
-  position: absolute;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  top: 45%;
-  left: 50%;
 
-  background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
-  backdrop-filter: blur(8px) saturate(100%);
-  -webkit-backdrop-filter: blur(8px) saturate(100%);
-
-  height: 770px;
-  width: 410px;
-  display: inline-grid;
-  align-items: center;
-  border-radius: 1.5rem;
-}
-
-.englisch_form {
-  position: relative;
-
-  transform: translate(-50%, -50%);
-  top: 160px;
-  left: 62%;
-}
 
 
 .checkbox {
@@ -848,12 +719,6 @@ th {
   margin: 0px;
 }
 
-.checkbox_englisch {
-  position: relative;
-  height: 50%;
-  left: 30px;
-  justify-content: center;
-}
 
 
 .checkbox-container label {
@@ -927,26 +792,8 @@ th {
 }
 
 
-.englisch_lektion_auswahlmenü_btn {
-  transform: translate(-50%);
-  position: relative;
-  height: 45px;
-  width: 170px;
-  top: -25%;
-  left: 50%;
-  cursor: pointer;
-  background-color: rgb(71, 71, 71);
-  display: inline-grid;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1.5rem;
-  color: white;
-}
 
-.englisch_lektion_auswahlmenü_btn:hover,
-.englisch_lektion_auswahlmenü_btn:focus {
-  background-color: rgb(88, 88, 88);
-}
+
 
 /*  Latein  */
 
@@ -1121,15 +968,7 @@ th {
 
 }
 
-.zurück_pfeil_btn {
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  height: 44px;
-  left: 30px;
-  top: 30px;
 
-}
 
 .blur {
   filter: blur(2px);
@@ -2025,12 +1864,6 @@ th {
 
 
 
-  .lernen_auswahl_englisch {
-    height: 80%;
-  }
-
-
-
   .lernen_auswählen_1-10 {
     position: relative;
     top: 3%;
@@ -2055,20 +1888,6 @@ th {
 
 @media (max-height: 870px) {
 
-  .lernen_auswahl_englisch {
-    height: 80%;
-  }
-
-
-  .checkbox_englisch {
-    height: 50px;
-    width: 350px;
-    margin: 0px;
-  }
-
-  .englisch_form {
-    top: 30px;
-  }
 
   .lernen_auswählen_1-10 {
     position: relative;

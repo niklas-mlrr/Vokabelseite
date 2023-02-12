@@ -183,188 +183,6 @@ var tables = [
 
 
 
-buildTableEnglisch_Klasse_8_Unit1_Text_smart_1_Drama(Englisch_Klasse_8_Unit1_Text_smart_1_Drama)
-
-
-function buildTableEnglisch_Klasse_8_Unit1_Text_smart_1_Drama(data) {
-	var table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama = document.getElementById('table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama')
-	//console.log(table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama)
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-		<td class="eng_first">${data[i].first}</td>
-		<td class="eng_second">${data[i].second}</td>
-		</tr>`
-		table_Englisch_Klasse_8_Unit1_Text_smart_1_Drama.innerHTML += row
-
-
-	}
-}
-
-
-
-
-
-buildTableEnglisch_Klasse_8_AC2_cultures_2_the_USA(Englisch_Klasse_8_AC2_cultures_2_the_USA)
-
-
-function buildTableEnglisch_Klasse_8_AC2_cultures_2_the_USA(data) {
-	var table_Englisch_Klasse_8_AC2_cultures_2_the_USA = document.getElementById('table_Englisch_Klasse_8_AC2_cultures_2_the_USA')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_8_AC2_cultures_2_the_USA.innerHTML += row
-
-
-	}
-}
-
-
-
-
-buildTableEnglisch_Klasse_8_Unit_2_S_174(Englisch_Klasse_8_Unit_2_S_174)
-
-
-function buildTableEnglisch_Klasse_8_Unit_2_S_174(data) {
-	var table_Englisch_Klasse_8_Unit_2_S_174 = document.getElementById('table_Englisch_Klasse_8_Unit_2_S_174')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_8_Unit_2_S_174.innerHTML += row
-
-
-	}
-}
-
-
-
-
-buildTableEnglisch_Klasse_8_Unit_2_S_179_180(Englisch_Klasse_8_Unit_2_S_179_180)
-
-
-function buildTableEnglisch_Klasse_8_Unit_2_S_179_180(data) {
-	var table_Englisch_Klasse_8_Unit_2_S_179_180 = document.getElementById('table_Englisch_Klasse_8_Unit_2_S_179_180')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_8_Unit_2_S_179_180.innerHTML += row
-
-
-	}
-}
-
-
-
-
-buildTableEnglisch_Klasse_8_Unit_2_S_181(Englisch_Klasse_8_Unit_2_S_181)
-
-
-function buildTableEnglisch_Klasse_8_Unit_2_S_181(data) {
-	var table_Englisch_Klasse_8_Unit_2_S_181 = document.getElementById('table_Englisch_Klasse_8_Unit_2_S_181')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_8_Unit_2_S_181.innerHTML += row
-
-
-	}
-}
-
-
-
-buildTableEnglisch_Klasse_8_Unit_3_S_184(Englisch_Klasse_8_Unit_3_S_184)
-
-
-function buildTableEnglisch_Klasse_8_Unit_3_S_184(data) {
-	var table_Englisch_Klasse_8_Unit_3_S_184 = document.getElementById('table_Englisch_Klasse_8_Unit_3_S_184')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_8_Unit_3_S_184.innerHTML += row
-
-
-	}
-}
-
-
-buildTableEnglisch_Klasse_8_Unit_3_S_188(Englisch_Klasse_8_Unit_3_S_188)
-
-
-function buildTableEnglisch_Klasse_8_Unit_3_S_188(data) {
-	var table_Englisch_Klasse_8_Unit_3_S_188 = document.getElementById('table_Englisch_Klasse_8_Unit_3_S_188')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_8_Unit_3_S_188.innerHTML += row
-
-
-	}
-}
-
-
-
-buildTableEnglisch_Klasse_9_Unit_1_S_149(Englisch_Klasse_9_Unit_1_S_149)
-
-
-function buildTableEnglisch_Klasse_9_Unit_1_S_149(data) {
-	var table_Englisch_Klasse_9_Unit_1_S_149 = document.getElementById('table_Englisch_Klasse_9_Unit_1_S_149')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_9_Unit_1_S_149.innerHTML += row
-
-
-	}
-}
-
-
-buildTableEnglisch_Klasse_9_Unit_1_S_150_151(Englisch_Klasse_9_Unit_1_S_150_151)
-
-
-function buildTableEnglisch_Klasse_9_Unit_1_S_150_151(data) {
-	var table_Englisch_Klasse_9_Unit_1_S_150_151 = document.getElementById('table_Englisch_Klasse_9_Unit_1_S_150_151')
-
-	for (var i = 0; i < data.length; i++) {
-
-		var row = `<tr class="row">
-						<td class="eng_first">${data[i].first}</td>
-						<td class="eng_second">${data[i].second}</td>
-				  </tr>`
-		table_Englisch_Klasse_9_Unit_1_S_150_151.innerHTML += row
-
-
-	}
-}
-
-
 
 
 
@@ -377,18 +195,6 @@ urlMenu.onchange = function () {
 	}
 	if (userOption.value == "#all") {
 		all()
-	}
-	if (userOption.value == "#all_latein") {
-		all_latein()
-	}
-	if (userOption.value == "#all_englisch") {
-		all_englisch()
-	}
-	if (userOption.value == "#all_klasse_8") {
-		all_klasse_8_englisch()
-	}
-	if (userOption.value == "#all_klasse_9") {
-		all_klasse_9_englisch()
 	}
 	if (userOption.value == "#lek_Vokabeltest_Lektion") {
 		hide_all_außerVokabeltest_Lektion()
@@ -495,33 +301,7 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_33") {
 		hide_all_außer33()
 	}
-	if (userOption.value == "#p_Englisch_Klasse_8_Unit1_Text_smart_1_Drama") {
-		hide_all_außer_Englisch_Klasse_8_Unit1_Text_smart_1_Drama()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_8_AC2_cultures_2_the_USA") {
-		hide_all_außer_Englisch_Klasse_8_AC2_cultures_2_the_USA()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_8_Unit_2_S_174") {
-		hide_all_außer_Englisch_Klasse_8_Unit_2_S_174()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_8_Unit_2_S_179_180") {
-		hide_all_außer_Englisch_Klasse_8_Unit_2_S_179_180()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_8_Unit_2_S_181") {
-		hide_all_außer_Englisch_Klasse_8_Unit_2_S_181()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_8_Unit_3_S_184") {
-		hide_all_außer_Englisch_Klasse_8_Unit_3_S_184()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_8_Unit_3_S_188") {
-		hide_all_außer_Englisch_Klasse_8_Unit_3_S_188()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_9_Unit_1_S_149") {
-		hide_all_außer_Englisch_Klasse_9_Unit_1_S_149()
-	}
-	if (userOption.value == "#p_Englisch_Klasse_9_Unit_1_S_150_151") {
-		hide_all_außer_Englisch_Klasse_9_Unit_1_S_150_151()
-	}
+	
 }
 
 
@@ -614,15 +394,6 @@ const selected = [
 ];
   
 
-insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama')
-insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA')
-insgesamt_Englisch_Klasse_8_Unit_2_S_174 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_2_S_174')
-insgesamt_Englisch_Klasse_8_Unit_2_S_179_180 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_2_S_179_180')
-insgesamt_Englisch_Klasse_8_Unit_2_S_181 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_2_S_181')
-insgesamt_Englisch_Klasse_8_Unit_3_S_184 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_3_S_184')
-insgesamt_Englisch_Klasse_8_Unit_3_S_188 = document.getElementsByClassName('insgesamt_Englisch_Klasse_8_Unit_3_S_188')
-insgesamt_Englisch_Klasse_9_Unit_1_S_149 = document.getElementsByClassName('insgesamt_Englisch_Klasse_9_Unit_1_S_149')
-insgesamt_Englisch_Klasse_9_Unit_1_S_150_151 = document.getElementsByClassName('insgesamt_Englisch_Klasse_9_Unit_1_S_150_151')
 all_lernen = document.getElementsByClassName('all_lernen')
 
 all_lernen[0].classList.add('hidden');
@@ -641,15 +412,7 @@ function hide_all() {
 	for (const elem of selected) {
 		elem[0].classList.add('hidden');
 	  }
-	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_179_180[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_181[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.add('hidden');
-	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.add('hidden');
+	
 
 }
 
@@ -663,82 +426,11 @@ function all() {
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
 	  }
-	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_179_180[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_181[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
-
-}
-
-function all_latein() {
-	hide_all()
-
-	if(vokabeltest_lektion_anzeigen == true) {
-	selected_Vokabeltest_Lektion[0].classList.remove('hidden');
-	}
-
-	selected_Vokabeln_aus_keiner_Lektion[0].classList.remove('hidden');
-	for (const elem of selected) {
-		elem[0].classList.remove('hidden');
-	  }
-
-}
-
-function all_englisch() {
-	hide_all()
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-
-		hide_all()
-		if(vokabeltest_lektion_anzeigen == true) {
-			selected_Vokabeltest_Lektion[0].classList.add('hidden');
-			}
 	
-		insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.remove('hidden');
-		insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.remove('hidden');
-		insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.remove('hidden');
-		insgesamt_Englisch_Klasse_8_Unit_2_S_179_180[0].classList.remove('hidden');
-		insgesamt_Englisch_Klasse_8_Unit_2_S_181[0].classList.remove('hidden');
-		insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.remove('hidden');
-		insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
-
-		insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
-		insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
 
 }
 
-function all_klasse_8_englisch() {
-	hide_all()
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
 
-	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_179_180[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_181[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
-
-}
-
-function all_klasse_9_englisch() {
-	hide_all()
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-
-	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
-
-}
 
 
 function hide_all_außerVokabeltest_Lektion() {
@@ -1015,81 +707,9 @@ function hide_all_außer33() {
 		}
 }
 
-function hide_all_außer_Englisch_Klasse_8_Unit1_Text_smart_1_Drama() {
-	hide_all()
-	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-
-function hide_all_außer_Englisch_Klasse_8_AC2_cultures_2_the_USA() {
-	hide_all()
-	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-
-function hide_all_außer_Englisch_Klasse_8_Unit_2_S_174() {
-	hide_all()
-	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-
-function hide_all_außer_Englisch_Klasse_8_Unit_2_S_179_180() {
-	hide_all()
-	insgesamt_Englisch_Klasse_8_Unit_2_S_179_180[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-
-function hide_all_außer_Englisch_Klasse_8_Unit_2_S_181() {
-	hide_all()
-	insgesamt_Englisch_Klasse_8_Unit_2_S_181[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-
-function hide_all_außer_Englisch_Klasse_8_Unit_3_S_184() {
-	hide_all()
-	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-function hide_all_außer_Englisch_Klasse_8_Unit_3_S_188() {
-	hide_all()
-	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-function hide_all_außer_Englisch_Klasse_9_Unit_1_S_149() {
-	hide_all()
-	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
-
-function hide_all_außer_Englisch_Klasse_9_Unit_1_S_150_151() {
-	hide_all()
-	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
-		}
-}
 
 
-
-lernen_auswahl_englisch_oder_latein = document.getElementsByClassName('lernen_auswahl_englisch_oder_latein')
 lernen_auswahl_latein = document.getElementsByClassName('lernen_auswahl_latein')
-lernen_auswahl_englisch = document.getElementsByClassName('lernen_auswahl_englisch')
 all_all = document.getElementsByClassName('all_all')
 search_div = document.getElementsByClassName('search_div')
 
@@ -1097,14 +717,12 @@ all_lernen_einfach = document.getElementsByClassName('all_lernen_einfach')
 btn_gewusst_nichtgewusst = document.getElementsByClassName('btn_gewusst_nichtgewusst')
 
 
-lernen_auswahl_englisch_oder_latein[0].classList.add('hidden');
 lernen_auswahl_latein[0].classList.add('hidden');
-lernen_auswahl_englisch[0].classList.add('hidden');
 
 
 function lernen() {
 
-	lernen_auswahl_englisch_oder_latein[0].classList.remove('hidden');
+	lernen_auswahl_latein[0].classList.remove('hidden');
 	all_all[0].classList.add('hidden');
 	search_div[0].classList.add('hidden');
 
@@ -1114,8 +732,6 @@ function lernen() {
 
 
 function lernen_hide_menü() {
-	lernen_auswahl_englisch_oder_latein[0].classList.add('hidden');
-	lernen_auswahl_englisch[0].classList.add('hidden');
 	lernen_auswahl_latein[0].classList.add('hidden');
 	all_all[0].classList.remove('hidden');
 	search_div[0].classList.remove('hidden');
@@ -1123,32 +739,8 @@ function lernen_hide_menü() {
 
 }
 
-function zurück_pfeil_btn() {
-	lernen_auswahl_englisch[0].classList.add('hidden');
-	lernen_auswahl_latein[0].classList.add('hidden');
-	lernen_auswahl_englisch_oder_latein[0].classList.remove('hidden');
-}
 
 
-
-function latein_lektion_auswahlmenü() {
-	ausgewählte_sprache = "latein"
-	lernen_auswahl_englisch_oder_latein[0].classList.add('hidden');
-	lernen_auswahl_latein[0].classList.remove('hidden');
-
-
-
-}
-
-
-
-function englisch_lektion_auswahlmenü() {
-	ausgewählte_sprache = "englisch"
-	lernen_auswahl_englisch_oder_latein[0].classList.add('hidden');
-	lernen_auswahl_englisch[0].classList.remove('hidden');
-
-
-}
 
 document.getElementById('länge_Vokabeltest_Lektion').innerHTML = Vokabeltest_Lektion.length
 document.getElementById('länge_01').innerHTML = Lektion01.length
@@ -1184,15 +776,7 @@ document.getElementById('länge_30').innerHTML = Lektion30.length
 document.getElementById('länge_31').innerHTML = Lektion31.length
 document.getElementById('länge_32').innerHTML = Lektion32.length
 document.getElementById('länge_33').innerHTML = Lektion33.length
-document.getElementById('länge_Englisch_Klasse_8_Unit1_Text_smart_1_Drama').innerHTML = Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length
-document.getElementById('länge_Englisch_Klasse_8_AC2_cultures_2_the_USA').innerHTML = Englisch_Klasse_8_AC2_cultures_2_the_USA.length
-document.getElementById('länge_Englisch_Klasse_8_Unit_2_S_174').innerHTML = Englisch_Klasse_8_Unit_2_S_174.length
-document.getElementById('länge_Englisch_Klasse_8_Unit_2_S_179_180').innerHTML = Englisch_Klasse_8_Unit_2_S_179_180.length
-document.getElementById('länge_Englisch_Klasse_8_Unit_2_S_181').innerHTML = Englisch_Klasse_8_Unit_2_S_181.length
-document.getElementById('länge_Englisch_Klasse_8_Unit_3_S_184').innerHTML = Englisch_Klasse_8_Unit_3_S_184.length
-document.getElementById('länge_Englisch_Klasse_8_Unit_3_S_188').innerHTML = Englisch_Klasse_8_Unit_3_S_188.length
-document.getElementById('länge_Englisch_Klasse_9_Unit_1_S_149').innerHTML = Englisch_Klasse_9_Unit_1_S_149.length
-document.getElementById('länge_Englisch_Klasse_9_Unit_1_S_150_151').innerHTML = Englisch_Klasse_9_Unit_1_S_150_151.length
+
 
 
 
@@ -1215,11 +799,8 @@ function lernen_standard_weiter() {
 
 
 function lernen_weiter() {
-	if (ausgewählte_sprache == "latein") {
 		checkboxField = document.forms[0].lernen_checked;
-	} else {
-		checkboxField = document.forms[2].lernen_checked;
-	}
+
 	for (i = 0; i < checkboxField.length; i++) {
 		if (checkboxField[i].checked) {
 			console.log(checkboxField[i].value); //loggt die ausgewählte Lektion
@@ -1253,7 +834,6 @@ function lernen_weiter() {
 			all_lernen[0].classList.add('lernen_design_css');
 
 			lernen_auswahl_latein[0].classList.add('hidden');
-			lernen_auswahl_englisch[0].classList.add('hidden');
 			search_div[0].classList.add('hidden');
 
 
@@ -1395,33 +975,8 @@ function lernen_weiter() {
 			if (checkboxField[i].value == "Lektion33") {
 				lernen_noch_länge = Lektion33.length
 			}
-			if (checkboxField[i].value == "Englisch_Klasse_8_Unit1_Text_smart_1_Drama") {
-				lernen_noch_länge = Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_8_AC2_cultures_2_the_USA") {
-				lernen_noch_länge = Englisch_Klasse_8_AC2_cultures_2_the_USA.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_8_Unit_2_S_174") {
-				lernen_noch_länge = Englisch_Klasse_8_Unit_2_S_174.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_8_Unit_2_S_179_180") {
-				lernen_noch_länge = Englisch_Klasse_8_Unit_2_S_179_180.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_8_Unit_2_S_181") {
-				lernen_noch_länge = Englisch_Klasse_8_Unit_2_S_181.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_8_Unit_3_S_184") {
-				lernen_noch_länge = Englisch_Klasse_8_Unit_3_S_184.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_8_Unit_3_S_188") {
-				lernen_noch_länge = Englisch_Klasse_8_Unit_3_S_188.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_9_Unit_1_S_149") {
-				lernen_noch_länge = Englisch_Klasse_9_Unit_1_S_149.length
-			}
-			if (checkboxField[i].value == "Englisch_Klasse_9_Unit_1_S_150_151") {
-				lernen_noch_länge = Englisch_Klasse_9_Unit_1_S_150_151.length
-			}
+			
+
 			window.addEventListener("keydown", lösung_anzeigen_event, false)
 
 			function lösung_anzeigen_event(key) {
@@ -1689,15 +1244,7 @@ function lernen_fertig() {
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
 	  }
-	insgesamt_Englisch_Klasse_8_Unit1_Text_smart_1_Drama[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_AC2_cultures_2_the_USA[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_174[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_179_180[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_2_S_181[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_184[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_8_Unit_3_S_188[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_9_Unit_1_S_149[0].classList.remove('hidden');
-	insgesamt_Englisch_Klasse_9_Unit_1_S_150_151[0].classList.remove('hidden');
+	
 
 
 
@@ -1708,8 +1255,6 @@ function lernen_fertig() {
 
 	all_all[0].classList.remove('hidden');
 	lernen_auswahl_latein[0].classList.add('hidden');
-	lernen_auswahl_englisch[0].classList.add('hidden');
-	lernen_auswahl_englisch_oder_latein[0].classList.add('hidden');
 	search_div[0].classList.remove('hidden');
 
 	all_lernen_einfach[0].classList.remove('hidden');
@@ -1867,60 +1412,6 @@ for (let i = 1; i <= 33; i++) {
 
 
 
-	if (ausgewählt_lektion.value == "Englisch_Klasse_8_Unit1_Text_smart_1_Drama") {
-		random_item = Englisch_Klasse_8_Unit1_Text_smart_1_Drama[Math.floor(Math.random() * Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length)];
-		lernen_lektion_anzeige = "Englisch 8 Unit 1 Drama"
-		länge_lek = "Gesamt : " + Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_8_Unit1_Text_smart_1_Drama.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_8_AC2_cultures_2_the_USA") {
-		random_item = Englisch_Klasse_8_AC2_cultures_2_the_USA[Math.floor(Math.random() * Englisch_Klasse_8_AC2_cultures_2_the_USA.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 8 AC2 cultures 2 the USA"
-		länge_lek = "Gesamt : " + Englisch_Klasse_8_AC2_cultures_2_the_USA.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_8_AC2_cultures_2_the_USA.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_8_Unit_2_S_174") {
-		random_item = Englisch_Klasse_8_Unit_2_S_174[Math.floor(Math.random() * Englisch_Klasse_8_Unit_2_S_174.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 8 Unit 2 S. 174"
-		länge_lek = "Gesamt : " + Englisch_Klasse_8_Unit_2_S_174.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_8_Unit_2_S_174.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_8_Unit_2_S_179_180") {
-		random_item = Englisch_Klasse_8_Unit_2_S_179_180[Math.floor(Math.random() * Englisch_Klasse_8_Unit_2_S_179_180.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 8 Unit 2 S. 179 + 180"
-		länge_lek = "Gesamt : " + Englisch_Klasse_8_Unit_2_S_179_180.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_8_Unit_2_S_179_180.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_8_Unit_2_S_181") {
-		random_item = Englisch_Klasse_8_Unit_2_S_181[Math.floor(Math.random() * Englisch_Klasse_8_Unit_2_S_181.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 8 Unit 2 S. 181"
-		länge_lek = "Gesamt : " + Englisch_Klasse_8_Unit_2_S_181.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_8_Unit_2_S_181.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_8_Unit_3_S_184") {
-		random_item = Englisch_Klasse_8_Unit_3_S_184[Math.floor(Math.random() * Englisch_Klasse_8_Unit_3_S_184.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 8 Unit 3 S. 184"
-		länge_lek = "Gesamt : " + Englisch_Klasse_8_Unit_3_S_184.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_8_Unit_3_S_184.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_8_Unit_3_S_188") {
-		random_item = Englisch_Klasse_8_Unit_3_S_188[Math.floor(Math.random() * Englisch_Klasse_8_Unit_3_S_188.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 8 Unit 3 S. 188"
-		länge_lek = "Gesamt : " + Englisch_Klasse_8_Unit_3_S_188.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_8_Unit_3_S_188.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_9_Unit_1_S_149") {
-		random_item = Englisch_Klasse_9_Unit_1_S_149[Math.floor(Math.random() * Englisch_Klasse_9_Unit_1_S_149.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 9 Unit 1 S. 149"
-		länge_lek = "Gesamt : " + Englisch_Klasse_9_Unit_1_S_149.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_9_Unit_1_S_149.length
-	}
-	if (ausgewählt_lektion.value == "Englisch_Klasse_9_Unit_1_S_150_151") {
-		random_item = Englisch_Klasse_9_Unit_1_S_150_151[Math.floor(Math.random() * Englisch_Klasse_9_Unit_1_S_150_151.length)];
-		lernen_lektion_anzeige = "Englisch Klasse 9 Unit 1 S. 150 + 151"
-		länge_lek = "Gesamt : " + Englisch_Klasse_9_Unit_1_S_150_151.length + " Wörter"
-		länge_lek_number = Englisch_Klasse_9_Unit_1_S_150_151.length
-	}
 
 
 	setTimeout(() => {
@@ -2081,4 +1572,5 @@ function fehler_seite_zurück_pfeil_btn() {
 	patch_notes_groß[0].classList.remove('hidden');
 	fehler_seite_groß[0].classList.remove('fehler_seite_groß');
 	fehler_seite_zurück_pfeil_btn_[0].classList.add('hidden');
+	fehler_seite_groß[0].classList.add('hidden');
 }
