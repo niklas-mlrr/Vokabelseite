@@ -99,9 +99,9 @@ var Vokabeltest_Lektion = [
 
 	{'first':'sanguis', 
 	'second':'Blut', 
-	'third':'samguinis m.'},
+	'third':'sanguinis m.'},
 
-	{'first':'innocenta', 
+	{'first':'innocentia', 
 	'second':'Unschuld', 
 	'third':'ae'},
 
@@ -5167,9 +5167,9 @@ var Lektion32  = [
 
 	{'first':'sanguis', 
 	'second':'Blut', 
-	'third':'samguinis m.'},
+	'third':'sanguinis m.'},
 
-	{'first':'innocenta', 
+	{'first':'innocentia', 
 	'second':'Unschuld', 
 	'third':'ae'},
 
@@ -5199,6 +5199,9 @@ var Lektion32  = [
 
 
 var Lektion33  = [
+
+
+
 
 
 
@@ -5254,9 +5257,6 @@ var Lektion33  = [
 
 
 
-
-
-
 	{'first':'mors', 
 	'second':'Tod', 
 	'third':'mortis f.'},
@@ -5267,10 +5267,10 @@ var Lektion33  = [
 
 	{'first':'caedēs', 
 	'second':'Mord, Blutbad', 
-	'third':'is f. (Gen.Pl. caedium)'},
+	'third':'is f. (Gen. Pl. caedium)'},
 
 	{'first':'crīmen', 
-	'second':'Beschuldigung, Schuld, Verbrechen', 
+	'second':'1. Beschuldigung, <br> 2. Schuld, 3. Verbrechen', 
 	'third':'minis n.'},
 
 	{'first':'suspīciō', 
@@ -5282,8 +5282,8 @@ var Lektion33  = [
 	'third':'(+ Gen.)'},
 
 	{'first':'māior', 
-	'second':'größer, bedeutender, älter', 
-	'third':'māius (Gen. maioris)'},
+	'second':'1. größer, bedeutender, 2. älter', 
+	'third':'māius (Gen. māiōris)'},
 
 	{'first':'posteā', 
 	'second':'später', 
@@ -5302,31 +5302,31 @@ var Lektion33  = [
 	'third':'ōris m.'},
 
 	{'first':'aetās', 
-	'second':'(Alter)= <br> 1. Zeitalter <br> 2. Lebensalter', 
+	'second':'(Alter) = <br> 1. Zeitalter <br> 2. Lebensalter', 
 	'third':'tātis f.'},
 
 	{'first':'ingenium', 
-	'second':'Begabung, Charakter', 
+	'second':'1. Begabung, 2. Charakter', 
 	'third':'ī'},
 
 	{'first':'auctōritās', 
-	'second':'Ansehen, Einfluss, Macht', 
+	'second':'1. Ansehen, 2. Einfluss, Macht', 
 	'third':'tātis f.'},
 
 	{'first':'aeguus', 
 	'second':'gleich, gerecht', 
 	'third':'a, um'},
 
-	{'first':'iniuria', 
+	{'first':'iniūria', 
 	'second':'Unrecht, Ungerechtigkeit', 
-	'third':'iniūria, ae'},
+	'third':'ae'},
 
 	{'first':'palam', 
 	'second':'öffentlich', 
 	'third':'(Adv.)'},
 
 	{'first':'facultās', 
-	'second':'Möglichkeit, Fähigkeit, Besitz', 
+	'second':'1. Möglichkeit, 2. Fähigkeit, 3. Besitz', 
 	'third':'tātis f.'},
 
 	{'first':'improbus', 
@@ -5350,7 +5350,7 @@ var Lektion33  = [
 	'third':'a, um'},
 
 	{'first':'īūdicium', 
-	'second':'Gericht, Urteil', 
+	'second':'1. Gericht, 2. Urteil', 
 	'third':'ī'},
 
 	{'first':'iūs', 
@@ -5358,7 +5358,7 @@ var Lektion33  = [
 	'third':'iūris n.'},
 
 	{'first':'cīvitās', 
-	'second':'Bürgerschaft, Stadt, Staat', 
+	'second':'1. Bürgerschaft, 2. Stadt, Staat', 
 	'third':'tātis f.'},
 
 	{'first':'īnstitūtum', 
