@@ -5,109 +5,113 @@ var Vokabeltest_Lektion = [
 
 
 
-	{'first':'iste', 
-	'second':'dieser (da)', 
-	'third':'ista, istud (Gen. istīus)'},
+	{'first':'mors', 
+	'second':'Tod', 
+	'third':'mortis f.'},
 
-	{'first':'fidēs', 
-	'second':'1. Vertrauen (-swürdigkeit), Treue; <br> 2. Glaube', 
-	'third':'eī f.'},
-
-	{'first':'suspicere', 
-	'second':'übernehmen, auf sich nehmen', 
-	'third':'-cipiō, -cēpī, -ceptum'},
-
-	{'first':'sē praebēre', 
-	'second':'sich erweisen als', 
-	'third':'(+ Akk.)'},
-
-	{'first':'furor', 
-	'second':'Wut, Raserei', 
-	'third':'furōris m.'},
-
-	{'first':'pūblicus', 
-	'second':'öffentlich, staatlich', 
-	'third':'a, um'},
-
-	{'first':'rēs pūblica', 
-	'second':'Staat, Gemeinwesen, Politik', 
-	'third':'reī pūblicae'},
-
-	{'first':'ēvertere', 
-	'second':'1. umkehren, umstürzen, <br> 2. zerstören, vernichten', 
-	'third':'-vertō, -vertī, -versum'},
-
-	{'first':'prīnceps', 
-	'second':'der erste, der vornehmste; <br> Subst.= Kaiser', 
-	'third':'prīncipis m.'},
-
-	{'first':'foedus', 
-	'second':'scheußlich, abstoßend', 
-	'third':'a, um'},
-
-	{'first':'caput', 
-	'second':'1. Kopf; 2. Haupstadt', 
-	'third':'capitis n.'},
-
-	{'first':'minimus', 
-	'second':'der kleinste, sehr klein', 
-	'third':'a, um'},
-
-	{'first':'potestās', 
-	'second':'1. Amtsgewalt; 2. Macht; 3. Möglichkeit', 
-	'third':'tātis f.'},
-
-	{'first':'scelerātus', 
-	'second':'verbrecherisch; Subst.= Verbrecher', 
-	'third':'a, um'},
-
-	{'first':'summus', 
-	'second':'der oberste, der höchste, der letzte', 
-	'third':'a, um'},
-
-	{'first':'supplicium', 
-	'second':'1. flehentliches Bitten; <br> 2. Opfer; 3. Todesstrafe, Hinrichtung', 
-	'third':'ī'},
-
-	{'first':'crēber', 
-	'second':'zahlreich, häufig', 
-	'third':'crēbra, crēbrum'},
-
-	{'first':'scelus', 
-	'second':'Verbrechen', 
-	'third':'sceleris n.'},
-
-	{'first':'crūdēlitās', 
-	'second':'Grausamkeit', 
-	'third':'tātis f.'},
-
-	{'first':'committere', 
-	'second':'1. veranstalten; <br> 2. überlassen, anvertrauen', 
-	'third':'-mittō, -mīsī, -missum'},
-
-	{'first':'scelus committere', 
-	'second':'ein Verbrechen begehen', 
+	{'first':'vindicāre', 
+	'second':'bestrafen, rächen', 
 	'third':''},
 
-	{'first':'occultus', 
-	'second':'verborgen, geheim', 
+	{'first':'caedēs', 
+	'second':'Mord, Blutbad', 
+	'third':'is f. (Gen. Pl. caedium)'},
+
+	{'first':'crīmen', 
+	'second':'1. Beschuldigung, <br> 2. Schuld, 3. Verbrechen', 
+	'third':'minis n.'},
+
+	{'first':'suspīciō', 
+	'second':'Verdacht, Vermutung', 
+	'third':'iōnis f.'},
+
+	{'first':'accūsāre', 
+	'second':'anklagen (wegen einer Sache)', 
+	'third':'(+ Gen.)'},
+
+	{'first':'māior', 
+	'second':'1. größer, bedeutender, 2. älter', 
+	'third':'māius (Gen. māiōris)'},
+
+	{'first':'posteā', 
+	'second':'später', 
+	'third':'(Adv.)'},
+
+	{'first':'patrōnus', 
+	'second':'Schutzherr, Patron, Anwalt', 
+	'third':'ī'},
+
+	{'first':'tot', 
+	'second':'so viele', 
+	'third':'(indekl.)'},
+
+	{'first':'ōrātor', 
+	'second':'Redner', 
+	'third':'ōris m.'},
+
+	{'first':'aetās', 
+	'second':'(Alter) = <br> 1. Zeitalter <br> 2. Lebensalter', 
+	'third':'tātis f.'},
+
+	{'first':'ingenium', 
+	'second':'1. Begabung, 2. Charakter', 
+	'third':'ī'},
+
+	{'first':'auctōritās', 
+	'second':'1. Ansehen, 2. Einfluss, Macht', 
+	'third':'tātis f.'},
+
+	{'first':'aeguus', 
+	'second':'gleich, gerecht', 
 	'third':'a, um'},
 
-	{'first':'lūx', 
-	'second':'Licht', 
-	'third':'lūcis f.'},
-
-	{'first':'sanguis', 
-	'second':'Blut', 
-	'third':'sanguinis m.'},
-
-	{'first':'innocentia', 
-	'second':'Unschuld', 
+	{'first':'iniūria', 
+	'second':'Unrecht, Ungerechtigkeit', 
 	'third':'ae'},
 
-	{'first':'crūsdēlis', 
-	'second':'grausam', 
-	'third':'e'},
+	{'first':'palam', 
+	'second':'öffentlich', 
+	'third':'(Adv.)'},
+
+	{'first':'facultās', 
+	'second':'1. Möglichkeit, 2. Fähigkeit, 3. Besitz', 
+	'third':'tātis f.'},
+
+	{'first':'improbus', 
+	'second':'schlecht, unverschämt', 
+	'third':'a, um'},
+
+	{'first':'plūrimum', 
+	'second':'am meisten, sehr', 
+	'third':'(Adv.)'},
+
+	{'first':'plūrimum posse', 
+	'second':'größten Einfluss haben', 
+	'third':''},
+
+	{'first':'aliquis', 
+	'second':'irgendjemand', 
+	'third':'(Gen. alicuius)'},
+
+	{'first':'falsus', 
+	'second':'falsch', 
+	'third':'a, um'},
+
+	{'first':'īūdicium', 
+	'second':'1. Gericht, 2. Urteil', 
+	'third':'ī'},
+
+	{'first':'iūs', 
+	'second':'Recht', 
+	'third':'iūris n.'},
+
+	{'first':'cīvitās', 
+	'second':'1. Bürgerschaft, 2. Stadt, Staat', 
+	'third':'tātis f.'},
+
+	{'first':'īnstitūtum', 
+	'second':'Einrichtung', 
+	'third':'ī'},
 
 
 ]
