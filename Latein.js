@@ -61,7 +61,7 @@ var Vokabeltest_Lektion = [
 	'second':'1. Ansehen, 2. Einfluss, Macht', 
 	'third':'tātis f.'},
 
-	{'first':'aeguus', 
+	{'first':'aequus', 
 	'second':'gleich, gerecht', 
 	'third':'a, um'},
 
@@ -5317,7 +5317,7 @@ var Lektion33  = [
 	'second':'1. Ansehen, 2. Einfluss, Macht', 
 	'third':'tātis f.'},
 
-	{'first':'aeguus', 
+	{'first':'aequus', 
 	'second':'gleich, gerecht', 
 	'third':'a, um'},
 
