@@ -1,7 +1,7 @@
 vokabeltest_lektion_anzeigen = true
 
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 26.02.23 12:10"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 09.03.23 19:30"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -1378,7 +1378,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion.value == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest"
+		lernen_lektion_anzeige = "Arbeit - Nützliche Vokabeln"
 		länge_lek = "Gesamt : " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}

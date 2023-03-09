@@ -3,11 +3,194 @@ var Vokabeltest_Lektion = [
 
 
 
+	
+	
+
+	
+	{'first':'vērus', 
+	'second':'wahr; richtig; echt', 
+	'third':'o- / a- Dekl.'},
+	
+	{'first':'stultus', 
+	'second':'dumm', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'foedus', 
+	'second':'scheußlich, abstoßend', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'dignus', 
+	'second':'einer Sache würdig', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'optimus', 
+	'second':'der beste; sehr gut', 
+	'third':'o- / a- Dekl.'},
+	
+	{'first':'malus', 
+	'second':'schlecht; böse', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'occultus', 
+	'second':'verborgen, geheim', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'dūrus', 
+	'second':'hart; beschwerlich', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'pūblicus', 
+	'second':'öffentlich, staatlich', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'inīquus', 
+	'second':'ungleich, ungerecht', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'apertus', 
+	'second':'offen; offenkundig', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'aequus', 
+	'second':'gleich, gerecht', 
+	'third':'o- / a- Dekl.'},
+
+	{'first':'falsus', 
+	'second':'falsch', 
+	'third':'o- / a- Dekl.'},
+	
+	{'first':'improbus', 
+	'second':'schlecht, unverschämt', 
+	'third':'o- / a- Dekl.'},
+	
+	{'first':'magnus', 
+	'second':'groß, bedeutend', 
+	'third':'o- / a- Dekl.'},
+
+
+
+
+
+
+
+
+	{'first':'celer', 
+	'second':'schnell', 
+	'third':'kons. Dekl. <br> dreiendig'},
+	
+	
+	
+
+	
+
+	{'first':'fortis', 
+	'second':'stark; tapfer', 
+	'third':'kons. Dekl. <br> zweiendig'},
+	
+	{'first':'dulcis', 
+	'second':'süß; angenehm', 
+	'third':'kons. Dekl. <br> zweiendig'},
+
+	{'first':'difficilis', 
+	'second':'schwierig', 
+	'third':'kons. Dekl. <br> zweiendig'},
+
+	{'first':'nōbilis', 
+	'second':'berühmt; adlig; edel', 
+	'third':'kons. Dekl. <br> zweiendig'},
+
+	{'first':'crūdēlis', 
+	'second':'grausam', 
+	'third':'kons. Dekl. <br> zweiendig'},
+
+	{'first':'gravis', 
+	'second':'schwer; ernst; wichtig', 
+	'third':'kons. Dekl. <br> zweiendig'},
+
+
+
+	
+	
+
+	{'first':'māior', 
+	'second':'1. größer, bedeutender, 2. älter', 
+	'third':''},
+
+	{'first':'ipse', 
+	'second':'selbst; persönlich, eben, genau, gerade', 
+	'third':''},
+
+	{'first':'sapiēns', 
+	'second':'klug; weise, (Subst. =) der Weise', 
+	'third':''},
+	
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	{'first':'rē vērā', 
+	'second':'wirklich; tatsächlich', 
+	'third':''},
+	
+	{'first':'parāre', 
+	'second':'(vor)bereiten', 
+	'third':''},
+
+	{'first':'exīstimāre', 
+	'second':'einschätzen, meinen', 
+	'third':''},
+
+	{'first':'num', 
+	'second':'denn, etwas (man <br> erwartet die Antwort= nein)', 
+	'third':''},
+
+	{'first':'crēdere', 
+	'second':'glauben, anvertrauen', 
+	'third':''},
+
+	{'first':'vēndere', 
+	'second':'verkaufen', 
+	'third':''},
+
+	{'first':'quam ob rem', 
+	'second':'warum? weshalb?', 
+	'third':''},
+
+	{'first':'causa', 
+	'second':'» Motiv, Beweggrund « <br> 1. Grund, Ursache <br> 2.(juristisch) Schuld Fall Prozess <br> 3.(allgemein)Sachverhalt, Sache', 
+	'third':''},
+
+	{'first':'esse', 
+	'second':'vorhanden sein', 
+	'third':''},
+
+	{'first':'dēfendere', 
+	'second':'verteidigen, abwehren', 
+	'third':''},
+
+	{'first':'audēre', 
+	'second':'wagen', 
+	'third':''},
+
+	{'first':'agere', 
+	'second':'» treiben « tun, handeln, verhandeln', 
+	'third':''},
+
+
+
+
+
 
 
 	{'first':'mors', 
 	'second':'Tod', 
-	'third':'mortis f.'},
+	'third':''},
 
 	{'first':'vindicāre', 
 	'second':'bestrafen, rächen', 
@@ -15,75 +198,59 @@ var Vokabeltest_Lektion = [
 
 	{'first':'caedēs', 
 	'second':'Mord, Blutbad', 
-	'third':'is f. (Gen. Pl. caedium)'},
+	'third':''},
 
 	{'first':'crīmen', 
 	'second':'1. Beschuldigung, <br> 2. Schuld, 3. Verbrechen', 
-	'third':'minis n.'},
+	'third':''},
 
 	{'first':'suspīciō', 
 	'second':'Verdacht, Vermutung', 
-	'third':'iōnis f.'},
+	'third':''},
 
 	{'first':'accūsāre', 
 	'second':'anklagen (wegen einer Sache)', 
-	'third':'(+ Gen.)'},
-
-	{'first':'māior', 
-	'second':'1. größer, bedeutender, 2. älter', 
-	'third':'māius (Gen. māiōris)'},
+	'third':''},
 
 	{'first':'posteā', 
 	'second':'später', 
-	'third':'(Adv.)'},
-
-	{'first':'patrōnus', 
-	'second':'Schutzherr, Patron, Anwalt', 
-	'third':'ī'},
-
-	{'first':'tot', 
-	'second':'so viele', 
-	'third':'(indekl.)'},
-
-	{'first':'ōrātor', 
-	'second':'Redner', 
-	'third':'ōris m.'},
-
-	{'first':'aetās', 
-	'second':'(Alter) = <br> 1. Zeitalter <br> 2. Lebensalter', 
-	'third':'tātis f.'},
-
-	{'first':'ingenium', 
-	'second':'1. Begabung, 2. Charakter', 
-	'third':'ī'},
-
-	{'first':'auctōritās', 
-	'second':'1. Ansehen, 2. Einfluss, Macht', 
-	'third':'tātis f.'},
-
-	{'first':'aequus', 
-	'second':'gleich, gerecht', 
-	'third':'a, um'},
-
-	{'first':'iniūria', 
-	'second':'Unrecht, Ungerechtigkeit', 
-	'third':'ae'},
+	'third':''},
 
 	{'first':'palam', 
 	'second':'öffentlich', 
-	'third':'(Adv.)'},
+	'third':''},
+
+	{'first':'patrōnus', 
+	'second':'Schutzherr, Patron, Anwalt', 
+	'third':''},
+
+	{'first':'tot', 
+	'second':'so viele', 
+	'third':''},
+
+	{'first':'ōrātor', 
+	'second':'Redner', 
+	'third':''},
+
+	{'first':'aetās', 
+	'second':'(Alter) = <br> 1. Zeitalter <br> 2. Lebensalter', 
+	'third':''},
+
+	{'first':'auctōritās', 
+	'second':'1. Ansehen, 2. Einfluss, Macht', 
+	'third':''},
+
+	{'first':'iniūria', 
+	'second':'Unrecht, Ungerechtigkeit', 
+	'third':''},
 
 	{'first':'facultās', 
 	'second':'1. Möglichkeit, 2. Fähigkeit, 3. Besitz', 
-	'third':'tātis f.'},
-
-	{'first':'improbus', 
-	'second':'schlecht, unverschämt', 
-	'third':'a, um'},
+	'third':''},
 
 	{'first':'plūrimum', 
 	'second':'am meisten, sehr', 
-	'third':'(Adv.)'},
+	'third':''},
 
 	{'first':'plūrimum posse', 
 	'second':'größten Einfluss haben', 
@@ -91,28 +258,107 @@ var Vokabeltest_Lektion = [
 
 	{'first':'aliquis', 
 	'second':'irgendjemand', 
-	'third':'(Gen. alicuius)'},
-
-	{'first':'falsus', 
-	'second':'falsch', 
-	'third':'a, um'},
+	'third':''},
 
 	{'first':'īūdicium', 
 	'second':'1. Gericht, 2. Urteil', 
-	'third':'ī'},
+	'third':''},
 
 	{'first':'iūs', 
 	'second':'Recht', 
-	'third':'iūris n.'},
+	'third':''},
 
 	{'first':'cīvitās', 
 	'second':'1. Bürgerschaft, 2. Stadt, Staat', 
-	'third':'tātis f.'},
+	'third':''},
 
 	{'first':'īnstitūtum', 
 	'second':'Einrichtung', 
-	'third':'ī'},
+	'third':''},
 
+	{'first':'pater', 
+	'second':'Vater', 
+	'third':''},
+
+	{'first':'vocāre', 
+	'second':'rufen, nennen', 
+	'third':''},
+
+	{'first':'te', 
+	'second':'dich', 
+	'third':''},
+
+	{'first':'necāre', 
+	'second':'töten', 
+	'third':''},
+
+	{'first':'bona', 
+	'second':'Hab und Gut; Besitz', 
+	'third':''},
+
+	{'first':'rēs', 
+	'second':'Sache, Ding, Angelegenheit', 
+	'third':''},
+
+	{'first':'neque . . .  neque / <br> nec . . .  nec', 
+	'second':'weder . . .  noch', 
+	'third':''},
+
+	{'first':'ingenium', 
+	'second':'1. Begabung, 2. Charakter', 
+	'third':''},
+
+	{'first':'alius', 
+	'second':'ein anderer', 
+	'third':''},
+
+	{'first':'tempus', 
+	'second':'Zeit', 
+	'third':''},
+
+	{'first':'cōnstat', 
+	'second':'es steht fest, dass', 
+	'third':''},
+
+	{'first':'hostis', 
+	'second':'Feind', 
+	'third':''},
+
+	{'first':'autem', 
+	'second':'aber', 
+	'third':''},
+
+	{'first':'favēre', 
+	'second':'jdm. geneigt sein', 
+	'third':''},
+
+	{'first':'dīcere', 
+	'second':'sagen', 
+	'third':''},
+
+	{'first':'apud', 
+	'second':'bei', 
+	'third':''},
+
+	{'first':'tenēre', 
+	'second':'halten; haben', 
+	'third':''},
+
+	{'first':'committere', 
+	'second':'veranstalten, überlassen, anvertrauen', 
+	'third':''},
+
+	{'first':'scelus committere', 
+	'second':'ein Verbrechen begehen', 
+	'third':''},
+
+	{'first':'nōn sōlum . . . , <br> sed etiam', 
+	'second':'nicht nur . . . , sondern auch', 
+	'third':''},
+
+	{'first':'rēs pūblica', 
+	'second':'Staat, Gemeinwesen, Politik', 
+	'third':''},
 
 ]
 
@@ -5177,7 +5423,7 @@ var Lektion32  = [
 	'second':'Unschuld', 
 	'third':'ae'},
 
-	{'first':'crūsdēlis', 
+	{'first':'crūdēlis', 
 	'second':'grausam', 
 	'third':'e'},
 
