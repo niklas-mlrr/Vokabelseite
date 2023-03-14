@@ -151,7 +151,8 @@ var tables = [
 	{ id: 'table30', data: Lektion30 },
 	{ id: 'table31', data: Lektion31 },
 	{ id: 'table32', data: Lektion32 },
-	{ id: 'table33', data: Lektion33 }
+	{ id: 'table33', data: Lektion33 },
+	{ id: 'table34', data: Lektion34 }
   ];
   
   tables.forEach(function(tableData) {
@@ -301,6 +302,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_33") {
 		hide_all_außer33()
 	}
+	if (userOption.value == "#lek_34") {
+		hide_all_außer34()
+	}
 	
 }
 
@@ -356,6 +360,7 @@ selected_30 = document.getElementsByClassName('insgesamt30')
 selected_31 = document.getElementsByClassName('insgesamt31')
 selected_32 = document.getElementsByClassName('insgesamt32')
 selected_33 = document.getElementsByClassName('insgesamt33')
+selected_34 = document.getElementsByClassName('insgesamt34')
 
 const selected = [
 	selected_01,
@@ -390,7 +395,8 @@ const selected = [
 	selected_30,
 	selected_31,
 	selected_32,
-	selected_33
+	selected_33,
+	selected_34
 ];
   
 
@@ -706,6 +712,13 @@ function hide_all_außer33() {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
 }
+function hide_all_außer34() {
+	hide_all()
+	selected_34[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
 
 
 
@@ -776,6 +789,7 @@ document.getElementById('länge_30').innerHTML = Lektion30.length
 document.getElementById('länge_31').innerHTML = Lektion31.length
 document.getElementById('länge_32').innerHTML = Lektion32.length
 document.getElementById('länge_33').innerHTML = Lektion33.length
+document.getElementById('länge_34').innerHTML = Lektion34.length
 
 
 
@@ -865,11 +879,11 @@ function lernen_weiter() {
 			nicht_beim_ersten_mal = [];
 
 
+
 			lösung_angezeigt = false
 
 
 			neue_vok()
-
 
 
 
@@ -975,26 +989,35 @@ function lernen_weiter() {
 			if (checkboxField[i].value == "Lektion33") {
 				lernen_noch_länge = Lektion33.length
 			}
+			if (checkboxField[i].value == "Lektion34") {
+				lernen_noch_länge = Lektion34.length
+			}
 			
+
 
 			window.addEventListener("keydown", lösung_anzeigen_event, false)
 
 			function lösung_anzeigen_event(key) {
 
+				
 				if (lernen_modus == "standard") {
+					
 
+					
 					if (key.keyCode == "32") {
 						setTimeout(() => {
 							lösung_angezeigt = true
 						}, 400);
-
+						
 						lösung_anzeigen()
+						
+						
 
 						function lösung_anzeigen() {
 
 
 
-
+// Wenn hier etwas geändert wird, muss es 38 Zeilen weiter unten ebenfalls geändert werden(Ab: function lösung_anzeigen_btn() {setTimeout(() => { lösung_angezeigt = true) )
 							if (mit_formen == true) {
 								document.getElementById("lernen_de_sonst").innerHTML = zweites_wort + "<br/><br/>" + drittes_wort
 							} else {
@@ -1007,13 +1030,19 @@ function lernen_weiter() {
 							lernen_de_sonst[0].classList.remove('hidden');
 						}
 					}
+
 					if (key.keyCode == "67" | key.keyCode == "86") {
+						setTimeout(() => {
 						nicht_gewusst()
+					}, 100);
+
 
 
 					} else {
 						if (key.keyCode == "78" | key.keyCode == "77") {
+							setTimeout(() => {
 							gewusst()
+						}, 100);
 						}
 					}
 				}
@@ -1021,6 +1050,26 @@ function lernen_weiter() {
 		}
 	}
 }
+function lösung_anzeigen_btn() {
+	setTimeout(() => {
+		lösung_angezeigt = true
+		
+
+		if (mit_formen == true) {
+			document.getElementById("lernen_de_sonst").innerHTML = zweites_wort + "<br/><br/>" + drittes_wort
+		} else {
+			document.getElementById("lernen_de_sonst").innerHTML = zweites_wort + "<br/><br/>"
+		}
+
+
+		lernen_lat[0].classList.add('lösung_gezeigt_lat');
+		lernen_de_sonst[0].classList.add('lösung_gezeigt_de_sonst');
+		lernen_de_sonst[0].classList.remove('hidden');
+
+		
+	}, 100);
+}
+
 
 function gewusst() {
 
@@ -1378,7 +1427,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion.value == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
-		lernen_lektion_anzeige = "Arbeit - Nützliche Vokabeln"
+		lernen_lektion_anzeige = "Vokabeltest"
 		länge_lek = "Gesamt : " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}
@@ -1395,7 +1444,7 @@ function neue_vok_standard() {
 
    
 */
-for (let i = 1; i <= 33; i++) {
+for (let i = 1; i <= 34; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
 	if (ausgewählt_lektion.value == id) {
 	  let array = window[id];

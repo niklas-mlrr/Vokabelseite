@@ -31,7 +31,7 @@
         <div class="search_div">
             <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
                 <option disabled selected>Vokabeln</option>
-                <option class="auswahl_Vokabeltest" value="#lek_Vokabeltest_Lektion">Arbeit</option>
+                <option class="auswahl_Vokabeltest" value="#lek_Vokabeltest_Lektion">Vokabeltest</option>
                 <option class="bold" value="#all">Alle</option>
 
                 <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
@@ -68,6 +68,7 @@
                 <option value="#lek_31">31</option>
                 <option value="#lek_32">32</option>
                 <option value="#lek_33">33</option>
+                <option value="#lek_34">34</option>
                
             </select>
 
@@ -94,7 +95,7 @@
         
         <div class="insgesamtVokabeltest_Lektion">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Nützliche Vokabeln für die Arbeit</p>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest Lektion 34</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -954,6 +955,32 @@
 
 
         </div>
+                
+        <div class="insgesamt34">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 34</p>
+
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Latein</th>
+                            <th>Deutsch</th>
+                            <th>Sonstiges</th>
+                        </tr>
+                        
+                        <tbody id="table34">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </div>
 
 
                 
@@ -1027,7 +1054,7 @@
             <div class="lernen_auswählen_vokabeltest">
                 <div class="checkbox">
                     <input name="lernen_checked" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
-                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Arbeit &nbsp;&nbsp; <p id="länge_Vokabeltest_Lektion" class="länge"></p></label>
+                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest &nbsp;&nbsp; <p id="länge_Vokabeltest_Lektion" class="länge"></p></label>
               </div>
       </div>
 
@@ -1175,6 +1202,10 @@
             <input name="lernen_checked" value="Lektion33" type="checkbox" id="lernen_33">
             <label for="lernen_33">Lektion 33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_33" class="länge"></p</label>
             </div>  
+        <div class="checkbox">
+            <input name="lernen_checked" value="Lektion34" type="checkbox" id="lernen_34">
+            <label for="lernen_34">Lektion 34&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_34" class="länge"></p</label>
+            </div>  
 
                 
                 
@@ -1234,6 +1265,7 @@
 
     <div class="btn_gewusst_nichtgewusst">
         <button class="btn-nicht_gewusst" onclick="nicht_gewusst()"><span class="text_color_white">Nicht Gewusst</span></button>
+        <button class="btn-aufdecken" onclick="lösung_anzeigen_btn()"><span class="text_color_white">Aufdecken</span></button>
         <button class="btn-gewusst" onclick="gewusst()"><span>Gewusst</span></button>
 </div>
  </div>
@@ -1256,11 +1288,17 @@
         <img  class="fehler_seite_zurück_pfeil_btn" src="https://img.icons8.com/ios/1000/000000/circled-left-2.png"/>
     </div>
     <p class="version_headline">Version</p>
-    <p class="version_number_latest">&nbsp;&nbsp;1.5.3</p>
+    <p class="version_number_latest">&nbsp;&nbsp;1.5.4</p>
     <p class="letzte_aktualisierung" id="letzte_aktualisierung">Letzte Aktualisierung</p>
 <img class="version_info" onclick="version_info()" src="https://img.icons8.com/pastel-glyph/512/000000/info--v1.png"/>
 <ul class="patch_notes">
 
+    <li>Lektion 34 ist nun verfügbar.</li><br>
+    <li>Die Vokabeltestlektion wurde auf Lektion 34 geändert.</li><br>
+    <li>Im "Lernen - Standard - Modus" gibt es nun einen "Aufdecken - Button", um den Lernenmodus auch ohne Tastatur nutzen zu können.</li><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    
+    <p class="version_number">1.5.3</p>
     <li>Die nützlichen Vokabeln für die Arbeit sind nun vorübergehend anstelle der Vokabeltestlektion.</li><br>
     <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
     

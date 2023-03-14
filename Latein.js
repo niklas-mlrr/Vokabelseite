@@ -1,364 +1,110 @@
 var Vokabeltest_Lektion = [
 
 
+	{'first':'iūdex', 
+	'second':'Richter', 
+	'third':'dicis m.'},
 
+	{'first':'accēdere', 
+	'second':'hingehen', 
+	'third':'-cēdō, -cessī, -cessum'},
 
-	
-	
+	{'first':'innocēns', 
+	'second':'unschuldig', 
+	'third':'(Gen. innocentis)'},
 
-	
-	{'first':'vērus', 
-	'second':'wahr; richtig; echt', 
-	'third':'o- / a- Dekl.'},
-	
-	{'first':'stultus', 
-	'second':'dumm', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'foedus', 
-	'second':'scheußlich, abstoßend', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'dignus', 
-	'second':'einer Sache würdig', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'optimus', 
-	'second':'der beste; sehr gut', 
-	'third':'o- / a- Dekl.'},
-	
-	{'first':'malus', 
-	'second':'schlecht; böse', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'occultus', 
-	'second':'verborgen, geheim', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'dūrus', 
-	'second':'hart; beschwerlich', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'pūblicus', 
-	'second':'öffentlich, staatlich', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'inīquus', 
-	'second':'ungleich, ungerecht', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'apertus', 
-	'second':'offen; offenkundig', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'aequus', 
-	'second':'gleich, gerecht', 
-	'third':'o- / a- Dekl.'},
-
-	{'first':'falsus', 
-	'second':'falsch', 
-	'third':'o- / a- Dekl.'},
-	
-	{'first':'improbus', 
-	'second':'schlecht, unverschämt', 
-	'third':'o- / a- Dekl.'},
-	
-	{'first':'magnus', 
-	'second':'groß, bedeutend', 
-	'third':'o- / a- Dekl.'},
-
-
-
-
-
-
-
-
-	{'first':'celer', 
-	'second':'schnell', 
-	'third':'kons. Dekl. <br> dreiendig'},
-	
-	
-	
-
-	
-
-	{'first':'fortis', 
-	'second':'stark; tapfer', 
-	'third':'kons. Dekl. <br> zweiendig'},
-	
-	{'first':'dulcis', 
-	'second':'süß; angenehm', 
-	'third':'kons. Dekl. <br> zweiendig'},
-
-	{'first':'difficilis', 
-	'second':'schwierig', 
-	'third':'kons. Dekl. <br> zweiendig'},
-
-	{'first':'nōbilis', 
-	'second':'berühmt; adlig; edel', 
-	'third':'kons. Dekl. <br> zweiendig'},
-
-	{'first':'crūdēlis', 
-	'second':'grausam', 
-	'third':'kons. Dekl. <br> zweiendig'},
-
-	{'first':'gravis', 
-	'second':'schwer; ernst; wichtig', 
-	'third':'kons. Dekl. <br> zweiendig'},
-
-
-
-	
-	
-
-	{'first':'māior', 
-	'second':'1. größer, bedeutender, 2. älter', 
+	{'first':'utinam', 
+	'second':'hoffentlich, wenn doch', 
 	'third':''},
 
-	{'first':'ipse', 
-	'second':'selbst; persönlich, eben, genau, gerade', 
+	{'first':'adversus', 
+	'second':'1. zugewandt <br> 2. feindlich 3. ungünstig', 
+	'third':'a, um'},
+
+	{'first':'iūstitia', 
+	'second':'Gerechtigkeit', 
+	'third':'ae'},
+
+	{'first':'accūsātor', 
+	'second':'Ankläger', 
+	'third':'ōris m.'},
+
+	{'first':'reus', 
+	'second':'Angeklagter', 
+	'third':'ī'},
+
+	{'first':'quemadmodum', 
+	'second':'auf welche Weise, wie', 
+	'third':'(Adv.)'},
+
+	{'first':'sē tenēre', 
+	'second':'sich aufhalten', 
 	'third':''},
 
-	{'first':'sapiēns', 
-	'second':'klug; weise, (Subst. =) der Weise', 
-	'third':''},
-	
-	
+	{'first':'fīdēlis', 
+	'second':'treu', 
+	'third':'e'},
 
-
-
-	
-	
-	
-	
-	
-	
-	{'first':'rē vērā', 
-	'second':'wirklich; tatsächlich', 
-	'third':''},
-	
-	{'first':'parāre', 
-	'second':'(vor)bereiten', 
+	{'first':'administrāre', 
+	'second':'verwalten', 
 	'third':''},
 
-	{'first':'exīstimāre', 
-	'second':'einschätzen, meinen', 
-	'third':''},
-
-	{'first':'num', 
-	'second':'denn, etwas (man <br> erwartet die Antwort= nein)', 
-	'third':''},
-
-	{'first':'crēdere', 
-	'second':'glauben, anvertrauen', 
-	'third':''},
-
-	{'first':'vēndere', 
-	'second':'verkaufen', 
-	'third':''},
-
-	{'first':'quam ob rem', 
-	'second':'warum? weshalb?', 
-	'third':''},
-
-	{'first':'causa', 
-	'second':'» Motiv, Beweggrund « <br> 1. Grund, Ursache <br> 2.(juristisch) Schuld Fall Prozess <br> 3.(allgemein)Sachverhalt, Sache', 
-	'third':''},
-
-	{'first':'esse', 
-	'second':'vorhanden sein', 
-	'third':''},
-
-	{'first':'dēfendere', 
-	'second':'verteidigen, abwehren', 
-	'third':''},
-
-	{'first':'audēre', 
-	'second':'wagen', 
-	'third':''},
-
-	{'first':'agere', 
-	'second':'» treiben « tun, handeln, verhandeln', 
-	'third':''},
-
-
-
-
-
-
-
-	{'first':'mors', 
-	'second':'Tod', 
-	'third':''},
-
-	{'first':'vindicāre', 
-	'second':'bestrafen, rächen', 
-	'third':''},
-
-	{'first':'caedēs', 
-	'second':'Mord, Blutbad', 
-	'third':''},
-
-	{'first':'crīmen', 
-	'second':'1. Beschuldigung, <br> 2. Schuld, 3. Verbrechen', 
-	'third':''},
-
-	{'first':'suspīciō', 
-	'second':'Verdacht, Vermutung', 
-	'third':''},
-
-	{'first':'accūsāre', 
-	'second':'anklagen (wegen einer Sache)', 
-	'third':''},
-
-	{'first':'posteā', 
-	'second':'später', 
-	'third':''},
-
-	{'first':'palam', 
-	'second':'öffentlich', 
-	'third':''},
-
-	{'first':'patrōnus', 
-	'second':'Schutzherr, Patron, Anwalt', 
-	'third':''},
-
-	{'first':'tot', 
-	'second':'so viele', 
-	'third':''},
-
-	{'first':'ōrātor', 
-	'second':'Redner', 
-	'third':''},
-
-	{'first':'aetās', 
-	'second':'(Alter) = <br> 1. Zeitalter <br> 2. Lebensalter', 
-	'third':''},
-
-	{'first':'auctōritās', 
-	'second':'1. Ansehen, 2. Einfluss, Macht', 
-	'third':''},
-
-	{'first':'iniūria', 
-	'second':'Unrecht, Ungerechtigkeit', 
-	'third':''},
-
-	{'first':'facultās', 
-	'second':'1. Möglichkeit, 2. Fähigkeit, 3. Besitz', 
-	'third':''},
-
-	{'first':'plūrimum', 
-	'second':'am meisten, sehr', 
-	'third':''},
-
-	{'first':'plūrimum posse', 
-	'second':'größten Einfluss haben', 
-	'third':''},
-
-	{'first':'aliquis', 
-	'second':'irgendjemand', 
-	'third':''},
-
-	{'first':'īūdicium', 
-	'second':'1. Gericht, 2. Urteil', 
-	'third':''},
-
-	{'first':'iūs', 
-	'second':'Recht', 
-	'third':''},
-
-	{'first':'cīvitās', 
-	'second':'1. Bürgerschaft, 2. Stadt, Staat', 
-	'third':''},
-
-	{'first':'īnstitūtum', 
-	'second':'Einrichtung', 
-	'third':''},
-
-	{'first':'pater', 
-	'second':'Vater', 
-	'third':''},
-
-	{'first':'vocāre', 
-	'second':'rufen, nennen', 
-	'third':''},
-
-	{'first':'te', 
-	'second':'dich', 
-	'third':''},
-
-	{'first':'necāre', 
+	{'first':'occīdere', 
 	'second':'töten', 
+	'third':'occīdō, occīdī, occīsum'},
+
+	{'first':'arripere', 
+	'second':'an sich reißen, rauben', 
+	'third':'-ripiō, -ripuī, -reptum'},
+
+	{'first':'potius', 
+	'second':'eher, lieber', 
+	'third':'(Adv.)'},
+
+	{'first':'facinus', 
+	'second':'Tat, Verbrechen', 
+	'third':'oris n.'},
+
+	{'first':'possessiō', 
+	'second':'Besitz', 
+	'third':'iōnis f.'},
+
+	{'first':'item', 
+	'second':'ebenso', 
+	'third':'(Adv.)'},
+
+	{'first':'contentus', 
+	'second':'zufrieden', 
+	'third':'a, um'},
+
+	{'first':'spoliāre', 
+	'second':'plündern, (einer Sache) berauben', 
+	'third':'(+ Abl.)'},
+
+	{'first':'sors', 
+	'second':'Schicksal, Orakel', 
+	'third':'sortis f. (Gen. Pl. sortium)'},
+
+	{'first':'restāre', 
+	'second':'1. übrig bleiben <br> 2. Widerstand leisten', 
+	'third':'-stō, -stitī, -'},
+
+	{'first':'probāre', 
+	'second':'1. prüfen <br> 2. gut finden, billigen <br> 3. beweisen', 
 	'third':''},
 
-	{'first':'bona', 
-	'second':'Hab und Gut; Besitz', 
+	{'first':'nēve', 
+	'second':'und nicht, oder nicht', 
 	'third':''},
 
-	{'first':'rēs', 
-	'second':'Sache, Ding, Angelegenheit', 
-	'third':''},
+	{'first':'permittere', 
+	'second':'erlauben', 
+	'third':'-mittō, -mīsī, -missum'},
 
-	{'first':'neque . . .  neque / <br> nec . . .  nec', 
-	'second':'weder . . .  noch', 
-	'third':''},
 
-	{'first':'ingenium', 
-	'second':'1. Begabung, 2. Charakter', 
-	'third':''},
 
-	{'first':'alius', 
-	'second':'ein anderer', 
-	'third':''},
 
-	{'first':'tempus', 
-	'second':'Zeit', 
-	'third':''},
 
-	{'first':'cōnstat', 
-	'second':'es steht fest, dass', 
-	'third':''},
-
-	{'first':'hostis', 
-	'second':'Feind', 
-	'third':''},
-
-	{'first':'autem', 
-	'second':'aber', 
-	'third':''},
-
-	{'first':'favēre', 
-	'second':'jdm. geneigt sein', 
-	'third':''},
-
-	{'first':'dīcere', 
-	'second':'sagen', 
-	'third':''},
-
-	{'first':'apud', 
-	'second':'bei', 
-	'third':''},
-
-	{'first':'tenēre', 
-	'second':'halten; haben', 
-	'third':''},
-
-	{'first':'committere', 
-	'second':'veranstalten, überlassen, anvertrauen', 
-	'third':''},
-
-	{'first':'scelus committere', 
-	'second':'ein Verbrechen begehen', 
-	'third':''},
-
-	{'first':'nōn sōlum . . . , <br> sed etiam', 
-	'second':'nicht nur . . . , sondern auch', 
-	'third':''},
-
-	{'first':'rēs pūblica', 
-	'second':'Staat, Gemeinwesen, Politik', 
-	'third':''},
 
 ]
 
@@ -5648,7 +5394,7 @@ var Lektion34  = [
 	'third':''},
 
 	{'first':'contendere', 
-	'second':'» sich anstrengen « <br> eilen, kämpfen, behaupten', 
+	'second':'» sich anstrengen « <br> 1. kämpfen 2. eilen 3. behaupten', 
 	'third':'contendō, contendī, contentum'},
 
 	{'first':'cupidus', 
@@ -5664,8 +5410,14 @@ var Lektion34  = [
 	'third':'ī'},
 
 	{'first':'grātia', 
-	'second':'Ausstrahlung, Beliebtheit, Sympathie, Gefälligkeit, Dank', 
+	'second':'» Pos. Verhältnis zw. Menschen « <br> 1. Ausstrahlung 2. Beliebtheit, Sympathie <br> 3. Gefälligkeit 4. Dank', 
 	'third':'ae'},
+
+
+
+
+
+
 
 	{'first':'iūdex', 
 	'second':'Richter', 
@@ -5684,7 +5436,7 @@ var Lektion34  = [
 	'third':''},
 
 	{'first':'adversus', 
-	'second':'zugewandt, feindlich, ungünstig', 
+	'second':'1. zugewandt <br> 2. feindlich 3. ungünstig', 
 	'third':'a, um'},
 
 	{'first':'iūstitia', 
@@ -5713,7 +5465,7 @@ var Lektion34  = [
 
 	{'first':'administrāre', 
 	'second':'verwalten', 
-	'third':'((administro, administravi, administratum))'},
+	'third':'((administro, <br> administravi, <br> administratum))'},
 
 	{'first':'occīdere', 
 	'second':'töten', 
@@ -5752,11 +5504,11 @@ var Lektion34  = [
 	'third':'sortis f. (Gen. Pl. sortium)'},
 
 	{'first':'restāre', 
-	'second':'übrig bleiben, Widerstand leisten', 
+	'second':'1. übrig bleiben <br> 2. Widerstand leisten', 
 	'third':'-stō, -stitī, -'},
 
 	{'first':'probāre', 
-	'second':'prüfen, gut finden, billigen, beweisen', 
+	'second':'1. prüfen <br> 2. gut finden, billigen <br> 3. beweisen', 
 	'third':''},
 
 	{'first':'nēve', 
