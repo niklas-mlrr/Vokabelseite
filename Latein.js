@@ -1,105 +1,114 @@
 var Vokabeltest_Lektion = [
 
 
-	{'first':'iūdex', 
-	'second':'Richter', 
-	'third':'dicis m.'},
+	
+	{'first':'mors', 
+	'second':'Tod', 
+	'third':'mortis f.'},
 
-	{'first':'accēdere', 
-	'second':'hingehen', 
-	'third':'-cēdō, -cessī, -cessum'},
-
-	{'first':'innocēns', 
-	'second':'unschuldig', 
-	'third':'(Gen. innocentis)'},
-
-	{'first':'utinam', 
-	'second':'hoffentlich, wenn doch', 
+	{'first':'vindicāre', 
+	'second':'bestrafen, rächen', 
 	'third':''},
 
-	{'first':'adversus', 
-	'second':'1. zugewandt <br> 2. feindlich 3. ungünstig', 
-	'third':'a, um'},
+	{'first':'caedēs', 
+	'second':'Mord, Blutbad', 
+	'third':'is f. (Gen. Pl. caedium)'},
 
-	{'first':'iūstitia', 
-	'second':'Gerechtigkeit', 
-	'third':'ae'},
+	{'first':'crīmen', 
+	'second':'1. Beschuldigung, <br> 2. Schuld, 3. Verbrechen', 
+	'third':'minis n.'},
 
-	{'first':'accūsātor', 
-	'second':'Ankläger', 
-	'third':'ōris m.'},
-
-	{'first':'reus', 
-	'second':'Angeklagter', 
-	'third':'ī'},
-
-	{'first':'quemadmodum', 
-	'second':'auf welche Weise, wie', 
-	'third':'(Adv.)'},
-
-	{'first':'sē tenēre', 
-	'second':'sich aufhalten', 
-	'third':''},
-
-	{'first':'fīdēlis', 
-	'second':'treu', 
-	'third':'e'},
-
-	{'first':'administrāre', 
-	'second':'verwalten', 
-	'third':''},
-
-	{'first':'occīdere', 
-	'second':'töten', 
-	'third':'occīdō, occīdī, occīsum'},
-
-	{'first':'arripere', 
-	'second':'an sich reißen, rauben', 
-	'third':'-ripiō, -ripuī, -reptum'},
-
-	{'first':'potius', 
-	'second':'eher, lieber', 
-	'third':'(Adv.)'},
-
-	{'first':'facinus', 
-	'second':'Tat, Verbrechen', 
-	'third':'oris n.'},
-
-	{'first':'possessiō', 
-	'second':'Besitz', 
+	{'first':'suspīciō', 
+	'second':'Verdacht, Vermutung', 
 	'third':'iōnis f.'},
 
-	{'first':'item', 
-	'second':'ebenso', 
+	{'first':'accūsāre', 
+	'second':'anklagen (wegen einer Sache)', 
+	'third':'(+ Gen.)'},
+
+	{'first':'māior', 
+	'second':'1. größer, bedeutender, 2. älter', 
+	'third':'māius (Gen. māiōris)'},
+
+	{'first':'posteā', 
+	'second':'später', 
 	'third':'(Adv.)'},
 
-	{'first':'contentus', 
-	'second':'zufrieden', 
+	{'first':'patrōnus', 
+	'second':'Schutzherr, Patron, Anwalt', 
+	'third':'ī'},
+
+	{'first':'tot', 
+	'second':'so viele', 
+	'third':'(indekl.)'},
+
+	{'first':'ōrātor', 
+	'second':'Redner', 
+	'third':'ōris m.'},
+
+	{'first':'aetās', 
+	'second':'(Alter) = <br> 1. Zeitalter <br> 2. Lebensalter', 
+	'third':'tātis f.'},
+
+	{'first':'ingenium', 
+	'second':'1. Begabung, 2. Charakter', 
+	'third':'ī'},
+
+	{'first':'auctōritās', 
+	'second':'1. Ansehen, 2. Einfluss, Macht', 
+	'third':'tātis f.'},
+
+	{'first':'aequus', 
+	'second':'gleich, gerecht', 
 	'third':'a, um'},
 
-	{'first':'spoliāre', 
-	'second':'plündern, (einer Sache) berauben', 
-	'third':'(+ Abl.)'},
+	{'first':'iniūria', 
+	'second':'Unrecht, Ungerechtigkeit', 
+	'third':'ae'},
 
-	{'first':'sors', 
-	'second':'Schicksal, Orakel', 
-	'third':'sortis f. (Gen. Pl. sortium)'},
+	{'first':'palam', 
+	'second':'öffentlich', 
+	'third':'(Adv.)'},
 
-	{'first':'restāre', 
-	'second':'1. übrig bleiben <br> 2. Widerstand leisten', 
-	'third':'-stō, -stitī, -'},
+	{'first':'facultās', 
+	'second':'1. Möglichkeit, 2. Fähigkeit, 3. Besitz', 
+	'third':'tātis f.'},
 
-	{'first':'probāre', 
-	'second':'1. prüfen <br> 2. gut finden, billigen <br> 3. beweisen', 
+	{'first':'improbus', 
+	'second':'schlecht, unverschämt', 
+	'third':'a, um'},
+
+	{'first':'plūrimum', 
+	'second':'am meisten, sehr', 
+	'third':'(Adv.)'},
+
+	{'first':'plūrimum posse', 
+	'second':'größten Einfluss haben', 
 	'third':''},
 
-	{'first':'nēve', 
-	'second':'und nicht, oder nicht', 
-	'third':''},
+	{'first':'aliquis', 
+	'second':'irgendjemand', 
+	'third':'(Gen. alicuius)'},
 
-	{'first':'permittere', 
-	'second':'erlauben', 
-	'third':'-mittō, -mīsī, -missum'},
+	{'first':'falsus', 
+	'second':'falsch', 
+	'third':'a, um'},
+
+	{'first':'īūdicium', 
+	'second':'1. Gericht, 2. Urteil', 
+	'third':'ī'},
+
+	{'first':'iūs', 
+	'second':'Recht', 
+	'third':'iūris n.'},
+
+	{'first':'cīvitās', 
+	'second':'1. Bürgerschaft, 2. Stadt, Staat', 
+	'third':'tātis f.'},
+
+	{'first':'īnstitūtum', 
+	'second':'Einrichtung', 
+	'third':'ī'},
 
 
 
