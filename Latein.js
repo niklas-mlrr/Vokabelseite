@@ -84,7 +84,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'sors', 
 	'second':'Schicksal, Orakel', 
-	'third':'sortis f. (Gen. Pl. sortium)'},
+	'third':'sortis f.'},
 
 	{'first':'restāre', 
 	'second':'1. übrig bleiben <br> 2. Widerstand leisten', 
@@ -5540,7 +5540,7 @@ var Lektion35  = [
 
 
 	{'first':'ferre', 
-	'second':'tragen, ertragen, berichten', 
+	'second':'1. tragen, 2. ertragen,<br> 3. berichten', 
 	'third':'ferō, tulī, lātum'},
 
 	{'first':'postulāre', 
@@ -5548,15 +5548,15 @@ var Lektion35  = [
 	'third':''},
 
 	{'first':'prīnceps', 
-	'second':'der erste, der vornehmste (Subst.= Anführer; Kaiser)', 
+	'second':'der erste, der vornehmste; <br> Subst.= Anführer; Kaiser', 
 	'third':'prīncipis m.'},
 
 	{'first':'perīre', 
 	'second':'zugrunde gehen', 
 	'third':'-eō, -iī, -itum'},
 
-	{'first':'conparāre', 
-	'second':'beschaffen, vergleichen', 
+	{'first':'comparāre', 
+	'second':'1. beschaffen 2. vergleichen', 
 	'third':''},
 
 	{'first':'impōnere', 
@@ -5612,7 +5612,7 @@ var Lektion35  = [
 	'third':'(Adv.)'},
 
 	{'first':'quīdam', 
-	'second':'jemand, ein Gewisser', 
+	'second':'jemand, ein gewisser', 
 	'third':'quaedam, quoddam'},
 
 	{'first':'reperīre', 
@@ -5620,7 +5620,7 @@ var Lektion35  = [
 	'third':'reperiō, repperī, repertum'},
 
 	{'first':'reffere', 
-	'second':'(zurück)bringen, berichten', 
+	'second':'1. (zurück)bringen 2. berichten', 
 	'third':'referō, rettulī, relātum'},
 
 	{'first':'causā', 
@@ -5632,15 +5632,15 @@ var Lektion35  = [
 	'third':'(nach nd-Form im Gen.)'},
 
 	{'first':'prīvāre', 
-	'second':'einer Sache berauben, von etw. befreien', 
+	'second':'1. einer Sache berauben <br> 2. von etw. befreien', 
 	'third':'(+ Abl.)'},
 
 	{'first':'audācia', 
-	'second':'Frechheit, Kühnheit, Mut', 
+	'second':'Kühnheit= <br> 1. Frechheit 2. Mut', 
 	'third':'ae'},
 
 	{'first':'temptāre', 
-	'second':'(betasten)= versuchen, angreifen', 
+	'second':'(betasten)= <br> 1. versuchen 2. angreifen', 
 	'third':''},
 
 	{'first':'licet', 
@@ -5648,7 +5648,7 @@ var Lektion35  = [
 	'third':'(+ Konj.)'},
 
 	{'first':'ratiō', 
-	'second':'Vernunft, Methode, Art und Weise, Grund', 
+	'second':'1. Vernunft <br> 2. Methode, Art und Weise <br> 3. Grund', 
 	'third':'ōnis f.'},
 
 	{'first':'īnstāre', 
@@ -5656,7 +5656,7 @@ var Lektion35  = [
 	'third':'īnstō, īnstitī + Dat.'},
 
 	{'first':'obīre', 
-	'second':'entgegengehen, übernehmen', 
+	'second':'1. entgegengehen 2. übernehmen', 
 	'third':'-eō, -iī, -itum'},
 
 	{'first':'(mortem) obīre', 
@@ -5696,7 +5696,7 @@ var Lektion35  = [
 	'third':''},
 
 	{'first':'ars', 
-	'second':'Geschicklichkeit, Kunst', 
+	'second':'1. Geschicklichkeit <br> 2. Kunst', 
 	'third':'artis f.'},
 
 	{'first':'(ē)vitāre', 
@@ -5712,7 +5712,7 @@ var Lektion35  = [
 	'third':'a, um'},
 
 	{'first':'addūcere', 
-	'second':'heranführen, veranlassen', 
+	'second':'1. heranführen 2. veranlassen', 
 	'third':'-dūcō, -dūxī, -ductum'},
 
 	{'first':'timōre adductus', 
@@ -5720,7 +5720,7 @@ var Lektion35  = [
 	'third':''},
 
 	{'first':'īnstruere', 
-	'second':'aufstellen, ausrüsten, unterrichten', 
+	'second':'1. aufstellen <br> 2. ausrüsten <br> 3. unterrichten', 
 	'third':'-struōv, -strūxī, -strūctum'},
 
 
@@ -5758,7 +5758,7 @@ var Lektion36  = [
 	'third':'a, um'},
 
 	{'first':'crēdere', 
-	'second':'glauben, anvertrauen', 
+	'second':'1. glauben 2. anvertrauen', 
 	'third':''},
 
 	{'first':'timēre, nē', 
@@ -5770,11 +5770,11 @@ var Lektion36  = [
 	'third':'ginis f.'},
 
 	{'first':'pectus', 
-	'second':'Brust, Herz, Seele', 
+	'second':'1. Brust <br> 2. Herz 3. Seele', 
 	'third':'pectoris n.'},
 
 	{'first':'pellere', 
-	'second':'stoßen, schlagen, vertreiben', 
+	'second':'1. stoßen 2. schlagen <br> 3. vertreiben', 
 	'third':'pellō, pepulī, pulsum'},
 
 	{'first':'trahere', 
@@ -5786,7 +5786,7 @@ var Lektion36  = [
 	'third':'partis f.'},
 
 	{'first':'turpis', 
-	'second':'hässlich, schändlich, (moralisch) schlecht', 
+	'second':'hässlich, schändlich, <br> (moralisch) schlecht', 
 	'third':'e'},
 
 	{'first':'nihil . . . nisī', 
@@ -5836,7 +5836,7 @@ var Lektion36  = [
 	'third':'(Gen. recentis)'},
 
 	{'first':'interesse', 
-	'second':'» dazwischen sein « <br> 1. sich dazwischen befinden <br> 2. teilnehmen, dabei sein <br> 3. einen Unterschied machen für jmd., wichtig sein', 
+	'second':'» dazwischen sein « <br> 1. sich dazwischen befinden <br> 2. teilnehmen, dabei sein <br> 3. einen Unterschied machen für <br> jmd. , wichtig sein', 
 	'third':'-sum, -fuī'},
 
 	{'first':'mea interest', 
@@ -5844,7 +5844,7 @@ var Lektion36  = [
 	'third':''},
 
 	{'first':'utrum . . . an . . .', 
-	'second':'ob . . . oder', 
+	'second':'ob . . . oder (ob)', 
 	'third':''},
 
 	{'first':'occīdere', 
@@ -5896,7 +5896,7 @@ var Lektion36  = [
 	'third':'+ AcI'},
 
 	{'first':'permovēre', 
-	'second':'» (innerlich) stark bewegen « <br> beunruhigen, veranlassen', 
+	'second':'(innerlich) stark bewegen= <br> 1. beunruhigen 2. veranlassen', 
 	'third':'-moveō, -mōvī, -mōtum'},
 
 	{'first':'exilium', 

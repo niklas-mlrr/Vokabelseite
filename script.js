@@ -1,7 +1,7 @@
 vokabeltest_lektion_anzeigen = true
 
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 18.03.23 13:30"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 14.04.23 17:30"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -152,7 +152,9 @@ var tables = [
 	{ id: 'table31', data: Lektion31 },
 	{ id: 'table32', data: Lektion32 },
 	{ id: 'table33', data: Lektion33 },
-	{ id: 'table34', data: Lektion34 }
+	{ id: 'table34', data: Lektion34 },
+	{ id: 'table35', data: Lektion35 },
+	{ id: 'table36', data: Lektion36 }
   ];
   
   tables.forEach(function(tableData) {
@@ -305,6 +307,12 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_34") {
 		hide_all_außer34()
 	}
+	if (userOption.value == "#lek_35") {
+		hide_all_außer35()
+	}
+	if (userOption.value == "#lek_36") {
+		hide_all_außer36()
+	}
 	
 }
 
@@ -361,6 +369,8 @@ selected_31 = document.getElementsByClassName('insgesamt31')
 selected_32 = document.getElementsByClassName('insgesamt32')
 selected_33 = document.getElementsByClassName('insgesamt33')
 selected_34 = document.getElementsByClassName('insgesamt34')
+selected_35 = document.getElementsByClassName('insgesamt35')
+selected_36 = document.getElementsByClassName('insgesamt36')
 
 const selected = [
 	selected_01,
@@ -396,7 +406,9 @@ const selected = [
 	selected_31,
 	selected_32,
 	selected_33,
-	selected_34
+	selected_34,
+	selected_35,
+	selected_36
 ];
   
 
@@ -719,6 +731,20 @@ function hide_all_außer34() {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
 }
+function hide_all_außer35() {
+	hide_all()
+	selected_35[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer36() {
+	hide_all()
+	selected_36[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
 
 
 
@@ -790,6 +816,8 @@ document.getElementById('länge_31').innerHTML = Lektion31.length
 document.getElementById('länge_32').innerHTML = Lektion32.length
 document.getElementById('länge_33').innerHTML = Lektion33.length
 document.getElementById('länge_34').innerHTML = Lektion34.length
+document.getElementById('länge_35').innerHTML = Lektion35.length
+document.getElementById('länge_36').innerHTML = Lektion36.length
 
 
 
@@ -991,6 +1019,12 @@ function lernen_weiter() {
 			}
 			if (checkboxField[i].value == "Lektion34") {
 				lernen_noch_länge = Lektion34.length
+			}
+			if (checkboxField[i].value == "Lektion35") {
+				lernen_noch_länge = Lektion35.length
+			}
+			if (checkboxField[i].value == "Lektion36") {
+				lernen_noch_länge = Lektion36.length
 			}
 			
 
@@ -1444,7 +1478,7 @@ function neue_vok_standard() {
 
    
 */
-for (let i = 1; i <= 34; i++) {
+for (let i = 1; i <= 36; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
 	if (ausgewählt_lektion.value == id) {
 	  let array = window[id];

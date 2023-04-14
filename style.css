@@ -390,6 +390,20 @@ html {
   empty-cells: show;
   font-size: 25px;
 }
+#table35 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+#table36 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
 
 
 
@@ -672,11 +686,12 @@ th {
 .latein_form {
   height: 1000px;
   width: 750px;
+  
 }
 
 .lernen_auswählen_vokabeltest {
   position: relative;
-  top: 3%;
+  top: -1%;
   left: 61%;
   /* Wenn in Englisch Auswahl:
   left: 0%;
@@ -687,7 +702,7 @@ th {
 
 .lernen_auswählen_1-15 {
   position: relative;
-  top: 2%;
+  top: 0%;
   left: 8%;
 
 }
@@ -696,7 +711,7 @@ th {
 .lernen_auswählen_16-30 {
   position: relative;
 
-  top: -73%;
+  top: -75%;
   left: 51%;
 
 }
@@ -704,7 +719,7 @@ th {
 .lernen_auswählen_31-45 {
   position: relative;
 
-  top: -148%;
+  top: -150%;
   left: 94%;
 
 }
