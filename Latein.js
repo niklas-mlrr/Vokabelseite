@@ -2,105 +2,286 @@ var Vokabeltest_Lektion = [
 
 
 	
-	{'first':'iūdex', 
-	'second':'Richter', 
-	'third':'dicis m.'},
+	{'first':'perdere', 
+	'second':'zugrunde richten', 
+	'third':'perdō, perdidī, perditum'},
 
-	{'first':'accēdere', 
-	'second':'hingehen', 
-	'third':'-cēdō, -cessī, -cessum'},
-
-	{'first':'innocēns', 
-	'second':'unschuldig', 
-	'third':'(Gen. innocentis)'},
-
-	{'first':'utinam', 
-	'second':'hoffentlich, wenn doch', 
-	'third':''},
-
-	{'first':'adversus', 
-	'second':'1. zugewandt <br> 2. feindlich 3. ungünstig', 
-	'third':'a, um'},
-
-	{'first':'iūstitia', 
-	'second':'Gerechtigkeit', 
+	{'first':'ōra', 
+	'second':'Küste', 
 	'third':'ae'},
 
-	{'first':'accūsātor', 
-	'second':'Ankläger', 
-	'third':'ōris m.'},
+	{'first':'ad-venīre', 
+	'second':'ankommen', 
+	'third':'-veniō, -vēnī, -ventum'},
 
-	{'first':'reus', 
-	'second':'Angeklagter', 
+	{'first':'saeculum', 
+	'second':'Zeitalter, Jahrhundert', 
 	'third':'ī'},
 
-	{'first':'quemadmodum', 
-	'second':'auf welche Weise, wie', 
+	{'first':'hūc', 
+	'second':'hierhin', 
 	'third':'(Adv.)'},
 
-	{'first':'sē tenēre', 
-	'second':'sich aufhalten', 
-	'third':''},
+	{'first':'quīdam', 
+	'second':'jemand, ein gewisser', 
+	'third':'quaedam, quoddam'},
 
-	{'first':'fīdēlis', 
-	'second':'treu', 
-	'third':'e'},
+	{'first':'reperīre', 
+	'second':'(wieder)finden', 
+	'third':'reperiō, repperī, repertum'},
 
-	{'first':'administrāre', 
-	'second':'verwalten', 
-	'third':'((administro, <br> administravi, <br> administratum))'},
+	{'first':'reffere', 
+	'second':'1. (zurück)bringen 2. berichten', 
+	'third':'referō, rettulī, relātum'},
 
-	{'first':'occīdere', 
-	'second':'töten', 
-	'third':'occīdō, occīdī, occīsum'},
+	{'first':'causā', 
+	'second':'wegen', 
+	'third':'(+ vorangestellter Gen.)'},
 
-	{'first':'arripere', 
-	'second':'an sich reißen, rauben', 
-	'third':'-ripiō, -ripuī, -reptum'},
+	{'first':'causā', 
+	'second':'um etw. zu tun', 
+	'third':'(nach nd-Form im Gen.)'},
 
-	{'first':'potius', 
-	'second':'eher, lieber', 
-	'third':'(Adv.)'},
-
-	{'first':'facinus', 
-	'second':'Tat, Verbrechen', 
-	'third':'oris n.'},
-
-	{'first':'possessiō', 
-	'second':'Besitz', 
-	'third':'iōnis f.'},
-
-	{'first':'item', 
-	'second':'ebenso', 
-	'third':'(Adv.)'},
-
-	{'first':'contentus', 
-	'second':'zufrieden', 
-	'third':'a, um'},
-
-	{'first':'spoliāre', 
-	'second':'plündern, (einer Sache) berauben', 
+	{'first':'prīvāre', 
+	'second':'1. einer Sache berauben <br> 2. von etw. befreien', 
 	'third':'(+ Abl.)'},
 
-	{'first':'sors', 
-	'second':'Schicksal, Orakel', 
-	'third':'sortis f.'},
+	{'first':'audācia', 
+	'second':'Kühnheit= <br> 1. Frechheit 2. Mut', 
+	'third':'ae'},
 
-	{'first':'restāre', 
-	'second':'1. übrig bleiben <br> 2. Widerstand leisten', 
-	'third':'-stō, -stitī, -'},
-
-	{'first':'probāre', 
-	'second':'1. prüfen <br> 2. gut finden, billigen <br> 3. beweisen', 
+	{'first':'temptāre', 
+	'second':'(betasten)= <br> 1. versuchen 2. angreifen', 
 	'third':''},
 
-	{'first':'nēve', 
-	'second':'und nicht, oder nicht', 
+	{'first':'licet', 
+	'second':'wenn auch, selbst wenn', 
+	'third':'(+ Konj.)'},
+
+	{'first':'ratiō', 
+	'second':'1. Vernunft <br> 2. Methode, Art und Weise <br> 3. Grund', 
+	'third':'ōnis f.'},
+
+	{'first':'īnstāre', 
+	'second':'jmd. bevorstehen, drohen', 
+	'third':'īnstō, īnstitī + Dat.'},
+
+	{'first':'obīre', 
+	'second':'1. entgegengehen 2. übernehmen', 
+	'third':'-eō, -iī, -itum'},
+
+	{'first':'(mortem) obīre', 
+	'second':'sterben', 
 	'third':''},
 
-	{'first':'permittere', 
-	'second':'erlauben', 
-	'third':'-mittō, -mīsī, -missum'},
+	{'first':'vehemēns', 
+	'second':'heftig', 
+	'third':'(Gen. vehementis)'},
+
+	{'first':'solum', 
+	'second':'Erdboden', 
+	'third':'ī'},
+
+	{'first':'pēs', 
+	'second':'Fuß', 
+	'third':'pedis m.'},
+
+	{'first':'pedem referre', 
+	'second':'sich zurückziehen', 
+	'third':''},
+
+	{'first':'quantus', 
+	'second':'wie groß, wie viel', 
+	'third':'a, um'},
+
+	{'first':'ignis', 
+	'second':'Feuer', 
+	'third':'is m. (Gen. Pl. ignium)'},
+
+	{'first':'nōndum', 
+	'second':'noch nicht', 
+	'third':'(Adv.)'},
+
+	{'first':'custōdīre', 
+	'second':'bewachen', 
+	'third':''},
+
+	{'first':'ars', 
+	'second':'1. Geschicklichkeit <br> 2. Kunst', 
+	'third':'artis f.'},
+
+	{'first':'(ē)vitāre', 
+	'second':'vermeiden', 
+	'third':''},
+
+	{'first':'occāsiō', 
+	'second':'Gelegenheit', 
+	'third':'ōnis f.'},
+
+	{'first':'aureus', 
+	'second':'golden', 
+	'third':'a, um'},
+
+	{'first':'addūcere', 
+	'second':'1. heranführen 2. veranlassen', 
+	'third':'-dūcō, -dūxī, -ductum'},
+
+	{'first':'timōre adductus', 
+	'second':'aus Furcht', 
+	'third':''},
+
+	{'first':'īnstruere', 
+	'second':'1. aufstellen <br> 2. ausrüsten <br> 3. unterrichten', 
+	'third':'-struōv, -strūxī, -strūctum'},
+
+
+
+
+
+]
+
+
+
+
+
+
+
+var Vokabeltest_Lektion_36 = [
+
+
+	{'first':'volvere', 
+	'second':'wälzen, rollen', 
+	'third':'volvō, volvī, volūtum'},
+
+	{'first':'sēcum volvere', 
+	'second':'nachdenken über', 
+	'third':''},
+
+	{'first':'īnfēlix', 
+	'second':'unglücklich', 
+	'third':'(Gen. īnfēlicis)'},
+
+	{'first':'iussum', 
+	'second':'Befehl', 
+	'third':'ī'},
+
+	{'first':'quam', 
+	'second':'als', 
+	'third':''},
+
+	{'first':'umquam', 
+	'second':'jemals', 
+	'third':'(Adv.)'},
+
+	{'first':'recēns', 
+	'second':'neu, frisch', 
+	'third':'(Gen. recentis)'},
+
+	{'first':'interesse', 
+	'second':'» dazwischen sein « <br> 1. sich dazwischen befinden <br> 2. teilnehmen, dabei sein <br> 3. einen Unterschied machen für <br> jmd. , wichtig sein', 
+	'third':'-sum, -fuī'},
+
+	{'first':'mea interest', 
+	'second':'es ist wichtig für mich', 
+	'third':''},
+
+	{'first':'utrum . . . an . . .', 
+	'second':'ob . . . oder (ob)', 
+	'third':''},
+
+	{'first':'occīdere', 
+	'second':'umkommen', 
+	'third':'occidō, occidī'},
+
+	{'first':'fēlix', 
+	'second':'glücklich', 
+	'third':'(Gen. fēlicis)'},
+
+	{'first':'invītus', 
+	'second':'ungern, gegen den Willen', 
+	'third':'a, um'},
+
+	{'first':'dīversus', 
+	'second':'entgegengesetzt', 
+	'third':'a, um'},
+
+	{'first':'mēns', 
+	'second':'Verstand', 
+	'third':'mentis f.'},
+
+	{'first':'vulnus', 
+	'second':'Wunde', 
+	'third':'vulneris n.'},
+
+	{'first':'afficere', 
+	'second':'mit etw. versehen, mit etw. ausstatten', 
+	'third':'-ficiō, -fēcī, -fectum (+ Abl.)'},
+
+	{'first':'fallere', 
+	'second':'täuschen', 
+	'third':'fallō, fefellī, -'},
+
+	{'first':'odium', 
+	'second':'Hass', 
+	'third':'ī'},
+
+	{'first':'cōgitāre', 
+	'second':'denken', 
+	'third':''},
+
+	{'first':'negāre', 
+	'second':'verneinen', 
+	'third':''},
+
+	{'first':'negāre', 
+	'second':'sagen, dass . . . nicht', 
+	'third':'+ AcI'},
+
+	{'first':'permovēre', 
+	'second':'(innerlich) stark bewegen= <br> 1. beunruhigen 2. veranlassen', 
+	'third':'-moveō, -mōvī, -mōtum'},
+
+	{'first':'exilium', 
+	'second':'Verbannung', 
+	'third':'ī'},
+
+	{'first':'damnāre', 
+	'second':'verurteilen', 
+	'third':''},
+
+	{'first':'scrībere', 
+	'second':'schreiben', 
+	'third':'scrībō, scrīpsī, scrīptum'},
+
+	{'first':'lēx', 
+	'second':'Gesetz', 
+	'third':'lēgis f.'},
+
+	{'first':'domi', 
+	'second':'zu Hause', 
+	'third':'(Adv.)'},
+
+	{'first':'manēre', 
+	'second':'bleiben', 
+	'third':'maneō, mānsī, -'},
+
+	{'first':'furere', 
+	'second':'umherwüten, verrückt sein', 
+	'third':'furō, - , -'},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,6 +289,7 @@ var Vokabeltest_Lektion = [
 
 
 ]
+
 
 
 
@@ -5701,7 +5883,7 @@ var Lektion35  = [
 
 	{'first':'(ē)vitāre', 
 	'second':'vermeiden', 
-	'third':''},
+	'third':'(ēvitāre)'},
 
 	{'first':'occāsiō', 
 	'second':'Gelegenheit', 
