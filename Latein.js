@@ -8,7 +8,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'ōra', 
 	'second':'Küste', 
-	'third':'ae'},
+	'third':'ae f.'},
 
 	{'first':'ad-venīre', 
 	'second':'ankommen', 
@@ -16,7 +16,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'saeculum', 
 	'second':'Zeitalter, Jahrhundert', 
-	'third':'ī'},
+	'third':'ī n.'},
 
 	{'first':'hūc', 
 	'second':'hierhin', 
@@ -48,7 +48,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'audācia', 
 	'second':'Kühnheit= <br> 1. Frechheit 2. Mut', 
-	'third':'ae'},
+	'third':'ae f.'},
 
 	{'first':'temptāre', 
 	'second':'(betasten)= <br> 1. versuchen 2. angreifen', 
@@ -80,7 +80,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'solum', 
 	'second':'Erdboden', 
-	'third':'ī'},
+	'third':'ī n.'},
 
 	{'first':'pēs', 
 	'second':'Fuß', 
