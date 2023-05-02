@@ -1,153 +1,10 @@
 var Vokabeltest_Lektion = [
 
 
-	
-	{'first':'perdere', 
-	'second':'zugrunde richten', 
-	'third':'perdō, perdidī, perditum'},
 
-	{'first':'ōra', 
-	'second':'Küste', 
-	'third':'ae f.'},
-
-	{'first':'ad-venīre', 
-	'second':'ankommen', 
-	'third':'-veniō, -vēnī, -ventum'},
-
-	{'first':'saeculum', 
-	'second':'Zeitalter, Jahrhundert', 
-	'third':'ī n.'},
-
-	{'first':'hūc', 
-	'second':'hierhin', 
-	'third':'(Adv.)'},
-
-	{'first':'quīdam', 
-	'second':'jemand, ein gewisser', 
-	'third':'quaedam, quoddam'},
-
-	{'first':'reperīre', 
-	'second':'(wieder)finden', 
-	'third':'reperiō, repperī, repertum'},
-
-	{'first':'reffere', 
-	'second':'1. (zurück)bringen 2. berichten', 
-	'third':'referō, rettulī, relātum'},
-
-	{'first':'causā', 
-	'second':'wegen', 
-	'third':'(+ vorangestellter Gen.)'},
-
-	{'first':'causā', 
-	'second':'um etw. zu tun', 
-	'third':'(nach nd-Form im Gen.)'},
-
-	{'first':'prīvāre', 
-	'second':'1. einer Sache berauben <br> 2. von etw. befreien', 
-	'third':'(+ Abl.)'},
-
-	{'first':'audācia', 
-	'second':'Kühnheit= <br> 1. Frechheit 2. Mut', 
-	'third':'ae f.'},
-
-	{'first':'temptāre', 
-	'second':'(betasten)= <br> 1. versuchen 2. angreifen', 
+	{'first':'cum', 
+	'second':'1. als, da, obgleich, während (Konj.) <br> 2. als, indem, sooft, wenn (Ind.) <br> 3. mit (+ Abl.)', 
 	'third':''},
-
-	{'first':'licet', 
-	'second':'wenn auch, selbst wenn', 
-	'third':'(+ Konj.)'},
-
-	{'first':'ratiō', 
-	'second':'1. Vernunft <br> 2. Methode, Art und Weise <br> 3. Grund', 
-	'third':'ōnis f.'},
-
-	{'first':'īnstāre', 
-	'second':'jmd. bevorstehen, drohen', 
-	'third':'īnstō, īnstitī + Dat.'},
-
-	{'first':'obīre', 
-	'second':'1. entgegengehen 2. übernehmen', 
-	'third':'-eō, -iī, -itum'},
-
-	{'first':'(mortem) obīre', 
-	'second':'sterben', 
-	'third':''},
-
-	{'first':'vehemēns', 
-	'second':'heftig', 
-	'third':'(Gen. vehementis)'},
-
-	{'first':'solum', 
-	'second':'Erdboden', 
-	'third':'ī n.'},
-
-	{'first':'pēs', 
-	'second':'Fuß', 
-	'third':'pedis m.'},
-
-	{'first':'pedem referre', 
-	'second':'sich zurückziehen', 
-	'third':''},
-
-	{'first':'quantus', 
-	'second':'wie groß, wie viel', 
-	'third':'a, um'},
-
-	{'first':'ignis', 
-	'second':'Feuer', 
-	'third':'is m. (Gen. Pl. ignium)'},
-
-	{'first':'nōndum', 
-	'second':'noch nicht', 
-	'third':'(Adv.)'},
-
-	{'first':'custōdīre', 
-	'second':'bewachen', 
-	'third':''},
-
-	{'first':'ars', 
-	'second':'1. Geschicklichkeit <br> 2. Kunst', 
-	'third':'artis f.'},
-
-	{'first':'(ē)vitāre', 
-	'second':'vermeiden', 
-	'third':''},
-
-	{'first':'occāsiō', 
-	'second':'Gelegenheit', 
-	'third':'ōnis f.'},
-
-	{'first':'aureus', 
-	'second':'golden', 
-	'third':'a, um'},
-
-	{'first':'addūcere', 
-	'second':'1. heranführen 2. veranlassen', 
-	'third':'-dūcō, -dūxī, -ductum'},
-
-	{'first':'timōre adductus', 
-	'second':'aus Furcht', 
-	'third':''},
-
-	{'first':'īnstruere', 
-	'second':'1. aufstellen <br> 2. ausrüsten <br> 3. unterrichten', 
-	'third':'-struōv, -strūxī, -strūctum'},
-
-
-
-
-
-]
-
-
-
-
-
-
-
-var Vokabeltest_Lektion_36 = [
-
 
 	{'first':'volvere', 
 	'second':'wälzen, rollen', 
@@ -5903,7 +5760,7 @@ var Lektion35  = [
 
 	{'first':'īnstruere', 
 	'second':'1. aufstellen <br> 2. ausrüsten <br> 3. unterrichten', 
-	'third':'-struōv, -strūxī, -strūctum'},
+	'third':'-struō, -strūxī, -strūctum'},
 
 
 
