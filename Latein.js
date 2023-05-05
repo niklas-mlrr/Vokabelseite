@@ -20,7 +20,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'iussum', 
 	'second':'Befehl', 
-	'third':'ī'},
+	'third':'ī n.'},
 
 	{'first':'quam', 
 	'second':'als', 
@@ -55,7 +55,7 @@ var Vokabeltest_Lektion = [
 	'third':'(Gen. fēlicis)'},
 
 	{'first':'invītus', 
-	'second':'ungern, gegen den Willen', 
+	'second':'ungern, gegen den Willen',  
 	'third':'a, um'},
 
 	{'first':'dīversus', 
@@ -80,7 +80,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'odium', 
 	'second':'Hass', 
-	'third':'ī'},
+	'third':'ī n.'},
 
 	{'first':'cōgitāre', 
 	'second':'denken', 
@@ -100,7 +100,7 @@ var Vokabeltest_Lektion = [
 
 	{'first':'exilium', 
 	'second':'Verbannung', 
-	'third':'ī'},
+	'third':'ī n.'},
 
 	{'first':'damnāre', 
 	'second':'verurteilen', 
