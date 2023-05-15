@@ -1,7 +1,6 @@
-vokabeltest_lektion_anzeigen = false
+vokabeltest_lektion_anzeigen = true
 
-
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 09.05.23 16:30"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 15.05.23 20:35"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -89,8 +88,10 @@ function buildTableVokabeltest_Lektion(data) {
 		var row = `<tr class="row">
 						<td class="first">${data[i].first}</td>
 						<td class="second">${data[i].second}</td>
-						<td>${data[i].third}</td>
-				  </tr>`
+						</tr>`
+					
+						//<td>${data[i].third}</td>
+						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
 		tableVokabeltest_Lektion.innerHTML += row
 	}
 }
@@ -154,7 +155,16 @@ var tables = [
 	{ id: 'table33', data: Lektion33 },
 	{ id: 'table34', data: Lektion34 },
 	{ id: 'table35', data: Lektion35 },
-	{ id: 'table36', data: Lektion36 }
+	{ id: 'table36', data: Lektion36 },
+	{ id: 'table37', data: Lektion37 },
+	{ id: 'table38', data: Lektion38 },
+	{ id: 'table39', data: Lektion39 },
+	{ id: 'table40', data: Lektion40 },
+	{ id: 'table41', data: Lektion41 },
+	{ id: 'table42', data: Lektion42 },
+	{ id: 'table43', data: Lektion43 },
+	{ id: 'table44', data: Lektion44 },
+	{ id: 'table45', data: Lektion45 }
   ];
   
   tables.forEach(function(tableData) {
@@ -313,6 +323,33 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_36") {
 		hide_all_außer36()
 	}
+	if (userOption.value == "#lek_37") {
+		hide_all_außer37()
+	}
+	if (userOption.value == "#lek_38") {
+		hide_all_außer38()
+	}
+	if (userOption.value == "#lek_39") {
+		hide_all_außer39()
+	}
+	if (userOption.value == "#lek_40") {
+		hide_all_außer40()
+	}
+	if (userOption.value == "#lek_41") {
+		hide_all_außer41()
+	}
+	if (userOption.value == "#lek_42") {
+		hide_all_außer42()
+	}
+	if (userOption.value == "#lek_43") {
+		hide_all_außer43()
+	}
+	if (userOption.value == "#lek_44") {
+		hide_all_außer44()
+	}
+	if (userOption.value == "#lek_45") {
+		hide_all_außer45()
+	}
 	
 }
 
@@ -371,6 +408,15 @@ selected_33 = document.getElementsByClassName('insgesamt33')
 selected_34 = document.getElementsByClassName('insgesamt34')
 selected_35 = document.getElementsByClassName('insgesamt35')
 selected_36 = document.getElementsByClassName('insgesamt36')
+selected_37 = document.getElementsByClassName('insgesamt37')
+selected_38 = document.getElementsByClassName('insgesamt38')
+selected_39 = document.getElementsByClassName('insgesamt39')
+selected_40 = document.getElementsByClassName('insgesamt40')
+selected_41 = document.getElementsByClassName('insgesamt41')
+selected_42 = document.getElementsByClassName('insgesamt42')
+selected_43 = document.getElementsByClassName('insgesamt43')
+selected_44 = document.getElementsByClassName('insgesamt44')
+selected_45 = document.getElementsByClassName('insgesamt45')
 
 const selected = [
 	selected_01,
@@ -408,7 +454,16 @@ const selected = [
 	selected_33,
 	selected_34,
 	selected_35,
-	selected_36
+	selected_36,
+	selected_37,
+	selected_38,
+	selected_39,
+	selected_40,
+	selected_41,
+	selected_42,
+	selected_43,
+	selected_44,
+	selected_45
 ];
   
 
@@ -745,6 +800,69 @@ function hide_all_außer36() {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
 }
+function hide_all_außer37() {
+	hide_all()
+	selected_37[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer38() {
+	hide_all()
+	selected_38[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer39() {
+	hide_all()
+	selected_39[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer40() {
+	hide_all()
+	selected_40[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer41() {
+	hide_all()
+	selected_41[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer42() {
+	hide_all()
+	selected_42[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer43() {
+	hide_all()
+	selected_43[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer44() {
+	hide_all()
+	selected_44[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+function hide_all_außer45() {
+	hide_all()
+	selected_45[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
 
 
 
@@ -758,7 +876,7 @@ btn_gewusst_nichtgewusst = document.getElementsByClassName('btn_gewusst_nichtgew
 
 lernen_auswahl_latein[0].classList.add('hidden');
 
-
+lernen()
 function lernen() {
 
 	lernen_auswahl_latein[0].classList.remove('hidden');
@@ -818,6 +936,15 @@ document.getElementById('länge_33').innerHTML = Lektion33.length
 document.getElementById('länge_34').innerHTML = Lektion34.length
 document.getElementById('länge_35').innerHTML = Lektion35.length
 document.getElementById('länge_36').innerHTML = Lektion36.length
+document.getElementById('länge_37').innerHTML = Lektion37.length
+document.getElementById('länge_38').innerHTML = Lektion38.length
+document.getElementById('länge_39').innerHTML = Lektion39.length
+document.getElementById('länge_40').innerHTML = Lektion40.length
+document.getElementById('länge_41').innerHTML = Lektion41.length
+document.getElementById('länge_42').innerHTML = Lektion42.length
+document.getElementById('länge_43').innerHTML = Lektion43.length
+document.getElementById('länge_44').innerHTML = Lektion44.length
+document.getElementById('länge_45').innerHTML = Lektion45.length
 
 
 
@@ -1025,6 +1152,33 @@ function lernen_weiter() {
 			}
 			if (checkboxField[i].value == "Lektion36") {
 				lernen_noch_länge = Lektion36.length
+			}
+			if (checkboxField[i].value == "Lektion37") {
+				lernen_noch_länge = Lektion37.length
+			}
+			if (checkboxField[i].value == "Lektion38") {
+				lernen_noch_länge = Lektion38.length
+			}
+			if (checkboxField[i].value == "Lektion39") {
+				lernen_noch_länge = Lektion39.length
+			}
+			if (checkboxField[i].value == "Lektion40") {
+				lernen_noch_länge = Lektion40.length
+			}
+			if (checkboxField[i].value == "Lektion41") {
+				lernen_noch_länge = Lektion41.length
+			}
+			if (checkboxField[i].value == "Lektion42") {
+				lernen_noch_länge = Lektion42.length
+			}
+			if (checkboxField[i].value == "Lektion43") {
+				lernen_noch_länge = Lektion43.length
+			}
+			if (checkboxField[i].value == "Lektion44") {
+				lernen_noch_länge = Lektion44.length
+			}
+			if (checkboxField[i].value == "Lektion45") {
+				lernen_noch_länge = Lektion45.length
 			}
 			
 
@@ -1478,7 +1632,7 @@ function neue_vok_standard() {
 
    
 */
-for (let i = 1; i <= 36; i++) {
+for (let i = 1; i <= 45; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
 	if (ausgewählt_lektion.value == id) {
 	  let array = window[id];

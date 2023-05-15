@@ -1,152 +1,296 @@
 var Vokabeltest_Lektion = [
 
 
-
-	{'first':'cum', 
-	'second':'1. als, da, obgleich, während (Konj.) <br> 2. als, indem, sooft, wenn (Ind.) <br> 3. mit (+ Abl.)', 
-	'third':''},
-
-	{'first':'volvere', 
-	'second':'wälzen, rollen', 
-	'third':'volvō, volvī, volūtum'},
-
-	{'first':'sēcum volvere', 
-	'second':'nachdenken über', 
-	'third':''},
-
-	{'first':'īnfēlix', 
-	'second':'unglücklich', 
-	'third':'(Gen. īnfēlicis)'},
-
-	{'first':'iussum', 
-	'second':'Befehl', 
-	'third':'ī n.'},
-
-	{'first':'quam', 
-	'second':'als', 
-	'third':''},
-
-	{'first':'umquam', 
-	'second':'jemals', 
-	'third':'(Adv.)'},
-
-	{'first':'recēns', 
-	'second':'neu, frisch', 
-	'third':'(Gen. recentis)'},
-
-	{'first':'interesse', 
-	'second':'» dazwischen sein « <br> 1. sich dazwischen befinden <br> 2. teilnehmen, dabei sein <br> 3. einen Unterschied machen für <br> jmd. , wichtig sein', 
-	'third':'-sum, -fuī'},
-
-	{'first':'mea interest', 
-	'second':'es ist wichtig für mich', 
-	'third':''},
-
-	{'first':'utrum . . . an . . .', 
-	'second':'ob . . . oder (ob)', 
-	'third':''},
-
-	{'first':'occīdere', 
-	'second':'umkommen', 
-	'third':'occidō, occidī'},
-
-	{'first':'fēlix', 
-	'second':'glücklich', 
-	'third':'(Gen. fēlicis)'},
-
-	{'first':'invītus', 
-	'second':'ungern, gegen den Willen',  
-	'third':'a, um'},
-
-	{'first':'dīversus', 
-	'second':'entgegengesetzt', 
-	'third':'a, um'},
-
-	{'first':'mēns', 
-	'second':'Verstand', 
-	'third':'mentis f.'},
-
-	{'first':'vulnus', 
-	'second':'Wunde', 
-	'third':'vulneris n.'},
-
-	{'first':'afficere', 
-	'second':'mit etw. versehen, mit etw. ausstatten', 
-	'third':'-ficiō, -fēcī, -fectum (+ Abl.)'},
-
-	{'first':'fallere', 
-	'second':'täuschen', 
-	'third':'fallō, fefellī, -'},
-
-	{'first':'odium', 
-	'second':'Hass', 
-	'third':'ī n.'},
-
-	{'first':'cōgitāre', 
-	'second':'denken', 
-	'third':''},
-
-	{'first':'negāre', 
-	'second':'verneinen', 
-	'third':''},
-
-	{'first':'negāre', 
-	'second':'sagen, dass . . . nicht', 
-	'third':'+ AcI'},
-
-	{'first':'permovēre', 
-	'second':'(innerlich) stark bewegen= <br> 1. beunruhigen 2. veranlassen', 
-	'third':'-moveō, -mōvī, -mōtum'},
-
-	{'first':'exilium', 
-	'second':'Verbannung', 
-	'third':'ī n.'},
-
-	{'first':'damnāre', 
-	'second':'verurteilen', 
-	'third':''},
-
-	{'first':'scrībere', 
-	'second':'schreiben', 
-	'third':'scrībō, scrīpsī, scrīptum'},
-
-	{'first':'lēx', 
-	'second':'Gesetz', 
-	'third':'lēgis f.'},
-
-	{'first':'domi', 
-	'second':'zu Hause', 
-	'third':'(Adv.)'},
-
-	{'first':'manēre', 
-	'second':'bleiben', 
-	'third':'maneō, mānsī, -'},
-
-	{'first':'furere', 
-	'second':'umherwüten, verrückt sein', 
-	'third':'furō, - , -'},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]
-
+	
+		{'first':'Guten Tag, Hallo, Hi', 
+		'second':'G´Day', 
+		'third':''},
+	
+		{'first':'Jungendherberge', 
+		'second':'youth hostel', 
+		'third':''},
+	
+		{'first':'glänzen; schimmern', 
+		'second':'to gleam', 
+		'third':''},
+	
+		{'first':'Bündel; Anhäufung', 
+		'second':'cluster', 
+		'third':''},
+	
+		{'first':'Riesen-; riesig', 
+		'second':'giant', 
+		'third':''},
+	
+		{'first':'Muschel', 
+		'second':'seashell', 
+		'third':''},
+	
+		{'first':'belauschen; zufällig mit anhören', 
+		'second':'to overhear, overheard, overheard', 
+		'third':''},
+	
+		{'first':'Besitzer/-in', 
+		'second':'owner', 
+		'third':''},
+	
+		{'first':'Terrasse', 
+		'second':'terrace', 
+		'third':''},
+	
+		{'first':'Schlange', 
+		'second':'snake', 
+		'third':''},
+	
+		{'first':'Rettungshubschrauber', 
+		'second':'air ambulance', 
+		'third':''},
+	
+		{'first':'Satellit', 
+		'second':'satellite', 
+		'third':''},
+	
+		{'first':'weggehen', 
+		'second':'to go off', 
+		'third':''},
+	
+		{'first':'allein; für sich', 
+		'second':'on one´s own', 
+		'third':''},
+	
+		{'first':'Buschwandern', 
+		'second':'bushwalking', 
+		'third':''},
+	
+		{'first':'Würfelqualle', 
+		'second':'box jellyfish', 
+		'third':''},
+	
+		{'first':'Seewespe (Würfelquallen-Art)', 
+		'second':'marine stinger', 
+		'third':''},
+	
+		{'first':'durch ein Netz abtrennen', 
+		'second':'to net off', 
+		'third':''},
+	
+		{'first':'wahrscheinlich sein', 
+		'second':'to be likely', 
+		'third':''},
+	
+		{'first':'Brandungsrückströmung', 
+		'second':'rip current', 
+		'third':''},
+	
+		{'first':'auf offene Meer getrieben werden', 
+		'second':'to be swept out to sea', 
+		'third':''},
+	
+		{'first':'tröstlich, ermutigend', 
+		'second':'safety', 
+		'third':''},
+	
+		{'first':'abbrechen, absagen', 
+		'second':'to call off', 
+		'third':''},
+	
+		{'first':'Gefahr; Risiko', 
+		'second':'risk', 
+		'third':''},
+	
+		{'first':'Sprecher/-in; PR-Sprecher/-in', 
+		'second':'spokesperson', 
+		'third':''},
+	
+		{'first':'Verband; Organisation', 
+		'second':'association', 
+		'third':''},
+	
+		{'first':'Überleben', 
+		'second':'survival', 
+		'third':''},
+	
+		{'first':'klimatisch', 
+		'second':'climatic', 
+		'third':''},
+	
+		{'first':'meißtens; größtenteils; hauptsächlich', 
+		'second':'mostly', 
+		'third':''},
+	
+		{'first':'Inneres; Landesinneres', 
+		'second':'interior', 
+		'third':''},
+	
+		{'first':'jmdn. (an einem Ort) herumführen', 
+		'second':'to show sb around (a place)', 
+		'third':''},
+	
+		{'first':'Grillparty', 
+		'second':'barbie (infml) (=barbecue)', 
+		'third':''},
+	
+		{'first':'servieren; dienen; bedienen', 
+		'second':'to serve', 
+		'third':''},
+	
+		{'first':'pflücken', 
+		'second':'to pick', 
+		'third':''},
+	
+		{'first':'Müll; Abfall', 
+		'second':'litter', 
+		'third':''},
+	
+		{'first':'Weg; Pfad', 
+		'second':'track', 
+		'third':''},
+	
+		{'first':'stören', 
+		'second':'to distrub', 
+		'third':''},
+	
+		{'first':'Ort; Gelände; Schauplatz', 
+		'second':'site', 
+		'third':''},
+	
+		{'first':'schaden; beschädigen', 
+		'second':'to damage', 
+		'third':''},
+	
+		{'first':'Echse; Eidechse', 
+		'second':'lizard', 
+		'third':''},
+	
+		{'first':'tödlich', 
+		'second':'deadly', 
+		'third':''},
+	
+		{'first':'Leute', 
+		'second':'folks (infml) (pl)', 
+		'third':''},
+	
+		{'first':'Kein Problem.; Gern geschehen.', 
+		'second':'No worries.', 
+		'third':''},
+	
+		{'first':'Wie geht es dir/euch/Ihnen?', 
+		'second':'How are you doing?', 
+		'third':''},
+	
+		{'first':'Nett dich/euch/Sie kennenzulernen.', 
+		'second':'Nice to meet you.', 
+		'third':''},
+	
+		{'first':'Neuseeländer/-in', 
+		'second':'Kiwi (infml)', 
+		'third':''},
+	
+		{'first':'zurückverfolgen', 
+		'second':'to trace back', 
+		'third':''},
+	
+		{'first':'Vorfahr/-in; Ahn/-in', 
+		'second':'ancestor', 
+		'third':''},
+	
+		{'first':'Sträfling', 
+		'second':'convict', 
+		'third':''},
+	
+		{'first':'jmdn. zufällig treffen; hier= jmdn. anrempeln', 
+		'second':'to bump into sb', 
+		'third':''},
+	
+		{'first':'Verurteilung; Strafmaß', 
+		'second':'sentence', 
+		'third':''},
+	
+		{'first':'Opfer', 
+		'second':'victim', 
+		'third':''},
+	
+		{'first':'pflegte(n) zu; tat(en) früher', 
+		'second':'used to (+infinitive)', 
+		'third':''},
+	
+		{'first':'unterdrücken', 
+		'second':'to oppress', 
+		'third':''},
+	
+		{'first':'einheimisch; heimisch', 
+		'second':'indigenous (fml)', 
+		'third':''},
+	
+		{'first':'etw. machen lassen', 
+		'second':'to have sth done', 
+		'third':''},
+	
+		{'first':'renovieren', 
+		'second':'to renovate', 
+		'third':''},
+	
+		{'first':'Überbleibsel; Überrest', 
+		'second':'leftovers (pl)', 
+		'third':''},
+	
+		{'first':'erlauben; gestatten', 
+		'second':'to allow', 
+		'third':''},
+	
+		{'first':'hier= lassen', 
+		'second':'to make', 
+		'third':''},
+	
+		{'first':'Abschied-; Abschieds-', 
+		'second':'farewell', 
+		'third':''},
+	
+		{'first':'liefern', 
+		'second':'to deliver', 
+		'third':''},
+	
+		{'first':'in Übersee; im Ausland', 
+		'second':'overseas', 
+		'third':''},
+	
+		{'first':'ausrichten (Veranstalltung)', 
+		'second':'to host', 
+		'third':''},
+	
+		{'first':'Vielzahl (an); Vielfalt (Von)', 
+		'second':'variety (of)', 
+		'third':''},
+	
+	
+		{'first':'Feier', 
+		'second':'celebration', 
+		'third':''},
+	
+		{'first':'sich bewerben (um); beantragen', 
+		'second':'to apply (for)', 
+		'third':''},
+	
+		{'first':'Beruf; Beschäftigung', 
+		'second':'Occupation', 
+		'third':''},
+	
+		{'first':'Politik; politische Linie', 
+		'second':'policy', 
+		'third':''},
+	
+		{'first':'beschränkend; einengend', 
+		'second':'restrictive', 
+		'third':''},
+	
+	
+	
+	
+	
+	
+	
+	
+	]
 
 
 
@@ -2723,9 +2867,9 @@ var Lektion16  = [
 
 var Lektion17 = [
 
-		{"first":"neglegere", 
-		"second":"nicht beachten, missachten, <br/> vernachlässigen", 
-		"third":"neglegō, neglēxi, neglēctum"},
+		{'first':'neglegere', 
+		'second':'nicht beachten, missachten, <br/> vernachlässigen', 
+		'third':'neglegō, neglēxi, neglēctum'},
 
 		{'first':'relinquere', 
 		'second':'verlassen, unbeachtet lassen', 
@@ -4791,7 +4935,7 @@ var Lektion30  = [
 
 	{'first':'trādūcere', 
 	'second':'hinüberführen', 
-	'third':'-dūcō, -dūxī, -ductum; <br> mit dopp. Akk.= jnd. über etw. führen'},
+	'third':'-dūcō, -dūxī, -ductum; <br> mit dopp. Akk.= <br> jnd. über etw. führen'},
 
 	{'first':'silva', 
 	'second':'Wald', 
@@ -4990,7 +5134,7 @@ var Lektion31  = [
 
 	{'first':'quam ob rem', 
 	'second':'warum? weshalb?', 
-	'third':'(relativer Satzanschluss= deshalb)'},
+	'third':'(relativer Satzanschluss = <br> deshalb)'},
 
 	{'first':'crēscere', 
 	'second':'wachsen', 
@@ -6110,7 +6254,7 @@ var Lektion37  = [
 	'third':''},
 
 	{'first':'compōnere', 
-	'second':'(zusammenstellen), sich ausdenken, abfassen, ordnen, vergleichen', 
+	'second':'(zusammenstellen), sich ausdenken, <br> abfassen, ordnen, vergleichen', 
 	'third':'pōnō, posuī, positum'},
 
 	{'first':'aequor', 
@@ -6142,7 +6286,7 @@ var Lektion37  = [
 	'third':'ae'},
 
 	{'first':'familiāris', 
-	'second':'zur Familie gehörend, befreundet, vertraut; Subst.= Freund ((, Vertrauter))', 
+	'second':'zur Familie gehörend, befreundet, <br> vertraut; Subst.= Freund ((, Vertrauter))', 
 	'third':'e'},
 
 
@@ -6178,7 +6322,7 @@ var Lektion38  = [
 	'third':''},
 
 	{'first':'grātia', 
-	'second':'Ausstrahlung, Beliebtheit, Sympathie, Gefälligkeit, Dank', 
+	'second':'Ausstrahlung, Beliebtheit, <br> Sympathie, Gefälligkeit, Dank', 
 	'third':'ae'},
 
 	{'first':'grātiam referre', 
@@ -6199,7 +6343,7 @@ var Lektion38  = [
 
 	{'first':'persuādēre', 
 	'second':'überreden, überzeugen', 
-	'third':'persuādeō, persuāsī, persuāsum (+ Dat.)'},
+	'third':'persuādeō, persuāsī, <br> persuāsum (+ Dat.)'},
 
 
 
@@ -6342,7 +6486,7 @@ var Lektion39  = [
 	'third':''},
 
 	{'first':'parcere', 
-	'second':'etw. / jdn. schonen, auf jdn. Rücksicht nehmen, sparen', 
+	'second':'etw. / jdn. schonen, <br> auf jdn. Rücksicht nehmen, sparen', 
 	'third':'parcō, pepercī (+ Dat.)'},
 
 	{'first':'emere', 
@@ -6413,7 +6557,7 @@ var Lektion39  = [
 	'third':'ī'},
 	
 	{'first':'aedēs', 
-	'second':'(Raum)= 1. Tempel 2. (im Plural=) Wohnhaus', 
+	'second':'(Raum)= <br> 1. Tempel 2. (im Plural=) Wohnhaus', 
 	'third':'is f. (Gen. Pl. aedium)'},
 	
 	{'first':'vidērī', 
@@ -6445,7 +6589,7 @@ var Lektion39  = [
 	'third':'-sūmō, -sūmpsī, -sūmptum'},
 	
 	{'first':'offendere', 
-	'second':'(anstoßen)= verletzen; beleidigen (hier= antreffen)', 
+	'second':'(anstoßen)= verletzen; <br> beleidigen (hier= antreffen)', 
 	'third':'offendō, offendī, offēnsum'},
 	
 	{'first':'convīva', 
@@ -6600,7 +6744,7 @@ var Lektion40  = [
 	'third':'nōlō, nōlui, -'},
 
 	{'first':'nōlī / nōlīte + Inf.', 
-	'second':'verneinter Imperativ (nōli flēre = weine nicht!)', 
+	'second':'verneinter Imperativ <br> (nōli flēre = weine nicht!)', 
 	'third':''},
 
 	{'first':'perturbāre', 
@@ -6621,7 +6765,7 @@ var Lektion40  = [
 
 	{'first':'pauper', 
 	'second':'arm', 
-	'third':'(Gen. pauperis, Abl paupere)'},
+	'third':'(Gen. pauperis, <br> Abl. paupere)'},
 
 	{'first':'antequam', 
 	'second':'bevor', 
@@ -7122,7 +7266,7 @@ var Lektion43  = [
 	'third':'surgō, surrēxī, surrēctum'},
 
 	{'first':'super', 
-	'second':'auf; über (mit Abl.= wo?; mit Akk.= wohin?)', 
+	'second':'auf; über <br> (mit Abl.= wo?; mit Akk.= wohin?)', 
 	'third':''},
 
 	{'first':'mīrārī', 
@@ -7143,7 +7287,7 @@ var Lektion43  = [
 
 	{'first':'uterque', 
 	'second':'beide (Pl.)', 
-	'third':'utraque, utrumque (Gen. utriusque, Dat. utrique)'},
+	'third':'utraque, utrumque <br> (Gen. utriusque, Dat. utrique)'},
 
 	{'first':'pondus', 
 	'second':'Gewicht', 
@@ -7247,7 +7391,7 @@ var Lektion44  = [
 	'third':'-pōnō, -posuī, -positum'},
 
 	{'first':'ēvertere', 
-	'second':'umkehren, umstürzen, zerstören, vernichten', 
+	'second':'umkehren, umstürzen, <br> zerstören, vernichten', 
 	'third':'-vertō, -vertī, -versum'},
 
 
@@ -7428,7 +7572,7 @@ var Lektion45  = [
 
 	{'first':'persuādēre', 
 	'second':'überreden, überzeugen', 
-	'third':'persuādeō, persuāsī, persuāsum'},
+	'third':'persuādeō, <br> persuāsī, persuāsum'},
 
 	{'first':'tamquam', 
 	'second':'wie', 
