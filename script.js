@@ -1,6 +1,6 @@
 vokabeltest_lektion_anzeigen = true
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 15.05.23 20:35"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 16.05.23 16:40"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -876,7 +876,6 @@ btn_gewusst_nichtgewusst = document.getElementsByClassName('btn_gewusst_nichtgew
 
 lernen_auswahl_latein[0].classList.add('hidden');
 
-lernen()
 function lernen() {
 
 	lernen_auswahl_latein[0].classList.remove('hidden');
