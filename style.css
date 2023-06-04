@@ -1,6 +1,8 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Laila:wght@400;500&display=swap');
+*/
 @font-face {
-  font-family: Chirota_Regular;
-  src: url(Chirota\ Regular.otf);
+  font-family: Laila;
+  src: url(test.ttf);
 }
 
 :root {
@@ -20,7 +22,8 @@
   box-sizing: 0;
   color: black;
   text-align: center;
-
+  font-size: 98%;
+  
 
 }
 
@@ -38,13 +41,14 @@
 
 
 body {
-  font-family: 'Chirota_Regular';
+  font-family: 'Laila';
   position: relative;
   min-height: 100vh;
   display: var(--primary-light);
   align-items: center;
   justify-content: center;
   background-color: white;
+
 }
 
 html {
@@ -98,17 +102,7 @@ html {
   border-collapse: collapse;
   empty-cells: show;
 }
-.lernen_auswahl_Vokabeltest_Lektion {
-  border-width: 5px;
-  width: 210px;
-  /* Wenn in Englisch Auswahl:
-  width: 260px;
-   */
-  border-bottom-style: dotted;
 
-  border-spacing: 100px 100px;
-
-}
 #tableVokabeltest_Lektion {
 
   align-items: center;
@@ -120,6 +114,15 @@ html {
 }
 
 #tableVokabeln_aus_keiner_Lektion {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#tablebellum_gallicum {
 
   align-items: center;
   justify-content: center;
@@ -510,8 +513,8 @@ td,
 th {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 
 }
 
@@ -566,7 +569,7 @@ th {
 
 .Lektion_select {
   cursor: pointer;
-  font-family: 'Chirota_Regular';
+  font-family: 'Laila';
   position: relative;
   height: 80px;
   width: 200px;
@@ -664,6 +667,8 @@ th {
   -moz-user-select: None;
   -webkit-user-select: None;
   user-select: None;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -711,6 +716,12 @@ th {
 }
 
 
+.hidden_trotzdem_platz {
+  visibility: hidden;
+  z-index: -10;
+}
+
+
 
 
 
@@ -732,9 +743,10 @@ th {
   -webkit-backdrop-filter: blur(8px) saturate(100%);
 
 
-  width: 1300px;
-  height: 82%;
-  display: inline-grid;
+  width: 35%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
   align-items: center;
   border-radius: 1.5rem;
 }
@@ -745,48 +757,10 @@ th {
 
 
 
-
-.latein_form {
-  height: 1000px;
-  width: 750px;
-  
+.lernen_auswählen_viva_oder_originaltexte {
+  top: -200px;
+  left: 10%;
 }
-
-.lernen_auswählen_vokabeltest {
-  position: relative;
-  top: -1%;
-  left: 61%;
-  /* Wenn in Englisch Auswahl:
-  left: 0%;
-   */
-
-}
-
-
-.lernen_auswählen_1-15 {
-  position: relative;
-  top: 0%;
-  left: 8%;
-
-}
-
-
-.lernen_auswählen_16-30 {
-  position: relative;
-
-  top: -75%;
-  left: 51%;
-
-}
-
-.lernen_auswählen_31-45 {
-  position: relative;
-
-  top: -150%;
-  left: 94%;
-
-}
-
 
 
 
@@ -797,7 +771,8 @@ th {
 
 .checkbox {
   position: relative;
-  left: 30px;
+  left: 26%;
+  top: -100px;
   justify-content: center;
   height: 50px;
   width: 250px;
@@ -809,7 +784,6 @@ th {
 .checkbox-container label {
   cursor: pointer;
   display: flex;
-
 }
 
 .checkbox-container input[type='checkbox'] {
@@ -887,14 +861,14 @@ th {
   position: absolute;
   height: 80px;
   width: 150px;
-  top: 40%;
-  right: 2%;
+  bottom: 3%;
+  left: 34.2%;
   cursor: pointer;
   background-color: rgb(71, 71, 71);
   display: inline-grid;
   justify-content: center;
   align-items: center;
-  border-radius: 1.5rem;
+  border-radius: 1.2rem;
   color: white;
 }
 
@@ -910,14 +884,14 @@ th {
   position: absolute;
   height: 80px;
   width: 150px;
-  top: 60%;
-  right: 2%;
+  bottom: 3%;
+  left: 65.8%;
   cursor: pointer;
   background-color: rgb(71, 71, 71);
   display: inline-grid;
   justify-content: center;
   align-items: center;
-  border-radius: 1.5rem;
+  border-radius: 1.2rem;
   color: white;
 }
 
@@ -977,7 +951,7 @@ th {
 
 
 .lernen_einfach_btn {
-  font-family: Chirota_Regular;
+  font-family: Laila;
   transform: translate(-50%, -50%);
   position: absolute;
   height: 270px;
@@ -1101,7 +1075,7 @@ th {
   color: #313131;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: -70px;
+  top: -80px;
   left: 50%;
   font-size: 45px;
   width: 1500px;
@@ -1227,7 +1201,7 @@ th {
   color: #313131;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: -37px;
+  top: -44px;
   left: 50%;
   font-size: 22px;
 }
@@ -1245,7 +1219,7 @@ th {
 .gesamt_fehleranzahl {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: -25px;
+  top: -28px;
   left: 20%;
   font-size: 22px;
 }
@@ -1275,7 +1249,7 @@ th {
 
 /* button_gewusst */
 .btn-gewusst {
-  font-family: Chirota_Regular;
+  font-family: Laila;
   color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
@@ -1367,7 +1341,7 @@ th {
 /* button-aufdecken */
 .btn-aufdecken {
   margin-right: 50px;
-  font-family: Chirota_Regular;
+  font-family: Laila;
 
   color: rgb(77, 77, 77);
   border-radius: 5px;
@@ -1438,7 +1412,7 @@ th {
 /* button_nicht_gewusst */
 .btn-nicht_gewusst {
   margin-right: 50px;
-  font-family: Chirota_Regular;
+  font-family: Laila;
 
   color: rgb(255, 0, 1);
   border-radius: 5px;
@@ -1529,10 +1503,10 @@ th {
 
 .version_number_latest {
   transform: translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 30px;
   position: relative;
-  left: 30px;
-  top: 18px;
+  left: 26px;
+  top: 16px;
   width: 190px;
 }
 
@@ -1620,7 +1594,7 @@ th {
   100% {
     font-size: 50px;
     top: 30px;
-    left: 45%;
+    left: 41%;
   }
 }
 
@@ -1643,8 +1617,8 @@ th {
   100% {
     text-decoration: underline;
     font-size: 50px;
-    top: -27px;
-    left: 427px;
+    top: -30px;
+    left: 406px;
   }
 }
 
@@ -1724,7 +1698,7 @@ th {
 
   100% {
     opacity: 100%;
-    top: 0px;
+    top: -60px;
     left: 50%;
 
   }
@@ -1947,9 +1921,8 @@ th {
 
 .checkbox_haken_mit_ohne_sonstige_formen {
 
-  position: absolute;
-  top: 48%;
-  right: 1%;
+  position: relative;
+  bottom: -110px;
 
   height: 45px;
   width: 350px;
@@ -1973,6 +1946,71 @@ th {
   font-size: 20px;
   color: rgb(80, 80, 80);
 }
+
+
+
+
+
+.lernen_viva_lektion_select {
+  cursor: pointer;
+  font-family: 'Laila';
+  position: relative;
+  height: 80px;
+  width: 250px;
+  padding: 8px 12px;
+  border-radius: 1rem;
+  font-size: 30px;
+  top: -40px;
+
+}
+
+.lernen_viva_lektion_select:focus,
+.lernen_viva_lektion_select:hover {
+  outline: none;
+  border: 1px solid #bbbbbb;
+}
+
+.lernen_viva_lektion_select option {
+  background: white;
+
+}
+
+
+
+
+
+.lernen_originaltexte_select {
+  cursor: pointer;
+  font-family: 'Laila';
+  position: relative;
+  height: 80px;
+  width: 310px;
+  padding: 8px 12px;
+  border-radius: 1rem;
+  font-size: 30px;
+  top: -40px;
+
+}
+
+.lernen_originaltexte_select:focus,
+.lernen_originaltexte_select:hover {
+  outline: none;
+  border: 1px solid #bbbbbb;
+}
+
+.lernen_originaltexte_select option {
+  background: white;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2014,55 +2052,10 @@ th {
     font-size: 25px;
   
   }
-
-
-
-
-
-
-  .lernen_auswählen_1-10 {
-    position: relative;
-    top: 3%;
-    left: 10%;
-  }
-  
-  .lernen_auswählen_11-20 {
-    position: relative;
-    top: -55%;
-    left: 61%;
-  }
-  
-  .lernen_auswählen_21-30 {
-    position: relative;
-    top: -113%;
-    left: 110%;
-  }
 }
 
 
 
-
-@media (max-height: 870px) {
-
-
-  .lernen_auswählen_1-10 {
-    position: relative;
-    top: 3%;
-    left: 10%;
-  }
-  
-  .lernen_auswählen_11-20 {
-    position: relative;
-    top: -40%;
-    left: 61%;
-  }
-  
-  .lernen_auswählen_21-30 {
-    position: relative;
-    top: -83%;
-    left: 110%;
-  }
-}
 
 
 

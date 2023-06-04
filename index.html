@@ -6,7 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vokabeln</title>
-        <script src="Latein.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="Viva Vokabeln.js" defer></script>
+        <script src="Originaltext Vokabeln.js" defer></script>
         <script src="script.js" defer></script>
 
 
@@ -80,7 +82,8 @@
                 <option value="#lek_43">43</option>
                 <option value="#lek_44">44</option>
                 <option value="#lek_45">45</option>
-               
+                <option value="#lek_bellum_gallicum">Bellum Gallicum</option>
+
             </select>
 
             <ion-icon name="lernen_button" class="lernen_button" onclick="lernen()">Lernen</ion-icon>       
@@ -106,14 +109,15 @@
         
         <div class="insgesamtVokabeltest_Lektion">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest Englisch S. 166 - 168</p>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest Bellum Gallicum</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
                     <table class="table">
                         <tr  class="headline">
-                            <th>Englisch</th>
+                            <th>Latein</th>
                             <th>Deutsch</th>
+                            <th>Sonstiges</th>
                         </tr>
                         <tbody id="tableVokabeltest_Lektion">
                             
@@ -1288,6 +1292,39 @@
 
 
 
+
+
+
+                
+        
+        
+        <div class="insgesamtbellum_gallicum">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Bellum Gallicum</p>
+
+<section class="insgesamt_tabelle">
+    <div class="insgesamt_tabelle_inside">
+        <table class="table">
+            <tr  class="headline">
+                <th>Latein</th>
+                <th>Deutsch</th>
+                <th>Sonstiges</th>
+            </tr>
+            <tbody id="tablebellum_gallicum">
+                
+            </tbody>
+        </table>
+    </div>
+</section>
+</div>
+
+
+
+        
+       
+
+
+
     </div>
 
 
@@ -1324,214 +1361,94 @@
 
     <div class="checkbox-container">
 
-        <form class="latein_form" netlify>
-
-            <div class="lernen_auswählen_vokabeltest">
-                <div class="checkbox">
-                    <input name="lernen_checked" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
-                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest &nbsp;&nbsp; <p id="länge_Vokabeltest_Lektion" class="länge"></p></label>
-              </div>
-      </div>
-
-            <div class="lernen_auswählen_1-15">
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion01" type="checkbox" id="lernen_01">
-          <label for="lernen_01">Lektion 01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_01" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion02" type="checkbox" id="lernen_02">
-          <label for="lernen_02">Lektion 02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_02" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion03" type="checkbox" id="lernen_03">
-          <label for="lernen_03">Lektion 03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_03" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion04" type="checkbox" id="lernen_04">
-          <label for="lernen_04">Lektion 04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_04" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion05" type="checkbox" id="lernen_05">
-          <label for="lernen_05">Lektion 05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_05" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion06" type="checkbox" id="lernen_06">
-          <label for="lernen_06">Lektion 06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_06" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion07" type="checkbox" id="lernen_07">
-          <label for="lernen_07">Lektion 07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_07" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion08" type="checkbox" id="lernen_08">
-          <label for="lernen_08">Lektion 08&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_08" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion09" type="checkbox" id="lernen_09">
-          <label for="lernen_09">Lektion 09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_09" class="länge"></p></label>
-      </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion10" type="checkbox" id="lernen_10">
-          <label for="lernen_10">Lektion 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_10" class="länge"></p></label>
-      </div>
-      <div class="checkbox">
-          <input name="lernen_checked" value="Lektion11" type="checkbox" id="lernen_11">
-          <label for="lernen_11">Lektion 11 &nbsp; &nbsp; &nbsp; &nbsp; <p id="länge_11" class="länge"></p></label>
-        </div>
-    <div class="checkbox">
-        <input name="lernen_checked" value="Lektion12" type="checkbox" id="lernen_12">
-      <label for="lernen_12">Lektion 12 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_12" class="länge"></p></label>
-    </div>
-    <div class="checkbox">
-        <input name="lernen_checked" value="Lektion13" type="checkbox" id="lernen_13">
-        <label for="lernen_13">Lektion 13 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_13" class="länge"></p></label>
-    </div>
-    <div class="checkbox">
-        <input name="lernen_checked" value="Lektion14" type="checkbox" id="lernen_14">
-        <label for="lernen_14">Lektion 14 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_14" class="länge"></p></label>
-    </div>
-    <div class="checkbox">
-        <input name="lernen_checked" value="Lektion15" type="checkbox" id="lernen_15">
-        <label for="lernen_15">Lektion 15 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_15" class="länge"></p</label>
-        </div>
-    </div>
-
-    <div class="lernen_auswählen_16-30">
 
 
-      <div class="checkbox">
-        <input name="lernen_checked" value="Lektion16" type="checkbox" id="lernen_16">
-          <label for="lernen_16">Lektion 16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="länge_16" class="länge"></p</label>
-      </div>
-      <div class="checkbox">
-        <input name="lernen_checked" value="Lektion17" type="checkbox" id="lernen_17">
-        <label for="lernen_17">Lektion 17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_17" class="länge"></p</label>
-      </div>
-      <div class="checkbox">
-        <input name="lernen_checked" value="Lektion18" type="checkbox" id="lernen_18">
-        <label for="lernen_18">Lektion 18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_18" class="länge"></p</label>
-        </div>
-      <div class="checkbox">
-        <input name="lernen_checked" value="Lektion19" type="checkbox" id="lernen_19">
-        <label for="lernen_19">Lektion 19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_19" class="länge"></p</label>
-        </div>
-      <div class="checkbox">
-        <input name="lernen_checked" value="Lektion20" type="checkbox" id="lernen_20">
-        <label for="lernen_20">Lektion 20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_20" class="länge"></p</label>
-        </div>
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion21" type="checkbox" id="lernen_21">
-            <label for="lernen_21">Lektion 21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_21" class="länge"></p</label>
-            </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion22" type="checkbox" id="lernen_22">
-                <label for="lernen_22">Lektion 22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_22" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion23" type="checkbox" id="lernen_23">
-                <label for="lernen_23">Lektion 23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_23" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion24" type="checkbox" id="lernen_24">
-                <label for="lernen_24">Lektion 24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_24" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion25" type="checkbox" id="lernen_25">
-                <label for="lernen_25">Lektion 25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_25" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion26" type="checkbox" id="lernen_26">
-                <label for="lernen_26">Lektion 26 &nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_26" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion27" type="checkbox" id="lernen_27">
-                <label for="lernen_27">Lektion 27 &nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_27" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion28" type="checkbox" id="lernen_28">
-                <label for="lernen_28">Lektion 28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_28" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion29" type="checkbox" id="lernen_29">
-                <label for="lernen_29">Lektion 29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_29" class="länge"></p</label>
-                </div>
-            <div class="checkbox">
-                <input name="lernen_checked" value="Lektion30" type="checkbox" id="lernen_30">
-                <label for="lernen_30">Lektion 30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_30" class="länge"></p</label>
-                </div>
-      
-    </div>
-    
-    
-    <div class="lernen_auswählen_31-45">
-        
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion31" type="checkbox" id="lernen_31">
-            <label for="lernen_31">Lektion 31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_31" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion32" type="checkbox" id="lernen_32">
-            <label for="lernen_32">Lektion 32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_32" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion33" type="checkbox" id="lernen_33">
-            <label for="lernen_33">Lektion 33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_33" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion34" type="checkbox" id="lernen_34">
-            <label for="lernen_34">Lektion 34&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_34" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion35" type="checkbox" id="lernen_35">
-            <label for="lernen_35">Lektion 35&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_35" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion36" type="checkbox" id="lernen_36">
-            <label for="lernen_36">Lektion 36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_36" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion37" type="checkbox" id="lernen_37">
-            <label for="lernen_37">Lektion 37 &nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_37" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion38" type="checkbox" id="lernen_38">
-            <label for="lernen_38">Lektion 38&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_38" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion39" type="checkbox" id="lernen_39">
-            <label for="lernen_39">Lektion 39&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_39" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion40" type="checkbox" id="lernen_40">
-            <label for="lernen_40">Lektion 40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_40" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion41" type="checkbox" id="lernen_41">
-            <label for="lernen_41">Lektion 41 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_41" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion42" type="checkbox" id="lernen_42">
-            <label for="lernen_42">Lektion 42&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_42" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion43" type="checkbox" id="lernen_43">
-            <label for="lernen_43">Lektion 43&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_43" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion44" type="checkbox" id="lernen_44">
-            <label for="lernen_44">Lektion 44&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_44" class="länge"></p</label>
-            </div>  
-        <div class="checkbox">
-            <input name="lernen_checked" value="Lektion45" type="checkbox" id="lernen_45">
-            <label for="lernen_45">Lektion 45&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p id="länge_45" class="länge"></p</label>
-            </div>  
 
-                
-                
-                
-            </div>
+
+
             
-        </form>
+            <div class="lernen_auswählen_viva_oder_originaltexte">
+                
+                <div class="checkbox">
+                    <input onclick="lernen_auswählen_viva_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Viva" type="checkbox" id="Viva">
+                    <label for="Viva">Viva</label>
+                </div>
+                
+                
+                <div class="checkbox">
+                    <input onclick="lernen_auswählen_originaltexte_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Originaltexte" type="checkbox" id="Originaltexte">
+                    <label for="Originaltexte">Originaltexte</label>
+                </div>
+                
+                <div class="checkbox">
+                    <input onclick="lernen_auswählen_vokabeltest_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
+                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest</label>
+              </div>
+                
+
+      </div>
+
+      <div class="viva_div">
+            <select id="lernen_viva_lektion_select" class="lernen_viva_lektion_select">
+                <option value="lektion_auswählen" selected>Lektion wählen</option>
+                <option value="lernen_viva_lektion_select_01" id="lernen_viva_lektion_select_01"></option>
+                <option value="lernen_viva_lektion_select_02" id="lernen_viva_lektion_select_02"></option>
+                <option value="lernen_viva_lektion_select_03" id="lernen_viva_lektion_select_03"></option>
+                <option value="lernen_viva_lektion_select_04" id="lernen_viva_lektion_select_04"></option>
+                <option value="lernen_viva_lektion_select_05" id="lernen_viva_lektion_select_05"></option>
+                <option value="lernen_viva_lektion_select_06" id="lernen_viva_lektion_select_06"></option>
+                <option value="lernen_viva_lektion_select_07" id="lernen_viva_lektion_select_07"></option>
+                <option value="lernen_viva_lektion_select_08" id="lernen_viva_lektion_select_08"></option>
+                <option value="lernen_viva_lektion_select_09" id="lernen_viva_lektion_select_09"></option>
+                <option value="lernen_viva_lektion_select_10" id="lernen_viva_lektion_select_10"></option>
+                <option value="lernen_viva_lektion_select_11" id="lernen_viva_lektion_select_11"></option>
+                <option value="lernen_viva_lektion_select_12" id="lernen_viva_lektion_select_12"></option>
+                <option value="lernen_viva_lektion_select_13" id="lernen_viva_lektion_select_13"></option>
+                <option value="lernen_viva_lektion_select_14" id="lernen_viva_lektion_select_14"></option>
+                <option value="lernen_viva_lektion_select_15" id="lernen_viva_lektion_select_15"></option>
+                <option value="lernen_viva_lektion_select_16" id="lernen_viva_lektion_select_16"></option>
+                <option value="lernen_viva_lektion_select_17" id="lernen_viva_lektion_select_17"></option>
+                <option value="lernen_viva_lektion_select_18" id="lernen_viva_lektion_select_18"></option>
+                <option value="lernen_viva_lektion_select_19" id="lernen_viva_lektion_select_19"></option>
+                <option value="lernen_viva_lektion_select_20" id="lernen_viva_lektion_select_20"></option>
+                <option value="lernen_viva_lektion_select_21" id="lernen_viva_lektion_select_21"></option>
+                <option value="lernen_viva_lektion_select_22" id="lernen_viva_lektion_select_22"></option>
+                <option value="lernen_viva_lektion_select_23" id="lernen_viva_lektion_select_23"></option>
+                <option value="lernen_viva_lektion_select_24" id="lernen_viva_lektion_select_24"></option>
+                <option value="lernen_viva_lektion_select_25" id="lernen_viva_lektion_select_25"></option>
+                <option value="lernen_viva_lektion_select_26" id="lernen_viva_lektion_select_26"></option>
+                <option value="lernen_viva_lektion_select_27" id="lernen_viva_lektion_select_27"></option>
+                <option value="lernen_viva_lektion_select_28" id="lernen_viva_lektion_select_28"></option>
+                <option value="lernen_viva_lektion_select_29" id="lernen_viva_lektion_select_29"></option>
+                <option value="lernen_viva_lektion_select_30" id="lernen_viva_lektion_select_30"></option>
+                <option value="lernen_viva_lektion_select_31" id="lernen_viva_lektion_select_31"></option>
+                <option value="lernen_viva_lektion_select_32" id="lernen_viva_lektion_select_32"></option>
+                <option value="lernen_viva_lektion_select_33" id="lernen_viva_lektion_select_33"></option>
+                <option value="lernen_viva_lektion_select_34" id="lernen_viva_lektion_select_34"></option>
+                <option value="lernen_viva_lektion_select_35" id="lernen_viva_lektion_select_35"></option>
+                <option value="lernen_viva_lektion_select_36" id="lernen_viva_lektion_select_36"></option>
+                <option value="lernen_viva_lektion_select_37" id="lernen_viva_lektion_select_37"></option>
+                <option value="lernen_viva_lektion_select_38" id="lernen_viva_lektion_select_38"></option>
+                <option value="lernen_viva_lektion_select_39" id="lernen_viva_lektion_select_39"></option>
+                <option value="lernen_viva_lektion_select_40" id="lernen_viva_lektion_select_40"></option>
+                <option value="lernen_viva_lektion_select_41" id="lernen_viva_lektion_select_41"></option>
+                <option value="lernen_viva_lektion_select_42" id="lernen_viva_lektion_select_42"></option>
+                <option value="lernen_viva_lektion_select_43" id="lernen_viva_lektion_select_43"></option>
+                <option value="lernen_viva_lektion_select_44" id="lernen_viva_lektion_select_44"></option>
+                <option value="lernen_viva_lektion_select_45" id="lernen_viva_lektion_select_45"></option>
+            
+    </select>
+</div>
+
+
+<div class="originaltexte_div">
+            <select id="lernen_originaltexte_select" class="lernen_originaltexte_select">
+                <option value="originaltext_auswählen" selected>Originaltext wählen</option>
+                <option value="lernen_originaltexte_select_bellum_gallicum" id="lernen_originaltexte_select_bellum_gallicum"></option>
+    </select>
+</div>
+
+
         <form class="checkbox_haken_mit_ohne_sonstige_formen_form">
             <div class="checkbox_haken_mit_ohne_sonstige_formen">
               <input checked name="checkbox_haken_mit_ohne_sonstige_formen_checked" value="checkbox_haken_mit_ohne_sonstige_formen_value" type="checkbox" id="checkbox_haken_mit_ohne_sonstige_formen">
@@ -1546,13 +1463,6 @@
     <ion-icon name="lernen_standard_weiter_button" class="lernen_standard_weiter_button_latein" onclick="lernen_standard_weiter()" >Lernen -  <br> Standard</ion-icon>
 </div>
 </div>
-
-
-
-
-
-
-
 
 
 
@@ -1607,129 +1517,134 @@
         <img  class="fehler_seite_zurück_pfeil_btn" src="https://img.icons8.com/ios/1000/000000/circled-left-2.png"/>
     </div>
     <p class="version_headline">Version</p>
-    <p class="version_number_latest">&nbsp;&nbsp;2.0.0</p>
+    <p class="version_number_latest">&nbsp;&nbsp;2.0.1</p>
     <p class="letzte_aktualisierung" id="letzte_aktualisierung">Letzte Aktualisierung</p>
 <img class="version_info" onclick="version_info()" src="https://img.icons8.com/pastel-glyph/512/000000/info--v1.png"/>
 <ul class="patch_notes">
 
-    <li>Die Englisch Vokabe von S. 166 - 168 sind nun vorhanden.</li>
+    <li>Die Lernen-Auswahl hat sich grundlegend verändert. Man muss nun zuerst auswählen, ob die zulernenden Vokabeln Viva-Vokabeln, Originaltextvokabeln oder  Vokabeln für einen Vokabeltest sind. Der Lernen-Modus an sich ist jedoch gleich geblieben.</li>
+    <li>Der Fehler, dass sich beim ersten Anzeigen einer bestimmten Lektion ein neuer Tab öffnet, wurde nun endlich behoben.</li>
+    <li>Die Vokabeln für den Vokabeltest am Freitag sind nun enthalten.</li>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+
+    <p class="version_number">2.0.0</p>
     <li>Alle Vokabeln aus dem Viva Lateibuch sind nun freigeschaltet, da wir ab jetzt zum Wörterbuch (Stowasser) wechseln</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.5.7</p>
     
     <li>Kleine Layout Verbesserungen</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
     
     <p class="version_number">1.5.4</p>
     <li>Im "Lernen - Standard - Modus" gibt es nun einen "Aufdecken - Button", um den Lernenmodus auch ohne Tastatur nutzen zu können.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
         
     <p class="version_number">1.5.0</p>
     <li>Die Englisch Vokabeln wurden komplett entfernt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
         
     <p class="version_number">1.4.6</p>
     <li>Das Javascript für diese Website wurde mithilfe von der ChatGPT Ki verbessert / verkürzt.</li>
     <li>Das Layout in der Lernen-Auswahl wurde geändert.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
         
     <p class="version_number">1.4.1</p>
     <li>Anpassung der Vokabeln für den Test</li>
     <li>Animation der Buttons angepasst</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
     
     <p class="version_number">1.4.0</p>
     <li>Die Vokabeln für den Vokabeltest sind nun ganz oben</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
     
     <p class="version_number">1.3.7</p>
     <li>Das gesamte Code Projekt wurde nun auf GitHub veröffentlicht. Dort gibt es immer die neusten Änderungen. <br>
     <a href="https://github.com/TechNikFuture/Vokabelseite" target="_blank">GitHub Repository</a> <br><br> 
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
  
     <p class="version_number">1.3.5</p>
     <li>Hier in der Versionsinfo gibt es nun eine Anzeige, wann die Website das letze Mal aktuallisiert wurde.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.3.3</p>
     <li>Kleine Designänderung</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.3.1</p>
     <li>Vokabeln, die in keiner Lektion enthalten sind, sind nun verfügbar</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.2.9</p>
     <li>Die Schriftart wurde angepasst. Die Buchstaben ī, ō, ē, ā und ū sind nun auch im gleichen Stil wie die anderen Buchstaben.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.2.6</p>
     <li>Es gibt nun ein anderes Konzept, wie für Vokabeltests gelernt werden kann. Der Lernprozess verändert sich nicht. Die Vokabeln, die wir für einen Vokabeltest lernen sollen, ersetzen jetzt keine Lektion mehr. Wenn wir etwas lernen sollen, werden die Vokabeln ganz oben in der Gesamtübersicht und auch ganz oben im Lernen-Auswahl-Menü angezeigt. Ist aktuell nichts zu lernen, werden diese beiden Sachen einfach ausgeblendet. Diese Veränderung macht es sehr viel einfacher für mich, da ich nur die Vokabeln, die wir lernen sollen, in meiner Datenbank hinzufügen und eine Variable in meinem Script auf von false auf true setzen muss.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.2.4</p>
     <li>In der Versionsinfo wurde ein Fehler bezüglich des Schließens behoben. Dies funktioniert nun wieder korrekt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
     
     <p class="version_number">1.2.3</p>
     <li>Im Lernen-Modus wurde ein Couter namens "Gesamte Fehleranzahl" hinzugefügt. Dieser erhöht sich, wenn man einen Fehler macht. Dabei ist es egal, ob man bei dieser Vokabel schonmal einen Fehler gemacht hat oder nicht. Diese Funktion wird in Zukunft wahrscheinlich auch noch hinzugefügt, aber noch nicht jetzt, da es ist ein wenig komplizierter ist.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.2.1</p>
     <li>Neue Hintergrundbilder wurden hinzugefügt. Es sind nun insgesamt 14, die zufällig angezeigt werden.</li>
     <li>Die x Buttons zum Schließen von bspw. Menüs funktionieren alle nun wieder korrekt.</li>
     <li>Auf Geräten mit "spezielleren" Bildschirmgrößen werden nun alle Fenster und Menüs korrekt angezeigt. Geräte mit kleineren Bildschirmen (Handys) werden jedoch noch nicht vollständig unterstützt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.1.7</p>
     <li>Neue Hintergrundbilder wurden hinzugefügt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.1.5</p>
     <li>In der Lernen-Modus Lektionsauswahl gibt es nun ein Feld, mitdem man die sonstigen Formen abwählen kann. <br> Standardmäßig sind diese aber enthalten. Das Abwählen der sonstigen Formen ist beim Lernen-Einfach Modus besonders nützlich, da sie oft die richtige Lösung verraten.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
  
     <p class="version_number">1.1.2</p>
     <li>Es wurden kleine Verbesserungen in der Vokabel-Datenbank vorgenommen.</li>
     <li>Der Lernen-Modus Einfach ist nun in vollem Umfang benutzbar. Es treten nun keine <a class="fehler_seite_hier" onclick="fehler_seite()">Fehler</a> mehr auf.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.1.0</p>
     <li>Es gibt nun eine Fehler-Seite, auf der ich alle Fehler und Probleme auf der Seite dokumentiere. Um zu dieser Seite zu gelangen, klicke <a class="fehler_seite_hier" onclick="fehler_seite()">hier</a></li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
     
     <p class="version_number">1.0.9</p>
     <li>Der neue Lernen-Modus "Einfach" ist nun verfügbar, aber hat noch einen Fehler. Es passiert zufällig und relativ oft, dass nicht angezeigt wird, ob man die richtige Übersetzung angeklickt hat oder nicht. Dieser Fehler beschränkt sich jedoch nur auf das Aufleuchten der richtigen/falschen Option. <br> Der Lernen-Modus Einfach ist also noch in der Beta-Phase.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
     
     <p class="version_number">1.0.8</p>
     <li>Ich bin gerade dabei, einen neuen Lernen-Modus zu entwickeln. Dabei wird eine Vokabel angezeigt und man muss aus drei Optionen die richtige Übersetzung auswählen. Aktuell funktioniert der Modus noch nicht. In den nächsten Versionen wird dieser freigeschaltet.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.0.5</p>
     <li>Das generelle Design wurde überarbeitet.</li>
     <li>Hintergründe, die sich bei jedem neu laden der Seite automatische wechseln oder nach 10 Min.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.0.4</p>
     <li>Die Abstände der Elemente sollten nun auch im Auswahl-Menü passen.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.0.3</p>
     <li>Das x in der Versions-Info ist nun nicht mehr fixiert, aber dafür funktioniert die Hitbox wieder richtig.</li>
     <li>Die Abstände der Elemente zum Bildschirmrand im Lernen-Menü stimmen nun entgültig.</li>
     <li>Der Source-Code für diese Seite beträgt aktuell 3734 Zeilen.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.0.2</p>
     <li>Im Lernen-Menü sollten die Abstände der Elemente zum Bildschirmrand jetzt stimmen.</li>
     <li>Ein paar kleinere Bugs gefixed.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.0.1</p>
     <li>Das Lernen-Menü kann nun mit dem x in der oberen rechten Ecke geschlossen werden.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p><br>
+    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">1.0</p>
     <li>Alle latein Vokabeln sind nun enthalten (Die, die wir bis jetzt hatten).</li>
@@ -1742,7 +1657,7 @@
 </ul>
 <ul class="fehler_seite">
 <h2>Fehler-Seite</h2><br>
-<li>Beim Menüpunkt, beidem man schnell zu Lektionen springen kann, wird beim erstmaligen Auswählen (beim starten der Website) ein neuer Tab geöffnet. In diesem neuen Tab passiert dies nicht erneut.</li>
+<li>Es gibt aktuell keine entdeckten Fehler.</li>
 </ul>
 </div>
 </div>

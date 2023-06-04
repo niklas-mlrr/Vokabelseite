@@ -39,7 +39,6 @@ $('th').on('click', function(){
 
 
 
-
 random_background()
 
 function random_background() {
@@ -62,17 +61,17 @@ setInterval(() => {
 
 
 insgesamtVokabeltest_Lektion = document.getElementsByClassName('insgesamtVokabeltest_Lektion')
-lernen_auswählen_vokabeltest = document.getElementsByClassName('lernen_auswählen_vokabeltest')
+//lernen_auswählen_vokabeltest = document.getElementsByClassName('lernen_auswählen_vokabeltest')
 auswahl_Vokabeltest = document.getElementsByClassName('auswahl_Vokabeltest')
 
 insgesamtVokabeltest_Lektion[0].classList.add('hidden');
-lernen_auswählen_vokabeltest[0].classList.add('hidden');
+//lernen_auswählen_vokabeltest[0].classList.add('hidden');
 auswahl_Vokabeltest[0].classList.add('hidden');
 
 
 if(vokabeltest_lektion_anzeigen == true) {
 	insgesamtVokabeltest_Lektion[0].classList.remove('hidden');
-	lernen_auswählen_vokabeltest[0].classList.remove('hidden');
+	//lernen_auswählen_vokabeltest[0].classList.remove('hidden');
 	auswahl_Vokabeltest[0].classList.remove('hidden');
 
 
@@ -86,8 +85,9 @@ function buildTableVokabeltest_Lektion(data) {
 	for (var i = 0; i < data.length; i++) {
 
 		var row = `<tr class="row">
-						<td class="first">${data[i].first}</td>
-						<td class="second">${data[i].second}</td>
+							<td class="first">${data[i].first}</td>
+							<td class="second">${data[i].second}</td>
+							<td>${data[i].third}</td>
 						</tr>`
 					
 						//<td>${data[i].third}</td>
@@ -114,6 +114,24 @@ function buildTableVokabeln_aus_keiner_Lektion(data) {
 						<td>${data[i].third}</td>
 				  </tr>`
 		tableVokabeln_aus_keiner_Lektion.innerHTML += row
+	}
+}
+
+
+
+buildTablebellum_gallicum(bellum_gallicum)
+
+function buildTablebellum_gallicum(data) {
+	var tablebellum_gallicum = document.getElementById('tablebellum_gallicum')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+						<td>${data[i].third}</td>
+				  </tr>`
+		tablebellum_gallicum.innerHTML += row
 	}
 }
 
@@ -203,9 +221,7 @@ var tables = [
 var urlMenu = document.getElementById('Lektion_select');
 urlMenu.onchange = function () {
 	var userOption = this.options[this.selectedIndex];
-	if (userOption.value != "all") {
-		window.open(userOption.value, "idk", "");
-	}
+
 	if (userOption.value == "#all") {
 		all()
 	}
@@ -350,6 +366,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_45") {
 		hide_all_außer45()
 	}
+	if (userOption.value == "#lek_bellum_gallicum") {
+		hide_all_außerbellum_gallicum()
+	}
 	
 }
 
@@ -367,6 +386,12 @@ fehler_seite_groß = document.getElementsByClassName('fehler_seite')
 fehler_seite_zurück_pfeil_btn_ = document.getElementsByClassName('fehler_seite_zurück_pfeil_btn')
 
 
+viva_div = document.getElementsByClassName('viva_div')
+originaltexte_div = document.getElementsByClassName('originaltexte_div')
+
+
+viva_div[0].classList.add('hidden');
+originaltexte_div[0].classList.add('hidden_trotzdem_platz');
 
 
 
@@ -417,6 +442,10 @@ selected_42 = document.getElementsByClassName('insgesamt42')
 selected_43 = document.getElementsByClassName('insgesamt43')
 selected_44 = document.getElementsByClassName('insgesamt44')
 selected_45 = document.getElementsByClassName('insgesamt45')
+
+selected_bellum_gallicum = document.getElementsByClassName('insgesamtbellum_gallicum')
+
+
 
 const selected = [
 	selected_01,
@@ -482,6 +511,10 @@ function hide_all() {
 		}	
 			
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.add('hidden');
+
+	selected_bellum_gallicum[0].classList.add('hidden');
+
+
 	for (const elem of selected) {
 		elem[0].classList.add('hidden');
 	  }
@@ -496,6 +529,8 @@ function all() {
 		}
 
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.remove('hidden');
+	selected_bellum_gallicum[0].classList.remove('hidden');
+
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
 	  }
@@ -865,6 +900,20 @@ function hide_all_außer45() {
 }
 
 
+function hide_all_außerbellum_gallicum() {
+	hide_all()
+	selected_bellum_gallicum[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+
+
+
+
+
+
+
 
 lernen_auswahl_latein = document.getElementsByClassName('lernen_auswahl_latein')
 all_all = document.getElementsByClassName('all_all')
@@ -883,8 +932,286 @@ function lernen() {
 	search_div[0].classList.add('hidden');
 
 
+	$('input[type="checkbox"][class="only_select___nicht_löschen"]').on('change', function() {
+		$('input[type="checkbox"][class="only_select___nicht_löschen"]').not(this).prop('checked', false);
+	 });
 
-}
+
+
+	var urlMenu = document.getElementById('lernen_viva_lektion_select');
+	urlMenu.onchange = function lernen_viva_lektion_select_function() {
+		var userOption = this.options[this.selectedIndex];
+
+		if (userOption.value == "lektion_auswählen") {
+			lektion_ausgewählt = false
+		}
+
+
+
+
+		if (userOption.value == "lernen_viva_lektion_select_01") {
+			ausgewählt_lektion = "Lektion01"
+			lernen_noch_länge = Lektion01.length
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_02") {
+			ausgewählt_lektion = "Lektion02"
+			lernen_noch_länge = Lektion02.length
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_03") {
+			ausgewählt_lektion = "Lektion03";
+			lernen_noch_länge = Lektion03.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_04") {
+			ausgewählt_lektion = "Lektion04";
+			lernen_noch_länge = Lektion04.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_05") {
+			ausgewählt_lektion = "Lektion05";
+			lernen_noch_länge = Lektion05.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_06") {
+			ausgewählt_lektion = "Lektion06";
+			lernen_noch_länge = Lektion06.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_07") {
+			ausgewählt_lektion = "Lektion07";
+			lernen_noch_länge = Lektion07.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_08") {
+			ausgewählt_lektion = "Lektion08";
+			lernen_noch_länge = Lektion08.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_09") {
+			ausgewählt_lektion = "Lektion09";
+			lernen_noch_länge = Lektion09.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_10") {
+			ausgewählt_lektion = "Lektion10";
+			lernen_noch_länge = Lektion10.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_11") {
+			ausgewählt_lektion = "Lektion11";
+			lernen_noch_länge = Lektion11.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_12") {
+			ausgewählt_lektion = "Lektion12";
+			lernen_noch_länge = Lektion12.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_13") {
+			ausgewählt_lektion = "Lektion13";
+			lernen_noch_länge = Lektion13.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_14") {
+			ausgewählt_lektion = "Lektion14";
+			lernen_noch_länge = Lektion14.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_15") {
+			ausgewählt_lektion = "Lektion15";
+			lernen_noch_länge = Lektion15.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_16") {
+			ausgewählt_lektion = "Lektion16";
+			lernen_noch_länge = Lektion16.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_17") {
+			ausgewählt_lektion = "Lektion17";
+			lernen_noch_länge = Lektion17.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_18") {
+			ausgewählt_lektion = "Lektion18";
+			lernen_noch_länge = Lektion18.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_19") {
+			ausgewählt_lektion = "Lektion19";
+			lernen_noch_länge = Lektion19.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_20") {
+			ausgewählt_lektion = "Lektion20";
+			lernen_noch_länge = Lektion20.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_21") {
+			ausgewählt_lektion = "Lektion21";
+			lernen_noch_länge = Lektion21.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_22") {
+			ausgewählt_lektion = "Lektion22";
+			lernen_noch_länge = Lektion22.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_23") {
+			ausgewählt_lektion = "Lektion23";
+			lernen_noch_länge = Lektion23.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_24") {
+			ausgewählt_lektion = "Lektion24";
+			lernen_noch_länge = Lektion24.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_25") {
+			ausgewählt_lektion = "Lektion25";
+			lernen_noch_länge = Lektion25.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_26") {
+			ausgewählt_lektion = "Lektion26";
+			lernen_noch_länge = Lektion26.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_27") {
+			ausgewählt_lektion = "Lektion27";
+			lernen_noch_länge = Lektion27.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_28") {
+			ausgewählt_lektion = "Lektion28";
+			lernen_noch_länge = Lektion28.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_29") {
+			ausgewählt_lektion = "Lektion29";
+			lernen_noch_länge = Lektion29.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_30") {
+			ausgewählt_lektion = "Lektion30";
+			lernen_noch_länge = Lektion30.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_31") {
+			ausgewählt_lektion = "Lektion31";
+			lernen_noch_länge = Lektion31.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_32") {
+			ausgewählt_lektion = "Lektion32";
+			lernen_noch_länge = Lektion32.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_33") {
+			ausgewählt_lektion = "Lektion33";
+			lernen_noch_länge = Lektion33.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_34") {
+			ausgewählt_lektion = "Lektion34";
+			lernen_noch_länge = Lektion34.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_35") {
+			ausgewählt_lektion = "Lektion35";
+			lernen_noch_länge = Lektion35.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_36") {
+			ausgewählt_lektion = "Lektion36";
+			lernen_noch_länge = Lektion36.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_37") {
+			ausgewählt_lektion = "Lektion37";
+			lernen_noch_länge = Lektion37.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_38") {
+			ausgewählt_lektion = "Lektion38";
+			lernen_noch_länge = Lektion38.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_39") {
+			ausgewählt_lektion = "Lektion39";
+			lernen_noch_länge = Lektion39.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_40") {
+			ausgewählt_lektion = "Lektion40";
+			lernen_noch_länge = Lektion40.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_41") {
+			ausgewählt_lektion = "Lektion41";
+			lernen_noch_länge = Lektion41.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_42") {
+			ausgewählt_lektion = "Lektion42";
+			lernen_noch_länge = Lektion42.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_43") {
+			ausgewählt_lektion = "Lektion43";
+			lernen_noch_länge = Lektion43.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_44") {
+			ausgewählt_lektion = "Lektion44";
+			lernen_noch_länge = Lektion44.length;
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_viva_lektion_select_45") {
+			ausgewählt_lektion = "Lektion45";
+			lernen_noch_länge = Lektion45.length;
+			lektion_ausgewählt = true
+		}
+		
+	
+			//ausgewählt_lektion = checkboxField[i]
+console.log (userOption.value)
+	}
+
+
+
+
+	var urlMenu = document.getElementById('lernen_originaltexte_select');
+	urlMenu.onchange = function lernen_viva_lektion_select_function() {
+		var userOption = this.options[this.selectedIndex];
+
+		if (userOption.value == "originaltext_auswählen") {
+			lektion_ausgewählt = false
+		}
+
+
+		if (userOption.value == "lernen_originaltexte_select_bellum_gallicum") {
+			ausgewählt_lektion = "bellum_gallicum"
+			lernen_noch_länge = bellum_gallicum.length
+			lektion_ausgewählt = true
+		}
+
+
+
+		console.log (userOption.value)
+
+	}
+
+
+
+
+	
+
+
+
+} //Ende von function lernen() {
 
 
 function lernen_hide_menü() {
@@ -897,53 +1224,60 @@ function lernen_hide_menü() {
 
 
 
+document.getElementById('lernen_viva_lektion_select_01').innerHTML = "Lektion 01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion01.length + " Wörter"
+document.getElementById('lernen_viva_lektion_select_02').innerHTML = "Lektion 02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion02.length + " Wörter"
+document.getElementById('lernen_viva_lektion_select_03').innerHTML = "Lektion 03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion03.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_04').innerHTML = "Lektion 04 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion04.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_05').innerHTML = "Lektion 05 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion05.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_06').innerHTML = "Lektion 06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion06.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_07').innerHTML = "Lektion 07 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion07.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_08').innerHTML = "Lektion 08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion08.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_09').innerHTML = "Lektion 09 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion09.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_10').innerHTML = "Lektion 10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion10.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_11').innerHTML = "Lektion 11 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion11.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_12').innerHTML = "Lektion 12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion12.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_13').innerHTML = "Lektion 13 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion13.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_14').innerHTML = "Lektion 14 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion14.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_15').innerHTML = "Lektion 15 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion15.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_16').innerHTML = "Lektion 16 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion16.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_17').innerHTML = "Lektion 17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion17.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_18').innerHTML = "Lektion 18 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion18.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_19').innerHTML = "Lektion 19 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion19.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_20').innerHTML = "Lektion 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion20.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_21').innerHTML = "Lektion 21 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion21.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_22').innerHTML = "Lektion 22 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion22.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_23').innerHTML = "Lektion 23 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion23.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_24').innerHTML = "Lektion 24 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion24.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_25').innerHTML = "Lektion 25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion25.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_26').innerHTML = "Lektion 26 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion26.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_27').innerHTML = "Lektion 27 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion27.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_28').innerHTML = "Lektion 28 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion28.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_29').innerHTML = "Lektion 29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion29.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_30').innerHTML = "Lektion 30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion30.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_31').innerHTML = "Lektion 31 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion31.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_32').innerHTML = "Lektion 32 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion32.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_33').innerHTML = "Lektion 33 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion33.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_34').innerHTML = "Lektion 34 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion34.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_35').innerHTML = "Lektion 35 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion35.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_36').innerHTML = "Lektion 36 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion36.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_37').innerHTML = "Lektion 37 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion37.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_38').innerHTML = "Lektion 38 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion38.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_39').innerHTML = "Lektion 39 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion39.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_40').innerHTML = "Lektion 40 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion40.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_41').innerHTML = "Lektion 41 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion41.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_42').innerHTML = "Lektion 42 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion42.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_43').innerHTML = "Lektion 43 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion43.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_44').innerHTML = "Lektion 44 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion44.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_45').innerHTML = "Lektion 45 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion45.length + " Wörter";
 
-document.getElementById('länge_Vokabeltest_Lektion').innerHTML = Vokabeltest_Lektion.length
-document.getElementById('länge_01').innerHTML = Lektion01.length
-document.getElementById('länge_02').innerHTML = Lektion02.length
-document.getElementById('länge_03').innerHTML = Lektion03.length
-document.getElementById('länge_04').innerHTML = Lektion04.length
-document.getElementById('länge_05').innerHTML = Lektion05.length
-document.getElementById('länge_06').innerHTML = Lektion06.length
-document.getElementById('länge_07').innerHTML = Lektion07.length
-document.getElementById('länge_08').innerHTML = Lektion08.length
-document.getElementById('länge_09').innerHTML = Lektion09.length
-document.getElementById('länge_10').innerHTML = Lektion10.length
-document.getElementById('länge_11').innerHTML = Lektion11.length
-document.getElementById('länge_12').innerHTML = Lektion12.length
-document.getElementById('länge_13').innerHTML = Lektion13.length
-document.getElementById('länge_14').innerHTML = Lektion14.length
-document.getElementById('länge_15').innerHTML = Lektion15.length
-document.getElementById('länge_16').innerHTML = Lektion16.length
-document.getElementById('länge_17').innerHTML = Lektion17.length
-document.getElementById('länge_18').innerHTML = Lektion18.length
-document.getElementById('länge_19').innerHTML = Lektion19.length
-document.getElementById('länge_20').innerHTML = Lektion20.length
-document.getElementById('länge_21').innerHTML = Lektion21.length
-document.getElementById('länge_22').innerHTML = Lektion22.length
-document.getElementById('länge_23').innerHTML = Lektion23.length
-document.getElementById('länge_24').innerHTML = Lektion24.length
-document.getElementById('länge_25').innerHTML = Lektion25.length
-document.getElementById('länge_26').innerHTML = Lektion26.length
-document.getElementById('länge_27').innerHTML = Lektion27.length
-document.getElementById('länge_28').innerHTML = Lektion28.length
-document.getElementById('länge_29').innerHTML = Lektion29.length
-document.getElementById('länge_30').innerHTML = Lektion30.length
-document.getElementById('länge_31').innerHTML = Lektion31.length
-document.getElementById('länge_32').innerHTML = Lektion32.length
-document.getElementById('länge_33').innerHTML = Lektion33.length
-document.getElementById('länge_34').innerHTML = Lektion34.length
-document.getElementById('länge_35').innerHTML = Lektion35.length
-document.getElementById('länge_36').innerHTML = Lektion36.length
-document.getElementById('länge_37').innerHTML = Lektion37.length
-document.getElementById('länge_38').innerHTML = Lektion38.length
-document.getElementById('länge_39').innerHTML = Lektion39.length
-document.getElementById('länge_40').innerHTML = Lektion40.length
-document.getElementById('länge_41').innerHTML = Lektion41.length
-document.getElementById('länge_42').innerHTML = Lektion42.length
-document.getElementById('länge_43').innerHTML = Lektion43.length
-document.getElementById('länge_44').innerHTML = Lektion44.length
-document.getElementById('länge_45').innerHTML = Lektion45.length
+
+
+
+document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML = "Bellum Gallicum &nbsp;&nbsp; Länge: " + bellum_gallicum.length + " Wörter";
+
+
+
+
 
 
 
@@ -953,7 +1287,9 @@ document.getElementById('länge_45').innerHTML = Lektion45.length
 aktuell_lernen = false
 
 
+
 function lernen_einfach_weiter() {
+
 	lernen_modus = "einfach"
 	lernen_weiter()
 }
@@ -966,15 +1302,18 @@ function lernen_standard_weiter() {
 }
 
 
-function lernen_weiter() {
-		checkboxField = document.forms[0].lernen_checked;
 
+function lernen_weiter() {
+
+if (lektion_ausgewählt === true){
+
+
+//	checkboxField = document.forms[0].lernen_checked;
+/*
 	for (i = 0; i < checkboxField.length; i++) {
 		if (checkboxField[i].checked) {
 			console.log(checkboxField[i].value); //loggt die ausgewählte Lektion
-
-			ausgewählt_lektion = checkboxField[i]
-
+*/
 
 
 
@@ -984,7 +1323,12 @@ function lernen_weiter() {
 
 
 
-			checkboxField_formen = document.forms[1].checkbox_haken_mit_ohne_sonstige_formen_checked;
+
+
+
+
+
+			checkboxField_formen = document.forms[0].checkbox_haken_mit_ohne_sonstige_formen_checked;
 
 			if (checkboxField_formen.checked) {
 				mit_formen = true
@@ -1036,150 +1380,11 @@ function lernen_weiter() {
 
 			lösung_angezeigt = false
 
-
 			neue_vok()
 
 
 
-			if (checkboxField[i].value == "Vokabeltest_Lektion") {
-				lernen_noch_länge = Vokabeltest_Lektion.length
-			}
-			if (checkboxField[i].value == "Lektion01") {
-				lernen_noch_länge = Lektion01.length
-			}
-			if (checkboxField[i].value == "Lektion02") {
-				lernen_noch_länge = Lektion02.length
-			}
-			if (checkboxField[i].value == "Lektion03") {
-				lernen_noch_länge = Lektion03.length
-			}
-			if (checkboxField[i].value == "Lektion04") {
-				lernen_noch_länge = Lektion04.length
-			}
-			if (checkboxField[i].value == "Lektion05") {
-				lernen_noch_länge = Lektion05.length
-			}
-			if (checkboxField[i].value == "Lektion06") {
-				lernen_noch_länge = Lektion06.length
-			}
-			if (checkboxField[i].value == "Lektion07") {
-				lernen_noch_länge = Lektion07.length
-			}
-			if (checkboxField[i].value == "Lektion08") {
-				lernen_noch_länge = Lektion08.length
-			}
-			if (checkboxField[i].value == "Lektion09") {
-				lernen_noch_länge = Lektion09.length
-			}
-			if (checkboxField[i].value == "Lektion10") {
-				lernen_noch_länge = Lektion10.length
-			}
-			if (checkboxField[i].value == "Lektion11") {
-				lernen_noch_länge = Lektion11.length
-			}
-			if (checkboxField[i].value == "Lektion12") {
-				lernen_noch_länge = Lektion12.length
-			}
-			if (checkboxField[i].value == "Lektion13") {
-				lernen_noch_länge = Lektion13.length
-			}
-			if (checkboxField[i].value == "Lektion14") {
-				lernen_noch_länge = Lektion14.length
-			}
-			if (checkboxField[i].value == "Lektion15") {
-				lernen_noch_länge = Lektion15.length
-			}
-			if (checkboxField[i].value == "Lektion16") {
-				lernen_noch_länge = Lektion16.length
-			}
-			if (checkboxField[i].value == "Lektion17") {
-				lernen_noch_länge = Lektion17.length
-			}
-			if (checkboxField[i].value == "Lektion18") {
-				lernen_noch_länge = Lektion18.length
-			}
-			if (checkboxField[i].value == "Lektion19") {
-				lernen_noch_länge = Lektion19.length
-			}
-			if (checkboxField[i].value == "Lektion20") {
-				lernen_noch_länge = Lektion20.length
-			}
-			if (checkboxField[i].value == "Lektion21") {
-				lernen_noch_länge = Lektion21.length
-			}
-			if (checkboxField[i].value == "Lektion22") {
-				lernen_noch_länge = Lektion22.length
-			}
-			if (checkboxField[i].value == "Lektion23") {
-				lernen_noch_länge = Lektion23.length
-			}
-			if (checkboxField[i].value == "Lektion24") {
-				lernen_noch_länge = Lektion24.length
-			}
-			if (checkboxField[i].value == "Lektion25") {
-				lernen_noch_länge = Lektion25.length
-			}
-			if (checkboxField[i].value == "Lektion26") {
-				lernen_noch_länge = Lektion26.length
-			}
-			if (checkboxField[i].value == "Lektion27") {
-				lernen_noch_länge = Lektion27.length
-			}
-			if (checkboxField[i].value == "Lektion28") {
-				lernen_noch_länge = Lektion28.length
-			}
-			if (checkboxField[i].value == "Lektion29") {
-				lernen_noch_länge = Lektion29.length
-			}
-			if (checkboxField[i].value == "Lektion30") {
-				lernen_noch_länge = Lektion30.length
-			}
-			if (checkboxField[i].value == "Lektion31") {
-				lernen_noch_länge = Lektion31.length
-			}
-			if (checkboxField[i].value == "Lektion32") {
-				lernen_noch_länge = Lektion32.length
-			}
-			if (checkboxField[i].value == "Lektion33") {
-				lernen_noch_länge = Lektion33.length
-			}
-			if (checkboxField[i].value == "Lektion34") {
-				lernen_noch_länge = Lektion34.length
-			}
-			if (checkboxField[i].value == "Lektion35") {
-				lernen_noch_länge = Lektion35.length
-			}
-			if (checkboxField[i].value == "Lektion36") {
-				lernen_noch_länge = Lektion36.length
-			}
-			if (checkboxField[i].value == "Lektion37") {
-				lernen_noch_länge = Lektion37.length
-			}
-			if (checkboxField[i].value == "Lektion38") {
-				lernen_noch_länge = Lektion38.length
-			}
-			if (checkboxField[i].value == "Lektion39") {
-				lernen_noch_länge = Lektion39.length
-			}
-			if (checkboxField[i].value == "Lektion40") {
-				lernen_noch_länge = Lektion40.length
-			}
-			if (checkboxField[i].value == "Lektion41") {
-				lernen_noch_länge = Lektion41.length
-			}
-			if (checkboxField[i].value == "Lektion42") {
-				lernen_noch_länge = Lektion42.length
-			}
-			if (checkboxField[i].value == "Lektion43") {
-				lernen_noch_länge = Lektion43.length
-			}
-			if (checkboxField[i].value == "Lektion44") {
-				lernen_noch_länge = Lektion44.length
-			}
-			if (checkboxField[i].value == "Lektion45") {
-				lernen_noch_länge = Lektion45.length
-			}
-			
+
 
 
 			window.addEventListener("keydown", lösung_anzeigen_event, false)
@@ -1234,9 +1439,10 @@ function lernen_weiter() {
 					}
 				}
 			}
-		}
-	}
+		
+	} // Ende von if (lektion_ausgewählt == true) {
 }
+
 function lösung_anzeigen_btn() {
 	setTimeout(() => {
 		lösung_angezeigt = true
@@ -1612,11 +1818,20 @@ function neue_vok_standard() {
 
 
 
-	if (ausgewählt_lektion.value == "Vokabeltest_Lektion") {
+	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
 		lernen_lektion_anzeige = "Vokabeltest"
 		länge_lek = "Gesamt : " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
+	}
+	
+
+
+	if (ausgewählt_lektion == "bellum_gallicum") {
+		random_item = bellum_gallicum[Math.floor(Math.random() * bellum_gallicum.length)];
+		lernen_lektion_anzeige = "Bellum Gallicum"
+		länge_lek = "Gesamt : " + bellum_gallicum.length + " Wörter"
+		länge_lek_number = bellum_gallicum.length
 	}
 	
 
@@ -1631,16 +1846,19 @@ function neue_vok_standard() {
 
    
 */
+
+console.log(ausgewählt_lektion)
+
 for (let i = 1; i <= 45; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
-	if (ausgewählt_lektion.value == id) {
-	  let array = window[id];
-	  random_item = array[Math.floor(Math.random() * array.length)];
-	  lernen_lektion_anzeige = `Lektion ${i}`;
-	  länge_lek = `Gesamt: ${array.length} Wörter`;
-	  länge_lek_number = array.length;
+	if (ausgewählt_lektion == id) {
+		let array = window[id];
+		random_item = array[Math.floor(Math.random() * array.length)];
+		lernen_lektion_anzeige = `Lektion ${i}`;
+		länge_lek = `Gesamt: ${array.length} Wörter`;
+		länge_lek_number = array.length;
 	}
-  }
+}
   
 
 
@@ -1809,4 +2027,84 @@ function fehler_seite_zurück_pfeil_btn() {
 	fehler_seite_groß[0].classList.remove('fehler_seite_groß');
 	fehler_seite_zurück_pfeil_btn_[0].classList.add('hidden');
 	fehler_seite_groß[0].classList.add('hidden');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+function lernen_auswählen_viva_selected() {
+	console.log("VIVA")
+	viva_div[0].classList.remove('hidden');
+	originaltexte_div[0].classList.add('hidden');
+	originaltexte_div[0].classList.remove('hidden_trotzdem_platz');
+
+	lektion_ausgewählt = false
+
+	aktuell_ausgewählt = "viva"
+	clear_select_originaltexte()
+}
+
+function lernen_auswählen_originaltexte_selected() {
+	console.log("Originaltexte")
+	viva_div[0].classList.add('hidden');
+	originaltexte_div[0].classList.remove('hidden');
+	originaltexte_div[0].classList.remove('hidden_trotzdem_platz');
+	
+	lektion_ausgewählt = false
+
+	aktuell_ausgewählt = "originaltexte"
+	clear_select_viva()
+}
+
+function lernen_auswählen_vokabeltest_selected() {
+	console.log("Vokabeltest")
+	viva_div[0].classList.add('hidden');
+	originaltexte_div[0].classList.remove('hidden');
+	originaltexte_div[0].classList.add('hidden_trotzdem_platz');
+
+
+	lektion_ausgewählt = true
+
+	ausgewählt_lektion = "Vokabeltest_Lektion"
+
+		lernen_noch_länge = Vokabeltest_Lektion.length;
+
+if(typeof aktuell_ausgewählt !== 'undefined') {
+
+if (aktuell_ausgewählt === "viva") {
+	clear_select_viva()
+}else {
+	clear_select_originaltexte()
+}
+}
+
+
+}
+
+function clear_select_originaltexte() {
+var clear = document.getElementById("lernen_originaltexte_select")
+for (var i=0; i<clear.length; i++) {
+	if (clear.options[i].selected) {
+		clear.options[i].selected = false
+	}
+}
+
+
+}
+
+function clear_select_viva() {
+	var clear = document.getElementById("lernen_viva_lektion_select")
+	for (var i=0; i<clear.length; i++) {
+		if (clear.options[i].selected) {
+			clear.options[i].selected = false
+		}
+	}
 }

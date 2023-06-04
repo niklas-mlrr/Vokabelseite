@@ -1,303 +1,3 @@
-var Vokabeltest_Lektion = [
-
-
-	
-		{'first':'Guten Tag, Hallo, Hi', 
-		'second':'G´Day', 
-		'third':''},
-	
-		{'first':'Jungendherberge', 
-		'second':'youth hostel', 
-		'third':''},
-	
-		{'first':'glänzen; schimmern', 
-		'second':'to gleam', 
-		'third':''},
-	
-		{'first':'Bündel; Anhäufung', 
-		'second':'cluster', 
-		'third':''},
-	
-		{'first':'Riesen-; riesig', 
-		'second':'giant', 
-		'third':''},
-	
-		{'first':'Muschel', 
-		'second':'seashell', 
-		'third':''},
-	
-		{'first':'belauschen; zufällig mit anhören', 
-		'second':'to overhear, overheard, overheard', 
-		'third':''},
-	
-		{'first':'Besitzer/-in', 
-		'second':'owner', 
-		'third':''},
-	
-		{'first':'Terrasse', 
-		'second':'terrace', 
-		'third':''},
-	
-		{'first':'Schlange', 
-		'second':'snake', 
-		'third':''},
-	
-		{'first':'Rettungshubschrauber', 
-		'second':'air ambulance', 
-		'third':''},
-	
-		{'first':'Satellit', 
-		'second':'satellite', 
-		'third':''},
-	
-		{'first':'weggehen', 
-		'second':'to go off', 
-		'third':''},
-	
-		{'first':'allein; für sich', 
-		'second':'on one´s own', 
-		'third':''},
-	
-		{'first':'Buschwandern', 
-		'second':'bushwalking', 
-		'third':''},
-	
-		{'first':'Würfelqualle', 
-		'second':'box jellyfish', 
-		'third':''},
-	
-		{'first':'Seewespe (Würfelquallen-Art)', 
-		'second':'marine stinger', 
-		'third':''},
-	
-		{'first':'durch ein Netz abtrennen', 
-		'second':'to net off', 
-		'third':''},
-	
-		{'first':'wahrscheinlich sein', 
-		'second':'to be likely', 
-		'third':''},
-	
-		{'first':'Brandungsrückströmung', 
-		'second':'rip current', 
-		'third':''},
-	
-		{'first':'auf offene Meer getrieben werden', 
-		'second':'to be swept out to sea', 
-		'third':''},
-	
-		{'first':'tröstlich, ermutigend', 
-		'second':'safety', 
-		'third':''},
-	
-		{'first':'abbrechen, absagen', 
-		'second':'to call off', 
-		'third':''},
-	
-		{'first':'Gefahr; Risiko', 
-		'second':'risk', 
-		'third':''},
-	
-		{'first':'Sprecher/-in; PR-Sprecher/-in', 
-		'second':'spokesperson', 
-		'third':''},
-	
-		{'first':'Verband; Organisation', 
-		'second':'association', 
-		'third':''},
-	
-		{'first':'Überleben', 
-		'second':'survival', 
-		'third':''},
-	
-		{'first':'klimatisch', 
-		'second':'climatic', 
-		'third':''},
-	
-		{'first':'meißtens; größtenteils; hauptsächlich', 
-		'second':'mostly', 
-		'third':''},
-	
-		{'first':'Inneres; Landesinneres', 
-		'second':'interior', 
-		'third':''},
-	
-		{'first':'jmdn. (an einem Ort) herumführen', 
-		'second':'to show sb around (a place)', 
-		'third':''},
-	
-		{'first':'Grillparty', 
-		'second':'barbie (infml) (=barbecue)', 
-		'third':''},
-	
-		{'first':'servieren; dienen; bedienen', 
-		'second':'to serve', 
-		'third':''},
-	
-		{'first':'pflücken', 
-		'second':'to pick', 
-		'third':''},
-	
-		{'first':'Müll; Abfall', 
-		'second':'litter', 
-		'third':''},
-	
-		{'first':'Weg; Pfad', 
-		'second':'track', 
-		'third':''},
-	
-		{'first':'stören', 
-		'second':'to distrub', 
-		'third':''},
-	
-		{'first':'Ort; Gelände; Schauplatz', 
-		'second':'site', 
-		'third':''},
-	
-		{'first':'schaden; beschädigen', 
-		'second':'to damage', 
-		'third':''},
-	
-		{'first':'Echse; Eidechse', 
-		'second':'lizard', 
-		'third':''},
-	
-		{'first':'tödlich', 
-		'second':'deadly', 
-		'third':''},
-	
-		{'first':'Leute', 
-		'second':'folks (infml) (pl)', 
-		'third':''},
-	
-		{'first':'Kein Problem.; Gern geschehen.', 
-		'second':'No worries.', 
-		'third':''},
-	
-		{'first':'Wie geht es dir/euch/Ihnen?', 
-		'second':'How are you doing?', 
-		'third':''},
-	
-		{'first':'Nett dich/euch/Sie kennenzulernen.', 
-		'second':'Nice to meet you.', 
-		'third':''},
-	
-		{'first':'Neuseeländer/-in', 
-		'second':'Kiwi (infml)', 
-		'third':''},
-	
-		{'first':'zurückverfolgen', 
-		'second':'to trace back', 
-		'third':''},
-	
-		{'first':'Vorfahr/-in; Ahn/-in', 
-		'second':'ancestor', 
-		'third':''},
-	
-		{'first':'Sträfling', 
-		'second':'convict', 
-		'third':''},
-	
-		{'first':'jmdn. zufällig treffen; hier= jmdn. anrempeln', 
-		'second':'to bump into sb', 
-		'third':''},
-	
-		{'first':'Verurteilung; Strafmaß', 
-		'second':'sentence', 
-		'third':''},
-	
-		{'first':'Opfer', 
-		'second':'victim', 
-		'third':''},
-	
-		{'first':'pflegte(n) zu; tat(en) früher', 
-		'second':'used to (+infinitive)', 
-		'third':''},
-	
-		{'first':'unterdrücken', 
-		'second':'to oppress', 
-		'third':''},
-	
-		{'first':'einheimisch; heimisch', 
-		'second':'indigenous (fml)', 
-		'third':''},
-	
-		{'first':'etw. machen lassen', 
-		'second':'to have sth done', 
-		'third':''},
-	
-		{'first':'renovieren', 
-		'second':'to renovate', 
-		'third':''},
-	
-		{'first':'Überbleibsel; Überrest', 
-		'second':'leftovers (pl)', 
-		'third':''},
-	
-		{'first':'erlauben; gestatten', 
-		'second':'to allow', 
-		'third':''},
-	
-		{'first':'hier= lassen', 
-		'second':'to make', 
-		'third':''},
-	
-		{'first':'Abschied-; Abschieds-', 
-		'second':'farewell', 
-		'third':''},
-	
-		{'first':'liefern', 
-		'second':'to deliver', 
-		'third':''},
-	
-		{'first':'in Übersee; im Ausland', 
-		'second':'overseas', 
-		'third':''},
-	
-		{'first':'ausrichten (Veranstalltung)', 
-		'second':'to host', 
-		'third':''},
-	
-		{'first':'Vielzahl (an); Vielfalt (Von)', 
-		'second':'variety (of)', 
-		'third':''},
-	
-	
-		{'first':'Feier', 
-		'second':'celebration', 
-		'third':''},
-	
-		{'first':'sich bewerben (um); beantragen', 
-		'second':'to apply (for)', 
-		'third':''},
-	
-		{'first':'Beruf; Beschäftigung', 
-		'second':'Occupation', 
-		'third':''},
-	
-		{'first':'Politik; politische Linie', 
-		'second':'policy', 
-		'third':''},
-	
-		{'first':'beschränkend; einengend', 
-		'second':'restrictive', 
-		'third':''},
-	
-	
-	
-	
-	
-	
-	
-	
-	]
-
-
-
-
-
-
-
 var Vokabeln_aus_keiner_Lektion  = [
 
 
@@ -385,8 +85,8 @@ var Lektion01  = [
 	'second':'Sei gegrüßt! / Hallo!', 
 	'third':''},
 
-	{'first':'Mihi nōmen est . . .', 
-	'second':'Mein Name ist . . . / Ich heiße . . .', 
+	{'first':'Mihi nōmen est ...', 
+	'second':'Mein Name ist ... / Ich heiße ...', 
 	'third':''},
 
 	{'first':'nōmen', 
@@ -903,7 +603,7 @@ var Lektion04  = [
 	'third':'a, um'},
 
 	{'first':'per', 
-	'second':'durch; über (. . . hinaus), während', 
+	'second':'durch; über (... hinaus), während', 
 	'third':'(+ Akk.)'},
 
 	{'first':'carmen', 
@@ -1228,12 +928,12 @@ var Lektion06  = [
 	'second':'vor allem', 
 	'third':'(Adv.)'},
 
-	{'first':'nōnne . . . ?', 
+	{'first':'nōnne ... ?', 
 	'second':'etwa nicht? (man erwartet die Antwort= doch)', 
 	'third':''},
 
-	{'first':'nōn sōlum . . . , <br> sed etiam', 
-	'second':'nicht nur . . . , sondern auch', 
+	{'first':'nōn sōlum ... , <br> sed etiam', 
+	'second':'nicht nur ... , sondern auch', 
 	'third':''},
 
 	{'first':'poēta', 
@@ -1256,7 +956,7 @@ var Lektion06  = [
 	'second':'ihr (Akk. euch)', 
 	'third':'(Akk. vōs)'},
 
-	{'first':'-ne . . . ?', 
+	{'first':'-ne ... ?', 
 	'second':'[Fragepartikel]', 
 	'third':''},
 
@@ -1276,7 +976,7 @@ var Lektion06  = [
 	'second':'Ehemann', 
 	'third':''},
 
-	{'first':'num . . . ?', 
+	{'first':'num ... ?', 
 	'second':'denn; etwa? (man erwartet die Antwort= nein)', 
 	'third':''},
 
@@ -1590,8 +1290,8 @@ var Lektion08  = [
 	'second':'und nicht; aber nicht', 
 	'third':''},
 
-	{'first':'neque . . .  neque / <br> nec . . .  nec', 
-	'second':'weder . . .  noch', 
+	{'first':'neque ...  neque / <br> nec ...  nec', 
+	'second':'weder ...  noch', 
 	'third':''},
 
 	{'first':'dēnique', 
@@ -2044,7 +1744,7 @@ var Lektion11  = [
 	'third':''},
 
 	{'first':'ad-īre', 
-	'second':' » jmdn. an-gehen « zu . . .  gehen, angreifen', 
+	'second':' » jmdn. an-gehen « zu ...  gehen, angreifen', 
 	'third':'(adīre); -eō'},
 
 	{'first':'pōnere', 
@@ -2255,7 +1955,7 @@ var Lektion13  = [
 	'third':'dēleō, dēlēvī, dēlētum'},
 
 	{'first':'ad-īre', 
-	'second':' » jmdn. an-gehen « zu . . .  gehen, angreifen', 
+	'second':' » jmdn. an-gehen « zu ...  gehen, angreifen', 
 	'third':'(adīre); -eō, -iī, -itum'},
 
 	{'first':'flēre', 
@@ -2937,8 +2637,8 @@ var Lektion17 = [
 		'second':'zurückgeben; zu etw. machen', 
 		'third':'reddō, reddidī, redditum'},
 
-		{'first':'et . . . et', 
-		'second':'sowohl. . . als auch', 
+		{'first':'et ... et', 
+		'second':'sowohl... als auch', 
 		'third':''},
 
 		{'first':'saevus', 
@@ -3251,7 +2951,7 @@ var Lektion17 = [
 
 		{'first':'sponte', 
 		'second':'freiwillig', 
-		'third':'(meā, tuā, suā . . .)'},
+		'third':'(meā, tuā, suā ...)'},
 
 		{'first':'prō-pōnere', 
 		'second':'vorlegen; vorschlagen', 
@@ -3619,7 +3319,7 @@ var Lektion17 = [
 		'second':'wenn nicht', 
 		'third':''},
 
-		{'first':'nihil nisī / nōn . . . nisī', 
+		{'first':'nihil nisī / nōn ... nisī', 
 		'second':'nicht(s) außer, nur', 
 		'third':''},
 
@@ -4562,7 +4262,7 @@ var Lektion28  = [
 
 
 	{'first':'per', 
-	'second':'durch, über (. . . hinaus), während', 
+	'second':'durch, über (... hinaus), während', 
 	'third':'(+ Akk.)'},
 
 	{'first':'lītus', 
@@ -5109,7 +4809,7 @@ var Lektion31  = [
 	'third':'(Adv.)'},
 
 	{'first':'mīlitāris', 
-	'second':'militärisch, Kriegs-(. . .)', 
+	'second':'militärisch, Kriegs-(...)', 
 	'third':'e'},
 
 	{'first':'rēs mīlitāris', 
@@ -5972,7 +5672,7 @@ var Lektion36  = [
 	'second':'hässlich, schändlich, <br> (moralisch) schlecht', 
 	'third':'e'},
 
-	{'first':'nihil . . . nisī', 
+	{'first':'nihil ... nisī', 
 	'second':'nichts außer, nur', 
 	'third':''},
 
@@ -6026,8 +5726,8 @@ var Lektion36  = [
 	'second':'es ist wichtig für mich', 
 	'third':''},
 
-	{'first':'utrum . . . an . . .', 
-	'second':'ob . . . oder (ob)', 
+	{'first':'utrum ... an ...', 
+	'second':'ob ... oder (ob)', 
 	'third':''},
 
 	{'first':'occīdere', 
@@ -6075,7 +5775,7 @@ var Lektion36  = [
 	'third':''},
 
 	{'first':'negāre', 
-	'second':'sagen, dass . . . nicht', 
+	'second':'sagen, dass ... nicht', 
 	'third':'+ AcI'},
 
 	{'first':'permovēre', 
@@ -7032,7 +6732,7 @@ var Lektion42  = [
 	'second':'irgendjemand', 
 	'third':'(quisquam); (Gen. cuiusquam)'},
 
-	{'first':'nē . . . quidem', 
+	{'first':'nē ... quidem', 
 	'second':'nicht einmal', 
 	'third':''},
 
@@ -7174,8 +6874,8 @@ var Lektion43  = [
 	'second':'stellen, legen', 
 	'third':'pōnō, posuī, positum'},
 
-	{'first':'utrum . . . an . . .', 
-	'second':'ob . . . oder (ob)', 
+	{'first':'utrum ... an ...', 
+	'second':'ob ... oder (ob)', 
 	'third':''},
 
 	{'first':'dignus', 
@@ -7460,8 +7160,8 @@ var Lektion44  = [
 	'second':'wie, von welcher Art', 
 	'third':'e'},
 
-	{'first':'quālis . . . tālis', 
-	'second':'wie  . . . so', 
+	{'first':'quālis ... tālis', 
+	'second':'wie  ... so', 
 	'third':''},
 
 	{'first':'an', 
@@ -7521,7 +7221,7 @@ var Lektion44  = [
 	'third':'(Adv.)'},
 
 	{'first':'circum', 
-	'second':'um . . . herum', 
+	'second':'um ... herum', 
 	'third':'(+ Akk.)'},
 
 	{'first':'mūtāre', 
