@@ -1,6 +1,6 @@
-vokabeltest_lektion_anzeigen = true
+vokabeltest_lektion_anzeigen = false
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 16.05.23 16:40"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 20.06.23 17:00"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -63,6 +63,7 @@ setInterval(() => {
 insgesamtVokabeltest_Lektion = document.getElementsByClassName('insgesamtVokabeltest_Lektion')
 //lernen_auswählen_vokabeltest = document.getElementsByClassName('lernen_auswählen_vokabeltest')
 auswahl_Vokabeltest = document.getElementsByClassName('auswahl_Vokabeltest')
+vokabeltest_checkbox = document.getElementsByClassName('vokabeltest_checkbox')
 
 insgesamtVokabeltest_Lektion[0].classList.add('hidden');
 //lernen_auswählen_vokabeltest[0].classList.add('hidden');
@@ -2107,4 +2108,11 @@ function clear_select_viva() {
 			clear.options[i].selected = false
 		}
 	}
+}
+
+
+
+if (vokabeltest_lektion_anzeigen == false) {
+	vokabeltest_checkbox[0].classList.add('hidden_trotzdem_platz');
+
 }
