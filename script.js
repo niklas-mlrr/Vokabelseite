@@ -1,6 +1,6 @@
 vokabeltest_lektion_anzeigen = false
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 20.06.23 17:00"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 03.09.23 19:30"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -1822,7 +1822,7 @@ function neue_vok_standard() {
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
 		lernen_lektion_anzeige = "Vokabeltest"
-		länge_lek = "Gesamt : " + Vokabeltest_Lektion.length + " Wörter"
+		länge_lek = "Gesamt: " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}
 	
@@ -1831,7 +1831,7 @@ function neue_vok_standard() {
 	if (ausgewählt_lektion == "bellum_gallicum") {
 		random_item = bellum_gallicum[Math.floor(Math.random() * bellum_gallicum.length)];
 		lernen_lektion_anzeige = "Bellum Gallicum"
-		länge_lek = "Gesamt : " + bellum_gallicum.length + " Wörter"
+		länge_lek = "Gesamt: " + bellum_gallicum.length + " Wörter"
 		länge_lek_number = bellum_gallicum.length
 	}
 	
@@ -1968,11 +1968,11 @@ function geschaft() {
 		neue_vok()
 	}
 	geschafte_wörter.push(erstes_wort);
-	console.log("geschafte_wörter : " + geschafte_wörter);
+	console.log("geschafte_wörter: " + geschafte_wörter);
 
 	lernen_noch_länge = lernen_noch_länge - 1
 	setTimeout(() => {
-		document.getElementById("noch_länge_lek").innerHTML = "Noch : " + lernen_noch_länge + " Wörter"
+		document.getElementById("noch_länge_lek").innerHTML = "Noch: " + lernen_noch_länge + " Wörter"
 	}, 300);
 
 }
