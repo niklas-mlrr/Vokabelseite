@@ -20,7 +20,7 @@ var Vokabeltest_Lektion = [
 
     {'first':'obruere',
     'second':'bedecken', 
-    'third':'obruo, obrui, obrutum'},
+    'third':'-ruo, -rui, -rutum'},
 
     {'first':'ob', 
     'second':'wegen', 
@@ -44,7 +44,7 @@ var Vokabeltest_Lektion = [
 
     {'first':'appōnere', 
     'second':'hinsetzen', 
-    'third':'posuī, positum'},
+    'third':'-pono, -posuī, -positum'},
 
     {'first':'quantum', 
     'second':'wie viel', 
@@ -52,7 +52,7 @@ var Vokabeltest_Lektion = [
 
     {'first':'edere', 
     'second':'essen', 
-    'third':'ēdī, ēsum'},
+    'third':'edere, edo, edidī, ēditum'},
 
     {'first':'tantum', 
     'second':'so viel', 
@@ -60,7 +60,7 @@ var Vokabeltest_Lektion = [
 
     {'first':'interficere', 
     'second':'töten', 
-    'third':'iō, fēcī, fectum'},
+    'third':'-ficiō, -fēcī, -fectum'},
 
 
 

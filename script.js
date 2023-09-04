@@ -1,6 +1,6 @@
-vokabeltest_lektion_anzeigen = false
+vokabeltest_lektion_anzeigen = true
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 03.09.23 19:30"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 04.09.23 17:00"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
