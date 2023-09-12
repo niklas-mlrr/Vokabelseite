@@ -2,6 +2,71 @@ var Vokabeltest_Lektion = [
 
 
 
+    {'first':'solitus erat', 
+    'second':'pflegen, gewohnt sein', 
+    'third':'solere, soleo, sulitus sum'},
+
+    {'first':'admittere', 
+    'second':'zulassen, hinzuziehen', 
+    'third':'admittere, -mitto, -misi, -missum'},
+
+    {'first':'renuntiavit', 
+    'second':'melden', 
+    'third':'renuntiare, -o, -avi, -atum'},
+
+    {'first':'bracchium ', 
+    'second':'Arm', 
+    'third':'bracchium, i n.'},
+
+    {'first':'consumpsit', 
+    'second':'verzehren', 
+    'third':'consumere, -sumo, -sumpsi, -sumptum'},
+
+    {'first':'inferos', 
+    'second':'(Götter der) Unterwelt', 
+    'third':'inferi, orum, m.'},
+
+    {'first':'sumere', 
+    'second':'nehmen', 
+    'third':'sumere, -o, -psi, -ptum'},
+
+    {'first':'item', 
+    'second':'ebenso', 
+    'third':''},
+
+    {'first':'super ', 
+    'second':'über', 
+    'third':'(+Akk)'},
+
+    {'first':'pendet', 
+    'second':'hängen', 
+    'third':'pendere, pendeo, pependi'},
+
+    {'first':'rami', 
+    'second':'Zweig', 
+    'third':'ramus, i m.'},
+
+    {'first':'vento', 
+    'second':'Wind', 
+    'third':'ventus, i m.'},
+
+    {'first':'ruat', 
+    'second':'stürzen', 
+    'third':'ruere, ruo, rui, rutum'},
+
+    
+
+
+]
+
+
+
+
+
+
+var s_6_prometheus = [
+
+
     {'first':'anteā', 
     'second':'vorher, früher', 
     'third':''},
@@ -62,15 +127,7 @@ var Vokabeltest_Lektion = [
     'second':'töten', 
     'third':'-ficiō, -fēcī, -fectum'},
 
-
-
 ]
-
-
-
-
-
-
 
 
 
