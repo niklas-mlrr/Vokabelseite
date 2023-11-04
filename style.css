@@ -131,6 +131,24 @@ html {
   font-size: 25px;
 }
 
+#tables_6_prometheus {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#tables_8_tantalus {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
 #table01 {
 
   align-items: center;
