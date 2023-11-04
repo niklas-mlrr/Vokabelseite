@@ -1896,7 +1896,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest"
+		lernen_lektion_anzeige = "Vokabeln Arbeit"
 		länge_lek = "Gesamt: " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}
