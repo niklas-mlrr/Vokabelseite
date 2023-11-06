@@ -103,7 +103,7 @@ var Vokabeltest_Lektion = [
     
         {'first':'convertere', 
         'second':'umdrehen, verwandeln', 
-        'third':'convertō, convertī, conversum'},   // converto zweites o lang; converti mit langem i
+        'third':'convertō, convertī, conversum'},
     
         {'first':'se', 
         'second':'sich', 
@@ -146,7 +146,7 @@ var Vokabeltest_Lektion = [
         'third':'-a, -um'},
     
         {'first':'tamen', 
-        'second':'dennoch trotzdem', 
+        'second':'dennoch, trotzdem', 
         'third':''},
     
         {'first':'ōrāre',
@@ -230,7 +230,7 @@ var Vokabeltest_Lektion = [
         'third':'-o, -avi'},
     
         {'first':'subito', 
-        'second':'plötzllich', 
+        'second':'plötzlich', 
         'third':''},
     
         {'first':'rogare', 
