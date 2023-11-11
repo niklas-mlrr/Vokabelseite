@@ -1,261 +1,13 @@
 var Vokabeltest_Lektion = [
 
 
-        {'first':'sive', 
-        'second':'oder', 
-        'third':''},
-    
-        {'first':'ut (+ Ind.)', 
-        'second':'wie', 
-        'third':''},
-    
-        {'first':'ut (+ Konj.)', 
-        'second':'sodass, damit, um ... zu', 
-        'third':''},
-    
-        {'first':'quis?', 
-        'second':'wer', 
-        'third':''},
-    
-        {'first':'forma', 
-        'second':'Form, Schönheit', 
-        'third':'-ae f.'},
-    
-        {'first':'dicere', 
-        'second':'sagen sprechen', 
-        'third':'dico, dixi, dictum'},
-    
-        {'first':'filius', 
-        'second':'Der Sohn', 
-        'third':'-i m.'},
-    
-        {'first':'filia', 
-        'second':'Die Tochter', 
-        'third':'-ae f.'},
-    
-        {'first':'unus', 
-        'second':'eins, einzig', 
-        'third':'-a, -um'},
-    
-        {'first':'quid?', 
-        'second':'was?', 
-        'third':''},
-    
-        {'first':'concumbere', 
-        'second':'sich hinlegen, mit jemandem schlafen', 
-        'third':'concumbō, concubuī, concubitum'},
-    
-        {'first':'parere', 
-        'second':'gebären, zur Welt bringen', 
-        'third':'pariō, peperī, partum'},
-    
-        {'first':'hic', 
-        'second':'hier', 
-        'third':''},
-    
-        {'first':'iubere', 
-        'second':'befehlen', 
-        'third':'iubeo, iussi'},
-    
-        {'first':'templum', 
-        'second':'der Tempel', 
-        'third':'-i n.'},
-    
-        {'first':'omnis', 
-        'second':'ganz, alle', 
-        'third':'-e'},
-    
-        {'first':'loquī', 
-        'second':'sagen, sprechen', 
-        'third':'loquor, locūtus sum (Deponens!)'},
-    
-        {'first':'atque', 
-        'second':'und, und auch', 
-        'third':''},
-    
-        {'first':'postea', 
-        'second':'später', 
-        'third':''},
-    
-        {'first':'venatio', 
-        'second':'Die Jagd', 
-        'third':'venationis f.'},
-    
-        {'first':'sagitta', 
-        'second':'Der Pfeil', 
-        'third':'sagittae f.'},
-    
-        {'first':'interficere', 
-        'second':'umbringen, töten', 
-        'third':'interficiō, interfēcī, interfectum'},
-    
-        {'first':'deus', 
-        'second':'der Gott', 
-        'third':'-i m.'},       // n. von Lukas
-    
-        {'first':'superbius', 
-        'second':'hochmütiger, zu hochmütig', 
-        'third':'(Adverb im Komperativ)'},
-    
-        {'first':'itaque', 
-        'second':'daher, deshalb', 
-        'third':''},
-    
-        {'first':'convertere', 
-        'second':'umdrehen, verwandeln', 
-        'third':'convertō, convertī, conversum'},
-    
-        {'first':'se', 
-        'second':'sich', 
-        'third':''},
-    
-        {'first':'id est', 
-        'second':'das ist, das heißt', 
-        'third':''},
-    
-        {'first':'senatus', 
-        'second':'der Senat', 
-        'third':'-us m.'},
-    
-        {'first':'dicitur', 
-        'second':'man sagt, dass...,', 
-        'third':'dicuntur (+ NcI)'},
-    
-        {'first':'sed', 
-        'second':'aber, sondern', 
-        'third':''},
-    
-        {'first':'donare', 
-        'second':'schenken', 
-        'third':'-o, -avi, -atum (Regelmäßige Formen)'},
-    
-        {'first':'cuncti', 
-        'second':'alle', 
-        'third':'-ae, -a'}, // -e von Lukas
-    
-        {'first':'quod', 
-        'second':'weil', 
-        'third':''},
-    
-        {'first':'urbs', 
-        'second':'die Stadt', 
-        'third':'urbis f.'},
-    
-        {'first':'superbus', 
-        'second':'stolz, hochütig', 
-        'third':'-a, -um'},
-    
-        {'first':'tamen', 
-        'second':'dennoch, trotzdem', 
-        'third':''},
-    
-        {'first':'ōrāre',
-        'second':'beten, (er)bitten', 
-        'third':'ōrō, ōrāvī'},
-    
-        {'first':'cum', 
-        'second':'mit, zusammen mit', 
-        'third':'(+ Abl)'},
-    
-        {'first':'satis', 
-        'second':'genug', 
-        'third':''},
-    
-        {'first':'quo?', 
-        'second':'wohin?', 
-        'third':''},
-    
-        {'first':'ducere', 
-        'second':'führen, ziehen', 
-        'third':'duco, duxi'},
-    
-        {'first':'monumentum', 
-        'second':'das Denkmal', 
-        'third':'-i n.'},
-    
-        {'first':'bellum', 
-        'second':'der Krieg', 
-        'third':'-i n.'},
-    
-        {'first':'honos / honor', 
-        'second':'die Ehre, das Ehrenamt', 
-        'third':'-oris m.'},
-    
-        {'first':'item', 
-        'second':'ebenfalls', 
-        'third':''},
-    
-        {'first':'meus',    //Vokabel 47
-        'second':'mein', 
-        'third':''},
-    
-        {'first':'tuus',    //Vokabel 47
-        'second':'dein', 
-        'third':''},
-    
-        {'first':'suus',    //Vokabel 47
-        'second':'sein', 
-        'third':''},
-    
-        {'first':'desinere', 
-        'second':'aufhören, beenden', 
-        'third':'desino, desii'},
-    
-        {'first':'delectare', 
-        'second':'genießen', 
-        'third':'-o, -avi'},
-    
-        {'first':'saepe', 
-        'second':'oft', 
-        'third':''},
-    
-        {'first':'tradere', 
-        'second':'übergeben, überliefern', 
-        'third':'trado, tradidi'},
-    
-        {'first':'is ea id', 
-        'second':'dieser, diese, dieses', 
-        'third':'(Deklinationen lernen!)'},
-    
-        {'first':'pater', 
-        'second':'der Vater', 
-        'third':'patris m.'},
-    
-        {'first':'per', 
-        'second':'durch, hindurch', 
-        'third':''},
-    
-        {'first':'ambulare', 
-        'second':'gehen, spazieren', 
-        'third':'-o, -avi'},
-    
-        {'first':'subito', 
-        'second':'plötzlich', 
-        'third':''},
-    
-        {'first':'rogare', 
-        'second':'fragen, bitten', 
-        'third':'rogo, rogavi'},
-    
-        {'first':'poeta', 
-        'second':'der Dichter', 
-        'third':'-ae m.'},
-    
-        {'first':'nox', 
-        'second':'die Nacht', 
-        'third':'noctis f.'},
-    
-        {'first':'alius', 
-        'second':'ein anderer', 
-        'third':'-a, -um'},
-
+    {'first':'auswählen', 
+    'second':'auswählen', 
+    'third':'auswählen'},
     
 
 
 ]
-
-
-
 
 
 
@@ -513,3 +265,714 @@ var s_8_tantalus = [
 
 
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var englisch_10_S_120_introduction = [ //Green Line 6 G9 Unit 1 Introduction
+
+
+	{'first':'erfüllend, befriediegend', 
+	'second':'fulfilling', 
+	'third':''},
+
+	{'first':'materialistisch', 
+	'second':'materialistic', 
+	'third':''},
+
+	{'first':'bedeutsam, wichtig', 
+	'second':'meaningful', 
+	'third':''},
+
+	{'first':'abenteuerlich; unternehmungslustig; <br> wagemutig; experementierfreudig', 
+	'second':'adventurous', 
+	'third':''},
+
+	{'first':'Zufriedenheit', 
+	'second':'satisfaction', 
+	'third':''},
+
+	{'first':'Langeweile', 
+	'second':'boredom', 
+	'third':''},
+
+	{'first':'Neugier', 
+	'second':'curiosity', 
+	'third':''},
+
+	{'first':'wünschenswert, erstrebenswert', 
+	'second':'desirable', 
+	'third':''},
+]
+
+
+var englisch_10_S_120_station_1 = [ // Green Line 6 G9 Unit 1 Station 1 Best Summer ever!
+
+
+	{'first':'unterstützen, ermutigen', 
+	'second':'to encourage', 
+	'third':''},
+
+	{'first':'(er)wecken (Interesse); aufwerfen (Fragen)',    // "(Interesse)" und "(Fragen)" kursiv schreiben
+	'second':'to raise', 
+	'third':''},
+
+	{'first':'Chance; Gelegenheit; Möglichkeit', 
+	'second':'opportunity', 
+	'third':''},
+
+	{'first':'Hilfsbetreuer/-in', 
+	'second':'assistant counsellor', 
+	'third':''},
+
+	{'first':'leitende Betreuer/leitende Betreuerin; <br> ranghohe/-r Minister/-in', 
+	'second':'senior counsellor', 
+	'third':''},
+
+	{'first':'etw. leidenschaftlich gerne tun; <br> eine Leidenschaft für etw. haben; für etw. brennen', 
+	'second':'to be passionate about sth', 
+	'third':''},
+
+	{'first':'Erfahrungsbericht', 
+	'second':'testimonial', 
+	'third':''},
+
+	{'first':'Qualifikation; Befähigung; Abschluss; Schulabschluss', 
+	'second':'qualification', 
+	'third':''},
+
+	{'first':'benötigen; erfordern', 
+	'second':'to require', 
+	'third':''},
+
+	{'first':'Bewerber/-in', 
+	'second':'applicant', 
+	'third':''},
+
+	{'first':'Stelle; Position', 
+	'second':'position', 
+	'third':''},
+
+	{'first':'sollen', 
+	'second':'to be supossed to (+inf)',    //"(+inf)" kursiv
+	'third':''},
+
+	{'first':'ein Vorbild sein', 
+	'second':'to set a good example', 
+	'third':''},
+
+	{'first':'immer; jederzeit; stets', 
+	'second':'at all times', 
+	'third':''},
+
+	{'first':'sollen', 
+	'second':'to be expected to (+inf)',    //"(+inf)" kursiv
+	'third':''},
+
+	{'first':'gern im Team arbeiten', 
+	'second':'to be a team player',
+	'third':''},
+
+	{'first':'Verantwortung; Aufgabe', 
+	'second':'responsibillity', 
+	'third':''},
+
+	{'first':'Lebenslauf', 
+	'second':'CV (Curriculum Vitae)',    //"(Curriculum Vitae)" kursiv
+	'third':''},
+
+	{'first':'Bewerbungsschreiben', 
+	'second':'application letter', 
+	'third':''},
+
+	{'first':'Geschlecht', 
+	'second':'gender', 
+	'third':''},
+
+	{'first':'Arbeitgeber/-in', 
+	'second':'employer', 
+	'third':''},
+
+	{'first':'zielgerichtet', 
+	'second':'focused', 
+	'third':''},
+
+	{'first':'Alleskönner/-in; Multitalent', 
+	'second':'all-rounder', 
+	'third':''},
+
+	{'first':'sich abheben (von); herausragen (aus)', 
+	'second':'to stand out (from)', 
+	'third':''},
+
+	{'first':'Schwäche', 
+	'second':'weakness', 
+	'third':''},
+
+	{'first':'Klischee; Stereotyp', 
+	'second':'stereotype', 
+	'third':''},
+
+	{'first':'geschlechtsspezieefische Klischees', 
+	'second':'gender stereotyping', 
+	'third':''},
+
+	{'first':'betrachten; erwägen', 
+	'second':'to consider', 
+	'third':''},
+
+	{'first':'Technik; Maschienenbau', 
+	'second':'engineering', 
+	'third':''},
+
+	{'first':'allg. Abschluss der weiterführenden Schulen in GB', 
+	'second':'GCSE (=Geneeal Certificate <br> of Secundary Education)',    //(=Geneeal Certificate of Secundary Education) kursiv
+	'third':''},
+
+	{'first':'auflisten; nennen', 
+	'second':'to list', 
+	'third':''},
+
+	{'first':'Gesundheitsversorgung', 
+	'second':'healthcare', 
+	'third':''},
+
+	{'first':'weiblich', 
+	'second':'female', 
+	'third':''},
+
+	{'first':'Bauarbeiter/-in', 
+	'second':'construction worker', 
+	'third':''},
+
+	{'first':'Beruf', 
+	'second':'profession', 
+	'third':''},
+
+	{'first':'männlich', 
+	'second':'male', 
+	'third':''},
+
+	{'first':'assoziieren; verbinden', 
+	'second':'to associate', 
+	'third':''},
+
+	{'first':'Geschäftsführer/-in; Manager/-in; gehobene Führungskraft', 
+	'second':'(buisness) executive', 
+	'third':''},
+
+	{'first':'Feuerwehrmann/-frau', 
+	'second':'firefrighter', 
+	'third':''},
+
+	{'first':'Verkäufer/-in', 
+	'second':'sales assistant', 
+	'third':''},
+
+	{'first':'Nationalität; Staatsangehörigkeit', 
+	'second':'nationality', 
+	'third':''},
+
+	{'first':'Gesamtschule', 
+	'second':'comprehensive school', 
+	'third':''},
+
+	{'first':'Organisator/in', 
+	'second':'organiser', 
+	'third':''},
+
+	{'first':'fleißig', 
+	'second':'hard-working', 
+	'third':''},
+
+	{'first':'soziale Kompetenz', 
+	'second':'people skills (pl)',    //"(pl)" kursiv
+	'third':''},
+
+	{'first':'Referenz; Referenzschreiben', 
+	'second':'refence', 
+	'third':''},
+
+	{'first':'Anfrage; Nachfrage', 
+	'second':'request', 
+	'third':''},
+
+	{'first':'üblich; verbreitet; gängig', 
+	'second':'common', 
+	'third':''},
+
+	{'first':'bezugnehmend auf', 
+	'second':'with reference to', 
+	'third':''},
+
+	{'first':'hoffentlich', 
+	'second':'hopefully', 
+	'third':''},
+
+	{'first':'deshalb; deswegen; daher', 
+	'second':'therefore', 
+	'third':''},
+
+	{'first':'überdies; außerdem', 
+	'second':'moreover', 
+	'third':''},
+
+	{'first':'Zusatz; Ergänzung', 
+	'second':'addition', 
+	'third':''},
+
+	{'first':'Vorstellungsgespräch', 
+	'second':'(job) interview', 
+	'third':''},
+
+	{'first':'Mit freundlichen Grüßen', 
+	'second':'Your sincerely', 
+	'third':''},
+
+	{'first':'Unterschrift', 
+	'second':'signature', 
+	'third':''},
+
+	{'first':'Anlage; Beilage', 
+	'second':'enclosure', 
+	'third':''},
+
+	{'first':'Anhang', 
+	'second':'attachment', 
+	'third':''},
+
+	{'first':'überdies; außerdem', 
+	'second':'furthermore', 
+	'third':''},
+
+	{'first':'leider; unglücklicherweise', 
+	'second':'unfortunately', 
+	'third':''},
+
+	{'first':'trotzdem; dennoch', 
+	'second':'nevertheless', 
+	'third':''},
+]
+
+
+var englisch_10_S_123_station_2 = [ // Green Line 6 G9 Unit 1 Station 2 The cocoa controversy
+
+
+	{'first':'Kakao', 
+	'second':'cocoa', 
+	'third':''},
+
+	{'first':'Kontroverse; Auseinandersetzung', 
+	'second':'controversy', 
+	'third':''},
+
+	{'first':'Menge; Quantität', 
+	'second':'quantity', 
+	'third':''},
+
+	{'first':'Kosmetik', 
+	'second':'cosmetics (pl)',    // "(pl)" kursiv
+	'third':''},
+
+	{'first':'liefern; bereit stellen', 
+	'second':'to provide', 
+	'third':''},
+
+	{'first':'Armutzgrenze', 
+	'second':'poverty line', 
+	'third':''},
+
+	{'first':'Armut', 
+	'second':'poverty', 
+	'third':''},
+
+	{'first':'physisch; körperlich', 
+	'second':'physical', 
+	'third':''},
+
+	{'first':'ernten', 
+	'second':'to harvest', 
+	'third':''},
+
+	{'first':'Bohne', 
+	'second':'bean', 
+	'third':''},
+
+	{'first':'zwingen', 
+	'second':'to force', 
+	'third':''},
+
+	{'first':'Plantage', 
+	'second':'plantation', 
+	'third':''},
+
+	{'first':'rechtfertigen', 
+	'second':'to justify', 
+	'third':''},
+
+	{'first':'erschöpft', 
+	'second':'exhausted', 
+	'third':''},
+
+	{'first':'hacken; klein schneiden', 
+	'second':'to chop', 
+	'third':''},
+
+	{'first':'Hülse; Schote', 
+	'second':'pod', 
+	'third':''},
+
+	{'first':'Machete; Buschmesser', 
+	'second':'machete', 
+	'third':''},
+
+	{'first':'abladen', 
+	'second':'to dump', 
+	'third':''},
+
+	{'first':'auf...hinauf', 
+	'second':'onto', 
+	'third':''},
+
+	{'first':'Handel', 
+	'second':'trade', 
+	'third':''},
+
+	{'first':'Marsch; Kundgebung', 
+	'second':'march', 
+	'third':''},
+
+	{'first':'sich (selbst) dabei ertappen, wie...', 
+	'second':'to catch one self doing sth', 
+	'third':''},
+
+	{'first':'Bindung; Verpflichtung; Engament', 
+	'second':'commitment', 
+	'third':''},
+
+	{'first':'Freiwillige/-r; Ehrenaamtliche/-r', 
+	'second':'volunteer', 
+	'third':''},
+
+	{'first':'selbstsüchtig; egoistisch', 
+	'second':'selfish', 
+	'third':''},
+
+	{'first':'Engagement; Beteiligung', 
+	'second':'involvement', 
+	'third':''},
+
+	{'first':'eine ehrenamtliche Tätigkeit übernehmen', 
+	'second':'to volunteer', 
+	'third':''},
+
+	{'first':'religiös; gläubig', 
+	'second':'religious', 
+	'third':''},
+
+	{'first':'ältere Menschen; Senioren', 
+	'second':'the elderly', 
+	'third':''},
+
+	{'first':'Obdachlose', 
+	'second':'the homeless', 
+	'third':''},
+
+	{'first':'Behinderte', 
+	'second':'the disabled', 
+	'third':''},
+
+	{'first':'freiwillig; ehrenamtlich', 
+	'second':'volunteer', 
+	'third':''},
+
+	{'first':'ein Jahr Auszeit <br> (zwischen Schule und Ausbildung/Studium)',    // "ein Jahr Auszeit (zwischen Schule und Ausbildung/Studium), das oft für einen freiwilligen ökologischen oder sozialen Dienst genutzt wird" kursiv
+	'second':'gap yaer', 
+	'third':''},
+]
+
+
+var englisch_10_S_125_station_3 = [ // Green Line 6 G9 Unit 1 Station 3 I do remember how it feels...
+
+
+	{'first':'Weisheit; Klugheit', 
+	'second':'wisdom (no pl)',    // "(no pl)" kursiv
+	'third':''},
+
+	{'first':'Schreiner/-in', 
+	'second':'carpenter', 
+	'third':''},
+
+	{'first':'nicht nur ... sondern auch', 
+	'second':'nut only ... but (also)', 
+	'third':''},
+
+	{'first':'stapeln', 
+	'second':'to stack', 
+	'third':''},
+
+	{'first':'vorbeigehen', 
+	'second':'to go by', 
+	'third':''},
+
+	{'first':'übrig', 
+	'second':'left over', 
+	'third':''},
+
+	{'first':'Lohn; Gehalt', 
+	'second':'pay', 
+	'third':''},
+
+	{'first':'Steuer; Abgabe', 
+	'second':'tax', 
+	'third':''},
+
+	{'first':'Lohn', 
+	'second':'wage', 
+	'third':''},
+
+	{'first':'geduldig', 
+	'second':'patient', 
+	'third':''},
+
+	{'first':'selten', 
+	'second':'rarely', 
+	'third':''},
+
+	{'first':'Spitzen-; oberster; bester', 
+	'second':'top', 
+	'third':''},
+
+	{'first':'Gesetz; Recht', 
+	'second':'law', 
+	'third':''},
+
+	{'first':'Besserwisser/-in', 
+	'second':'know-it-all', 
+	'third':''},
+
+	{'first':'kurz', 
+	'second':'brief', 
+	'third':''},
+
+	{'first':'limitieren auf; begränzen auf; beschränken auf', 
+	'second':'to limit to', 
+	'third':''},
+
+	{'first':'Einlage; Betiligung; Investion', 
+	'second':'investment', 
+	'third':''},
+
+	{'first':'Kumpel', 
+	'second':'buddy (infml)',    // "(infml)" kursiv
+	'third':''},
+
+	{'first':'zusammengesetzt sein aus; bestehen aus', 
+	'second':'to be made up of / from', 
+	'third':''},
+
+	{'first':'Zahnbürste', 
+	'second':'toothbrush', 
+	'third':''},
+
+	{'first':'kaum', 
+	'second':'no sooner', 
+	'third':''},
+
+	{'first':'Kollege / Kollegin', 
+	'second':'colleague', 
+	'third':''},
+
+	{'first':'(zu) jmdm. passen; jmdm. stehen', 
+	'second':'to suit sb', 
+	'third':''},
+]
+
+
+var englisch_10_S_126_skills_bis_127_ende = [ // Green Line 6 G9 Unit 1 Skills Making a good impression
+
+
+	{'first':'Bewerber/-in; Kandidat/-in', 
+	'second':'candidate', 
+	'third':''},
+
+	{'first':'betonen', 
+	'second':'to emphasise', 
+	'third':''},
+
+	{'first':'schwierig, komplieziert', 
+	'second':'tricky', 
+	'third':''},
+
+
+
+	{'first':'Helfer/-in', 
+	'second':'helper', 
+	'third':''},
+
+
+
+	{'first':'Geber/-in; Spender/-in', 
+	'second':'giver', 
+	'third':''},
+
+	{'first':'regeln; regulieren', 
+	'second':'to regulate', 
+	'third':''},
+
+	{'first':'Aufgabe; Auftrag; Mission', 
+	'second':'assignment', 
+	'third':''},
+
+	{'first':'Schicksal; Fügung; Vorsehung', 
+	'second':'destiny', 
+	'third':''},
+
+	{'first':'zuordnen; übertragen', 
+	'second':'to assign', 
+	'third':''},
+
+	{'first':'anerkennen; einräumen', 
+	'second':'to acknowledge', 
+	'third':''},
+
+	{'first':'hineinpassen; sich einfügen', 
+	'second':'to fit in', 
+	'third':''},
+
+	{'first':'standardisieren; vereinheitlichen', 
+	'second':'to standardize (AE)',    // "(AE)" kursiv
+	'third':''},
+
+	{'first':'ehren; würdigen; auszeichen', 
+	'second':'to honor (AE)',    // "(AE)" kursiv
+	'third':''},
+
+	{'first':'bestimmen; ermitteln', 
+	'second':'to determine', 
+	'third':''},
+
+	{'first':'während; überall in', 
+	'second':'throughout', 
+	'third':''},
+
+	{'first':'zufrieden; befriedigt', 
+	'second':'satisfied', 
+	'third':''},
+
+	{'first':'Entschuldigung', 
+	'second':'apology', 
+	'third':''},
+
+	{'first':'auswählen; aussuchen', 
+	'second':'to select', 
+	'third':''},
+
+	{'first':'Empfänger/-in; hier= Hüter/-in', 
+	'second':'receiver', 
+	'third':''},
+
+	{'first':'Blatt', 
+	'second':'sheet', 
+	'third':''},
+
+	{'first':'Sitzung; Stunde', 
+	'second':'session', 
+	'third':''},
+
+	{'first':'Fähigkeit', 
+	'second':'ability', 
+	'third':''},
+
+	{'first':'übertragen', 
+	'second':'to transmit', 
+	'third':''},
+
+	{'first':'mein Herr (Anrede)',    // "(Anrede)" kursiv
+	'second':'sir', 
+	'third':''},
+
+	{'first':'ungeduldig', 
+	'second':'impatient', 
+	'third':''},
+
+	{'first':'Lachen', 
+	'second':'laugh', 
+	'third':''},
+
+	{'first':'entfernt; distanziert', 
+	'second':'distant', 
+	'third':''},
+
+	{'first':'Gleichheit; Gleichförmigkeit', 
+	'second':'sameness', 
+	'third':''},
+
+	{'first':'langsamer werden; bremsen', 
+	'second':'to slow down', 
+	'third':''},
+
+	{'first':'gewöhnlich; normal',
+	'second':'ordinary', 
+	'third':''},
+
+	{'first':'neugierig', 
+	'second':'curious', 
+	'third':''},
+
+	{'first':'eine Wahl treffen', 
+	'second':'to make a choice', 
+	'third':''},
+
+	{'first':'von Bedeutung sein; etw. ausmachen', 
+	'second':'to matter', 
+	'third':''},
+
+	{'first':'wagen', 
+	'second':'to dare', 
+	'third':''},
+
+	{'first':'Partner/-in', 
+	'second':'mate', 
+	'third':''},
+
+	{'first':'Literatur', 
+	'second':'literature', 
+	'third':''},
+]
+
+//Angaben ohne Gewähr
