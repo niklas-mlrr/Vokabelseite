@@ -1,10 +1,72 @@
 var Vokabeltest_Lektion = [
 
 
-    {'first':'auswählen', 
-    'second':'auswählen', 
-    'third':'auswählen'},
-    
+    // Originaltext S. 28
+[
+    {'first':'oppūngnāre', 
+    'second':'angreifen', 
+    'third':'oppūgnō, oppūgnāvī, oppūgnātum (regelmäßig)'},
+
+    {'first':'coniūrāre', 
+    'second':'verschworen, durch Eid verbunden', 
+    'third':'coniūrō, coniūrāvī, coniūrātum'},
+
+    {'first':'respondēre', 
+    'second':'hier: prophezeien', 
+    'third':'respondeō, respondī, respōnsum'},
+
+    {'first':'vīcēsimus', 
+    'second':'der Zwanzigste', 
+    'third':'-a, -um'},
+
+    {'first':'ōrātor', 
+    'second':'Redner', 
+    'third':'ōrātōris m.'},
+
+    {'first':'īnsānia', 
+    'second':'Wahnsinn', 
+    'third':'-ae f.'},
+
+    {'first':'simulāre', 
+    'second':'vortäuschen', 
+    'third':'simulō, simulāvī, simulātum (regelmäßig)'},
+
+    {'first':'pileus', 
+    'second':'Kappe', 
+    'third':''},
+
+    {'first':'bōs', 
+    'second':'Rind', 
+    'third':'bovis m./f.'},
+
+    {'first':'iūngere', 
+    'second':'verbinden', 
+    'third':'iūngō, iūnxī, iūnctum'},
+
+    {'first':'arātrum', 
+    'second':'Pflug', 
+    'third':'-ī n.'},
+
+    {'first':'cūnae', 
+    'second':'Wiege', 
+    'third':'-ārum f.'},
+
+    {'first':'subicere', 
+    'second':'davorwerfen', 
+    'third':'subiciō, subiēcī, subiectum'},
+
+    {'first':'simulātiō', 
+    'second':'Verstellung', 
+    'third':'simulātiōnis f.'},
+
+    {'first':'dēpōnere', 
+    'second':'ablegen', 
+    'third':'dēpōnō, dēposuī, dēpositum'},
+
+    {'first':'tunc', 
+    'second':'', 
+    'third':'da, dann'},
+]
 
 
 ]
