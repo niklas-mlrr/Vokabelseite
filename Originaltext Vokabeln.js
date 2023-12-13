@@ -12,7 +12,7 @@ var Vokabeltest_Lektion = [
     'third':'coniūrō, coniūrāvī, coniūrātum'},
 
     {'first':'respondēre', 
-    'second':'hier: prophezeien', 
+    'second':'hier= prophezeien', 
     'third':'respondeō, respondī, respōnsum'},
 
     {'first':'vīcēsimus', 
