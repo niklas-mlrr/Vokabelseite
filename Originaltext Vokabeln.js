@@ -2,7 +2,7 @@ var Vokabeltest_Lektion = [
 
 
     // Originaltext S. 28
-[
+
     {'first':'oppūngnāre', 
     'second':'angreifen', 
     'third':'oppūgnō, oppūgnāvī, oppūgnātum (regelmäßig)'},
@@ -66,7 +66,7 @@ var Vokabeltest_Lektion = [
     {'first':'tunc', 
     'second':'', 
     'third':'da, dann'},
-]
+
 
 
 ]
