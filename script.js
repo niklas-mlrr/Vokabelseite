@@ -1,6 +1,6 @@
 vokabeltest_lektion_anzeigen = true
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 29.01.24 08:45"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 29.01.24 16:45"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -167,6 +167,23 @@ function buildTables_8_tantalus(data) {
 						<td>${data[i].third}</td>
 				  </tr>`
 		tables_8_tantalus.innerHTML += row
+	}
+}
+
+
+buildTables_28_odysseus(s_28_odysseus)
+
+function buildTables_28_odysseus(data) {
+	var tables_28_odysseus = document.getElementById('tables_28_odysseus')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+						<td>${data[i].third}</td>
+				  </tr>`
+		tables_28_odysseus.innerHTML += row
 	}
 }
 
@@ -412,6 +429,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_s_8_tantalus") {
 		hide_all_außers_8_tantalus()
 	}
+	if (userOption.value == "#lek_s_28_odysseus") {
+		hide_all_außers_28_odysseus()
+	}
 
 	
 }
@@ -490,6 +510,7 @@ selected_45 = document.getElementsByClassName('insgesamt45')
 selected_bellum_gallicum = document.getElementsByClassName('insgesamtbellum_gallicum')
 selected_s_6_prometheus = document.getElementsByClassName('insgesamts_6_prometheus')
 selected_s_8_tantalus = document.getElementsByClassName('insgesamts_8_tantalus')
+selected_s_28_odysseus = document.getElementsByClassName('insgesamts_28_odysseus')
 
 
 
@@ -562,6 +583,7 @@ function hide_all() {
 	selected_bellum_gallicum[0].classList.add('hidden');
 	selected_s_6_prometheus[0].classList.add('hidden');
 	selected_s_8_tantalus[0].classList.add('hidden');
+	selected_s_28_odysseus[0].classList.add('hidden');
 
 
 
@@ -975,6 +997,14 @@ function hide_all_außers_8_tantalus() {
 		}
 }
 
+function hide_all_außers_28_odysseus() {
+	hide_all()
+	selected_s_28_odysseus[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+
 
 
 
@@ -1279,6 +1309,12 @@ console.log (userOption.value)
 			lektion_ausgewählt = true
 		}
 
+		if (userOption.value == "lernen_originaltexte_select_s_28_odysseus") {
+			ausgewählt_lektion = "s_28_odysseus"
+			lernen_noch_länge = s_28_odysseus.length
+			lektion_ausgewählt = true
+		}
+
 
 
 
@@ -1359,6 +1395,7 @@ document.getElementById('lernen_viva_lektion_select_45').innerHTML = "Lektion 45
 document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML = "Bellum Gallicum &nbsp;&nbsp; Länge: " + bellum_gallicum.length + " Wörter";
 document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML = "S. 6 Prometheus &nbsp;&nbsp; Länge: " + s_6_prometheus.length + " Wörter";
 document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = "S. 8 Tantalus &nbsp;&nbsp; Länge: " + s_8_tantalus.length + " Wörter";
+document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML = "S. 28 Odysseus &nbsp;&nbsp; Länge: " + s_28_odysseus.length + " Wörter";
 
 
 
@@ -1932,6 +1969,13 @@ function neue_vok_standard() {
 		lernen_lektion_anzeige = "S. 8 Tantalus"
 		länge_lek = "Gesamt: " + s_8_tantalus.length + " Wörter"
 		länge_lek_number = s_8_tantalus.length
+	}
+
+	if (ausgewählt_lektion == "s_28_odysseus") {
+		random_item = s_28_odysseus[Math.floor(Math.random() * s_28_odysseus.length)];
+		lernen_lektion_anzeige = "S. 28 Odysseus"
+		länge_lek = "Gesamt: " + s_28_odysseus.length + " Wörter"
+		länge_lek_number = s_28_odysseus.length
 	}
 
 

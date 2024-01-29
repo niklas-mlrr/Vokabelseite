@@ -149,6 +149,15 @@ html {
   font-size: 25px;
 }
 
+#tables_28_odysseus {
+
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
 
 
 

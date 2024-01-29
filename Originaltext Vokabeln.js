@@ -2,15 +2,11 @@ var Vokabeltest_Lektion = [
 
 
 
-
-
-
-
 // Text 1 Lupus et agnus
 
 {'first':'agnus',
 'second':'das Lamm',
-'third':'agni m.'},
+'third':'i m.'},
 
 
 {'first':'faux',
@@ -27,14 +23,14 @@ var Vokabeltest_Lektion = [
 
 {'first':'lupus',
 'second':'der Wolf',
-'third':'lupi m.'},
+'third':'i m.'},
 
 {'first':'ait',
 'second':'behaupte ich, sage ich',
 'third':'3. Pers. Sg. ait, 3. Pers. Pl. aiunt'},  // "3. Pers. Sg." und "3. Pers. Pl." kursiv
 
 {'first':'ante',
-'second':'1. vor (Präp. + Akk.); 2. vorher (Adv.)',
+'second':'1. vor (Präp. + Akk.) <br> 2. vorher (Adv.)',
 'third':''},
 
 {'first':'atque',
@@ -47,7 +43,7 @@ var Vokabeltest_Lektion = [
 
 {'first':'causa',
 'second':'1. der Grund, die Ursache; <br> 2. das Gerichtsverfahren, der Prozess',
-'third':'causae f.'},
+'third':'ae f.'},
 
 {'first':'contra',
 'second':'dagegen, gegenüber',
@@ -55,7 +51,7 @@ var Vokabeltest_Lektion = [
 
 {'first':'corripere',
 'second':'ergreifen, gewaltsam an sich reißen',
-'third':'corripi, corripui, correptum'},
+'third':'corripio, corripui, correptum'},
 
 {'first':'cur',
 'second':'warum?',
@@ -70,7 +66,7 @@ var Vokabeltest_Lektion = [
 'third':''},
 
 {'first':'facere',
-'second':',achen, tun, handeln',
+'second':'machen, tun, handeln',
 'third':'facio, feci, factum'},
 
 {'first':'fingere',
@@ -126,7 +122,7 @@ var Vokabeltest_Lektion = [
 'third':'necis f.'},
 
 {'first':'opprimere',
-'second':'1. unterdrücken; 2. bekämpfen, überfallen; <br> 3. bedorohen',
+'second':'1. unterdrücken; 2. bekämpfen, überfallen; <br> 3. bedrohen',
 'third':'opprimo, oppressi, oppressum'},
 
 {'first':'posse',
@@ -178,8 +174,8 @@ var Vokabeltest_Lektion = [
 'third':'venio, veni, ventum'},
 
 {'first':'vis',
-'second':'1. die Kraft; 2. die Gewalt; 3. Pl.= auch Streitkräfte',
-'third':'Akk. vim, Abl. vi, Pl.= vires; virium f.'}, // "Akk.", "Abl." und "Pl.=" kursiv
+'second':'1. die Kraft; 2. die Gewalt; <br> 3. Pl.= Streitkräfte',
+'third':'Akk. vim, Abl. vi, <br> Pl.= vires; virium f.'}, // "Akk.", "Abl." und "Pl.=" kursiv
 
 
 
@@ -466,22 +462,76 @@ var s_8_tantalus = [
 
 
 
+var s_28_odysseus = [
+
+    // Originaltext S. 28
+
+    {'first':'oppūngnāre', 
+    'second':'angreifen', 
+    'third':'oppūgnō, oppūgnāvī, oppūgnātum (regelmäßig)'},
+
+    {'first':'coniūrāre', 
+    'second':'verschworen, durch Eid verbunden', 
+    'third':'coniūrō, coniūrāvī, coniūrātum'},
+
+    {'first':'respondēre', 
+    'second':'hier= prophezeien', 
+    'third':'respondeō, respondī, respōnsum'},
+
+    {'first':'vīcēsimus', 
+    'second':'der Zwanzigste', 
+    'third':'-a, -um'},
+
+    {'first':'ōrātor', 
+    'second':'Redner', 
+    'third':'ōrātōris m.'},
+
+    {'first':'īnsānia', 
+    'second':'Wahnsinn', 
+    'third':'-ae f.'},
+
+    {'first':'simulāre', 
+    'second':'vortäuschen', 
+    'third':'simulō, simulāvī, simulātum (regelmäßig)'},
+
+    {'first':'pileus', 
+    'second':'Kappe', 
+    'third':''},
+
+    {'first':'bōs', 
+    'second':'Rind', 
+    'third':'bovis m./f.'},
+
+    {'first':'iūngere', 
+    'second':'verbinden', 
+    'third':'iūngō, iūnxī, iūnctum'},
+
+    {'first':'arātrum', 
+    'second':'Pflug', 
+    'third':'-ī n.'},
+
+    {'first':'cūnae', 
+    'second':'Wiege', 
+    'third':'-ārum f.'},
+
+    {'first':'subicere', 
+    'second':'davorwerfen', 
+    'third':'subiciō, subiēcī, subiectum'},
+
+    {'first':'simulātiō', 
+    'second':'Verstellung', 
+    'third':'simulātiōnis f.'},
+
+    {'first':'dēpōnere', 
+    'second':'ablegen', 
+    'third':'dēpōnō, dēposuī, dēpositum'},
+
+    {'first':'tunc', 
+    'second':'', 
+    'third':'da, dann'},
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+]
 
 
 
