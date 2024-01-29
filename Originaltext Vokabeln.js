@@ -46,7 +46,7 @@ var Vokabeltest_Lektion = [
 'third':'bibo, bibi, ---'},
 
 {'first':'causa',
-'second':'1. der Grund, die Ursache; 2. das Gerichtsverfahren, der Prozess',
+'second':'1. der Grund, die Ursache; <br> 2. das Gerichtsverfahren, der Prozess',
 'third':'causae f.'},
 
 {'first':'contra',
@@ -126,7 +126,7 @@ var Vokabeltest_Lektion = [
 'third':'necis f.'},
 
 {'first':'opprimere',
-'second':'1. unterdrücken; 2. bekämpfen, überfallen; 3. bedorohen',
+'second':'1. unterdrücken; 2. bekämpfen, überfallen; <br> 3. bedorohen',
 'third':'opprimo, oppressi, oppressum'},
 
 {'first':'posse',
