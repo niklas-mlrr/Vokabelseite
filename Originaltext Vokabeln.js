@@ -7,7 +7,7 @@ var Vokabeltest_Lektion = [
 
 
 // Text 1 Lupus et agnus
-[
+
 {'first':'agnus',
 'second':'das Lamm',
 'third':'agni m.'},
@@ -180,12 +180,6 @@ var Vokabeltest_Lektion = [
 {'first':'vis',
 'second':'1. die Kraft; 2. die Gewalt; 3. Pl.= auch Streitkräfte',
 'third':'Akk. vim, Abl. vi, Pl.= vires; virium f.'}, // "Akk.", "Abl." und "Pl.=" kursiv
-
-
-
-
-]
-
 
 
 
