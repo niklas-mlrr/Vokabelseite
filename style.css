@@ -774,8 +774,8 @@ th {
   -webkit-backdrop-filter: blur(8px) saturate(100%);
 
 
-  width: 35%;
-  height: 50%;
+  width: 400px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -789,12 +789,15 @@ th {
 
 
 .lernen_auswählen_viva_oder_originaltexte {
-  top: -200px;
-  left: 10%;
+  position: relative;
+  top: 80px;
 }
 
 
-
+.lernen_dropdown_div {
+  position: relative;
+  top: 50px;
+}
 
 
 
@@ -809,6 +812,7 @@ th {
   width: 250px;
   margin: 0px;
 }
+
 
 
 
@@ -888,12 +892,11 @@ th {
 /*  Latein  */
 
 .lernen_einfach_weiter_button_latein {
-  transform: translate(-50%, -50%);
-  position: absolute;
+  position: relative;
   height: 80px;
   width: 150px;
-  bottom: 3%;
-  left: 34.2%;
+  bottom: 10px;
+  left: -10px;
   cursor: pointer;
   background-color: rgb(71, 71, 71);
   display: inline-grid;
@@ -911,12 +914,11 @@ th {
 
 
 .lernen_standard_weiter_button_latein {
-  transform: translate(-50%, -50%);
-  position: absolute;
+position: relative;
   height: 80px;
   width: 150px;
-  bottom: 3%;
-  left: 65.8%;
+  bottom: 10px;
+  left: 10px;
   cursor: pointer;
   background-color: rgb(71, 71, 71);
   display: inline-grid;
@@ -1094,7 +1096,7 @@ th {
   top: 47%;
   left: 50%;
 
-  width: 1200px;
+  width: 85%;
   height: 65%;
   display: inline-grid;
   align-items: center;
@@ -1953,7 +1955,7 @@ th {
 .checkbox_haken_mit_ohne_sonstige_formen {
 
   position: relative;
-  bottom: -110px;
+  bottom: -122px;
 
   height: 45px;
   width: 350px;
@@ -2099,13 +2101,3 @@ th {
 
 }
 
-
-
-@media (max-height: 100px) {
-
-  .lernen_auswahl_latein {
-    height: 90%;
-  }
-
-
-}
