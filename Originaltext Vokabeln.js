@@ -94,7 +94,7 @@ var Vokabeltest_Lektion = [
 'third':'infero, intuli, illatum'},
 
 {'first':'inquit',
-'second':'sagt er/sie, sagte er /sie',
+'second':'sagt er / sie, <br> sagte er / sie',
 'third':''},
 
 {'first':'ita',
