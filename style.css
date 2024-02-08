@@ -104,7 +104,6 @@ html {
 }
 
 #tableVokabeltest_Lektion {
-
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
@@ -114,7 +113,6 @@ html {
 }
 
 #tableVokabeln_aus_keiner_Lektion {
-
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
@@ -123,7 +121,6 @@ html {
 }
 
 #tablebellum_gallicum {
-
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
@@ -132,7 +129,6 @@ html {
 }
 
 #tables_6_prometheus {
-
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
@@ -141,7 +137,6 @@ html {
 }
 
 #tables_8_tantalus {
-
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
@@ -150,7 +145,30 @@ html {
 }
 
 #tables_28_odysseus {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
 
+#tableLupus_et_agnus {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#tableEnglisch_Vokabeltest_ersten_70 {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: 25px;
+}
+
+#tableEnglisch_Vokabeltest_rest {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;

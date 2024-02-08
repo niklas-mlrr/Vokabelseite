@@ -314,3 +314,788 @@ nicht_beim_ersten_mal(.length)
 1. ō
 
 0. ī
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bringe die folgende Vokabelliste in das folgende Format (es folgen die ersten drei Vokabeln als Beispiele). Bei 'first' soll die deutsche, bei 'second' die englische Bedeutung stehen. 'third' soll immer leer bleiben. In der bereitgestellten Liste sind die einzelnen Vokabeln mit zwei Absätzen voneinander abgetrennt. 
+Deine Ausgabe in dem genannten Format soll nur die Vokabeln aus der Liste beinhalten. Füge keine Vokabeln hinzu! 
+
+    {'first':'einem Angriff ausweichen', 
+    'second':'dodge an attack', 
+    'third':''},
+
+    {'first':'eine Kette von Explosionen auslösen', 
+    'second':'set off a chain of explosions', 
+    'third':''},
+
+    {'first':'auf jem zielen', 
+    'second':'aim for', 
+    'third':''},
+
+
+
+Vokabelliste:
+
+dodge an attack
+
+einem Angriff ausweichen
+
+
+set off a chain of explosions
+
+eine Kette von Explosionen auslösen
+
+
+aim for
+
+auf jem zielen
+
+
+trap
+
+Falle
+
+
+rivalry between
+
+Rivalität zwischen
+
+
+an easy target
+
+ein leichtes Ziel
+
+
+hatred
+
+Hass
+
+
+value
+
+Wert
+
+
+remain
+
+übrig bleiben
+
+
+rule change
+
+Regeländerung
+
+
+confront one another
+
+sich feindlich gegenüberstehen
+
+
+face-to-face
+
+von Angesicht zu Angesicht
+
+
+manipulate
+
+manipulieren
+
+
+manipulation
+
+Manipulation
+
+
+have control over
+
+Kontrolle haben über
+
+
+show weakness
+
+Schwäche zeigen
+
+
+pity
+
+Mitleid
+
+
+aid
+
+Hilfe, Unterstützung
+
+
+admiration
+
+Bewunderung
+
+
+refusal
+
+Weigerung
+
+
+easy to spot
+
+leicht zu entdecken
+
+
+gift
+
+Geschenk
+
+
+traitor
+
+Verräter
+
+
+distract sb from
+
+jem von etwas ablenken
+
+
+look foolish
+
+albern aussehen
+
+
+wasp nest
+
+Wespennest
+
+
+hallucinations brought on by the venom
+
+Halluzinationen hervorgerufen durch das Gift
+
+
+sting
+
+Stich
+
+
+ointment
+
+Salbe
+
+
+blister
+
+Blase
+
+
+spread the balm
+
+die Salbe verteilen
+
+
+leap from tree to tree
+
+von Baum zu Baum springen
+
+
+mayhem
+
+Chaos, Durcheinander
+
+
+twitch hysterically
+
+hysterisch zucken
+
+
+a cannon fires
+
+eine Kanone feuert
+
+
+black out
+
+ohnmächtig werden
+
+
+treatment for sth
+
+Behandlung
+
+
+eat the crops
+
+die Ernte essen
+
+
+whip sb
+
+jdn auspeitschen
+
+
+specialise in sth
+
+sich spezialisieren auf
+
+
+agriculture
+
+Landwirtschaft
+
+
+oppressed
+
+unterdrückt
+
+
+oppression
+
+Unterdrückung
+
+
+punishment
+
+Bestrafung
+
+
+harmless
+
+harmlos
+
+
+uprising
+
+Aufstand
+
+
+block out a conversation
+
+ein Gespräch unterdrücken
+
+
+the need for flight
+
+die Notwendigkeit der Flucht
+
+
+nightmare
+
+Albtraum
+
+
+die from the stings
+
+an den Stichen sterben
+
+
+only tough opponents left
+
+nur noch zähe Gegner übrig
+
+
+face sth
+
+etwas gegenüberstehen
+
+
+wound
+
+Wunde
+
+
+cut
+
+Schnitt
+
+
+sore
+
+wund
+
+
+chew leaves
+
+Blätter kauen
+
+
+relief
+
+Erleichterung
+
+
+a temporary deal
+
+ein befristetes Abkommen
+
+
+a public whipping
+
+eine öffentliche Auspeitschung
+
+
+gather roots and nuts
+
+Wurzeln und Nüsse sammeln
+
+
+evasion
+
+Ausweichen, Umgehung
+
+
+devise
+
+ausdenken, entwerfen
+
+
+spy on sb
+
+jdn ausspionieren
+
+
+weaken sb
+
+jem schwächen
+
+
+be in sb's debt
+
+in jem Schuld stehen
+
+
+an act
+
+Schau
+
+
+to put on act
+
+Theater spielen
+
+
+supplies last for x days
+
+die Vorräte reichen für
+
+
+get hold of sth
+
+etwas ergattern
+
+
+I can't help thinking of him
+
+Ich kann nicht anders, als an ihn zu denken
+
+
+observant
+
+aufmerksam
+
+
+wounded badly
+
+schwer verletzt
+
+
+a hanging sack of apples
+
+ein hängender Sack voller Äpfel
+
+
+land mine
+
+Landmine
+
+
+dig up
+
+ausgraben
+
+
+camp setup
+
+Lageraufbau
+
+
+reactivate
+
+reaktivieren
+
+
+leave sth unprotected
+
+etwas unbeaufsichtigt lassen
+
+
+booby trap
+
+versteckte Sprengladung
+
+
+mined
+
+vermint
+
+
+booby-trapped
+
+mit einem Sprengsatz versehen
+
+
+set off a chain of explosions
+
+eine Kette von Explosionen auslösen
+
+
+aim for
+
+auf etwas zielen
+
+
+trap
+
+Falle
+
+
+a stash of supplies
+
+Vorratslager
+
+
+a feature on sth
+
+ein Sonderbeitrag über etwas
+
+
+rivalry between
+
+Rivalität zwischen
+
+
+raise the tension
+
+die Spannung erhöhen
+
+
+take sb on
+
+gegen jem antreten
+
+
+for real
+
+wirklich
+
+
+rue
+
+Raute
+
+
+scare off sb
+
+jem abschrecken
+
+
+companion to sb
+
+Begleiter
+
+
+beneficial to sth
+
+für etwas vorteilhaft sein
+
+
+creator
+
+Schöpfer
+
+
+retrieve a body
+
+eine Leiche herausholen
+
+
+deafen
+
+betäuben
+
+
+tune
+
+Melodie
+
+
+spear
+
+Speer
+
+
+mark an important shift
+
+eine wichtige Veränderung kennzeichnen
+
+
+revenge
+
+Rache
+
+
+desire for sth
+
+der Wunsch nach etwas
+
+
+shame sb
+
+jem beschämen
+
+
+come under pressure
+
+unter Druck geraten
+
+
+make sb accountable
+
+jem zur Rechenschaft ziehen
+
+
+affectionately
+
+liebevoll
+
+
+an easy target
+
+ein leichtes Ziel
+
+
+remain
+
+übrig bleiben
+
+
+be declared the winner
+
+zum Gewinner erklärt werden
+
+
+be alive
+
+leben, am Leben sein
+
+
+benefit from sth
+
+von etwas profitieren
+
+
+to be madly in love
+
+unsterblich verliebt sein
+
+
+romance
+
+Romanze
+
+
+fake
+
+Fälschung
+
+
+put on act
+
+eine Schau abziehen
+
+
+be wounded
+
+verletzt sein
+
+
+avoid
+
+vermeiden
+
+
+be declared the winner
+
+zum Gewinner erklärt werden
+
+
+be alive
+
+leben, am Leben sein
+
+
+benefit from sth
+
+von etw. profitieren
+
+
+be madly in love
+
+unsterblich verliebt sein
+
+
+fake
+
+Fälschung
+
+
+affectionately
+
+liebevoll
+
+
+put on act
+
+eine Schau abziehen
+
+
+be wounded
+
+verwundet sein
+
+
+keep sb alive
+
+jem am Leben erhalten
+
+
+turn out to be
+
+sich erweisen als
+
+
+sting
+
+stechen
+
+
+stab
+
+erstechen
+
+
+weeds
+
+Unkraut
+
+
+muddy
+
+schlammig
+
+
+mud
+
+Schlamm
+
+
+caked with mud
+
+schlammverkrustet
+
+
+inflamed
+
+entzündet
+
+
+drain
+
+entwässern
+
+
+victor
+
+Sieger
+
+
+a staged kiss
+
+gestellter Kuss
+
+
+brush the hair
+
+die Haare bürsten
+
+
+stroke sth
+
+etw. streicheln
+
+
+pus
+
+Eiter
+
+
+blood poisoning
+
+Blutvergiftung
+
+
+swelling
+
+Schwellung
+
+
+goat
+
+Ziege
+
+
+protector
+
+Beschützer
+
+
+broth
+
+Brühe
+
+

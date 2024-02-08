@@ -1,6 +1,6 @@
 vokabeltest_lektion_anzeigen = true
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 29.01.24 16:45"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 08.02.24 17:20"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -88,9 +88,7 @@ function buildTableVokabeltest_Lektion(data) {
 		var row = `<tr class="row">
 							<td class="first">${data[i].first}</td>
 							<td class="second">${data[i].second}</td>
-							<td>${data[i].third}</td>
 						</tr>`
-					
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
 		tableVokabeltest_Lektion.innerHTML += row
@@ -184,6 +182,56 @@ function buildTables_28_odysseus(data) {
 						<td>${data[i].third}</td>
 				  </tr>`
 		tables_28_odysseus.innerHTML += row
+	}
+}
+
+
+buildTableLupus_et_agnus(Lupus_et_agnus)
+
+function buildTableLupus_et_agnus(data) {
+	var tableLupus_et_agnus = document.getElementById('tableLupus_et_agnus')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+						<td>${data[i].third}</td>
+				  </tr>`
+		tableLupus_et_agnus.innerHTML += row
+	}
+}
+
+
+
+buildTableEnglisch_Vokabeltest_ersten_70(Englisch_Vokabeltest_ersten_70)
+
+function buildTableEnglisch_Vokabeltest_ersten_70(data) {
+	var tableEnglisch_Vokabeltest_ersten_70 = document.getElementById('tableEnglisch_Vokabeltest_ersten_70')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+				  </tr>`
+		tableEnglisch_Vokabeltest_ersten_70.innerHTML += row
+	}
+}
+
+
+buildTableEnglisch_Vokabeltest_rest(Englisch_Vokabeltest_rest)
+
+function buildTableEnglisch_Vokabeltest_rest(data) {
+	var tableEnglisch_Vokabeltest_rest = document.getElementById('tableEnglisch_Vokabeltest_rest')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+				  </tr>`
+		tableEnglisch_Vokabeltest_rest.innerHTML += row
 	}
 }
 
@@ -432,6 +480,15 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_s_28_odysseus") {
 		hide_all_außers_28_odysseus()
 	}
+	if (userOption.value == "#lek_Lupus_et_agnus") {
+		hide_all_außerLupus_et_agnus()
+	}
+	if (userOption.value == "#lek_Englisch_Vokabeltest_ersten_70") {
+		hide_all_außerEnglisch_Vokabeltest_ersten_70()
+	}
+	if (userOption.value == "#lek_Englisch_Vokabeltest_rest") {
+		hide_all_außerEnglisch_Vokabeltest_rest()
+	}
 
 	
 }
@@ -511,6 +568,9 @@ selected_bellum_gallicum = document.getElementsByClassName('insgesamtbellum_gall
 selected_s_6_prometheus = document.getElementsByClassName('insgesamts_6_prometheus')
 selected_s_8_tantalus = document.getElementsByClassName('insgesamts_8_tantalus')
 selected_s_28_odysseus = document.getElementsByClassName('insgesamts_28_odysseus')
+selected_Lupus_et_agnus = document.getElementsByClassName('insgesamtLupus_et_agnus')
+selected_Englisch_Vokabeltest_ersten_70 = document.getElementsByClassName('insgesamtEnglisch_Vokabeltest_ersten_70')
+selected_Englisch_Vokabeltest_rest = document.getElementsByClassName('insgesamtEnglisch_Vokabeltest_rest')
 
 
 
@@ -584,6 +644,9 @@ function hide_all() {
 	selected_s_6_prometheus[0].classList.add('hidden');
 	selected_s_8_tantalus[0].classList.add('hidden');
 	selected_s_28_odysseus[0].classList.add('hidden');
+	selected_Lupus_et_agnus[0].classList.add('hidden');
+	selected_Englisch_Vokabeltest_ersten_70[0].classList.add('hidden');
+	selected_Englisch_Vokabeltest_rest[0].classList.add('hidden');
 
 
 
@@ -1005,6 +1068,30 @@ function hide_all_außers_28_odysseus() {
 		}
 }
 
+function hide_all_außerLupus_et_agnus() {
+	hide_all()
+	selected_Lupus_et_agnus[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+
+function hide_all_außerEnglisch_Vokabeltest_ersten_70() {
+	hide_all()
+	selected_Englisch_Vokabeltest_ersten_70[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+
+function hide_all_außerEnglisch_Vokabeltest_rest() {
+	hide_all()
+	selected_Englisch_Vokabeltest_rest[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+
 
 
 
@@ -1315,6 +1402,24 @@ console.log (userOption.value)
 			lektion_ausgewählt = true
 		}
 
+		if (userOption.value == "lernen_originaltexte_select_Lupus_et_agnus") {
+			ausgewählt_lektion = "Lupus_et_agnus"
+			lernen_noch_länge = Lupus_et_agnus.length
+			lektion_ausgewählt = true
+		}
+
+		if (userOption.value == "lernen_originaltexte_select_Englisch_Vokabeltest_ersten_70") {
+			ausgewählt_lektion = "Englisch Vokabeln - Ersten 70"
+			lernen_noch_länge = Englisch_Vokabeltest_ersten_70.length
+			lektion_ausgewählt = true
+		}
+
+		if (userOption.value == "lernen_originaltexte_select_Englisch_Vokabeltest_rest") {
+			ausgewählt_lektion = "Englisch Vokabeln - Rest"
+			lernen_noch_länge = Englisch_Vokabeltest_rest.length
+			lektion_ausgewählt = true
+		}
+
 
 
 
@@ -1396,6 +1501,9 @@ document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML
 document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML = "S. 6 Prometheus &nbsp;&nbsp; Länge: " + s_6_prometheus.length + " Wörter";
 document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = "S. 8 Tantalus &nbsp;&nbsp; Länge: " + s_8_tantalus.length + " Wörter";
 document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML = "S. 28 Odysseus &nbsp;&nbsp; Länge: " + s_28_odysseus.length + " Wörter";
+document.getElementById('lernen_originaltexte_select_Lupus_et_agnus').innerHTML = "Lupus et agnus &nbsp;&nbsp; Länge: " + Lupus_et_agnus.length + " Wörter";
+document.getElementById('lernen_originaltexte_select_Englisch_Vokabeltest_ersten_70').innerHTML = "Englisch Vokabeln - Ersten 70 &nbsp;&nbsp; Länge: " + Englisch_Vokabeltest_ersten_70.length + " Wörter";
+document.getElementById('lernen_originaltexte_select_Englisch_Vokabeltest_rest').innerHTML = "Englisch Vokabeln - Rest &nbsp;&nbsp; Länge: " + Englisch_Vokabeltest_rest.length + " Wörter";
 
 
 
@@ -1976,6 +2084,27 @@ function neue_vok_standard() {
 		lernen_lektion_anzeige = "S. 28 Odysseus"
 		länge_lek = "Gesamt: " + s_28_odysseus.length + " Wörter"
 		länge_lek_number = s_28_odysseus.length
+	}
+
+	if (ausgewählt_lektion == "Lupus_et_agnus") {
+		random_item = Lupus_et_agnus[Math.floor(Math.random() * Lupus_et_agnus.length)];
+		lernen_lektion_anzeige = "Lupus et agnus"
+		länge_lek = "Gesamt: " + Lupus_et_agnus.length + " Wörter"
+		länge_lek_number = Lupus_et_agnus.length
+	}
+
+	if (ausgewählt_lektion == "Englisch Vokabeln - Ersten 70") {
+		random_item = Englisch_Vokabeltest_ersten_70[Math.floor(Math.random() * Englisch_Vokabeltest_ersten_70.length)];
+		lernen_lektion_anzeige = "Englisch Vokabeln - Ersten 70"
+		länge_lek = "Gesamt: " + Englisch_Vokabeltest_ersten_70.length + " Wörter"
+		länge_lek_number = Englisch_Vokabeltest_ersten_70.length
+	}
+
+	if (ausgewählt_lektion == "Englisch Vokabeln - Rest") {
+		random_item = Englisch_Vokabeltest_rest[Math.floor(Math.random() * Englisch_Vokabeltest_rest.length)];
+		lernen_lektion_anzeige = "Englisch Vokabeln - Rest"
+		länge_lek = "Gesamt: " + Englisch_Vokabeltest_rest.length + " Wörter"
+		länge_lek_number = Englisch_Vokabeltest_rest.length
 	}
 
 
