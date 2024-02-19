@@ -992,6 +992,10 @@ var Englisch_Vokabeltest_ersten_70 = [
 'second':'I can\'t help thinking of him', 
 'third':''},
 
+{'first':'aufmerksam', 
+'second':'observant', 
+'third':''},
+
 ]
 
 
@@ -1001,9 +1005,6 @@ var Englisch_Vokabeltest_ersten_70 = [
 var Englisch_Vokabeltest_rest = [
 
 
-    {'first':'aufmerksam', 
-    'second':'observant', 
-    'third':''},
 
     {'first':'schwer verletzt', 
     'second':'wounded badly', 
