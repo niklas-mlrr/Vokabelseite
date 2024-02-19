@@ -1129,6 +1129,14 @@ var Englisch_Vokabeltest_rest = [
     'second':'affectionately', 
     'third':''},
 
+    {'first':'zum Gewinner erklärt werden', 
+    'second':'be declared the winner', 
+    'third':''},
+
+    {'first':'leben, am Leben sein', 
+    'second':'be alive', 
+    'third':''},
+
     {'first':'von etwas profitieren', 
     'second':'benefit from sth', 
     'third':''},
@@ -1139,6 +1147,10 @@ var Englisch_Vokabeltest_rest = [
 
     {'first':'Romanze', 
     'second':'romance', 
+    'third':''},
+
+    {'first':'Fälschung', 
+    'second':'fake', 
     'third':''},
 
     {'first':'verletzt sein', 
