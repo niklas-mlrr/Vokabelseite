@@ -22,7 +22,6 @@
   box-sizing: 0;
   color: black;
   text-align: center;
-  font-size: 98%;
   
 
 }
@@ -108,7 +107,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 
 }
 
@@ -117,7 +116,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #tablebellum_gallicum {
@@ -125,7 +124,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #tables_6_prometheus {
@@ -133,7 +132,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #tables_8_tantalus {
@@ -141,7 +140,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #tables_28_odysseus {
@@ -149,7 +148,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #tableLupus_et_agnus {
@@ -157,7 +156,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #tableEnglisch_Vokabeltest_ersten_70 {
@@ -165,7 +164,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #tableEnglisch_Vokabeltest_rest {
@@ -173,7 +172,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 
@@ -186,7 +185,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table02 {
@@ -194,7 +193,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table03 {
@@ -202,7 +201,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table04 {
@@ -210,7 +209,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table05 {
@@ -218,7 +217,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table06 {
@@ -226,7 +225,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table07 {
@@ -234,7 +233,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table08 {
@@ -242,7 +241,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table09 {
@@ -250,7 +249,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table10 {
@@ -258,7 +257,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table11 {
@@ -266,7 +265,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table12 {
@@ -274,7 +273,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table13 {
@@ -282,7 +281,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table14 {
@@ -290,7 +289,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table15 {
@@ -298,7 +297,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table16 {
@@ -306,7 +305,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 
 
 }
@@ -316,7 +315,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table18 {
@@ -324,7 +323,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table19 {
@@ -332,7 +331,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table20 {
@@ -340,7 +339,7 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table21 {
@@ -348,84 +347,84 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table22 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table23 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table24 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table25 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table26 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table27 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table28 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table29 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table30 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table31 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table32 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 #table33 {
@@ -433,91 +432,91 @@ html {
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table34 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table35 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table36 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table37 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table38 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table39 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table40 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table41 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table42 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table43 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table44 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 #table45 {
   align-items: center;
   justify-content: center;
   border-collapse: collapse;
   empty-cells: show;
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 
@@ -602,7 +601,7 @@ th {
   z-index: 5;
 
   position: relative;
-  top: 53.9%;
+  top: 62.8px;
 
 }
 
@@ -620,11 +619,11 @@ th {
   cursor: pointer;
   font-family: 'Laila';
   position: relative;
-  height: 80px;
-  width: 200px;
+  height: 60px;
+  width: 150px;
   padding: 8px 12px;
   border-radius: 1rem;
-  font-size: 30px;
+  font-size: calc(1rem + 0.3vw);
   top: -125px;
   left: 50px;
 }
@@ -667,7 +666,7 @@ th {
 
   100% {
     left: 160px;
-    top: 70px;
+    top: 62.8px;
 
   }
 }
@@ -703,13 +702,13 @@ th {
   position: relative;
   top: -80px;
   left: 160px;
-  height: 80px;
+  height: 60px;
   width: 95px;
   display: inline-grid;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
-  font-size: 30px;
+  font-size: calc(1rem + 0.3vw);
   cursor: pointer;
   color: #000000;
   -ms-user-select: None;
@@ -778,7 +777,7 @@ th {
 
 
 .lernen_auswahl_latein {
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
   z-index: 6;
   position: absolute;
   position: fixed;
@@ -916,12 +915,12 @@ th {
   bottom: 10px;
   left: -10px;
   cursor: pointer;
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(255, 255, 255);
   display: inline-grid;
   justify-content: center;
   align-items: center;
   border-radius: 1.2rem;
-  color: white;
+  color: black;
 }
 
 .lernen_einfach_weiter_button_latein:hover,
@@ -938,17 +937,17 @@ position: relative;
   bottom: 10px;
   left: 10px;
   cursor: pointer;
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(255, 255, 255);
   display: inline-grid;
   justify-content: center;
   align-items: center;
   border-radius: 1.2rem;
-  color: white;
+  color: black;
 }
 
 .lernen_standard_weiter_button_latein:hover,
 .lernen_standard_weiter_button_latein:focus {
-  background-color: rgb(88, 88, 88);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 /*  Englisch  */
@@ -970,32 +969,9 @@ position: relative;
   color: white;
 }
 
-.lernen_einfach_weiter_button:hover,
-.lernen_einfach_weiter_button:focus {
-  background-color: rgb(88, 88, 88);
-}
-
-
-
-.lernen_standard_weiter_button {
-  transform: translate(-50%, -50%);
-  position: absolute;
-  height: 80px;
-  width: 150px;
-  bottom: 0%;
-  left: 70%;
-  cursor: pointer;
-  background-color: rgb(71, 71, 71);
-  display: inline-grid;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1.5rem;
-  color: white;
-}
-
-.lernen_standard_weiter_button:hover,
-.lernen_standard_weiter_button:focus {
-  background-color: rgb(88, 88, 88);
+.lernen_einfach_weiter_button_latein:hover,
+.lernen_einfach_weiter_button_latein:focus {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -1008,7 +984,7 @@ position: relative;
   height: 270px;
   width: 320px;
   bottom: -10%;
-  font-size: 30px;
+  font-size: calc(1rem + 0.3vw);
   cursor: pointer;
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
@@ -1106,7 +1082,7 @@ position: relative;
 
 .all_lernen {
 
-  font-size: 25px;
+  font-size: calc(1rem + 0.3vw);
   z-index: 1;
   position: absolute;
   position: fixed;
@@ -1138,7 +1114,7 @@ position: relative;
   transform: translate(-50%, -50%);
   top: 25%;
   left: 50%;
-  font-size: 50px;
+  font-size: calc(1.5rem + 0.8vw);
 
   animation-name: lernen_lat;
   animation-duration: 0.3s;
@@ -1154,7 +1130,7 @@ position: relative;
   transform: translate(-50%, -50%);
   bottom: -460px;
   left: 50%;
-  font-size: 50px;
+  font-size: calc(1.5rem + 0.8vw);
   width: 1000px;
 
   animation-name: lernen_de_sonst;
@@ -1254,7 +1230,7 @@ position: relative;
   transform: translate(-50%, -50%);
   top: -44px;
   left: 50%;
-  font-size: 22px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 .noch_länge_lek {
@@ -1262,7 +1238,7 @@ position: relative;
   transform: translate(-50%, -50%);
   top: -15px;
   left: 50%;
-  font-size: 22px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 
@@ -1272,7 +1248,7 @@ position: relative;
   transform: translate(-50%, -50%);
   top: -28px;
   left: 20%;
-  font-size: 22px;
+  font-size: calc(1rem + 0.3vw);
 }
 
 
@@ -1315,11 +1291,10 @@ position: relative;
 
 
 
-  width: 210px;
-  height: 80px;
-  font-size: 30px;
-  line-height: 42px;
-  padding: 0;
+  width: 26%;
+  font-size: calc(1rem + 0.7vw);
+
+  line-height: 50px;
   border: none;
   background: rgb(139, 139, 139);
   background: linear-gradient(0deg, #89e216 0%, #a8ee4e 100%);
@@ -1408,12 +1383,10 @@ position: relative;
 
 
 
-  width: 210px;
-  height: 80px;
-  font-size: 30px;
+  width: 26%;
+  font-size: calc(1rem + 0.7vw);
 
-  line-height: 42px;
-  padding: 0;
+  line-height: 50px;
   border: none;
   background: linear-gradient(0deg, rgb(77, 77, 77) 0%, rgb(126, 126, 126) 100%);
 }
@@ -1467,7 +1440,7 @@ position: relative;
 
   color: rgb(255, 0, 1);
   border-radius: 5px;
-  padding: 10px 25px;
+  padding: 10px;
 
   background: transparent;
   cursor: pointer;
@@ -1479,12 +1452,12 @@ position: relative;
 
 
 
-  width: 210px;
-  height: 80px;
-  font-size: 30px;
+  width: 26%;
+  max-height: 70px;
+  font-size: calc(1rem + 0.7vw);
+  white-space: nowrap;
 
-  line-height: 42px;
-  padding: 0;
+  line-height: 50px;
   border: none;
   background: linear-gradient(0deg, #c02d1d 0%, #dd3422 100%);
 }
@@ -1523,6 +1496,13 @@ position: relative;
   transition: 700ms ease all;
 }
 
+
+
+
+
+
+
+
 .text_color_white {
   color: white;
 }
@@ -1546,7 +1526,7 @@ position: relative;
   position: absolute;
   transform: translate(-50%, -50%);
   text-decoration: underline;
-  font-size: 35px;
+  font-size: calc(1rem + 0.9vw);
   left: 50%;
   top: 20px;
 
@@ -1554,7 +1534,7 @@ position: relative;
 
 .version_number_latest {
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: calc(1rem + 0.8vw);
   position: relative;
   left: 26px;
   top: 16px;
@@ -1562,7 +1542,7 @@ position: relative;
 }
 
 .version_number {
-  font-size: 50px;
+  font-size: calc(2rem + 0.4vw);
   text-decoration: underline;
 }
 
@@ -1725,7 +1705,7 @@ position: relative;
 .patch_notes {
   position: relative;
   transform: translate(-50%);
-  font-size: 30px;
+  font-size: calc(1rem + 0.5vw);
   opacity: 0%;
   top: 0px;
   left: 50%;
@@ -1891,7 +1871,7 @@ position: relative;
 .fehler_seite {
   position: relative;
   transform: translate(-50%);
-  font-size: 30px;
+  font-size: calc(1rem + 0.5vw);
   left: 50%;
   width: 550px;
 }
@@ -1974,7 +1954,8 @@ position: relative;
 
   position: relative;
   bottom: -122px;
-
+  margin-left: 13px;
+  margin-right: 13px;
   height: 45px;
   width: 350px;
 
@@ -1994,7 +1975,7 @@ position: relative;
 .letzte_aktualisierung {
   position: relative;
   top: -60px;
-  font-size: 20px;
+  font-size: calc(1rem + 0.3vw);
   color: rgb(80, 80, 80);
 }
 
@@ -2002,120 +1983,26 @@ position: relative;
 
 
 
-.lernen_viva_lektion_select {
+.lernen_lektion_oder_originaltext_select {
   cursor: pointer;
   font-family: 'Laila';
   position: relative;
-  height: 80px;
-  width: 250px;
-  padding: 8px 12px;
+  padding: 16px;
+  width: 90%;
   border-radius: 1rem;
-  font-size: 30px;
+  font-size: calc(1rem + 0.3vw);
   top: -40px;
 
 }
 
-.lernen_viva_lektion_select:focus,
-.lernen_viva_lektion_select:hover {
+.lernen_lektion_oder_originaltext_select:focus,
+.lernen_lektion_oder_originaltext_select:hover {
   outline: none;
   border: 1px solid #bbbbbb;
 }
 
-.lernen_viva_lektion_select option {
+.lernen_lektion_oder_originaltext_select option {
   background: white;
-
-}
-
-
-
-
-
-.lernen_originaltexte_select {
-  cursor: pointer;
-  font-family: 'Laila';
-  position: relative;
-  height: 80px;
-  width: 310px;
-  padding: 8px 12px;
-  border-radius: 1rem;
-  font-size: 30px;
-  top: -40px;
-
-}
-
-.lernen_originaltexte_select:focus,
-.lernen_originaltexte_select:hover {
-  outline: none;
-  border: 1px solid #bbbbbb;
-}
-
-.lernen_originaltexte_select option {
-  background: white;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-height: 920px) {
-
-  .lernen_lat, .lernen_de_sonst {
-    font-size: 40px;
-  }
-  
-  .lernen_einfach_btn {
-  
-    height: 230px;
-    width: 300px;
-    bottom: -10%;
-    font-size: 25px;
-  
-  }
-}
-
-
-
-
-
-
-@media (max-height: 760px) {
-
-  .lernen_lat, .lernen_de_sonst {
-  font-size: 35px;
-  }
-
 
 }
 

@@ -92,8 +92,8 @@
                 <option value="#lek_s_8_tantalus">S. 8 Tantalus</option>
                 <option value="#lek_s_28_odysseus">S. 28 Odysseus</option>
                 <option value="#lek_Lupus_et_agnus">Lupus et agnus</option>
-                <option value="#lek_Englisch_Vokabeltest_ersten_70">Englisch Vokabeln - Ersten 70</option>
-                <option value="#lek_Englisch_Vokabeltest_rest">Englisch Vokabeln - Rest</option>
+                <option value="#lek_Englisch_Vokabeltest_ersten_70">Englisch Vokabeln - 1. Test</option>
+                <option value="#lek_Englisch_Vokabeltest_rest">Englisch Vokabeln - 2. Test</option>
 
             </select>
 
@@ -1419,7 +1419,7 @@
 
         <div class="insgesamtEnglisch_Vokabeltest_ersten_70">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Englisch Vokabeln - Ersten 70</p>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Englisch Vokabeln - 1. Test</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1441,7 +1441,7 @@
 
         <div class="insgesamtEnglisch_Vokabeltest_rest">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Englisch Vokabeln - Rest</p>
+            <p class="Lektion_anzeige" id="Lektion_anzeige">Englisch Vokabeln - 2. Test</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1536,7 +1536,7 @@
 
 
       <div class="viva_div">
-            <select id="lernen_viva_lektion_select" class="lernen_viva_lektion_select">
+            <select id="lernen_viva_lektion_select" class="lernen_lektion_oder_originaltext_select">
                 <option value="lektion_auswählen" selected>Lektion wählen</option>
                 <option value="lernen_viva_lektion_select_01" id="lernen_viva_lektion_select_01"></option>
                 <option value="lernen_viva_lektion_select_02" id="lernen_viva_lektion_select_02"></option>
@@ -1589,7 +1589,7 @@
 
 
 <div class="originaltexte_div">
-            <select id="lernen_originaltexte_select" class="lernen_originaltexte_select">
+            <select id="lernen_originaltexte_select" class="lernen_lektion_oder_originaltext_select">
                 <option value="originaltext_auswählen" selected>Originaltext wählen</option>
                 <option value="lernen_originaltexte_select_bellum_gallicum" id="lernen_originaltexte_select_bellum_gallicum"></option>
                 <option value="lernen_originaltexte_select_s_6_prometheus" id="lernen_originaltexte_select_s_6_prometheus"></option>
@@ -1602,14 +1602,14 @@
 </div>
 
 </div>
-        <form class="checkbox_haken_mit_ohne_sonstige_formen_form">
-            <div class="checkbox_haken_mit_ohne_sonstige_formen">
-              <input checked name="checkbox_haken_mit_ohne_sonstige_formen_checked" value="checkbox_haken_mit_ohne_sonstige_formen_value" type="checkbox" id="checkbox_haken_mit_ohne_sonstige_formen">
-              <label for="checkbox_haken_mit_ohne_sonstige_formen">Mit sonstigen Formen</label>
-              </div>
-              </form>
 
 
+<form class="checkbox_haken_mit_ohne_sonstige_formen_form">
+    <div class="checkbox_haken_mit_ohne_sonstige_formen">
+      <input checked name="checkbox_haken_mit_ohne_sonstige_formen_checked" value="checkbox_haken_mit_ohne_sonstige_formen_value" type="checkbox" id="checkbox_haken_mit_ohne_sonstige_formen">
+      <label for="checkbox_haken_mit_ohne_sonstige_formen">Mit sonstigen Formen</label>
+      </div>
+      </form>
 
 
     <ion-icon name="lernen_einfach_weiter_button" class="lernen_einfach_weiter_button_latein" onclick="lernen_einfach_weiter()">Lernen - <br> Einfach</ion-icon>
@@ -1670,14 +1670,14 @@
         <img  class="fehler_seite_zurück_pfeil_btn" src="https://img.icons8.com/ios/1000/000000/circled-left-2.png"/>
     </div>
     <p class="version_headline">Version</p>
-    <p class="version_number_latest">&nbsp;&nbsp;2.1.5</p>
+    <p class="version_number_latest">&nbsp;&nbsp;2.1.6</p>
     <p class="letzte_aktualisierung" id="letzte_aktualisierung">Letzte Aktualisierung</p>
 <img class="version_info" onclick="version_info()" src="https://img.icons8.com/pastel-glyph/512/000000/info--v1.png"/>
 <ul class="patch_notes">
 
 
 
-    <li>Die Englischvokabeln für den kommenden Test sind nun in zwei "Decks" verfügbar. Du findest die unter "Originaltexte".</li>
+    <li>Es wurden einige CSS-Responsiveness-Probleme behoben.</li>
     <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
 
     <p class="version_number">2.0.1</p>

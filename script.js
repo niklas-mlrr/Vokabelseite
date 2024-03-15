@@ -1,6 +1,6 @@
-vokabeltest_lektion_anzeigen = true
+vokabeltest_lektion_anzeigen = false
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 08.02.24 17:20"
+document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 15.03.24 21:00"
 
 
 letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
@@ -42,7 +42,7 @@ $('th').on('click', function(){
 random_background()
 
 function random_background() {
-	var random = Math.round(14 * Math.random()) + 1;
+	var random = Math.round(12 * Math.random()) + 1;
 	console.log(random)
 	document.getElementById("background").src = 'Bilder/' + random + '.jpg'
 }
@@ -1410,13 +1410,13 @@ console.log (userOption.value)
 		}
 
 		if (userOption.value == "lernen_originaltexte_select_Englisch_Vokabeltest_ersten_70") {
-			ausgewählt_lektion = "Englisch Vokabeln - Ersten 70"
+			ausgewählt_lektion = "Englisch Vokabeln - 1. Test"
 			lernen_noch_länge = Englisch_Vokabeltest_ersten_70.length
 			lektion_ausgewählt = true
 		}
 
 		if (userOption.value == "lernen_originaltexte_select_Englisch_Vokabeltest_rest") {
-			ausgewählt_lektion = "Englisch Vokabeln - Rest"
+			ausgewählt_lektion = "Englisch Vokabeln - 2. Test"
 			lernen_noch_länge = Englisch_Vokabeltest_rest.length
 			lektion_ausgewählt = true
 		}
@@ -1449,62 +1449,62 @@ function lernen_hide_menü() {
 
 
 
-document.getElementById('lernen_viva_lektion_select_01').innerHTML = "Lektion 01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion01.length + " Wörter"
-document.getElementById('lernen_viva_lektion_select_02').innerHTML = "Lektion 02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion02.length + " Wörter"
-document.getElementById('lernen_viva_lektion_select_03').innerHTML = "Lektion 03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion03.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_04').innerHTML = "Lektion 04 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion04.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_05').innerHTML = "Lektion 05 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion05.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_06').innerHTML = "Lektion 06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion06.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_07').innerHTML = "Lektion 07 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion07.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_08').innerHTML = "Lektion 08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion08.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_09').innerHTML = "Lektion 09 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion09.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_10').innerHTML = "Lektion 10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion10.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_11').innerHTML = "Lektion 11 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion11.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_12').innerHTML = "Lektion 12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion12.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_13').innerHTML = "Lektion 13 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion13.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_14').innerHTML = "Lektion 14 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion14.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_15').innerHTML = "Lektion 15 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion15.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_16').innerHTML = "Lektion 16 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion16.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_17').innerHTML = "Lektion 17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion17.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_18').innerHTML = "Lektion 18 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion18.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_19').innerHTML = "Lektion 19 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion19.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_20').innerHTML = "Lektion 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion20.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_21').innerHTML = "Lektion 21 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion21.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_22').innerHTML = "Lektion 22 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion22.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_23').innerHTML = "Lektion 23 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion23.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_24').innerHTML = "Lektion 24 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion24.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_25').innerHTML = "Lektion 25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion25.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_26').innerHTML = "Lektion 26 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion26.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_27').innerHTML = "Lektion 27 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion27.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_28').innerHTML = "Lektion 28 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion28.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_29').innerHTML = "Lektion 29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion29.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_30').innerHTML = "Lektion 30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion30.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_31').innerHTML = "Lektion 31 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion31.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_32').innerHTML = "Lektion 32 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion32.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_33').innerHTML = "Lektion 33 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion33.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_34').innerHTML = "Lektion 34 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion34.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_35').innerHTML = "Lektion 35 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion35.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_36').innerHTML = "Lektion 36 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion36.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_37').innerHTML = "Lektion 37 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion37.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_38').innerHTML = "Lektion 38 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion38.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_39').innerHTML = "Lektion 39 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion39.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_40').innerHTML = "Lektion 40 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion40.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_41').innerHTML = "Lektion 41 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion41.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_42').innerHTML = "Lektion 42 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion42.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_43').innerHTML = "Lektion 43 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion43.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_44').innerHTML = "Lektion 44 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion44.length + " Wörter";
-document.getElementById('lernen_viva_lektion_select_45').innerHTML = "Lektion 45 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Länge: " + Lektion45.length + " Wörter";
+document.getElementById('lernen_viva_lektion_select_01').innerHTML = "Lektion 01 - " + Lektion01.length + " W";
+document.getElementById('lernen_viva_lektion_select_02').innerHTML = "Lektion 02 - " + Lektion02.length + " W";
+document.getElementById('lernen_viva_lektion_select_03').innerHTML = "Lektion 03 - " + Lektion03.length + " W";
+document.getElementById('lernen_viva_lektion_select_04').innerHTML = "Lektion 04 - " + Lektion04.length + " W";
+document.getElementById('lernen_viva_lektion_select_05').innerHTML = "Lektion 05 - " + Lektion05.length + " W";
+document.getElementById('lernen_viva_lektion_select_06').innerHTML = "Lektion 06 - " + Lektion06.length + " W";
+document.getElementById('lernen_viva_lektion_select_07').innerHTML = "Lektion 07 - " + Lektion07.length + " W";
+document.getElementById('lernen_viva_lektion_select_08').innerHTML = "Lektion 08 - " + Lektion08.length + " W";
+document.getElementById('lernen_viva_lektion_select_09').innerHTML = "Lektion 09 - " + Lektion09.length + " W";
+document.getElementById('lernen_viva_lektion_select_10').innerHTML = "Lektion 10 - " + Lektion10.length + " W";
+document.getElementById('lernen_viva_lektion_select_11').innerHTML = "Lektion 11 - " + Lektion11.length + " W";
+document.getElementById('lernen_viva_lektion_select_12').innerHTML = "Lektion 12 - " + Lektion12.length + " W";
+document.getElementById('lernen_viva_lektion_select_13').innerHTML = "Lektion 13 - " + Lektion13.length + " W";
+document.getElementById('lernen_viva_lektion_select_14').innerHTML = "Lektion 14 - " + Lektion14.length + " W";
+document.getElementById('lernen_viva_lektion_select_15').innerHTML = "Lektion 15 - " + Lektion15.length + " W";
+document.getElementById('lernen_viva_lektion_select_16').innerHTML = "Lektion 16 - " + Lektion16.length + " W";
+document.getElementById('lernen_viva_lektion_select_17').innerHTML = "Lektion 17 - " + Lektion17.length + " W";
+document.getElementById('lernen_viva_lektion_select_18').innerHTML = "Lektion 18 - " + Lektion18.length + " W";
+document.getElementById('lernen_viva_lektion_select_19').innerHTML = "Lektion 19 - " + Lektion19.length + " W";
+document.getElementById('lernen_viva_lektion_select_20').innerHTML = "Lektion 20 - " + Lektion20.length + " W";
+document.getElementById('lernen_viva_lektion_select_21').innerHTML = "Lektion 21 - " + Lektion21.length + " W";
+document.getElementById('lernen_viva_lektion_select_22').innerHTML = "Lektion 22 - " + Lektion22.length + " W";
+document.getElementById('lernen_viva_lektion_select_23').innerHTML = "Lektion 23 - " + Lektion23.length + " W";
+document.getElementById('lernen_viva_lektion_select_24').innerHTML = "Lektion 24 - " + Lektion24.length + " W";
+document.getElementById('lernen_viva_lektion_select_25').innerHTML = "Lektion 25 - " + Lektion25.length + " W";
+document.getElementById('lernen_viva_lektion_select_26').innerHTML = "Lektion 26 - " + Lektion26.length + " W";
+document.getElementById('lernen_viva_lektion_select_27').innerHTML = "Lektion 27 - " + Lektion27.length + " W";
+document.getElementById('lernen_viva_lektion_select_28').innerHTML = "Lektion 28 - " + Lektion28.length + " W";
+document.getElementById('lernen_viva_lektion_select_29').innerHTML = "Lektion 29 - " + Lektion29.length + " W";
+document.getElementById('lernen_viva_lektion_select_30').innerHTML = "Lektion 30 - " + Lektion30.length + " W";
+document.getElementById('lernen_viva_lektion_select_31').innerHTML = "Lektion 31 - " + Lektion31.length + " W";
+document.getElementById('lernen_viva_lektion_select_32').innerHTML = "Lektion 32 - " + Lektion32.length + " W";
+document.getElementById('lernen_viva_lektion_select_33').innerHTML = "Lektion 33 - " + Lektion33.length + " W";
+document.getElementById('lernen_viva_lektion_select_34').innerHTML = "Lektion 34 - " + Lektion34.length + " W";
+document.getElementById('lernen_viva_lektion_select_35').innerHTML = "Lektion 35 - " + Lektion35.length + " W";
+document.getElementById('lernen_viva_lektion_select_36').innerHTML = "Lektion 36 - " + Lektion36.length + " W";
+document.getElementById('lernen_viva_lektion_select_37').innerHTML = "Lektion 37 - " + Lektion37.length + " W";
+document.getElementById('lernen_viva_lektion_select_38').innerHTML = "Lektion 38 - " + Lektion38.length + " W";
+document.getElementById('lernen_viva_lektion_select_39').innerHTML = "Lektion 39 - " + Lektion39.length + " W";
+document.getElementById('lernen_viva_lektion_select_40').innerHTML = "Lektion 40 - " + Lektion40.length + " W";
+document.getElementById('lernen_viva_lektion_select_41').innerHTML = "Lektion 41 - " + Lektion41.length + " W";
+document.getElementById('lernen_viva_lektion_select_42').innerHTML = "Lektion 42 - " + Lektion42.length + " W";
+document.getElementById('lernen_viva_lektion_select_43').innerHTML = "Lektion 43 - " + Lektion43.length + " W";
+document.getElementById('lernen_viva_lektion_select_44').innerHTML = "Lektion 44 - " + Lektion44.length + " W";
+document.getElementById('lernen_viva_lektion_select_45').innerHTML = "Lektion 45 - " + Lektion45.length + " W";
 
 
 
 
-document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML = "Bellum Gallicum &nbsp;&nbsp; Länge: " + bellum_gallicum.length + " Wörter";
-document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML = "S. 6 Prometheus &nbsp;&nbsp; Länge: " + s_6_prometheus.length + " Wörter";
-document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = "S. 8 Tantalus &nbsp;&nbsp; Länge: " + s_8_tantalus.length + " Wörter";
-document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML = "S. 28 Odysseus &nbsp;&nbsp; Länge: " + s_28_odysseus.length + " Wörter";
-document.getElementById('lernen_originaltexte_select_Lupus_et_agnus').innerHTML = "Lupus et agnus &nbsp;&nbsp; Länge: " + Lupus_et_agnus.length + " Wörter";
-document.getElementById('lernen_originaltexte_select_Englisch_Vokabeltest_ersten_70').innerHTML = "Englisch Vokabeln - Ersten 70 &nbsp;&nbsp; Länge: " + Englisch_Vokabeltest_ersten_70.length + " Wörter";
-document.getElementById('lernen_originaltexte_select_Englisch_Vokabeltest_rest').innerHTML = "Englisch Vokabeln - Rest &nbsp;&nbsp; Länge: " + Englisch_Vokabeltest_rest.length + " Wörter";
+document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML = "Bellum Gallicum - " + bellum_gallicum.length + " W";
+document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML = "S. 6 Prometheus - " + s_6_prometheus.length + " W";
+document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = "S. 8 Tantalus - " + s_8_tantalus.length + " W";
+document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML = "S. 28 Odysseus - " + s_28_odysseus.length + " W";
+document.getElementById('lernen_originaltexte_select_Lupus_et_agnus').innerHTML = "Lupus et agnus - " + Lupus_et_agnus.length + " W";
+document.getElementById('lernen_originaltexte_select_Englisch_Vokabeltest_ersten_70').innerHTML = "Englisch Vokabeln - 1. Test - " + Englisch_Vokabeltest_ersten_70.length + " W";
+document.getElementById('lernen_originaltexte_select_Englisch_Vokabeltest_rest').innerHTML = "Englisch Vokabeln - 2. Test - " + Englisch_Vokabeltest_rest.length + " W";
 
 
 
@@ -2094,16 +2094,16 @@ function neue_vok_standard() {
 		länge_lek_number = Lupus_et_agnus.length
 	}
 
-	if (ausgewählt_lektion == "Englisch Vokabeln - Ersten 70") {
+	if (ausgewählt_lektion == "Englisch Vokabeln - 1. Test") {
 		random_item = Englisch_Vokabeltest_ersten_70[Math.floor(Math.random() * Englisch_Vokabeltest_ersten_70.length)];
-		lernen_lektion_anzeige = "Englisch Vokabeln - Ersten 70"
+		lernen_lektion_anzeige = "Englisch Vokabeln - 1. Test"
 		länge_lek = "Gesamt: " + Englisch_Vokabeltest_ersten_70.length + " Wörter"
 		länge_lek_number = Englisch_Vokabeltest_ersten_70.length
 	}
 
-	if (ausgewählt_lektion == "Englisch Vokabeln - Rest") {
+	if (ausgewählt_lektion == "Englisch Vokabeln - 2. Test") {
 		random_item = Englisch_Vokabeltest_rest[Math.floor(Math.random() * Englisch_Vokabeltest_rest.length)];
-		lernen_lektion_anzeige = "Englisch Vokabeln - Rest"
+		lernen_lektion_anzeige = "Englisch Vokabeln - 2. Test"
 		länge_lek = "Gesamt: " + Englisch_Vokabeltest_rest.length + " Wörter"
 		länge_lek_number = Englisch_Vokabeltest_rest.length
 	}
