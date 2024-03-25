@@ -1102,7 +1102,7 @@ position: relative;
   color: #313131;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: -80px;
+  top: -75px;
   left: 50%;
   font-size: 45px;
   width: 1500px;
@@ -1228,7 +1228,7 @@ position: relative;
   color: #313131;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: -44px;
+  top: -40px;
   left: 50%;
   font-size: calc(1rem + 0.3vw);
 }
@@ -1262,7 +1262,7 @@ position: relative;
 .btn_gewusst_nichtgewusst {
   position: absolute;
   transform: translate(-50%, -50%);
-  bottom: -180px;
+  bottom: -160px;
   left: 50%;
   width: 800px;
 }
@@ -1534,9 +1534,9 @@ position: relative;
 
 .version_number_latest {
   transform: translate(-50%, -50%);
-  font-size: calc(1rem + 0.8vw);
+  font-size: 32px;
   position: relative;
-  left: 26px;
+  left: 20%;
   top: 16px;
   width: 190px;
 }
@@ -1652,7 +1652,28 @@ position: relative;
     left: 406px;
   }
 }
-
+@media (max-width: 1330px)  {
+  
+    @keyframes version_headline_groß {
+      0% {}
+    
+      100% {
+        font-size: 50px;
+        top: -50px;
+        left: 41%;
+      }
+    }
+  @keyframes version_number_latest_groß {
+    0% {}
+  
+    100% {
+      text-decoration: underline;
+      font-size: 50px;
+      top: -161px;
+      left: 425px;
+    }
+  }
+}
 
 
 
@@ -1680,7 +1701,7 @@ position: relative;
     transform: translate(-50%, -50%);
     height: 44px;
     right: -48%;
-    top: 8%;
+    top: 33px;
   }
 }
 
@@ -1735,6 +1756,21 @@ position: relative;
   }
 }
 
+@media (max-width: 1330px)  {
+
+
+  @keyframes patch_notes_groß {
+    0% {}
+  
+    100% {
+      opacity: 100%;
+      top: -200px;
+      left: 50%;
+  
+    }
+  }
+
+}
 
 
 .bold {
@@ -1979,7 +2015,16 @@ position: relative;
   color: rgb(80, 80, 80);
 }
 
-
+@media (max-width: 1330px)  {
+  
+  
+  .letzte_aktualisierung {
+    position: relative;
+    top: -240px;
+    font-size: calc(1rem + 0.3vw);
+    color: rgb(80, 80, 80);
+  }
+}
 
 
 
