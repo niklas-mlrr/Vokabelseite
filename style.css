@@ -159,22 +159,6 @@ html {
   font-size: calc(1rem + 0.3vw);
 }
 
-#tableEnglisch_Vokabeltest_ersten_70 {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: calc(1rem + 0.3vw);
-}
-
-#tableEnglisch_Vokabeltest_rest {
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-  empty-cells: show;
-  font-size: calc(1rem + 0.3vw);
-}
-
 
 
 
