@@ -982,6 +982,21 @@ position: relative;
   border: none;
 }
 
+
+
+@media (max-width: 1330px)  {
+  
+  .lernen_einfach_btn {
+    height: 200px;
+    width: 300px;
+  }
+
+}
+
+
+
+
+
 #lernen_einfach_btn_1 {
   left: 17%;
 }
