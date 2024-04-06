@@ -36,7 +36,7 @@ var Vokabeltest_Lektion = [
     'third':''},
     
     {'first':'Gouverneur/-in',
-    'second':'gevernor',
+    'second':'governor',
     'third':''},
     
     {'first':'beobachten, beachten, befolgen',
