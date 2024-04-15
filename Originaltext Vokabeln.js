@@ -222,7 +222,7 @@ var Vokabeltest_Lektion = [
 var vokabeltest_2_Lektion = [
     
     {'first':'golden; Gold-',
-    'second':'golden ',
+    'second':'golden',
     'third':''},
     
     {'first':'BIP (= Bruttoinlandsprodukt)',
@@ -230,11 +230,11 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'Einkommen',
-    'second':'income ',
+    'second':'income',
     'third':''},
     
-    {'first':'Forscher/-in; <br> Forschungsreisende/-r; <br> Entdecker/-in ',
-    'second':'explorer ',
+    {'first':'Forscher/-in; <br> Forschungsreisende/-r; <br> Entdecker/-in',
+    'second':'explorer',
     'third':''},
     
     {'first':'sollen; gelten als',
@@ -255,23 +255,23 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'Reichtum; Vermögen',
-    'second':'wealth ',
+    'second':'wealth',
     'third':''},
     
     {'first':'kalifornisch; Kalifornier/-in',
-    'second':'Californian ',
+    'second':'Californian',
     'third':''},
     
     {'first':'Goldrausch',
-    'second':'Gold Rush ',
+    'second':'Gold Rush',
     'third':''},
     
     {'first':'wertvoll; kostbar',
-    'second':'precious ',
+    'second':'precious',
     'third':''},
     
     {'first':'Metall',
-    'second':'metal ',
+    'second':'metal',
     'third':''},
     
     {'first':'florieren; boomen',
@@ -283,7 +283,7 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'sonnig',
-    'second':'sunny ',
+    'second':'sunny',
     'third':''},
     
     {'first':'Anziehung; Anziehungskraft',
@@ -291,7 +291,7 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'nordlich; Nord-',
-    'second':'northern ',
+    'second':'northern',
     'third':''},
     
     {'first':'Start-up (-Unternehmen); <br> Unternehmensgründung',
@@ -307,15 +307,15 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'wirtschaftlicher Aufschwung; Boom; <br> Hochkonjunktur',
-    'second':'boom ',
+    'second':'boom',
     'third':''},
     
     {'first':'führend',
-    'second':'leading ',
+    'second':'leading',
     'third':''},
     
     {'first':'weltweit',
-    'second':'worldwide ',
+    'second':'worldwide',
     'third':''},
     
     {'first':'Landwirtschaft; Agrikultur',
@@ -323,7 +323,7 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'Vermögen; Reichtum',
-    'second':'fortune ',
+    'second':'fortune',
     'third':''},
     
     {'first':'dauern; andauern; anhalten',
@@ -331,11 +331,11 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'Knappheit; Mangel',
-    'second':'Shortage ',
+    'second':'Shortage',
     'third':''},
     
     {'first':'Dürre; Trockenheit',
-    'second':'drought ',
+    'second':'drought',
     'third':''},
     
     {'first':'jmdn. zu etw. drängen',
@@ -343,19 +343,19 @@ var vokabeltest_2_Lektion = [
     'third':''},
     
     {'first':'Anbau',
-    'second':'cultivation ',
+    'second':'cultivation',
     'third':''},
     
     {'first':'lateinamerikanisch; Latino/ Latina; <br> Hispano-Amerikaner/-in',
-    'second':'Hispanic ',
+    'second':'Hispanic',
     'third':''},
     
     {'first':'Grenze',
-    'second':'border ',
+    'second':'border',
     'third':''},
     
     {'first':'bewachen',
-    'second':'to guard ',
+    'second':'to guard',
     'third':''},
     
 
@@ -369,15 +369,15 @@ var vokabeltest_2_Lektion = [
 
 
     {'first':'den Betrieb einstellen; schließen',
-    'second':'to close down ',
+    'second':'to close down',
     'third':''},
     
     {'first':'Silizium',
-    'second':'silicon ',
+    'second':'silicon',
     'third':''},
     
     {'first':'Bestandteil; Komponente',
-    'second':'component ',
+    'second':'component',
     'third':''},
     
     {'first':'Gerät; Vorrichtung',
@@ -392,91 +392,34 @@ var vokabeltest_2_Lektion = [
     'second':'agricultural',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
+    {'first':'Unternehmer/-in',
+    'second':'entrepreneur',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
+    {'first':'Erdbeere',
+    'second':'strawberry',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
+    {'first':'Traube',
+    'second':'grape',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
+    {'first':'exportieren; ausführen',
+    'second':'to export',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
+    {'first':'Mindestlohn',
+    'second':'minimum wage',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
+    {'first':'saisonal; jahreszeitlich bedingt',
+    'second':'seasonal',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
+    {'first':'Davon kann ich meine Miete nicht bezahlen.',
+    'second':'That doesn`t pay my rent.',
     'third':''},
     
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-    {'first':'auswählen',
-    'second':'auswählen',
-    'third':''},
-    
-
     
 
 ]
