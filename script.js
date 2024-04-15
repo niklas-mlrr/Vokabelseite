@@ -1,4 +1,5 @@
 vokabeltest_lektion_anzeigen = true
+vokabeltest_2_lektion_anzeigen = true
 
 document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 05.04.24 19:30"
 
@@ -61,13 +62,18 @@ setInterval(() => {
 
 
 insgesamtVokabeltest_Lektion = document.getElementsByClassName('insgesamtVokabeltest_Lektion')
+insgesamtvokabeltest_2_Lektion = document.getElementsByClassName('insgesamtvokabeltest_2_Lektion')
 //lernen_auswählen_vokabeltest = document.getElementsByClassName('lernen_auswählen_vokabeltest')
 auswahl_Vokabeltest = document.getElementsByClassName('auswahl_Vokabeltest')
+auswahl_vokabeltest_2 = document.getElementsByClassName('auswahl_vokabeltest_2')
 vokabeltest_checkbox = document.getElementsByClassName('vokabeltest_checkbox')
+vokabeltest_2_checkbox = document.getElementsByClassName('vokabeltest_2_checkbox')
 
 insgesamtVokabeltest_Lektion[0].classList.add('hidden');
+insgesamtvokabeltest_2_Lektion[0].classList.add('hidden');
 //lernen_auswählen_vokabeltest[0].classList.add('hidden');
 auswahl_Vokabeltest[0].classList.add('hidden');
+auswahl_vokabeltest_2[0].classList.add('hidden');
 
 
 if(vokabeltest_lektion_anzeigen == true) {
@@ -92,6 +98,36 @@ function buildTableVokabeltest_Lektion(data) {
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
 		tableVokabeltest_Lektion.innerHTML += row
+	}
+}
+
+}
+
+
+
+
+if(vokabeltest_2_lektion_anzeigen == true) {
+	insgesamtvokabeltest_2_Lektion[0].classList.remove('hidden');
+	//lernen_auswählen_vokabeltest_2[0].classList.remove('hidden');
+	auswahl_vokabeltest_2[0].classList.remove('hidden');
+
+
+
+
+buildTablevokabeltest_2_Lektion(vokabeltest_2_Lektion)
+
+function buildTablevokabeltest_2_Lektion(data) {
+	var tablevokabeltest_2_Lektion = document.getElementById('tablevokabeltest_2_Lektion')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+							<td class="first">${data[i].first}</td>
+							<td class="second">${data[i].second}</td>
+						</tr>`
+						//<td>${data[i].third}</td>
+						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
+		tablevokabeltest_2_Lektion.innerHTML += row
 	}
 }
 
@@ -299,6 +335,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_Vokabeltest_Lektion") {
 		hide_all_außerVokabeltest_Lektion()
 	}
+	if (userOption.value == "#lek_vokabeltest_2_Lektion") {
+		hide_all_außervokabeltest_2_Lektion()
+	}
 	if (userOption.value == "#lek_Vokabeln_aus_keiner_Lektion") {
 		hide_all_außerVokabeln_aus_keiner_Lektion()
 	}
@@ -481,6 +520,7 @@ originaltexte_div[0].classList.add('hidden_trotzdem_platz');
 
 
 selected_Vokabeltest_Lektion = document.getElementsByClassName('insgesamtVokabeltest_Lektion')
+selected_vokabeltest_2_Lektion = document.getElementsByClassName('insgesamtvokabeltest_2_Lektion')
 selected_Vokabeln_aus_keiner_Lektion = document.getElementsByClassName('insgesamtVokabeln_aus_keiner_Lektion')
 selected_01 = document.getElementsByClassName('insgesamt01')
 selected_02 = document.getElementsByClassName('insgesamt02')
@@ -600,6 +640,9 @@ function hide_all() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.remove('hidden');
 		}	
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.remove('hidden');
+		}	
 			
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.add('hidden');
 
@@ -624,6 +667,9 @@ function all() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.remove('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.remove('hidden');
+		}
 
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.remove('hidden');
 	selected_bellum_gallicum[0].classList.remove('hidden');
@@ -641,7 +687,13 @@ function all() {
 
 function hide_all_außerVokabeltest_Lektion() {
 	hide_all()
+	selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 	selected_Vokabeltest_Lektion[0].classList.remove('hidden');
+}
+function hide_all_außervokabeltest_2_Lektion() {
+	hide_all()
+	selected_Vokabeltest_Lektion[0].classList.add('hidden');
+	selected_vokabeltest_2_Lektion[0].classList.remove('hidden');
 }
 
 function hide_all_außerVokabeln_aus_keiner_Lektion() {
@@ -649,6 +701,9 @@ function hide_all_außerVokabeln_aus_keiner_Lektion() {
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -658,6 +713,9 @@ function hide_all_außer01() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer02() {
@@ -665,6 +723,9 @@ function hide_all_außer02() {
 	selected_02[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -674,6 +735,9 @@ function hide_all_außer03() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer04() {
@@ -681,6 +745,9 @@ function hide_all_außer04() {
 	selected_04[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -690,6 +757,9 @@ function hide_all_außer05() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer06() {
@@ -697,6 +767,9 @@ function hide_all_außer06() {
 	selected_06[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -706,6 +779,9 @@ function hide_all_außer07() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer08() {
@@ -713,6 +789,9 @@ function hide_all_außer08() {
 	selected_08[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -722,6 +801,9 @@ function hide_all_außer09() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer10() {
@@ -729,6 +811,9 @@ function hide_all_außer10() {
 	selected_10[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -738,6 +823,9 @@ function hide_all_außer11() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer12() {
@@ -745,6 +833,9 @@ function hide_all_außer12() {
 	selected_12[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -754,6 +845,9 @@ function hide_all_außer13() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer14() {
@@ -761,6 +855,9 @@ function hide_all_außer14() {
 	selected_14[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -770,6 +867,9 @@ function hide_all_außer15() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer16() {
@@ -777,6 +877,9 @@ function hide_all_außer16() {
 	selected_16[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -786,6 +889,9 @@ function hide_all_außer17() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer18() {
@@ -794,13 +900,8 @@ function hide_all_außer18() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
-}
-
-function hide_all_außer19() {
-	hide_all()
-	selected_19[0].classList.remove('hidden');
-	if(vokabeltest_lektion_anzeigen == true) {
-		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -809,6 +910,20 @@ function hide_all_außer19() {
 	selected_19[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
+}
+
+function hide_all_außer19() {
+	hide_all()
+	selected_19[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -818,6 +933,9 @@ function hide_all_außer20() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außer21() {
@@ -826,12 +944,18 @@ function hide_all_außer21() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer22() {
 	hide_all()
 	selected_22[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer23() {
@@ -840,12 +964,18 @@ function hide_all_außer23() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer24() {
 	hide_all()
 	selected_24[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer25() {
@@ -854,12 +984,18 @@ function hide_all_außer25() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer26() {
 	hide_all()
 	selected_26[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer27() {
@@ -868,12 +1004,18 @@ function hide_all_außer27() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer28() {
 	hide_all()
 	selected_28[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -883,12 +1025,18 @@ function hide_all_außer29() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer30() {
 	hide_all()
 	selected_30[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer31() {
@@ -897,12 +1045,18 @@ function hide_all_außer31() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer32() {
 	hide_all()
 	selected_32[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer33() {
@@ -911,12 +1065,18 @@ function hide_all_außer33() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer34() {
 	hide_all()
 	selected_34[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer35() {
@@ -925,12 +1085,18 @@ function hide_all_außer35() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer36() {
 	hide_all()
 	selected_36[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer37() {
@@ -939,12 +1105,18 @@ function hide_all_außer37() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer38() {
 	hide_all()
 	selected_38[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer39() {
@@ -953,12 +1125,18 @@ function hide_all_außer39() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer40() {
 	hide_all()
 	selected_40[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer41() {
@@ -967,12 +1145,18 @@ function hide_all_außer41() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer42() {
 	hide_all()
 	selected_42[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 function hide_all_außer43() {
@@ -981,6 +1165,9 @@ function hide_all_außer43() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer44() {
 	hide_all()
@@ -988,12 +1175,18 @@ function hide_all_außer44() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 function hide_all_außer45() {
 	hide_all()
 	selected_45[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -1004,6 +1197,9 @@ function hide_all_außerbellum_gallicum() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außers_6_prometheus() {
@@ -1011,6 +1207,9 @@ function hide_all_außers_6_prometheus() {
 	selected_s_6_prometheus[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -1020,6 +1219,9 @@ function hide_all_außers_8_tantalus() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außers_28_odysseus() {
@@ -1027,6 +1229,9 @@ function hide_all_außers_28_odysseus() {
 	selected_s_28_odysseus[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
@@ -1843,6 +2048,9 @@ function lernen_fertig() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.remove('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.remove('hidden');
+		}
 
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
@@ -1983,9 +2191,18 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest"
+		lernen_lektion_anzeige = "Vokabeltest - Alte"
 		länge_lek = "Gesamt: " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
+	}
+
+
+
+	if (ausgewählt_lektion == "vokabeltest_2_Lektion") {
+		random_item = vokabeltest_2_Lektion[Math.floor(Math.random() * vokabeltest_2_Lektion.length)];
+		lernen_lektion_anzeige = "Vokabeltest - Neue"
+		länge_lek = "Gesamt: " + vokabeltest_2_Lektion.length + " Wörter"
+		länge_lek_number = vokabeltest_2_Lektion.length
 	}
 	
 
@@ -2280,8 +2497,39 @@ if (aktuell_ausgewählt === "viva") {
 }
 }
 
+}
+
+
+function lernen_auswählen_vokabeltest_2_selected() {
+	console.log("Vokabeltest - Neue")
+	viva_div[0].classList.add('hidden');
+	originaltexte_div[0].classList.remove('hidden');
+	originaltexte_div[0].classList.add('hidden_trotzdem_platz');
+
+
+	lektion_ausgewählt = true
+
+	ausgewählt_lektion = "vokabeltest_2_Lektion"
+
+		lernen_noch_länge = vokabeltest_2_Lektion.length;
+
+if(typeof aktuell_ausgewählt !== 'undefined') {
+
+if (aktuell_ausgewählt === "viva") {
+	clear_select_viva()
+}else {
+	clear_select_originaltexte()
+}
+}
 
 }
+
+
+
+
+
+
+
 
 function clear_select_originaltexte() {
 var clear = document.getElementById("lernen_originaltexte_select")
@@ -2307,5 +2555,10 @@ function clear_select_viva() {
 
 if (vokabeltest_lektion_anzeigen == false) {
 	vokabeltest_checkbox[0].classList.add('hidden_trotzdem_platz');
+
+}
+
+if (vokabeltest_2_lektion_anzeigen == false) {
+	vokabeltest_2_checkbox[0].classList.add('hidden_trotzdem_platz');
 
 }

@@ -33,7 +33,8 @@
         <div class="search_div">
             <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
                 <option disabled selected>Vokabeln</option>
-                <option class="auswahl_Vokabeltest" value="#lek_Vokabeltest_Lektion">Vokabeltest</option>
+                <option class="auswahl_Vokabeltest" value="#lek_Vokabeltest_Lektion">Vokabeltest - Alte</option>
+                <option class="auswahl_vokabeltest_2" value="#lek_vokabeltest_2_Lektion">Vokabeltest - Neue</option>
                 <option class="bold" value="#all">Alle</option>
 
                 <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
@@ -116,7 +117,7 @@
         
         <div class="insgesamtVokabeltest_Lektion">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest</p>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest - Alte</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -126,6 +127,27 @@
                             <th>Englisch</th>
                         </tr>
                         <tbody id="tableVokabeltest_Lektion">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+        
+        
+        
+        <div class="insgesamtvokabeltest_2_Lektion">
+                        <br><br><br><br>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest - Neue</p>
+
+            <section class="insgesamt_tabelle">
+                <div class="insgesamt_tabelle_inside">
+                    <table class="table">
+                        <tr  class="headline">
+                            <th>Deutsch</th>
+                            <th>Englisch</th>
+                        </tr>
+                        <tbody id="tablevokabeltest_2_Lektion">
                             
                         </tbody>
                     </table>
@@ -1480,7 +1502,12 @@
                 
                 <div class="checkbox vokabeltest_checkbox">
                     <input onclick="lernen_auswählen_vokabeltest_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
-                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest</label>
+                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest - Alte</label>
+              </div>
+                
+                <div class="checkbox vokabeltest_2_checkbox">
+                    <input onclick="lernen_auswählen_vokabeltest_2_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="vokabeltest_2_Lektion" type="checkbox" id="lernen_vokabeltest_2_Lektion">
+                  <label class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">Vokabeltest - Neue</label>
               </div>
                 
 

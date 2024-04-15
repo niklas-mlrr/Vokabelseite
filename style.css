@@ -111,6 +111,15 @@ html {
 
 }
 
+#tablevokabeltest_2_Lektion {
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  empty-cells: show;
+  font-size: calc(1rem + 0.3vw);
+
+}
+
 #tableVokabeln_aus_keiner_Lektion {
   align-items: center;
   justify-content: center;
@@ -1988,7 +1997,7 @@ position: relative;
 .checkbox_haken_mit_ohne_sonstige_formen {
 
   position: relative;
-  bottom: -122px;
+  bottom: -116px;
   margin-left: 13px;
   margin-right: 13px;
   height: 45px;

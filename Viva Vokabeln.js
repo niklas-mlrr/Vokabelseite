@@ -1,6 +1,7 @@
 var Vokabeln_aus_keiner_Lektion  = [
 
 
+	
 
 	{'first':'magnī aestimāre', 
 	'second':'hoch schätzen', 
