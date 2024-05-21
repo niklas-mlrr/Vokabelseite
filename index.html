@@ -18,6 +18,121 @@
     <body class="body">
 
 
+
+
+        <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+              <!--
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <ion-icon name="lernen_button" class="lernen_button" onclick="lernen()">Lernen</ion-icon>   
+
+                <br><br>
+
+                <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
+                    <option disabled selected>Zu ... springen</option>
+                    <option class="auswahl_Vokabeltest" value="#lek_Vokabeltest_Lektion">Vokabeltest - Alte</option>
+                    <option class="auswahl_vokabeltest_2" value="#lek_vokabeltest_2_Lektion">Vokabeltest - Neue</option>
+                    <option class="bold" value="#all">Alle</option>
+    
+                    <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
+                    <option value="#lek_01">01</option>
+                    <option value="#lek_02">02</option>
+                    <option value="#lek_03">03</option>
+                    <option value="#lek_04">04</option>
+                    <option value="#lek_05">05</option>
+                    <option value="#lek_06">06</option>
+                    <option value="#lek_07">07</option>
+                    <option value="#lek_08">08</option>
+                    <option value="#lek_09">09</option>
+                    <option value="#lek_10">10</option>
+                    <option value="#lek_11">11</option>
+                    <option value="#lek_12">12</option>
+                    <option value="#lek_13">13</option>
+                    <option value="#lek_14">14</option>
+                    <option value="#lek_15">15</option>
+                    <option value="#lek_16">16</option>
+                    <option value="#lek_17">17</option>
+                    <option value="#lek_18">18</option>
+                    <option value="#lek_19">19</option>
+                    <option value="#lek_20">20</option>
+                    <option value="#lek_21">21</option>
+                    <option value="#lek_22">22</option>
+                    <option value="#lek_23">23</option>
+                    <option value="#lek_24">24</option>
+                    <option value="#lek_25">25</option>
+                    <option value="#lek_26">26</option>
+                    <option value="#lek_27">27</option>
+                    <option value="#lek_28">28</option>
+                    <option value="#lek_29">29</option>
+                    <option value="#lek_30">30</option>
+                    <option value="#lek_31">31</option>
+                    <option value="#lek_32">32</option>
+                    <option value="#lek_33">33</option>
+                    <option value="#lek_34">34</option>
+                    <option value="#lek_35">35</option>
+                    <option value="#lek_36">36</option>
+                    <option value="#lek_37">37</option>
+                    <option value="#lek_38">38</option>
+                    <option value="#lek_39">39</option>
+                    <option value="#lek_40">40</option>
+                    <option value="#lek_41">41</option>
+                    <option value="#lek_42">42</option>
+                    <option value="#lek_43">43</option>
+                    <option value="#lek_44">44</option>
+                    <option value="#lek_45">45</option>
+                    <option disabled>Originaltextvokabeln</option>
+    
+    
+    
+    
+                    <option value="#lek_bellum_gallicum">Bellum Gallicum</option>
+                    <option value="#lek_s_6_prometheus">S. 6 Prometheus</option>
+                    <option value="#lek_s_8_tantalus">S. 8 Tantalus</option>
+                    <option value="#lek_s_28_odysseus">S. 28 Odysseus</option>
+                    <option value="#lek_Lupus_et_agnus">Lupus et agnus</option>
+    
+                </select>
+    <br>
+                <div class="version_div">
+                    <p class="version_headline">Version</p>
+                    <p class="version_number_latest">&nbsp;&nbsp;2.1.8</p>
+                    <p class="letzte_aktualisierung" id="letzte_aktualisierung">Letzte Aktualisierung</p>
+                <img class="version_info" onclick="window.open('PatchNotes.txt','_blank')" src="https://img.icons8.com/pastel-glyph/512/000000/info--v1.png"/>
+                </div>
+
+            </ul>
+
+
+        
+        </div>
+          </nav>
+
+
+
+
+
+
+
+
       
 
             
@@ -30,78 +145,7 @@
 
 
 
-        <div class="search_div">
-            <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
-                <option disabled selected>Vokabeln</option>
-                <option class="auswahl_Vokabeltest" value="#lek_Vokabeltest_Lektion">Vokabeltest - Alte</option>
-                <option class="auswahl_vokabeltest_2" value="#lek_vokabeltest_2_Lektion">Vokabeltest - Neue</option>
-                <option class="bold" value="#all">Alle</option>
-
-                <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
-                <option value="#lek_01">01</option>
-                <option value="#lek_02">02</option>
-                <option value="#lek_03">03</option>
-                <option value="#lek_04">04</option>
-                <option value="#lek_05">05</option>
-                <option value="#lek_06">06</option>
-                <option value="#lek_07">07</option>
-                <option value="#lek_08">08</option>
-                <option value="#lek_09">09</option>
-                <option value="#lek_10">10</option>
-                <option value="#lek_11">11</option>
-                <option value="#lek_12">12</option>
-                <option value="#lek_13">13</option>
-                <option value="#lek_14">14</option>
-                <option value="#lek_15">15</option>
-                <option value="#lek_16">16</option>
-                <option value="#lek_17">17</option>
-                <option value="#lek_18">18</option>
-                <option value="#lek_19">19</option>
-                <option value="#lek_20">20</option>
-                <option value="#lek_21">21</option>
-                <option value="#lek_22">22</option>
-                <option value="#lek_23">23</option>
-                <option value="#lek_24">24</option>
-                <option value="#lek_25">25</option>
-                <option value="#lek_26">26</option>
-                <option value="#lek_27">27</option>
-                <option value="#lek_28">28</option>
-                <option value="#lek_29">29</option>
-                <option value="#lek_30">30</option>
-                <option value="#lek_31">31</option>
-                <option value="#lek_32">32</option>
-                <option value="#lek_33">33</option>
-                <option value="#lek_34">34</option>
-                <option value="#lek_35">35</option>
-                <option value="#lek_36">36</option>
-                <option value="#lek_37">37</option>
-                <option value="#lek_38">38</option>
-                <option value="#lek_39">39</option>
-                <option value="#lek_40">40</option>
-                <option value="#lek_41">41</option>
-                <option value="#lek_42">42</option>
-                <option value="#lek_43">43</option>
-                <option value="#lek_44">44</option>
-                <option value="#lek_45">45</option>
-                <option disabled>Originaltextvokabeln</option>
-
-
-
-
-                <option value="#lek_bellum_gallicum">Bellum Gallicum</option>
-                <option value="#lek_s_6_prometheus">S. 6 Prometheus</option>
-                <option value="#lek_s_8_tantalus">S. 8 Tantalus</option>
-                <option value="#lek_s_28_odysseus">S. 28 Odysseus</option>
-                <option value="#lek_Lupus_et_agnus">Lupus et agnus</option>
-
-            </select>
-
-            <ion-icon name="lernen_button" class="lernen_button" onclick="lernen()">Lernen</ion-icon>       
-        </div>    
-
-
-
-
+  
 
 
 
@@ -110,9 +154,7 @@
         
         
         
-        
- 
-        
+                
         
         
         <div class="insgesamtVokabeltest_Lektion">
@@ -1645,160 +1687,7 @@
 </div>
 
 
-<div class="version_div">
-    <img class="version_hide_menü_x_btn" onclick="hide_version_div_btn()" src="https://img.icons8.com/ios/1000/000000/cancel.png"/>
-    <div onclick="fehler_seite_zurück_pfeil_btn()">
-        <img  class="fehler_seite_zurück_pfeil_btn" src="https://img.icons8.com/ios/1000/000000/circled-left-2.png"/>
-    </div>
-    <p class="version_headline">Version</p>
-    <p class="version_number_latest">&nbsp;&nbsp;2.1.8</p>
-    <p class="letzte_aktualisierung" id="letzte_aktualisierung">Letzte Aktualisierung</p>
-<img class="version_info" onclick="version_info()" src="https://img.icons8.com/pastel-glyph/512/000000/info--v1.png"/>
-<ul class="patch_notes">
 
-
-
-    <li>Es wurden einige CSS-Responsiveness-Probleme behoben.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">2.0.1</p>
-    <li>Die Lernen-Auswahl hat sich grundlegend verändert. Man muss nun zuerst auswählen, ob die zulernenden Vokabeln Viva-Vokabeln, Originaltextvokabeln oder  Vokabeln für einen Vokabeltest sind. Der Lernen-Modus an sich ist jedoch gleich geblieben.</li>
-    <li>Der Fehler, dass sich beim ersten Anzeigen einer bestimmten Lektion ein neuer Tab öffnet, wurde nun endlich behoben.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">2.0.0</p>
-    <li>Alle Vokabeln aus dem Viva Lateibuch sind nun freigeschaltet, da wir ab jetzt zum Wörterbuch (Stowasser) wechseln</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.5.7</p>
-    
-    <li>Kleine Layout Verbesserungen</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-    
-    <p class="version_number">1.5.4</p>
-    <li>Im "Lernen - Standard - Modus" gibt es nun einen "Aufdecken - Button", um den Lernenmodus auch ohne Tastatur nutzen zu können.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-        
-    <p class="version_number">1.5.0</p>
-    <li>Die Englisch Vokabeln wurden komplett entfernt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-        
-    <p class="version_number">1.4.6</p>
-    <li>Das Javascript für diese Website wurde mithilfe von der ChatGPT Ki verbessert / verkürzt.</li>
-    <li>Das Layout in der Lernen-Auswahl wurde geändert.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-        
-    <p class="version_number">1.4.1</p>
-    <li>Anpassung der Vokabeln für den Test</li>
-    <li>Animation der Buttons angepasst</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-    
-    <p class="version_number">1.4.0</p>
-    <li>Die Vokabeln für den Vokabeltest sind nun ganz oben</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-    
-    <p class="version_number">1.3.7</p>
-    <li>Das gesamte Code Projekt wurde nun auf GitHub veröffentlicht. Dort gibt es immer die neusten Änderungen. <br>
-    <a href="https://github.com/TechNikFuture/Vokabelseite" target="_blank">GitHub Repository</a> <br><br> 
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
- 
-    <p class="version_number">1.3.5</p>
-    <li>Hier in der Versionsinfo gibt es nun eine Anzeige, wann die Website das letze Mal aktuallisiert wurde.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.3.3</p>
-    <li>Kleine Designänderung</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.3.1</p>
-    <li>Vokabeln, die in keiner Lektion enthalten sind, sind nun verfügbar</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.2.9</p>
-    <li>Die Schriftart wurde angepasst. Die Buchstaben ī, ō, ē, ā und ū sind nun auch im gleichen Stil wie die anderen Buchstaben.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.2.6</p>
-    <li>Es gibt nun ein anderes Konzept, wie für Vokabeltests gelernt werden kann. Der Lernprozess verändert sich nicht. Die Vokabeln, die wir für einen Vokabeltest lernen sollen, ersetzen jetzt keine Lektion mehr. Wenn wir etwas lernen sollen, werden die Vokabeln ganz oben in der Gesamtübersicht und auch ganz oben im Lernen-Auswahl-Menü angezeigt. Ist aktuell nichts zu lernen, werden diese beiden Sachen einfach ausgeblendet. Diese Veränderung macht es sehr viel einfacher für mich, da ich nur die Vokabeln, die wir lernen sollen, in meiner Datenbank hinzufügen und eine Variable in meinem Script auf von false auf true setzen muss.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.2.4</p>
-    <li>In der Versionsinfo wurde ein Fehler bezüglich des Schließens behoben. Dies funktioniert nun wieder korrekt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-    
-    <p class="version_number">1.2.3</p>
-    <li>Im Lernen-Modus wurde ein Couter namens "Gesamte Fehleranzahl" hinzugefügt. Dieser erhöht sich, wenn man einen Fehler macht. Dabei ist es egal, ob man bei dieser Vokabel schonmal einen Fehler gemacht hat oder nicht. Diese Funktion wird in Zukunft wahrscheinlich auch noch hinzugefügt, aber noch nicht jetzt, da es ist ein wenig komplizierter ist.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.2.1</p>
-    <li>Neue Hintergrundbilder wurden hinzugefügt. Es sind nun insgesamt 14, die zufällig angezeigt werden.</li>
-    <li>Die x Buttons zum Schließen von bspw. Menüs funktionieren alle nun wieder korrekt.</li>
-    <li>Auf Geräten mit "spezielleren" Bildschirmgrößen werden nun alle Fenster und Menüs korrekt angezeigt. Geräte mit kleineren Bildschirmen (Handys) werden jedoch noch nicht vollständig unterstützt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.1.7</p>
-    <li>Neue Hintergrundbilder wurden hinzugefügt.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.1.5</p>
-    <li>In der Lernen-Modus Lektionsauswahl gibt es nun ein Feld, mitdem man die sonstigen Formen abwählen kann. <br> Standardmäßig sind diese aber enthalten. Das Abwählen der sonstigen Formen ist beim Lernen-Einfach Modus besonders nützlich, da sie oft die richtige Lösung verraten.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
- 
-    <p class="version_number">1.1.2</p>
-    <li>Es wurden kleine Verbesserungen in der Vokabel-Datenbank vorgenommen.</li>
-    <li>Der Lernen-Modus Einfach ist nun in vollem Umfang benutzbar. Es treten nun keine <a class="fehler_seite_hier" onclick="fehler_seite()">Fehler</a> mehr auf.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.1.0</p>
-    <li>Es gibt nun eine Fehler-Seite, auf der ich alle Fehler und Probleme auf der Seite dokumentiere. Um zu dieser Seite zu gelangen, klicke <a class="fehler_seite_hier" onclick="fehler_seite()">hier</a></li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-    
-    <p class="version_number">1.0.9</p>
-    <li>Der neue Lernen-Modus "Einfach" ist nun verfügbar, aber hat noch einen Fehler. Es passiert zufällig und relativ oft, dass nicht angezeigt wird, ob man die richtige Übersetzung angeklickt hat oder nicht. Dieser Fehler beschränkt sich jedoch nur auf das Aufleuchten der richtigen/falschen Option. <br> Der Lernen-Modus Einfach ist also noch in der Beta-Phase.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-    
-    <p class="version_number">1.0.8</p>
-    <li>Ich bin gerade dabei, einen neuen Lernen-Modus zu entwickeln. Dabei wird eine Vokabel angezeigt und man muss aus drei Optionen die richtige Übersetzung auswählen. Aktuell funktioniert der Modus noch nicht. In den nächsten Versionen wird dieser freigeschaltet.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.0.5</p>
-    <li>Das generelle Design wurde überarbeitet.</li>
-    <li>Hintergründe, die sich bei jedem neu laden der Seite automatische wechseln oder nach 10 Min.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.0.4</p>
-    <li>Die Abstände der Elemente sollten nun auch im Auswahl-Menü passen.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.0.3</p>
-    <li>Das x in der Versions-Info ist nun nicht mehr fixiert, aber dafür funktioniert die Hitbox wieder richtig.</li>
-    <li>Die Abstände der Elemente zum Bildschirmrand im Lernen-Menü stimmen nun entgültig.</li>
-    <li>Der Source-Code für diese Seite beträgt aktuell 3734 Zeilen.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.0.2</p>
-    <li>Im Lernen-Menü sollten die Abstände der Elemente zum Bildschirmrand jetzt stimmen.</li>
-    <li>Ein paar kleinere Bugs gefixed.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.0.1</p>
-    <li>Das Lernen-Menü kann nun mit dem x in der oberen rechten Ecke geschlossen werden.</li>
-    <p>- - - - - - - - - - - - - - - - - - - - - - - -</p><br>
-
-    <p class="version_number">1.0</p>
-    <li>Alle latein Vokabeln sind nun enthalten (Die, die wir bis jetzt hatten).</li>
-    <li>Das Menü kann man erreichen, indem man mit der Maus über den oberen Bildschrimrand fährt.</li>
-    <li>Im Menü sind aktuell enthalten : <br>1.<br> Der linke Button, mitdem man schnell die verschiedenen Vokabeltabellen erreichen kann. <br>2.<br>  Der Lernen Button, überden man das Lernen-Menü erreichen kann. </li>
-    <li>Aktuell ist es noch nicht möglich mehrere Lektionen aufeinmal zu lernen.</li>
-    <li>Im Lernen-Menü : <br> Die Vokabel wird  mit der Leertaste aufgedeckt. Dann kann entschieden werden, ob man die Vokabel gewusst hat oder nicht. Dies kann entweder mit den beiden Buttons eingegegben werden oder über die Tasten c/v (nicht gewusst) oder n/m (gewusst). Die Vokabel muss zwingend aufgedeckt werden, bevor die Eingabe (gewusst/nicht gewusst) getätigt wird.</li>
-    <li>Projektstart : <br> ca. anfang-mitte 2021</li>
-
-</ul>
-<ul class="fehler_seite">
-<h2>Fehler-Seite</h2><br>
-<li>Es gibt aktuell keine entdeckten Fehler.</li>
-</ul>
-</div>
 </div>
     </body>
     </html>

@@ -500,15 +500,6 @@ urlMenu.onchange = function () {
 
 body = document.getElementsByClassName('body')
 
-version_div_groß = document.getElementsByClassName('version_div')
-version_info_groß = document.getElementsByClassName('version_info')
-version_headline_groß = document.getElementsByClassName('version_headline')
-version_number_latest_groß = document.getElementsByClassName('version_number_latest')
-version_hide_menü_x_btn_groß = document.getElementsByClassName('version_hide_menü_x_btn')
-patch_notes_groß = document.getElementsByClassName('patch_notes')
-fehler_seite_groß = document.getElementsByClassName('fehler_seite')
-fehler_seite_zurück_pfeil_btn_ = document.getElementsByClassName('fehler_seite_zurück_pfeil_btn')
-
 
 viva_div = document.getElementsByClassName('viva_div')
 originaltexte_div = document.getElementsByClassName('originaltexte_div')
@@ -630,9 +621,7 @@ const selected = [
 all_lernen = document.getElementsByClassName('all_lernen')
 
 all_lernen[0].classList.add('hidden');
-fehler_seite_groß[0].classList.remove('fehler_seite_groß');
-fehler_seite_groß[0].classList.add('hidden');
-fehler_seite_zurück_pfeil_btn_[0].classList.add('hidden');
+
 
 
 function hide_all() {
@@ -2388,58 +2377,7 @@ function geschaft() {
 }
 
 
-patch_notes_groß[0].classList.add('hidden');
 // Damit beim suchen auf der Seite nicht auch Suchergebnisse aus den Patch Notes mit angezeigt werden
-
-function version_info() {
-	version_div_groß[0].classList.add('version_div_groß');
-	version_info_groß[0].classList.add('version_info_groß');
-	version_headline_groß[0].classList.add('version_headline_groß');
-	version_hide_menü_x_btn_groß[0].classList.add('version_hide_menü_x_btn_groß');
-	version_number_latest_groß[0].classList.add('version_number_latest_groß');
-	patch_notes_groß[0].classList.add('patch_notes_groß');
-	letzte_aktualisierung[0].classList.remove('hidden');
-	fehler_seite_zurück_pfeil_btn()
-	all_all[0].classList.add('hidden');
-	body[0].classList.add('noscroll');
-}
-
-function hide_version_div_btn() {
-
-	version_div_groß[0].classList.remove('version_div_groß');
-	version_info_groß[0].classList.remove('version_info_groß');
-	version_headline_groß[0].classList.remove('version_headline_groß');
-	version_hide_menü_x_btn_groß[0].classList.remove('version_hide_menü_x_btn_groß');
-	patch_notes_groß[0].classList.remove('patch_notes_groß');
-	version_number_latest_groß[0].classList.remove('version_number_latest_groß');
-	letzte_aktualisierung[0].classList.add('hidden');
-
-	fehler_seite_zurück_pfeil_btn()
-	
-	patch_notes_groß[0].classList.add('hidden');
-
-
-	if (aktuell_lernen == false) {
-		all_all[0].classList.remove('hidden');
-		body[0].classList.remove('noscroll');
-	}
-}
-
-function fehler_seite() {
-	patch_notes_groß[0].classList.add('hidden');
-	fehler_seite_groß[0].classList.add('fehler_seite_groß');
-	fehler_seite_groß[0].classList.remove('hidden');
-	fehler_seite_zurück_pfeil_btn_[0].classList.remove('hidden');
-
-}
-
-function fehler_seite_zurück_pfeil_btn() {
-	patch_notes_groß[0].classList.remove('hidden');
-	fehler_seite_groß[0].classList.remove('fehler_seite_groß');
-	fehler_seite_zurück_pfeil_btn_[0].classList.add('hidden');
-	fehler_seite_groß[0].classList.add('hidden');
-}
-
 
 
 
@@ -2562,3 +2500,4 @@ if (vokabeltest_2_lektion_anzeigen == false) {
 	vokabeltest_2_checkbox[0].classList.add('hidden_trotzdem_platz');
 
 }
+
