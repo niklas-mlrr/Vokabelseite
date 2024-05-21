@@ -1,8 +1,8 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Laila:wght@400;500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Maiandra GD:wght@400;500&display=swap');
 */
 @font-face {
-  font-family: Laila;
-  src: url(test.ttf);
+  font-family: Maiandra GD;
+  src: url("Maiandra GD.ttf");
 }
 
 :root {
@@ -40,7 +40,7 @@
 
 
 body {
-  font-family: 'Laila';
+  font-family: 'Maiandra GD';
   position: relative;
   min-height: 100vh;
   display: var(--primary-light);
@@ -66,9 +66,9 @@ html {
 
 
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
-  backdrop-filter: blur(8px) saturate(100%);
-  -webkit-backdrop-filter: blur(8px) saturate(100%);
+  box-shadow: 0px 0px 16px 0 rgba(10, 8, 17, 0.5);
+  backdrop-filter: blur(10px) saturate(100%);
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
 
   border-radius: 40px;
   display: inline-block;
@@ -610,7 +610,7 @@ th {
 
 .Lektion_select {
   cursor: pointer;
-  font-family: 'Laila';
+  font-family: 'Maiandra GD';
   position: relative;
   height: 60px;
   width: 150px;
@@ -779,9 +779,9 @@ th {
   left: 50%;
 
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
-  backdrop-filter: blur(8px) saturate(100%);
-  -webkit-backdrop-filter: blur(8px) saturate(100%);
+  box-shadow: 0px 0px 16px 0 rgba(10, 8, 17, 0.5);
+  backdrop-filter: blur(10px) saturate(100%);
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
 
 
   width: 400px;
@@ -971,7 +971,7 @@ position: relative;
 
 
 .lernen_einfach_btn {
-  font-family: Laila;
+  font-family: Maiandra GD;
   transform: translate(-50%, -50%);
   position: absolute;
   height: 270px;
@@ -980,9 +980,9 @@ position: relative;
   font-size: calc(1rem + 0.3vw);
   cursor: pointer;
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
-  backdrop-filter: blur(8px) saturate(100%);
-  -webkit-backdrop-filter: blur(8px) saturate(100%);
+  box-shadow: 0px 0px 16px 0 rgba(10, 8, 17, 0.5);
+  backdrop-filter: blur(10px) saturate(100%);
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
   display: inline-grid;
   justify-content: center;
   align-items: center;
@@ -1081,9 +1081,9 @@ position: relative;
 .lernen_design_css {
 
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
-  backdrop-filter: blur(8px) saturate(100%);
-  -webkit-backdrop-filter: blur(8px) saturate(100%);
+  box-shadow: 0px 0px 16px 0 rgba(10, 8, 17, 0.5);
+  backdrop-filter: blur(10px) saturate(100%);
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
 
 
 }
@@ -1284,7 +1284,7 @@ position: relative;
 
 /* button_gewusst */
 .btn-gewusst {
-  font-family: Laila;
+  font-family: Maiandra GD;
   color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
@@ -1305,7 +1305,7 @@ position: relative;
   line-height: 50px;
   border: none;
   background: rgb(139, 139, 139);
-  background: linear-gradient(0deg, #89e216 0%, #a8ee4e 100%);
+  background: linear-gradient(0deg, #8ae216e5 0%, #a9ee4ee3 100%);
 }
 
 .btn-gewusst:hover {
@@ -1375,7 +1375,7 @@ position: relative;
 /* button-aufdecken */
 .btn-aufdecken {
   margin-right: 50px;
-  font-family: Laila;
+  font-family: Maiandra GD;
 
   color: rgb(77, 77, 77);
   border-radius: 5px;
@@ -1444,7 +1444,7 @@ position: relative;
 /* button_nicht_gewusst */
 .btn-nicht_gewusst {
   margin-right: 50px;
-  font-family: Laila;
+  font-family: Maiandra GD;
 
   color: rgb(255, 0, 1);
   border-radius: 5px;
@@ -1467,7 +1467,7 @@ position: relative;
 
   line-height: 50px;
   border: none;
-  background: linear-gradient(0deg, #c02d1d 0%, #dd3422 100%);
+  background: linear-gradient(0deg, #c02d1de8 0%, #dd3522e8 100%);
 }
 
 .btn-nicht_gewusst:hover {
@@ -1585,9 +1585,9 @@ position: relative;
     bottom: 60%;
 
     background: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 8px 32px 0 hsla(250, 35%, 5%, 1);
-    backdrop-filter: blur(8px) saturate(100%);
-    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    box-shadow: 0px 0px 16px 0 rgba(10, 8, 17, 0.5);
+    backdrop-filter: blur(10px) saturate(100%);
+    -webkit-backdrop-filter: blur(10px) saturate(100%);
 
 
     border: none;
@@ -2038,7 +2038,7 @@ position: relative;
 
 .lernen_lektion_oder_originaltext_select {
   cursor: pointer;
-  font-family: 'Laila';
+  font-family: 'Maiandra GD';
   position: relative;
   padding: 16px;
   width: 90%;

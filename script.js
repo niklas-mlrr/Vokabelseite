@@ -1,5 +1,5 @@
-vokabeltest_lektion_anzeigen = true
-vokabeltest_2_lektion_anzeigen = true
+vokabeltest_lektion_anzeigen = false
+vokabeltest_2_lektion_anzeigen = false
 
 document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 15.04.24 20:00"
 
@@ -45,7 +45,7 @@ random_background()
 function random_background() {
 	var random = Math.round(12 * Math.random()) + 1;
 	console.log(random)
-	document.getElementById("background").src = 'Bilder/' + random + '.jpg'
+	document.getElementById("background").src = 'Background-Images/' + random + '.jpg'
 }
 
 
