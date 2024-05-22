@@ -82,6 +82,12 @@ if(vokabeltest_lektion_anzeigen == true) {
 
 
 
+
+
+
+
+
+
 buildTableVokabeltest_Lektion(Vokabeltest_Lektion)
 
 function buildTableVokabeltest_Lektion(data) {
@@ -310,6 +316,30 @@ var tables = [
   }
   
   );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -653,7 +683,7 @@ function hide_all() {
 	
 
 }
-
+all()
 function all() {
 
 	if(vokabeltest_lektion_anzeigen == true) {
