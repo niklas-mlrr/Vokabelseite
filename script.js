@@ -1759,6 +1759,7 @@ if (lektion_ausgewählt === true){
 			gesehene_wörter = [];
 			gesamt_fehleranzahl = [];
 			nicht_beim_ersten_mal = [];
+			letztes_wort = "";
 
 
 
@@ -1849,7 +1850,7 @@ function lösung_anzeigen_btn() {
 
 
 function gewusst() {
-
+	letztes_wort = erstes_wort
 	if (lernen_modus == "standard") {
 
 		if (lernen_noch_länge == 1) {
@@ -1869,6 +1870,7 @@ function gewusst() {
 }
 
 function nicht_gewusst() {
+	letztes_wort = erstes_wort
 	if (lernen_modus == "standard") {
 
 		if (lernen_noch_länge == 1) {
@@ -2274,7 +2276,7 @@ function neue_vok_standard() {
    
 */
 
-console.log(ausgewählt_lektion)
+// console.log(ausgewählt_lektion)
 
 for (let i = 1; i <= 45; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
@@ -2360,7 +2362,11 @@ for (let i = 1; i <= 45; i++) {
 
 
 
-	if (geschafte_wörter.includes(erstes_wort)) {
+	if(erstes_wort === letztes_wort) {
+		console.log("B2B")
+	}
+
+	if ((geschafte_wörter.includes(erstes_wort)) || erstes_wort === letztes_wort) {
 		neue_vok_standard()
 	} else {
 
@@ -2390,9 +2396,6 @@ for (let i = 1; i <= 45; i++) {
 
 function geschaft() {
 
-	if (geschafte_wörter.includes(erstes_wort)) {
-		neue_vok()
-	}
 	geschafte_wörter.push(erstes_wort);
 	console.log("geschafte_wörter: " + geschafte_wörter);
 
