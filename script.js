@@ -1,11 +1,9 @@
 vokabeltest_lektion_anzeigen = false
 vokabeltest_2_lektion_anzeigen = false
 
-document.getElementById('letzte_aktualisierung').innerHTML = "Stand: 15.04.24 20:00"
 
 
-letzte_aktualisierung = document.getElementsByClassName('letzte_aktualisierung')
-letzte_aktualisierung[0].classList.add('hidden');
+
 
 
 
@@ -312,6 +310,7 @@ var tables = [
   }
   
   );
+
 
 
 

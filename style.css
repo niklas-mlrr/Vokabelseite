@@ -1390,25 +1390,6 @@ position: relative;
 
 
 
-.letzte_aktualisierung {
-  position: relative;
-  top: -60px;
-  font-size: calc(1rem + 0.3vw);
-  color: rgb(80, 80, 80);
-}
-
-@media (max-width: 1330px)  {
-  
-  
-  .letzte_aktualisierung {
-    position: relative;
-    top: -240px;
-    font-size: calc(1rem + 0.3vw);
-    color: rgb(80, 80, 80);
-  }
-}
-
-
 
 .lernen_lektion_oder_originaltext_select {
   cursor: pointer;
