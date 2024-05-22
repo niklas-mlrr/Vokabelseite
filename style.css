@@ -1565,7 +1565,7 @@ nav {
   left: 50px;
   width: 50px;
   
-  z-index: 100;
+  z-index: 10;
   
   -webkit-user-select: none;
   -moz-user-select: none;
