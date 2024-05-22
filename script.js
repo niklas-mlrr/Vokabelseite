@@ -327,6 +327,10 @@ var tables = [
 
 var urlMenu = document.getElementById('Lektion_select');
 urlMenu.onchange = function () {
+
+	lernen_hide_menü()
+	document.getElementById('nav_btn').click();
+
 	var userOption = this.options[this.selectedIndex];
 
 	if (userOption.value == "#all") {
@@ -1244,7 +1248,6 @@ function hide_all_außerLupus_et_agnus() {
 
 lernen_auswahl_latein = document.getElementsByClassName('lernen_auswahl_latein')
 all_all = document.getElementsByClassName('all_all')
-search_div = document.getElementsByClassName('search_div')
 
 all_lernen_einfach = document.getElementsByClassName('all_lernen_einfach')
 btn_gewusst_nichtgewusst = document.getElementsByClassName('btn_gewusst_nichtgewusst')
@@ -1253,10 +1256,10 @@ btn_gewusst_nichtgewusst = document.getElementsByClassName('btn_gewusst_nichtgew
 lernen_auswahl_latein[0].classList.add('hidden');
 
 function lernen() {
+	document.getElementById('nav_btn').click();
 
 	lernen_auswahl_latein[0].classList.remove('hidden');
 	all_all[0].classList.add('hidden');
-	search_div[0].classList.add('hidden');
 
 
 	$('input[type="checkbox"][class="only_select___nicht_löschen"]').on('change', function() {
@@ -1569,8 +1572,6 @@ console.log (userOption.value)
 function lernen_hide_menü() {
 	lernen_auswahl_latein[0].classList.add('hidden');
 	all_all[0].classList.remove('hidden');
-	search_div[0].classList.remove('hidden');
-
 
 }
 
@@ -1701,7 +1702,6 @@ if (lektion_ausgewählt === true){
 			all_lernen[0].classList.add('lernen_design_css');
 
 			lernen_auswahl_latein[0].classList.add('hidden');
-			search_div[0].classList.add('hidden');
 
 
 			lernen_lat = document.getElementsByClassName("lernen_lat")
@@ -2049,13 +2049,11 @@ function lernen_fertig() {
 
 
 	all_all[0].classList.remove('blur');
-	search_div[0].classList.remove('blur');
 
 
 
 	all_all[0].classList.remove('hidden');
 	lernen_auswahl_latein[0].classList.add('hidden');
-	search_div[0].classList.remove('hidden');
 
 	all_lernen_einfach[0].classList.remove('hidden');
 

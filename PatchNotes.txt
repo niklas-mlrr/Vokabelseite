@@ -1,3 +1,7 @@
+GitHub Repo:
+https://github.com/TechNikFuture/Vokabelseite
+
+
 2.0.1:
 - Die Lernen-Auswahl hat sich grundlegend verändert. 
   Man muss nun zuerst auswählen, ob die zulernenden Vokabeln Viva-Vokabeln, Originaltextvokabeln oder Vokabeln für einen Vokabeltest sind. 
