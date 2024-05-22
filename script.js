@@ -41,7 +41,7 @@ $('th').on('click', function(){
 random_background()
 
 function random_background() {
-	var random = Math.round(12 * Math.random()) + 1;
+	var random = Math.round(10 * Math.random()) + 1;
 	console.log(random)
 	document.getElementById("background").src = 'Background-Images/' + random + '.jpg'
 }
