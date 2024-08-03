@@ -358,7 +358,7 @@ var urlMenu = document.getElementById('Lektion_select');
 urlMenu.onchange = function () {
 
 	lernen_hide_menü()
-	document.getElementById('nav_btn').click();
+	
 
 	var userOption = this.options[this.selectedIndex];
 
@@ -524,7 +524,6 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_Lupus_et_agnus") {
 		hide_all_außerLupus_et_agnus()
 	}
-
 
 	
 }
