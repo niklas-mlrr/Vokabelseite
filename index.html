@@ -50,8 +50,8 @@
                 
                 <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
                     <option disabled selected>Zu ... springen</option>
-                    <option class="auswahl_Vokabeltest hidden" value="#lek_Vokabeltest_Lektion">Vokabeltest - Alte</option>
-                    <option class="auswahl_vokabeltest_2 hidden" value="#lek_vokabeltest_2_Lektion">Vokabeltest - Neue</option>
+                    <option class="auswahl_Vokabeltest hidden" value="#lek_Vokabeltest_Lektion">Vokabeltest - De officiis</option>
+                    <option class="auswahl_vokabeltest_2 hidden" value="#lek_vokabeltest_2_Lektion">Vokabeltest 2</option>
                     <option class="bold" value="#all">Alle</option>
     
                     <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
@@ -159,14 +159,15 @@
         
         <div class="insgesamtVokabeltest_Lektion hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest - Alte</p>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest - De officiis</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
                     <table class="table">
                         <tr  class="headline">
+                            <th>Latein</th>
                             <th>Deutsch</th>
-                            <th>Englisch</th>
+                            <th>Sonstiges</th>
                         </tr>
                         <tbody id="tableVokabeltest_Lektion">
                             
@@ -180,7 +181,7 @@
         
         <div class="insgesamtvokabeltest_2_Lektion hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest - Neue</p>
+                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest 2</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -1544,12 +1545,12 @@
                 
                 <div class="checkbox vokabeltest_checkbox">
                     <input onclick="lernen_auswählen_vokabeltest_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
-                  <label class="lernen_auswahl_Vokabeltest_Lektion hidden" for="lernen_Vokabeltest_Lektion">Vokabeltest - Alte</label>
+                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest - De officiis</label>
               </div>
                 
                 <div class="checkbox vokabeltest_2_checkbox">
                     <input onclick="lernen_auswählen_vokabeltest_2_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="vokabeltest_2_Lektion" type="checkbox" id="lernen_vokabeltest_2_Lektion">
-                  <label class="lernen_auswahl_vokabeltest_2_Lektion hidden" for="lernen_vokabeltest_2_Lektion">Vokabeltest - Neue</label>
+                  <label class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">Vokabeltest 2</label>
               </div>
                 
 
@@ -1560,7 +1561,7 @@
 
 
 
-      <div class="viva_div hidden">
+      <div class="viva_div hidden_trotzdem_platz">
             <select id="lernen_viva_lektion_select" class="lernen_lektion_oder_originaltext_select">
                 <option value="lektion_auswählen" selected>Lektion wählen</option>
                 <option value="lernen_viva_lektion_select_01" id="lernen_viva_lektion_select_01"></option>
@@ -1613,7 +1614,7 @@
 </div>
 
 
-<div class="originaltexte_div hidden">
+<div class="originaltexte_div hidden_trotzdem_platz">
             <select id="lernen_originaltexte_select" class="lernen_lektion_oder_originaltext_select">
                 <option value="originaltext_auswählen" selected>Originaltext wählen</option>
                 <option value="lernen_originaltexte_select_bellum_gallicum" id="lernen_originaltexte_select_bellum_gallicum"></option>

@@ -599,7 +599,7 @@ th {
 
 
 .lernen_auswahl_latein {
-  font-size: calc(1rem + 0.3vw);
+  font-size: calc(0.9rem + 0.3vw);
   z-index: 6;
   position: absolute;
   position: fixed;

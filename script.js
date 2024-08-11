@@ -1,4 +1,4 @@
-vokabeltest_lektion_anzeigen = false
+vokabeltest_lektion_anzeigen = true
 vokabeltest_2_lektion_anzeigen = false
 
 
@@ -98,6 +98,7 @@ function buildTableVokabeltest_Lektion(data) {
 		var row = `<tr class="row">
 							<td class="first">${data[i].first}</td>
 							<td class="second">${data[i].second}</td>
+							<td>${data[i].third}</td>
 						</tr>`
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
@@ -128,6 +129,7 @@ function buildTablevokabeltest_2_Lektion(data) {
 		var row = `<tr class="row">
 							<td class="first">${data[i].first}</td>
 							<td class="second">${data[i].second}</td>
+							<td>${data[i].third}</td>
 						</tr>`
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
@@ -2208,7 +2210,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest - Alte"
+		lernen_lektion_anzeige = "Vokabeltest - De officiis"
 		länge_lek = "Gesamt: " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}
@@ -2217,7 +2219,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "vokabeltest_2_Lektion") {
 		random_item = vokabeltest_2_Lektion[Math.floor(Math.random() * vokabeltest_2_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest - Neue"
+		lernen_lektion_anzeige = "Vokabeltest 2"
 		länge_lek = "Gesamt: " + vokabeltest_2_Lektion.length + " Wörter"
 		länge_lek_number = vokabeltest_2_Lektion.length
 	}
@@ -2468,7 +2470,7 @@ if (aktuell_ausgewählt === "viva") {
 
 
 function lernen_auswählen_vokabeltest_2_selected() {
-	console.log("Vokabeltest - Neue")
+	console.log("Vokabeltest 2")
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden_trotzdem_platz');

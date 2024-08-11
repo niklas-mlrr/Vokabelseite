@@ -1,214 +1,53 @@
 var Vokabeltest_Lektion = [
-    
-    {'first':'Skateboardanlage',
-    'second':'skatepark',
-    'third':''},
-    
-    {'first':'Lounge; Aufenthaltsraum',
-    'second':'lounge',
-    'third':''},
-    
-    {'first':'Zentrale; Hauptsitz',
-    'second':'headquarters (pl)',
-    'third':''},
-    
-    {'first':'Skateboardfahrer/-in',
-    'second':'skateboarder',
-    'third':''},
-    
-    {'first':'Tendenz',
-    'second':'tendency',
-    'third':''},
-    
-    {'first':'mexikanisch; <br> aus Mexiko; Mexikaner/-in',
-    'second':'Mexican',
-    'third':''},
-    
-    {'first':'Topf',
-    'second':'pot',
-    'third':''},
-    
 
-
+    {'first':'igitur', 
+     'second':'also', 
+     'third':''},
     
-    {'first':'Vernunft, Verstand',
-    'second':'reason',
-    'third':''},
+    {'first':'enim', 
+     'second':'nämlich, denn', 
+     'third':''},
     
-    {'first':'Gouverneur/-in',
-    'second':'governor',
-    'third':''},
+    {'first':'proficisci', 
+     'second':'ausgehen (von)', 
+     'third':'proficiscor, profectus sum (ab)'},
     
-    {'first':'beobachten, beachten, befolgen',
-    'second':'to observe',
-    'third':''},
+    {'first':'id, quod', 
+     'second':'das, was', 
+     'third':''},
     
-    {'first':'aufstrebend',
-    'second':'aspiring',
-    'third':''},
+    {'first':'disputare de', 
+     'second':'sprechen von, über', 
+     'third':''},
     
-    {'first':'Glück',
-    'second':'luck',
-    'third':''},
+    {'first':'duplex', 
+     'second':'doppelt', 
+     'third':'duplicis'},
     
-    {'first':'schlendern; bummeln; spazieren',
-    'second':'to stroll',
-    'third':''},
+    {'first':'pertinere ad', 
+     'second':'sich beziehen auf', 
+     'third':''},
     
-    {'first':'So; auf diese Weise',
-    'second':'that way',
-    'third':''},
+    {'first':'aliud alio maius est', 
+     'second':'eins ist größer als das andere', 
+     'third':''},
     
-    {'first':'Glanz und Glamour',
-    'second':'glitz and glamor (no pl)',
-    'third':''},
+    {'first':'vocare', 
+     'second':'1. rufen 2. nennen', 
+     'third':''},
     
-    {'first':'sich über Wasser halten',
-    'second':'to keep one`s head above water',
-    'third':''},
+    {'first':'medius', 
+     'second':'mittlerer/e/es', 
+     'third':'a, um'},
     
-    {'first':'sein Talent unter Beweis stellen',
-    'second':'to showcase one`s talent',
-    'third':''},
+    {'first':'probabilis', 
+     'second':'wahrscheinlich', 
+     'third':'e'},
     
-    {'first':'Glückstag',
-    'second':'lucky day',
-    'third':''},
+    {'first':'reddere', 
+     'second':'1. wiedergeben 2. angeben', 
+     'third':''},
     
-    {'first':'Vorspielen; Vorsingen',
-    'second':'cattle call',
-    'third':''},
-    
-    {'first':'Möchtegern; Möchtegern-',
-    'second':'wannabe (infml)',
-    'third':''},
-    
-    {'first':'zusammenpacken',
-    'second':'to pack up',
-    'third':''},
-    
-    {'first':'etw. als Erfahrung verbuchen',
-    'second':'to chalk sth up to experience',
-    'third':''},
-    
-    {'first':'Premiere; Uraufführung',
-    'second':'premiere',
-    'third':''},
-    
-    {'first':'für Aufsehen sorgen',
-    'second':'to cause a stir',
-    'third':''},
-    
-    {'first':'Campingplatz',
-    'second':'RV park',
-    'third':''},
-    
-    {'first':'drehen (Film)',
-    'second':'to shoot',
-    'third':''},
-    
-    {'first':'explodieren',
-    'second':'to explode',
-    'third':''},
-    
-    {'first':'Wohnwagen',
-    'second':'trailer',
-    'third':''},
-    
-    {'first':'Statist/-in; <br> Komparse / Komparsin',
-    'second':'extra',
-    'third':''},
-    
-    {'first':'worum es geht',
-    'second':'what it´s all about',
-    'third':''},
-    
-    {'first':'Bemühung; Mühe',
-    'second':'effort',
-    'third':''},
-    
-
-
-
-
-    {'first':'verfolgen',
-    'second':'to pursue',
-    'third':''},
-    
-    {'first':'hartnäckig; ausdauernd; beharrlich',
-    'second':'persistent',
-    'third':''},
-    
-    {'first':'entspannt; locker; gelassen',
-    'second':'relaxed',
-    'third':''},
-    
-    {'first':'geeignet; passend',
-    'second':'suitable',
-    'third':''},
-    
-    {'first':'Agent/-in',
-    'second':'agent',
-    'third':''},
-    
-    {'first':'nehmen (Zug, Bus)',
-    'second':'to catch, caught, caught',
-    'third':''},
-    
-    {'first':'backstage; hinter der Bühne',
-    'second':'backstage',
-    'third':''},
-    
-    {'first':'denkwürdig; unvergesslich',
-    'second':'memorable',
-    'third':''},
-    
-    {'first':'Gründer/-in',
-    'second':'founder',
-    'third':''},
-    
-    {'first':'umfassen; beinhalten; einschließen',
-    'second':'to comprise',
-    'third':''},
-    
-    {'first':'Produzent/-in',
-    'second':'producer',
-    'third':''},
-    
-    {'first':'Beitrag; Beteiligung',
-    'second':'contribution',
-    'third':''},
-    
-    {'first':'solange',
-    'second':'as long as',
-    'third':''},
-    
-    {'first':'vorgeschlagene(r) Kandidat(in)',
-    'second':'nominee',
-    'third':''},
-    
-    {'first':'nominieren; ernennen',
-    'second':'to nominate',
-    'third':''},
-    
-    {'first':'Nominierung; Ernennung',
-    'second':'nomination',
-    'third':''},
-    
-    {'first':'anerkennen; gutheißen; genehmigen',
-    'second':'to approve',
-    'third':''},
-    
-    {'first':'zu Ehren',
-    'second':'in honor of',
-    'third':''},
-    
-    {'first':'Zeichentrick-',
-    'second':'animated',
-    'third':''},
-    
-
-
 
 
 ]
@@ -220,207 +59,10 @@ var Vokabeltest_Lektion = [
 
 
 var vokabeltest_2_Lektion = [
-    
-    {'first':'golden; Gold-',
-    'second':'golden',
-    'third':''},
-    
-    {'first':'BIP (= Bruttoinlandsprodukt)',
-    'second':'GDP',
-    'third':''},
-    
-    {'first':'Einkommen',
-    'second':'income',
-    'third':''},
-    
-    {'first':'Forscher/-in; <br> Forschungsreisende/-r; <br> Entdecker/-in',
-    'second':'explorer',
-    'third':''},
-    
-    {'first':'sollen; gelten als',
-    'second':'to be said to (+ inf)',
-    'third':''},
-    
 
-
-
-
-
-
-
-
-
-    {'first':'existieren; bestehen',
-    'second':'to exist',
-    'third':''},
-    
-    {'first':'Reichtum; Vermögen',
-    'second':'wealth',
-    'third':''},
-    
-    {'first':'kalifornisch; Kalifornier/-in',
-    'second':'Californian',
-    'third':''},
-    
-    {'first':'Goldrausch',
-    'second':'Gold Rush',
-    'third':''},
-    
-    {'first':'wertvoll; kostbar',
-    'second':'precious',
-    'third':''},
-    
-    {'first':'Metall',
-    'second':'metal',
-    'third':''},
-    
-    {'first':'florieren; boomen',
-    'second':'to boom',
-    'third':''},
-    
-    {'first':'bleiben',
-    'second':'to remain',
-    'third':''},
-    
-    {'first':'sonnig',
-    'second':'sunny',
-    'third':''},
-    
-    {'first':'Anziehung; Anziehungskraft',
-    'second':'attraction', 
-    'third':''},
-    
-    {'first':'nordlich; Nord-',
-    'second':'northern',
-    'third':''},
-    
-    {'first':'Start-up (-Unternehmen); <br> Unternehmensgründung',
-    'second':'start-up company',
-    'third':''},
-    
-    {'first':'Internetblase; Dotcom-Blase',
-    'second':'dot-com bubble',
-    'third':''},
-    
-    {'first':'bersten; platzen',
-    'second':'to burst, burst, burst',
-    'third':''},
-    
-    {'first':'wirtschaftlicher Aufschwung; Boom; <br> Hochkonjunktur',
-    'second':'boom',
-    'third':''},
-    
-    {'first':'führend',
-    'second':'leading',
-    'third':''},
-    
-    {'first':'weltweit',
-    'second':'worldwide',
-    'third':''},
-    
-    {'first':'Landwirtschaft; Agrikultur',
-    'second':'agriculture',
-    'third':''},
-    
-    {'first':'Vermögen; Reichtum',
-    'second':'fortune',
-    'third':''},
-    
-    {'first':'dauern; andauern; anhalten',
-    'second':'to last',
-    'third':''},
-    
-    {'first':'Knappheit; Mangel',
-    'second':'Shortage',
-    'third':''},
-    
-    {'first':'Dürre; Trockenheit',
-    'second':'drought',
-    'third':''},
-    
-    {'first':'jmdn. zu etw. drängen',
-    'second':'to urge sb to do sth',
-    'third':''},
-    
-    {'first':'Anbau',
-    'second':'cultivation',
-    'third':''},
-    
-    {'first':'lateinamerikanisch; Latino/ Latina; <br> Hispano-Amerikaner/-in',
-    'second':'Hispanic',
-    'third':''},
-    
-    {'first':'Grenze',
-    'second':'border',
-    'third':''},
-    
-    {'first':'bewachen',
-    'second':'to guard',
-    'third':''},
-    
-
-
-
-
-
-
-
-
-
-
-    {'first':'den Betrieb einstellen; schließen',
-    'second':'to close down',
-    'third':''},
-    
-    {'first':'Silizium',
-    'second':'silicon',
-    'third':''},
-    
-    {'first':'Bestandteil; Komponente',
-    'second':'component',
-    'third':''},
-    
-    {'first':'Gerät; Vorrichtung',
-    'second':'device',
-    'third':''},
-    
-    {'first':'ansässig sein',
-    'second':'to be based',
-    'third':''},
-    
-    {'first':'landwirtschaftlich',
-    'second':'agricultural',
-    'third':''},
-    
-    {'first':'Unternehmer/-in',
-    'second':'entrepreneur',
-    'third':''},
-    
-    {'first':'Erdbeere',
-    'second':'strawberry',
-    'third':''},
-    
-    {'first':'Traube',
-    'second':'grape',
-    'third':''},
-    
-    {'first':'exportieren; ausführen',
-    'second':'to export',
-    'third':''},
-    
-    {'first':'Mindestlohn',
-    'second':'minimum wage',
-    'third':''},
-    
-    {'first':'saisonal; jahreszeitlich bedingt',
-    'second':'seasonal',
-    'third':''},
-    
-    {'first':'Davon kann ich meine Miete nicht bezahlen.',
-    'second':'That doesn`t pay my rent.',
-    'third':''},
-    
-    
+    {'first':'auswählen', 
+    'second':'auswählen', 
+    'third':'auswählen'},
 
 ]
 
