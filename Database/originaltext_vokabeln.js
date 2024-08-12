@@ -60,9 +60,97 @@ var Vokabeltest_Lektion = [
 
 var vokabeltest_2_Lektion = [
 
-    {'first':'auswählen', 
-    'second':'auswählen', 
-    'third':'auswählen'},
+    {'first':'sich für etw. engagieren', 
+    'second':'to become involved in', 
+    'third':''},
+
+    {'first':'an etw. teilnehmen; <br> sich an etw. beteiligen', 
+    'second':'to participate in', 
+    'third':''},
+
+    {'first':'passiv sein / sich enthalten', 
+    'second':'to remain passive', 
+    'third':''},
+
+    {'first':'die Meinung ändern', 
+    'second':'to change sb`s mind', 
+    'third':''},
+
+    {'first':'sich gegen etw. entscheiden',
+    'second':'to decide against sth', 
+    'third':''},
+
+    {'first':'Verantwortung übernehmen', 
+    'second':'to take on responsibility', 
+    'third':''},
+
+    {'first':'sich freiwillig melden; <br> Freiwilligendienst leisten', 
+    'second':'to volunteer', 
+    'third':''},
+
+    {'first':'die eigene Identität entwickeln', 
+    'second':'to develop your identity', 
+    'third':''},
+
+    {'first':'den eigenen Horizont erweitern', 
+    'second':'to broaden your horizons', 
+    'third':''},
+
+    {'first':'jmdn. ermutigen etw. zu tun', 
+    'second':'to encourage sb to do sth', 
+    'third':''},
+
+    {'first':'sich auf jmdn. / etw. verlassen', 
+    'second':'to rely on sb / sth', 
+    'third':''},
+
+    {'first':'von jmdm. verlangen etw. zu tun', 
+    'second':'to demand sb to do sth', 
+    'third':''},
+
+    {'first':'Jugend', 
+    'second':'adolescence (no pl)', 
+    'third':''},
+
+    {'first':'jmdn. erziehen', 
+    'second':'to bring up sb', 
+    'third':''},
+
+    {'first':'jmdn. unterrichten', 
+    'second':'to educate sb', 
+    'third':''},
+
+    {'first':'erwachsen; reif', 
+    'second':'mature', 
+    'third':''},
+
+    {'first':'Selbstvertrauen', 
+    'second':'self-confidence', 
+    'third':''},
+
+    {'first':'etw. zugestehen / gewähren', 
+    'second':'to grant sth', 
+    'third':''},
+
+    {'first':'jmdm. vertrauen', 
+    'second':'to trust sb', 
+    'third':''},
+
+    {'first':'Minderheit', 
+    'second':'minority', 
+    'third':''},
+
+    {'first':'jmdn. diskriminieren / benachteiligen', 
+    'second':'to discriminate against sb', 
+    'third':''},
+
+    {'first':'gegen etw. verstoßen', 
+    'second':'to violate sth', 
+    'third':''},
+
+    {'first':'etw. ablehnen', 
+    'second':'to reject sth', 
+    'third':''},
 
 ]
 

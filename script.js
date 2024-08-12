@@ -1,5 +1,5 @@
 vokabeltest_lektion_anzeigen = true
-vokabeltest_2_lektion_anzeigen = false
+vokabeltest_2_lektion_anzeigen = true
 
 
 
@@ -129,7 +129,6 @@ function buildTablevokabeltest_2_Lektion(data) {
 		var row = `<tr class="row">
 							<td class="first">${data[i].first}</td>
 							<td class="second">${data[i].second}</td>
-							<td>${data[i].third}</td>
 						</tr>`
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
@@ -2219,7 +2218,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "vokabeltest_2_Lektion") {
 		random_item = vokabeltest_2_Lektion[Math.floor(Math.random() * vokabeltest_2_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest 2"
+		lernen_lektion_anzeige = "Vokabeltest - Free choice?"
 		länge_lek = "Gesamt: " + vokabeltest_2_Lektion.length + " Wörter"
 		länge_lek_number = vokabeltest_2_Lektion.length
 	}
@@ -2470,7 +2469,7 @@ if (aktuell_ausgewählt === "viva") {
 
 
 function lernen_auswählen_vokabeltest_2_selected() {
-	console.log("Vokabeltest 2")
+	console.log("Vokabeltest - Free choice?")
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden_trotzdem_platz');

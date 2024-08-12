@@ -643,11 +643,11 @@ th {
 
 .checkbox {
   position: relative;
-  left: 26%;
+  left: 18%;
   top: -100px;
   justify-content: center;
   height: 50px;
-  width: 250px;
+  width: 300px;
   margin: 0px;
 }
 
@@ -849,7 +849,7 @@ position: relative;
 
 .lernen_einfach_richtig {
 
-  background-color: #8ae216ce;
+  background-color: #8ae2169c;
 
 
 }
@@ -860,7 +860,7 @@ position: relative;
 
 
 .lernen_einfach_falsch {
-  background-color: #ff3f2af5;
+  background-color: #ff3f2a9a;
 }
 
 
@@ -1093,6 +1093,7 @@ position: relative;
   bottom: -160px;
   left: 50%;
   width: 800px;
+
 }
 
 
@@ -1124,8 +1125,7 @@ position: relative;
 
   line-height: 50px;
   border: none;
-  background: rgb(139, 139, 139);
-  background: linear-gradient(0deg, #8ae216e5 0%, #a9ee4ee3 100%);
+  background: linear-gradient(0deg, #8ae216d2 0%, #a9ee4ed0 100%);
 }
 
 .btn-gewusst:hover {
@@ -1216,7 +1216,7 @@ position: relative;
 
   line-height: 50px;
   border: none;
-  background: linear-gradient(0deg, rgb(77, 77, 77) 0%, rgb(126, 126, 126) 100%);
+  background: linear-gradient(0deg, rgba(77, 77, 77, 0.85) 0%, rgba(126, 126, 126, 0.85) 100%);
 }
 
 .btn-aufdecken:hover {
@@ -1287,7 +1287,7 @@ position: relative;
 
   line-height: 50px;
   border: none;
-  background: linear-gradient(0deg, #c02d1de8 0%, #dd3522e8 100%);
+  background: linear-gradient(0deg, #c02d1dda 0%, #dd3522e0 100%);
 }
 
 .btn-nicht_gewusst:hover {
