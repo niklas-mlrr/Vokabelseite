@@ -48,6 +48,9 @@ var Vokabeltest_Lektion = [
      'second':'1. wiedergeben 2. angeben', 
      'third':'reddo, reddidi, redditum'},    
 
+    {'first':'de', 
+     'second':'1. von ... herab <br> 2. von, über', 
+     'third':''},    
 
 ]
 
