@@ -22,7 +22,7 @@ var Vokabeltest_Lektion = [
     
     {'first':'disputare de', 
      'second':'sprechen von, über', 
-     'third':'-o, -avi, -atum <br> (bezieht sich nur auf dispurate)'},   // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
+     'third':'-o, -avi, -atum'},   // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
     
     {'first':'duplex', 
      'second':'doppelt', 
@@ -30,7 +30,7 @@ var Vokabeltest_Lektion = [
     
     {'first':'pertinere ad', 
      'second':'sich beziehen auf', 
-     'third':'pertineo, pertinui <br> (bezieht sich nur auf pertinere)'},      // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
+     'third':'pertineo, pertinui'},      // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
     
     {'first':'aliud alio maius est', 
      'second':'eins ist größer als das andere', 
