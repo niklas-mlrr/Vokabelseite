@@ -50,7 +50,7 @@ var Vokabeltest_Lektion = [
 
     {'first':'de', 
      'second':'1. von ... herab <br> 2. von, über', 
-     'third':''},    
+     'third':'+ Abl.'},    
 
 ]
 
