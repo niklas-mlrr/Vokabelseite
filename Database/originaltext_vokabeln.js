@@ -3,7 +3,11 @@ var Vokabeltest_Lektion = [
     {'first':'igitur', 
      'second':'also', 
      'third':''},
-    
+
+    {'first':'nam', 
+     'second':'denn, nämlich', 
+     'third':''},
+            
     {'first':'enim', 
      'second':'nämlich, denn', 
      'third':''},
