@@ -38,7 +38,7 @@ var Vokabeltest_Lektion = [
     
     {'first':'vocare', 
      'second':'1. rufen 2. nennen', 
-     'third':'-a, -avi, -atum'},
+     'third':'-o, -avi, -atum'},
     
     {'first':'medius', 
      'second':'mittlerer/e/es', 
