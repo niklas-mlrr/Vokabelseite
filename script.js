@@ -1,5 +1,5 @@
-vokabeltest_lektion_anzeigen = true
-vokabeltest_2_lektion_anzeigen = true
+vokabeltest_lektion_anzeigen = false
+vokabeltest_2_lektion_anzeigen = true 
 
 
 
@@ -240,6 +240,23 @@ function buildTableLupus_et_agnus(data) {
 						<td>${data[i].third}</td>
 				  </tr>`
 		tableLupus_et_agnus.innerHTML += row
+	}
+}
+
+
+buildTablede_officiis(de_officiis)
+
+function buildTablede_officiis(data) {
+	var tablede_officiis = document.getElementById('tablede_officiis')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+						<td>${data[i].third}</td>
+				  </tr>`
+		tablede_officiis.innerHTML += row
 	}
 }
 
@@ -525,6 +542,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_Lupus_et_agnus") {
 		hide_all_außerLupus_et_agnus()
 	}
+	if (userOption.value == "#lek_de_officiis") {
+		hide_all_außerde_officiis()
+	}
 
 	
 }
@@ -597,6 +617,7 @@ selected_s_6_prometheus = document.getElementsByClassName('insgesamts_6_promethe
 selected_s_8_tantalus = document.getElementsByClassName('insgesamts_8_tantalus')
 selected_s_28_odysseus = document.getElementsByClassName('insgesamts_28_odysseus')
 selected_Lupus_et_agnus = document.getElementsByClassName('insgesamtLupus_et_agnus')
+selected_de_officiis = document.getElementsByClassName('insgesamtde_officiis')
 
 
 
@@ -673,6 +694,7 @@ function hide_all() {
 	selected_s_8_tantalus[0].classList.add('hidden');
 	selected_s_28_odysseus[0].classList.add('hidden');
 	selected_Lupus_et_agnus[0].classList.add('hidden');
+	selected_de_officiis[0].classList.add('hidden');
 
 
 
@@ -1265,6 +1287,14 @@ function hide_all_außerLupus_et_agnus() {
 		}
 }
 
+function hide_all_außerde_officiis() {
+	hide_all()
+	selected_de_officiis[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+}
+
 
 
 
@@ -1581,6 +1611,12 @@ console.log (userOption.value)
 			lektion_ausgewählt = true
 		}
 
+		if (userOption.value == "lernen_originaltexte_select_de_officiis") {
+			ausgewählt_lektion = "de_officiis"
+			lernen_noch_länge = de_officiis.length
+			lektion_ausgewählt = true
+		}
+
 
 
 
@@ -1660,6 +1696,7 @@ document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML 
 document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = "S. 8 Tantalus - " + s_8_tantalus.length + " W";
 document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML = "S. 28 Odysseus - " + s_28_odysseus.length + " W";
 document.getElementById('lernen_originaltexte_select_Lupus_et_agnus').innerHTML = "Lupus et agnus - " + Lupus_et_agnus.length + " W";
+document.getElementById('lernen_originaltexte_select_de_officiis').innerHTML = "De officiis - " + de_officiis.length + " W";
 
 
 
@@ -2209,7 +2246,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest - De officiis"
+		lernen_lektion_anzeige = "Vokabeltest 1"
 		länge_lek = "Gesamt: " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}
@@ -2258,6 +2295,13 @@ function neue_vok_standard() {
 		lernen_lektion_anzeige = "Lupus et agnus"
 		länge_lek = "Gesamt: " + Lupus_et_agnus.length + " Wörter"
 		länge_lek_number = Lupus_et_agnus.length
+	}
+
+	if (ausgewählt_lektion == "de_officiis") {
+		random_item = de_officiis[Math.floor(Math.random() * de_officiis.length)];
+		lernen_lektion_anzeige = "De officiis"
+		länge_lek = "Gesamt: " + de_officiis.length + " Wörter"
+		länge_lek_number = de_officiis.length
 	}
 
 
@@ -2423,7 +2467,7 @@ function lernen_auswählen_viva_selected() {
 	console.log("VIVA")
 	viva_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden');
-	originaltexte_div[0].classList.remove('hidden_trotzdem_platz');
+	viva_div[0].classList.remove('hidden_trotzdem_platz');
 
 	lektion_ausgewählt = false
 
@@ -2522,12 +2566,9 @@ function clear_select_viva() {
 
 
 if (vokabeltest_lektion_anzeigen == false) {
-	vokabeltest_checkbox[0].classList.add('hidden_trotzdem_platz');
-
+	vokabeltest_checkbox[0].classList.add('hidden');
 }
 
 if (vokabeltest_2_lektion_anzeigen == false) {
-	vokabeltest_2_checkbox[0].classList.add('hidden_trotzdem_platz');
-
+	vokabeltest_2_checkbox[0].classList.add('hidden');
 }
-

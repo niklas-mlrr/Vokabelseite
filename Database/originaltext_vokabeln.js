@@ -1,60 +1,8 @@
 var Vokabeltest_Lektion = [
 
-    {'first':'igitur', 
-     'second':'also', 
-     'third':''},
-
-    {'first':'nam', 
-     'second':'denn, nämlich', 
-     'third':''},
-            
-    {'first':'enim', 
-     'second':'nämlich, denn', 
-     'third':''},
-    
-    {'first':'proficisci', 
-     'second':'ausgehen (von)', 
-     'third':'proficiscor, profectus sum (ab)'},
-    
-    {'first':'id, quod', 
-     'second':'das, was', 
-     'third':''},
-    
-    {'first':'disputare de', 
-     'second':'sprechen von, über', 
-     'third':'-o, -avi, -atum'},   // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
-    
-    {'first':'duplex', 
-     'second':'doppelt', 
-     'third':'duplicis'},
-    
-    {'first':'pertinere ad', 
-     'second':'sich beziehen auf', 
-     'third':'pertineo, pertinui'},      // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
-    
-    {'first':'aliud alio maius est', 
-     'second':'eins ist größer als das andere', 
-     'third':''},
-    
-    {'first':'vocare', 
-     'second':'1. rufen 2. nennen', 
-     'third':'-o, -avi, -atum'},
-    
-    {'first':'medius', 
-     'second':'mittlerer/e/es', 
-     'third':'a, um'},
-    
-    {'first':'probabilis', 
-     'second':'wahrscheinlich', 
-     'third':'e'},
-    
-    {'first':'reddere', 
-     'second':'1. wiedergeben 2. angeben', 
-     'third':'reddo, reddidi, redditum'},    
-
-    {'first':'de', 
-     'second':'1. von ... herab <br> 2. von, über', 
-     'third':'+ Abl.'},    
+    {'first':'auswählen', 
+    'second':'auswählen', 
+    'third':'auswählen'},
 
 ]
 
@@ -701,3 +649,65 @@ var Lupus_et_agnus = [
 
 ]
 
+
+
+
+var de_officiis = [
+
+    {'first':'igitur', 
+     'second':'also', 
+     'third':''},
+   
+    {'first':'nam', 
+     'second':'denn, nämlich', 
+     'third':''},
+            
+    {'first':'enim', 
+     'second':'nämlich, denn', 
+     'third':''},
+    
+    {'first':'proficisci', 
+     'second':'ausgehen (von)', 
+     'third':'proficiscor, profectus sum (ab)'},
+    
+    {'first':'id, quod', 
+     'second':'das, was', 
+     'third':''},
+    
+    {'first':'disputare de', 
+     'second':'sprechen von, über', 
+     'third':'-o, -avi, -atum'},   // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
+    
+    {'first':'duplex', 
+     'second':'doppelt', 
+     'third':'duplicis'},
+    
+    {'first':'pertinere ad', 
+     'second':'sich beziehen auf', 
+     'third':'pertineo, pertinui'},      // Ich bin mir hier nicht ganz sicher und würde daher morgen mal Herrn Pühn fragen.
+    
+    {'first':'aliud alio maius est', 
+     'second':'eins ist größer als das andere', 
+     'third':''},
+    
+    {'first':'vocare', 
+     'second':'1. rufen 2. nennen', 
+     'third':'-o, -avi, -atum'},
+    
+    {'first':'medius', 
+     'second':'mittlerer/e/es', 
+     'third':'a, um'},
+    
+    {'first':'probabilis', 
+     'second':'wahrscheinlich', 
+     'third':'e'},
+    
+    {'first':'reddere', 
+     'second':'1. wiedergeben 2. angeben', 
+     'third':'reddo, reddidi, redditum'},    
+   
+    {'first':'de', 
+     'second':'1. von ... herab <br> 2. von, über', 
+     'third':'+ Abl.'},    
+
+]
