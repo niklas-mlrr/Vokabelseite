@@ -1285,6 +1285,9 @@ function hide_all_außerLupus_et_agnus() {
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
 		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
 }
 
 function hide_all_außerde_officiis() {
@@ -1292,6 +1295,9 @@ function hide_all_außerde_officiis() {
 	selected_de_officiis[0].classList.remove('hidden');
 	if(vokabeltest_lektion_anzeigen == true) {
 		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
 		}
 }
 
