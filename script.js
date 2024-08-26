@@ -1,5 +1,5 @@
 vokabeltest_lektion_anzeigen = false
-vokabeltest_2_lektion_anzeigen = true 
+vokabeltest_2_lektion_anzeigen = false 
 
 
 
