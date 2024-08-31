@@ -8,7 +8,7 @@
         <title>Vokabeln</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="/Database/viva_vokabeln.js" defer></script>
-        <script src="/Database/originaltext_vokabeln.js" defer></script>
+        <script src="/Database/originaltext_vokabeln.js"></script>
         <script src="script.js" defer></script>
 
 
@@ -50,8 +50,8 @@
                 
                 <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
                     <option disabled selected>Nur ... anzeigen</option>
-                    <option class="auswahl_Vokabeltest hidden" value="#lek_Vokabeltest_Lektion">Vokabeltest 1</option>
-                    <option class="auswahl_vokabeltest_2 hidden" value="#lek_vokabeltest_2_Lektion">Vokabeltest - Free choice?</option>
+                    <option class="auswahl_Vokabeltest hidden" value="#lek_Vokabeltest_Lektion">Fahrschule Theorie</option>
+                    <option class="auswahl_vokabeltest_2 hidden" value="#lek_vokabeltest_2_Lektion">Vokabeltest 2</option>
                     <option class="bold" value="#all">Alle</option>
     
                     <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
@@ -160,15 +160,14 @@
         
         <div class="insgesamtVokabeltest_Lektion hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest 1</p>
+                        <p class="Lektion_anzeige" id="Vokabeltest_Anzeigetext"></p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
                     <table class="table">
                         <tr  class="headline">
-                            <th>Latein</th>
-                            <th>Deutsch</th>
-                            <th>Sonstiges</th>
+                            <th>Frage</th>
+                            <th>Antwort</th>
                         </tr>
                         <tbody id="tableVokabeltest_Lektion" class="table_body">
                             
@@ -182,7 +181,7 @@
         
         <div class="insgesamtvokabeltest_2_Lektion hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Vokabeltest - Free choice?</p>
+                        <p class="Lektion_anzeige" id="Vokabeltest2_Anzeigetext"></p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -207,7 +206,7 @@
         
         <div class="insgesamt01 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 01</p>
+                        <p class="Lektion_anzeige" id="Lektion01_Anzeigetext">Lektion 01</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -230,7 +229,7 @@
         
         <div class="insgesamt02 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 02</p>
+                        <p class="Lektion_anzeige" id="Lektion02_Anzeigetext">Lektion 02</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -253,7 +252,7 @@
         
         <div class="insgesamt03 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 03</p>
+                        <p class="Lektion_anzeige" id="Lektion03_Anzeigetext">Lektion 03</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -276,7 +275,7 @@
         
         <div class="insgesamt04 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 04</p>
+                        <p class="Lektion_anzeige" id="Lektion04_Anzeigetext">Lektion 04</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -299,7 +298,7 @@
         
         <div class="insgesamt05 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 05</p>
+                        <p class="Lektion_anzeige" id="Lektion05_Anzeigetext">Lektion 05</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -322,7 +321,7 @@
         
         <div class="insgesamt06 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 06</p>
+                        <p class="Lektion_anzeige" id="Lektion06_Anzeigetext">Lektion 06</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -345,7 +344,7 @@
         
         <div class="insgesamt07 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 07</p>
+                        <p class="Lektion_anzeige" id="Lektion07_Anzeigetext">Lektion 07</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -368,7 +367,7 @@
         
         <div class="insgesamt08 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 08</p>
+                        <p class="Lektion_anzeige" id="Lektion08_Anzeigetext">Lektion 08</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -392,7 +391,7 @@
         
        <div class="insgesamt09 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 09</p>
+                        <p class="Lektion_anzeige" id="Lektion09_Anzeigetext">Lektion 09</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -415,7 +414,7 @@
         
         <div class="insgesamt10 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 10</p>
+                        <p class="Lektion_anzeige" id="Lektion10_Anzeigetext">Lektion 10</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -438,7 +437,7 @@
         
         <div class="insgesamt11 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 11</p>
+                        <p class="Lektion_anzeige" id="Lektion11_Anzeigetext">Lektion 11</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -461,7 +460,7 @@
         
         <div class="insgesamt12 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 12</p>
+                        <p class="Lektion_anzeige" id="Lektion12_Anzeigetext">Lektion 12</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -484,7 +483,7 @@
 
         <div class="insgesamt13 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 13</p>
+                        <p class="Lektion_anzeige" id="Lektion13_Anzeigetext">Lektion 13</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -507,7 +506,7 @@
 
         <div class="insgesamt14 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 14</p>
+                        <p class="Lektion_anzeige" id="Lektion14_Anzeigetext">Lektion 14</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -530,7 +529,7 @@
 
         <div class="insgesamt15 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 15</p>
+                        <p class="Lektion_anzeige" id="Lektion15_Anzeigetext">Lektion 15</p>
 
             <section class="insgesamt_tabelle">
                 <div class="insgesamt_tabelle_inside">
@@ -551,7 +550,7 @@
 
         <div class="insgesamt16 hidden">
                         <br><br><br><br>
-                        <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 16</p>
+                        <p class="Lektion_anzeige" id="Lektion16_Anzeigetext">Lektion 16</p>
 
 
             <section class="insgesamt_tabelle">
@@ -574,7 +573,7 @@
 
         <div class="insgesamt17 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 17</p>
+            <p class="Lektion_anzeige" id="Lektion17_Anzeigetext">Lektion 17</p>
 
 
             <section class="insgesamt_tabelle">
@@ -602,7 +601,7 @@
 
         <div class="insgesamt18 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 18</p>
+            <p class="Lektion_anzeige" id="Lektion18_Anzeigetext">Lektion 18</p>
 
 
             <section class="insgesamt_tabelle">
@@ -631,7 +630,7 @@
 
         <div class="insgesamt19 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 19</p>
+            <p class="Lektion_anzeige" id="Lektion19_Anzeigetext">Lektion 19</p>
 
 
             <section class="insgesamt_tabelle">
@@ -658,7 +657,7 @@
 
         <div class="insgesamt20 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 20</p>
+            <p class="Lektion_anzeige" id="Lektion20_Anzeigetext">Lektion 20</p>
 
 
             <section class="insgesamt_tabelle">
@@ -685,7 +684,7 @@
         
         <div class="insgesamt21 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 21</p>
+            <p class="Lektion_anzeige" id="Lektion21_Anzeigetext">Lektion 21</p>
 
 
             <section class="insgesamt_tabelle">
@@ -711,7 +710,7 @@
         
         <div class="insgesamt22 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 22</p>
+            <p class="Lektion_anzeige" id="Lektion22_Anzeigetext">Lektion 22</p>
 
 
             <section class="insgesamt_tabelle">
@@ -737,7 +736,7 @@
 
         <div class="insgesamt23 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 23</p>
+            <p class="Lektion_anzeige" id="Lektion23_Anzeigetext">Lektion 23</p>
 
 
             <section class="insgesamt_tabelle">
@@ -764,7 +763,7 @@
 
         <div class="insgesamt24 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 24</p>
+            <p class="Lektion_anzeige" id="Lektion24_Anzeigetext">Lektion 24</p>
 
 
             <section class="insgesamt_tabelle">
@@ -791,7 +790,7 @@
 
         <div class="insgesamt25 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 25</p>
+            <p class="Lektion_anzeige" id="Lektion25_Anzeigetext">Lektion 25</p>
 
 
             <section class="insgesamt_tabelle">
@@ -819,7 +818,7 @@
 
         <div class="insgesamt26 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 26</p>
+            <p class="Lektion_anzeige" id="Lektion26_Anzeigetext">Lektion 26</p>
 
 
             <section class="insgesamt_tabelle">
@@ -852,7 +851,7 @@
 
         <div class="insgesamt27 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 27</p>
+            <p class="Lektion_anzeige" id="Lektion27_Anzeigetext">Lektion 27</p>
 
 
             <section class="insgesamt_tabelle">
@@ -880,7 +879,7 @@
                 
         <div class="insgesamt28 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 28</p>
+            <p class="Lektion_anzeige" id="Lektion28_Anzeigetext">Lektion 28</p>
 
 
             <section class="insgesamt_tabelle">
@@ -911,7 +910,7 @@
                 
         <div class="insgesamt29 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 29</p>
+            <p class="Lektion_anzeige" id="Lektion29_Anzeigetext">Lektion 29</p>
 
 
             <section class="insgesamt_tabelle">
@@ -939,7 +938,7 @@
                 
         <div class="insgesamt30 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 30</p>
+            <p class="Lektion_anzeige" id="Lektion30_Anzeigetext">Lektion 30</p>
 
 
             <section class="insgesamt_tabelle">
@@ -966,7 +965,7 @@
                 
         <div class="insgesamt31 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 31</p>
+            <p class="Lektion_anzeige" id="Lektion31_Anzeigetext">Lektion 31</p>
 
 
             <section class="insgesamt_tabelle">
@@ -992,7 +991,7 @@
                 
         <div class="insgesamt32 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 32</p>
+            <p class="Lektion_anzeige" id="Lektion32_Anzeigetext">Lektion 32</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1018,7 +1017,7 @@
                 
         <div class="insgesamt33 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 33</p>
+            <p class="Lektion_anzeige" id="Lektion33_Anzeigetext">Lektion 33</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1044,7 +1043,7 @@
                 
         <div class="insgesamt34 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 34</p>
+            <p class="Lektion_anzeige" id="Lektion34_Anzeigetext">Lektion 34</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1069,7 +1068,7 @@
         </div>
         <div class="insgesamt35 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 35</p>
+            <p class="Lektion_anzeige" id="Lektion35_Anzeigetext">Lektion 35</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1096,7 +1095,7 @@
         
         <div class="insgesamt36 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 36</p>
+            <p class="Lektion_anzeige" id="Lektion36_Anzeigetext">Lektion 36</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1120,7 +1119,7 @@
 
         <div class="insgesamt37 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 37</p>
+            <p class="Lektion_anzeige" id="Lektion37_Anzeigetext">Lektion 37</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1144,7 +1143,7 @@
 
         <div class="insgesamt38 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 38</p>
+            <p class="Lektion_anzeige" id="Lektion38_Anzeigetext">Lektion 38</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1167,7 +1166,7 @@
 
         <div class="insgesamt39 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 39</p>
+            <p class="Lektion_anzeige" id="Lektion39_Anzeigetext">Lektion 39</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1190,7 +1189,7 @@
 
         <div class="insgesamt40 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 40</p>
+            <p class="Lektion_anzeige" id="Lektion40_Anzeigetext">Lektion 40</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1215,7 +1214,7 @@
 
         <div class="insgesamt41 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 41</p>
+            <p class="Lektion_anzeige" id="Lektion41_Anzeigetext">Lektion 41</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1239,7 +1238,7 @@
 
         <div class="insgesamt42 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 42</p>
+            <p class="Lektion_anzeige" id="Lektion42_Anzeigetext">Lektion 42</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1263,7 +1262,7 @@
 
         <div class="insgesamt43 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 43</p>
+            <p class="Lektion_anzeige" id="Lektion43_Anzeigetext">Lektion 43</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1287,7 +1286,7 @@
 
         <div class="insgesamt44 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 44</p>
+            <p class="Lektion_anzeige" id="Lektion44_Anzeigetext">Lektion 44</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1311,7 +1310,7 @@
 
         <div class="insgesamt45 hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lektion 45</p>
+            <p class="Lektion_anzeige" id="Lektion45_Anzeigetext">Lektion 45</p>
 
 
             <section class="insgesamt_tabelle">
@@ -1372,7 +1371,7 @@
         
         <div class="insgesamtbellum_gallicum hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Bellum Gallicum</p>
+            <p class="Lektion_anzeige" id="bellum_gallicum_Anzeigetext">Bellum Gallicum</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1396,7 +1395,7 @@
         
         <div class="insgesamts_6_prometheus hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">S. 6 Prometheus</p>
+            <p class="Lektion_anzeige" id="s_6_prometheus_Anzeigetext">S. 6 Prometheus</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1416,7 +1415,7 @@
         
         <div class="insgesamts_8_tantalus hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">S. 8 Tantalus</p>
+            <p class="Lektion_anzeige" id="s_8_tantalus_Anzeigetext">S. 8 Tantalus</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1438,7 +1437,7 @@
 
         <div class="insgesamts_28_odysseus hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">S. 28 odysseus</p>
+            <p class="Lektion_anzeige" id="s_28_odysseus_Anzeigetext">S. 28 odysseus</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1460,7 +1459,7 @@
 
         <div class="insgesamtLupus_et_agnus hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">Lupus et agnus</p>
+            <p class="Lektion_anzeige" id="Lupus_et_agnus_Anzeigetext">Lupus et agnus</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1481,7 +1480,7 @@
 
         <div class="insgesamtde_officiis hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="Lektion_anzeige">De officiis</p>
+            <p class="Lektion_anzeige" id="de_officiis_Anzeigetext">De officiis</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1567,12 +1566,12 @@
                 
                 <div class="checkbox vokabeltest_checkbox">
                     <input onclick="lernen_auswählen_vokabeltest_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
-                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest 1</label>
+                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Fahrschule Theorie</label>
               </div>
                 
                 <div class="checkbox vokabeltest_2_checkbox">
                     <input onclick="lernen_auswählen_vokabeltest_2_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="vokabeltest_2_Lektion" type="checkbox" id="lernen_vokabeltest_2_Lektion">
-                  <label class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">Vokabeltest - Free choice?</label>
+                  <label class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">Vokabeltest 2</label>
               </div>
                 
 

@@ -1,5 +1,5 @@
-vokabeltest_lektion_anzeigen = false
-vokabeltest_2_lektion_anzeigen = true 
+vokabeltest_lektion_anzeigen = true
+vokabeltest_2_lektion_anzeigen = false 
 
 
 
@@ -67,6 +67,8 @@ auswahl_vokabeltest_2 = document.getElementsByClassName('auswahl_vokabeltest_2')
 vokabeltest_checkbox = document.getElementsByClassName('vokabeltest_checkbox')
 vokabeltest_2_checkbox = document.getElementsByClassName('vokabeltest_2_checkbox')
 
+
+
 insgesamtVokabeltest_Lektion[0].classList.add('hidden');
 insgesamtvokabeltest_2_Lektion[0].classList.add('hidden');
 //lernen_auswählen_vokabeltest[0].classList.add('hidden');
@@ -91,6 +93,8 @@ if(vokabeltest_lektion_anzeigen == true) {
 buildTableVokabeltest_Lektion(Vokabeltest_Lektion)
 
 function buildTableVokabeltest_Lektion(data) {
+	document.getElementById('Vokabeltest_Anzeigetext').innerHTML = Vokabeltest_Anzeigetext
+
 	var tableVokabeltest_Lektion = document.getElementById('tableVokabeltest_Lektion')
 
 	for (var i = 0; i < data.length; i++) {
@@ -98,7 +102,6 @@ function buildTableVokabeltest_Lektion(data) {
 		var row = `<tr class="row">
 							<td class="first">${data[i].first}</td>
 							<td class="second">${data[i].second}</td>
-							<td>${data[i].third}</td>
 						</tr>`
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
@@ -122,6 +125,7 @@ if(vokabeltest_2_lektion_anzeigen == true) {
 buildTablevokabeltest_2_Lektion(vokabeltest_2_Lektion)
 
 function buildTablevokabeltest_2_Lektion(data) {
+	document.getElementById('Vokabeltest2_Anzeigetext').innerHTML = Vokabeltest2_Anzeigetext
 	var tablevokabeltest_2_Lektion = document.getElementById('tablevokabeltest_2_Lektion')
 
 	for (var i = 0; i < data.length; i++) {
@@ -162,6 +166,7 @@ function buildTableVokabeln_aus_keiner_Lektion(data) {
 buildTablebellum_gallicum(bellum_gallicum)
 
 function buildTablebellum_gallicum(data) {
+	document.getElementById('bellum_gallicum_Anzeigetext').innerHTML = bellum_gallicum_Anzeigetext
 	var tablebellum_gallicum = document.getElementById('tablebellum_gallicum')
 
 	for (var i = 0; i < data.length; i++) {
@@ -179,6 +184,7 @@ function buildTablebellum_gallicum(data) {
 buildTables_6_prometheus(s_6_prometheus)
 
 function buildTables_6_prometheus(data) {
+	document.getElementById('s_6_prometheus_Anzeigetext').innerHTML = s_6_prometheus_Anzeigetext
 	var tables_6_prometheus = document.getElementById('tables_6_prometheus')
 
 	for (var i = 0; i < data.length; i++) {
@@ -196,6 +202,7 @@ function buildTables_6_prometheus(data) {
 buildTables_8_tantalus(s_8_tantalus)
 
 function buildTables_8_tantalus(data) {
+	document.getElementById('s_8_tantalus_Anzeigetext').innerHTML = s_8_tantalus_Anzeigetext
 	var tables_8_tantalus = document.getElementById('tables_8_tantalus')
 
 	for (var i = 0; i < data.length; i++) {
@@ -213,6 +220,7 @@ function buildTables_8_tantalus(data) {
 buildTables_28_odysseus(s_28_odysseus)
 
 function buildTables_28_odysseus(data) {
+	document.getElementById('s_28_odysseus_Anzeigetext').innerHTML = s_28_odysseus_Anzeigetext
 	var tables_28_odysseus = document.getElementById('tables_28_odysseus')
 
 	for (var i = 0; i < data.length; i++) {
@@ -230,6 +238,7 @@ function buildTables_28_odysseus(data) {
 buildTableLupus_et_agnus(Lupus_et_agnus)
 
 function buildTableLupus_et_agnus(data) {
+	document.getElementById('Lupus_et_agnus_Anzeigetext').innerHTML = Lupus_et_agnus_Anzeigetext
 	var tableLupus_et_agnus = document.getElementById('tableLupus_et_agnus')
 
 	for (var i = 0; i < data.length; i++) {
@@ -247,6 +256,7 @@ function buildTableLupus_et_agnus(data) {
 buildTablede_officiis(de_officiis)
 
 function buildTablede_officiis(data) {
+	document.getElementById('de_officiis_Anzeigetext').innerHTML = de_officiis_Anzeigetext
 	var tablede_officiis = document.getElementById('tablede_officiis')
 
 	for (var i = 0; i < data.length; i++) {
@@ -718,6 +728,10 @@ function all() {
 	selected_Vokabeln_aus_keiner_Lektion[0].classList.remove('hidden');
 	selected_bellum_gallicum[0].classList.remove('hidden');
 	selected_s_6_prometheus[0].classList.remove('hidden');
+	selected_s_8_tantalus[0].classList.remove('hidden');
+	selected_s_28_odysseus[0].classList.remove('hidden');
+	selected_Lupus_et_agnus[0].classList.remove('hidden');
+	selected_de_officiis[0].classList.remove('hidden');
 
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
@@ -1697,12 +1711,12 @@ document.getElementById('lernen_viva_lektion_select_45').innerHTML = "Lektion 45
 
 
 
-document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML = "Bellum Gallicum - " + bellum_gallicum.length + " W";
-document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML = "S. 6 Prometheus - " + s_6_prometheus.length + " W";
-document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = "S. 8 Tantalus - " + s_8_tantalus.length + " W";
-document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML = "S. 28 Odysseus - " + s_28_odysseus.length + " W";
-document.getElementById('lernen_originaltexte_select_Lupus_et_agnus').innerHTML = "Lupus et agnus - " + Lupus_et_agnus.length + " W";
-document.getElementById('lernen_originaltexte_select_de_officiis').innerHTML = "De officiis - " + de_officiis.length + " W";
+document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML = bellum_gallicum_Anzeigetext + " - " + bellum_gallicum.length + " W";
+document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML = s_6_prometheus_Anzeigetext + " - " + s_6_prometheus.length + " W";
+document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = s_8_tantalus_Anzeigetext + " - " + s_8_tantalus.length + " W";
+document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML = s_28_odysseus_Anzeigetext + " - " + s_28_odysseus.length + " W";
+document.getElementById('lernen_originaltexte_select_Lupus_et_agnus').innerHTML = Lupus_et_agnus_Anzeigetext + " - " + Lupus_et_agnus.length + " W";
+document.getElementById('lernen_originaltexte_select_de_officiis').innerHTML = de_officiis_Anzeigetext + " - " + de_officiis.length + " W";
 
 
 
@@ -2252,7 +2266,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
 		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest 1"
+		lernen_lektion_anzeige = Vokabeltest_Anzeigetext
 		länge_lek = "Gesamt: " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
 	}
@@ -2261,7 +2275,7 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "vokabeltest_2_Lektion") {
 		random_item = vokabeltest_2_Lektion[Math.floor(Math.random() * vokabeltest_2_Lektion.length)];
-		lernen_lektion_anzeige = "Vokabeltest - Free choice?"
+		lernen_lektion_anzeige = Vokabeltest2_Anzeigetext
 		länge_lek = "Gesamt: " + vokabeltest_2_Lektion.length + " Wörter"
 		länge_lek_number = vokabeltest_2_Lektion.length
 	}
@@ -2270,42 +2284,42 @@ function neue_vok_standard() {
 
 	if (ausgewählt_lektion == "bellum_gallicum") {
 		random_item = bellum_gallicum[Math.floor(Math.random() * bellum_gallicum.length)];
-		lernen_lektion_anzeige = "Bellum Gallicum"
+		lernen_lektion_anzeige = bellum_gallicum_Anzeigetext
 		länge_lek = "Gesamt: " + bellum_gallicum.length + " Wörter"
 		länge_lek_number = bellum_gallicum.length
 	}
 
 	if (ausgewählt_lektion == "s_6_prometheus") {
 		random_item = s_6_prometheus[Math.floor(Math.random() * s_6_prometheus.length)];
-		lernen_lektion_anzeige = "S. 6 Prometheus"
+		lernen_lektion_anzeige = s_6_prometheus_Anzeigetext
 		länge_lek = "Gesamt: " + s_6_prometheus.length + " Wörter"
 		länge_lek_number = s_6_prometheus.length
 	}
 
 	if (ausgewählt_lektion == "s_8_tantalus") {
 		random_item = s_8_tantalus[Math.floor(Math.random() * s_8_tantalus.length)];
-		lernen_lektion_anzeige = "S. 8 Tantalus"
+		lernen_lektion_anzeige = s_8_tantalus_Anzeigetext
 		länge_lek = "Gesamt: " + s_8_tantalus.length + " Wörter"
 		länge_lek_number = s_8_tantalus.length
 	}
 
 	if (ausgewählt_lektion == "s_28_odysseus") {
 		random_item = s_28_odysseus[Math.floor(Math.random() * s_28_odysseus.length)];
-		lernen_lektion_anzeige = "S. 28 Odysseus"
+		lernen_lektion_anzeige = s_28_odysseus_Anzeigetext
 		länge_lek = "Gesamt: " + s_28_odysseus.length + " Wörter"
 		länge_lek_number = s_28_odysseus.length
 	}
 
 	if (ausgewählt_lektion == "Lupus_et_agnus") {
 		random_item = Lupus_et_agnus[Math.floor(Math.random() * Lupus_et_agnus.length)];
-		lernen_lektion_anzeige = "Lupus et agnus"
+		lernen_lektion_anzeige = Lupus_et_agnus_Anzeigetext
 		länge_lek = "Gesamt: " + Lupus_et_agnus.length + " Wörter"
 		länge_lek_number = Lupus_et_agnus.length
 	}
 
 	if (ausgewählt_lektion == "de_officiis") {
 		random_item = de_officiis[Math.floor(Math.random() * de_officiis.length)];
-		lernen_lektion_anzeige = "De officiis"
+		lernen_lektion_anzeige = de_officiis_Anzeigetext
 		länge_lek = "Gesamt: " + de_officiis.length + " Wörter"
 		länge_lek_number = de_officiis.length
 	}
@@ -2519,7 +2533,7 @@ if (aktuell_ausgewählt === "viva") {
 
 
 function lernen_auswählen_vokabeltest_2_selected() {
-	console.log("Vokabeltest - Free choice?")
+	console.log("Vokabeltest 2")
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden_trotzdem_platz');
