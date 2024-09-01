@@ -1,7 +1,7 @@
 Vokabeltest_Anzeigetext = "Fahrschule Theorie"
 var Vokabeltest_Lektion = [
 
-    {'first':'Wie viele Meter vor einem Zebrastreifen darf man nicht parken?',
+        {'first':'Wie viele Meter vor einem Zebrastreifen darf man nicht parken?',
         'second':'5m davor (nicht zusätzlich auch dahinter)',
         'third':''},
    
@@ -25,12 +25,12 @@ var Vokabeltest_Lektion = [
         'second':'15m',
         'third':''},
    
-       {'first':'Wie viel Abstand muss zwischen Fahrzeug und durchgezogener Linie sein?',
+       {'first':'Wie viel Abstand muss beim Parken am Fahrbahnrand zwischen Fahrzeug und durchgezogener Linie sein?',
         'second':'Mehr als 3m',
         'third':''},
    
        {'first':'Darf man auf Schutzstreifen für Fahrräder halten oder parken?',
-        'second':'Nein, es darf nur gefahren werden',
+        'second':'Nein, es darf darauf nur gefahren werden',
         'third':''},
    
        {'first':'Wie lange dürfen Anhänger ohne Zugfahrzeug auf öffentlichen Straßen geparkt werden?',
@@ -110,7 +110,7 @@ var Vokabeltest_Lektion = [
         'third':''},
    
        {'first':'Wie lange bleiben Ordnungswidrigkeiten, die mit 2 Punkten bewertet wurden, bestehen?',
-        'second':'Mindestens 5 Jahre',
+        'second':'Mind. 5 Jahre',
         'third':''},
    
        {'first':'Wie oft muss ein Fahrzeug zum TÜV?',
@@ -215,174 +215,176 @@ var Vokabeltest_Lektion = [
 
 
 
-        {'first': 'Reifenaufschrift', 
-            'second': 'Kalenderwoche + Jahr (z.B. 1217 = 12. KW. 2017)',
-            'third': ''},
-       
-           {'first': 'Was tun, wenn die Haftpflichtversicherung des Fahrzeugs erloschen ist?', 
-            'second': 'Bei der Zulassungsstelle abmelden und im Straßenverkehr nicht mehr benutzen; Es muss **nicht bei der Zulassungsstelle vorgeführt werden**',
-            'third': ''},
-       
-           {'first': 'Was muss bei der Zulassungsbehörde gemeldet werden?', 
-            'second': 'Änderung des Wohnsitzes oder des Namens; **Nicht=** Änderung der Haftpflichtversicherung',
-            'third': ''},
-       
-           {'first': 'Welche Fahrzeuge benötigen eine Feinstaub-Plakette?', 
-            'second': 'Alle Autos, auch E-Autos; Motorräder (Krafträder) brauchen keine',
-            'third': ''},
-       
-           {'first': 'Wann darf man telefonieren?', 
-            'second': 'Nur wenn das Telefon nicht gehalten wird und nur einen kurzen Blick erfordert',
-            'third': ''},
-       
-           {'first': 'Wer hat Vorfahrt, wenn man vom Bürgersteig runterfährt oder aus einem verkehrsberuhigten Bereich kommt?', 
-            'second': 'Man hat **nie** Vorfahrt, auch wenn „Rechts vor Links“ gilt',
-            'third': ''},
-       
-           {'first': 'Muss man Taxis das Abfahren von gekennzeichneten Haltestellen ermöglichen?', 
-            'second': 'Nein, das gilt nur für Schul- und Linienbusse',
-            'third': ''},
-       
-           {'first': 'Was gilt bei Fahrbahnverengungen?', 
-            'second': 'Reißverschlussverfahren + “Dem Gegenverkehr Vorrang einräumen”',
-            'third': ''},
 
-       
-           {'first': 'Wann sollte man die Radmuttern lösen?', 
-            'second': 'Bevor man das Fahrzeug anhebt',
-            'third': ''},
-       
-           {'first': 'Wann muss man auf den nachfolgenden Verkehr achten?', 
-            'second': 'Nur vor dem Einordnen und Abbiegen; **Nicht=** Nach dem Abbiegen',
-            'third': ''},
-       
-           {'first': 'Wozu dient das Motoröl?', 
-            'second': 'Zur Kühlung, Reinigung und zum Verschleißschutz',
-            'third': ''},
-       
-           {'first': 'Welche Farbe hat die LED für das Fernlicht?', 
-            'second': 'Blau',
-            'third': ''},
-       
-           {'first': 'Wie kann man schnelleren Fahrzeugen das Überholen auf einer Landstraße ermöglichen?', 
-            'second': 'Indem man in eine Haltebucht, auf den Seitenstreifen oder den Parkstreifen ausweicht; Gilt für langsame Fahrzeuge (u. A. Mofa)',
-            'third': ''},
-       
-           {'first': 'Was verursacht keine Umweltbelastung beim Fahren bergab?', 
-            'second': 'Fahren in einem hohen Gang',
-            'third': ''},
-       
-           {'first': 'Wie fährt man umweltschonend?', 
-            'second': 'So früh wie möglich hochschalten und so spät wie möglich zurückschalten',
-            'third': ''},
-       
-           {'first': 'Was steht über Verkehrszeichen?', 
-            'second': 'Ampeln (heben Verkehrszeichen auf)',
-            'third': ''},
-       
-           {'first': 'Woran erkennt man einen defekten Blinker?', 
-            'second': 'Die Kontrollleuchte blinkt schneller als üblich',
-            'third': ''},
-       
-           {'first': 'Muss man blinken, wenn eine Abbiegerichtung vorgeschrieben ist?', 
-            'second': 'Ja, auch dann muss geblinkt werden',
-            'third': ''},
-       
-           {'first': 'Was macht der Fernlichtassistent?', 
-            'second': 'Wird nicht durch entgegenkommende Fahrzeuge geblendet',
-            'third': ''},
-       
-           {'first': 'Was bewirkt ABS?', 
-            'second': 'Auch bei glatter Fahrbahn wird das Fahrzeug **bestmöglich** gebremst',
-            'third': ''},
-       
-           {'first': 'Was tun bei innen beschlagener Scheibe?', 
-            'second': 'Lüftung ausschalten',
-            'third': ''},
-       
-           {'first': 'Was bedeutet CNG an der Tankstelle?', 
-            'second': 'Erdgas',
-            'third': ''},
-       
-           {'first': 'Rundes, rot umrahmtes Schild mit einem Mofa drinnen', 
-            'second': 'Hier darf mit Mofas nicht gefahren werden',
-            'third': ''},
-       
-           {'first': 'Wann blinken und bremsen beim Verlassen der Autobahn?', 
-            'second': 'Blinken ab der 300 m-Bake; Bremsen erst im Ausfädelungsstreifen',
-            'third': ''},
-       
-           {'first': 'Was dürfen Kinder und Fußgänger im verkehrsberuhigten Bereich?', 
-            'second': 'Sie dürfen die gesamte Straße benutzen',
-            'third': ''},
-       
-           {'first': 'Was belastet die Hinterradbremse **nicht**?', 
-            'second': 'Scharfes Anfahren',
-            'third': ''},
-       
-           {'first': 'Was tun, wenn das Lenkverhalten schwerer als üblich ist?', 
-            'second': '**Umgehend** in die Werkstatt fahren',
-            'third': ''},
-       
-           {'first': 'Kleines, blaues, rechteckiges Schild mit weißer Zahl drinnen', 
-            'second': '=Nummer einer Autobahn',
-            'third': ''},
-            
-           {'first': 'Was hebt das “Unbegrenzt”-Schild auf?', 
-            'second': 'Geschwindigkeitsbeschränkungen und Überholverbote; **Nicht=** Parkverbote',
-            'third': ''},
-       
-           {'first': 'Wie kann man Kraftstoff sparen?', 
-            'second': '**Nicht=** “Nicht im höchsten Gang fahren”',
-            'third': ''},
-       
-           {'first': 'Womit sichert man Ladung und Fahrzeuge?', 
-            'second': 'Ladung= Zurrgurte, Sicherungsnetze; Fahrzeuge= Unterlegkeile',
-            'third': ''},
-       
-           {'first': 'Wie darf man Straßenbahnen, die in der Mitte der Fahrbahn fahren, überholen?', 
-            'second': 'Rechts überholen; Links nur in Einbahnstraßen oder wo die Schienen zu weit rechts liegen',
-            'third': ''},
-       
-           {'first': 'Was bedeutet eine schneller blinkende Kontrollleuchte des Blinkers?', 
-            'second': 'Leuchtmittel defekt; **Nicht=** Warnblinklicht',
-            'third': ''},
-       
-           {'first': 'Rundes, rot umrandetes Schild mit einem Auto drinnen', 
-            'second': '=Verbot für mehrspurige Kfz (Pkw + Lkw)',
-            'third': ''},
-       
-           {'first': 'Was passiert, wenn man mit Frontantrieb in der Kurve zu stark beschleunigt?', 
-            'second': 'Das Fahrzeug kann über die Vorderachse ausbrechen',
-            'third': ''},
-       
-           {'first': 'Was hat der Bremskraftverstärker **nicht**?', 
-            'second': 'Er hat nichts mit der Kupplung zu tun',
-            'third': ''},
-       
-           {'first': 'Was sollte überprüft werden, wenn die Reifen ungleichmäßig abgenutzt sind?', 
-            'second': 'Reifendruck, Fahrwerkseinstellung, **Stoßdämpfer**',
-            'third': ''},
-       
-           {'first': 'Was gilt in Umweltzonen für Krafträder?', 
-            'second': 'Sie dürfen auch einfahren',
-            'third': ''},
-       
-           {'first': 'Was verursacht durch einen Dachgepäckträger **nicht**?', 
-            'second': 'Lärm',
-            'third': ''},
-       
-           {'first': 'Was bedeutet die Zentralverriegelung?', 
-            'second': 'Das Auto ist **nur** von außen nicht zu öffnen',
-            'third': ''},
-       
-           {'first': 'Was bedeutet ein absolutes Halteverbot mit Pfeil nach links?', 
-            'second': 'Beginnend',
-            'third': ''},
-       
-           {'first': 'Was bedeutet ein absolutes Halteverbot mit Pfeil nach rechts?', 
-            'second': 'Endend',
-            'third': ''}
+
+
+        {'first': 'Reifenaufschrift', 
+        'second': 'Kalenderwoche + Jahr (z.B. 1217 = 12. KW. 2017)',
+        'third': ''},
+    
+       {'first': 'Was tun, wenn die Haftpflichtversicherung des Fahrzeugs erloschen ist?', 
+        'second': 'Bei der Zulassungsstelle abmelden und im Straßenverkehr nicht mehr benutzen; Es muss **nicht bei der Zulassungsstelle vorgeführt werden**',
+        'third': ''},
+    
+       {'first': 'Was muss bei der Zulassungsbehörde gemeldet werden?', 
+        'second': 'Änderung des Wohnsitzes oder des Namens; **Nicht=** Änderung der Haftpflichtversicherung',
+        'third': ''},
+    
+       {'first': 'Welche Fahrzeuge benötigen eine Feinstaub-Plakette?', 
+        'second': 'Alle Autos, auch E-Autos; Motorräder (Krafträder) brauchen keine',
+        'third': ''},
+    
+       {'first': 'Wann darf man telefonieren?', 
+        'second': 'Nur wenn das Telefon nicht gehalten wird und nur einen kurzen Blick erfordert',
+        'third': ''},
+    
+       {'first': 'Wer hat Vorfahrt, wenn man vom Bürgersteig runterfährt oder aus einem verkehrsberuhigten Bereich kommt?', 
+        'second': 'Man hat **nie** Vorfahrt, auch wenn „Rechts vor Links“ gilt',
+        'third': ''},
+    
+       {'first': 'Muss man Taxis das Abfahren von gekennzeichneten Haltestellen ermöglichen?', 
+        'second': 'Nein, das gilt nur für Schul- und Linienbusse',
+        'third': ''},
+    
+       {'first': 'Was gilt bei Fahrbahnverengungen?', 
+        'second': 'Reißverschlussverfahren + “Dem Gegenverkehr Vorrang einräumen”',
+        'third': ''},
+    
+       {'first': 'Wann sollte man die Radmuttern lösen?', 
+        'second': 'Bevor man das Fahrzeug anhebt',
+        'third': ''},
+    
+       {'first': 'Wann muss man auf den nachfolgenden Verkehr achten?', 
+        'second': 'Nur vor dem Einordnen und Abbiegen; **Nicht=** Nach dem Abbiegen',
+        'third': ''},
+    
+       {'first': 'Wozu dient das Motoröl?', 
+        'second': 'Zur Kühlung, Reinigung und zum Verschleißschutz',
+        'third': ''},
+    
+       {'first': 'Welche Farbe hat die LED für das Fernlicht?', 
+        'second': 'Blau',
+        'third': ''},
+    
+       {'first': 'Wie kann man schnelleren Fahrzeugen das Überholen auf einer Landstraße ermöglichen?', 
+        'second': 'Indem man in eine Haltebucht, auf den Seitenstreifen oder den Parkstreifen ausweicht; Gilt für langsame Fahrzeuge (u. A. Mofa)',
+        'third': ''},
+    
+       {'first': 'Was verursacht keine Umweltbelastung beim Fahren bergab?', 
+        'second': 'Fahren in einem hohen Gang',
+        'third': ''},
+    
+       {'first': 'Wie fährt man umweltschonend?', 
+        'second': 'So früh wie möglich hochschalten und so spät wie möglich zurückschalten',
+        'third': ''},
+    
+       {'first': 'Was steht über Verkehrszeichen?', 
+        'second': 'Ampeln (heben Verkehrszeichen auf)',
+        'third': ''},
+    
+       {'first': 'Woran erkennt man einen defekten Blinker?', 
+        'second': 'Die Kontrollleuchte blinkt schneller als üblich',
+        'third': ''},
+    
+       {'first': 'Muss man blinken, wenn eine Abbiegerichtung vorgeschrieben ist?', 
+        'second': 'Ja, auch dann muss geblinkt werden',
+        'third': ''},
+    
+       {'first': 'Was macht der Fernlichtassistent?', 
+        'second': 'Wird nicht durch entgegenkommende Fahrzeuge geblendet',
+        'third': ''},
+    
+       {'first': 'Was bewirkt ABS?', 
+        'second': 'Auch bei glatter Fahrbahn wird das Fahrzeug **bestmöglich** gebremst',
+        'third': ''},
+    
+       {'first': 'Was tun bei innen beschlagener Scheibe?', 
+        'second': 'Lüftung ausschalten',
+        'third': ''},
+    
+       {'first': 'Was bedeutet CNG an der Tankstelle?', 
+        'second': 'Erdgas',
+        'third': ''},
+    
+       {'first': 'Rundes, rot umrahmtes Schild mit einem Mofa drinnen', 
+        'second': 'Hier darf mit Mofas nicht gefahren werden',
+        'third': ''},
+    
+       {'first': 'Wann blinken und bremsen beim Verlassen der Autobahn?', 
+        'second': 'Blinken ab der 300 m-Bake; Bremsen erst im Ausfädelungsstreifen',
+        'third': ''},
+    
+       {'first': 'Was dürfen Kinder und Fußgänger im verkehrsberuhigten Bereich?', 
+        'second': 'Sie dürfen die gesamte Straße benutzen',
+        'third': ''},
+    
+       {'first': 'Was belastet die Hinterradbremse **nicht**?', 
+        'second': 'Scharfes Anfahren',
+        'third': ''},
+    
+       {'first': 'Was tun, wenn das Lenkverhalten schwerer als üblich ist?', 
+        'second': '**Umgehend** in die Werkstatt fahren',
+        'third': ''},
+    
+       {'first': 'Kleines, blaues, rechteckiges Schild mit weißer Zahl drinnen', 
+        'second': '=Nummer einer Autobahn',
+        'third': ''},
+        
+       {'first': 'Was hebt das “Unbegrenzt”-Schild auf?', 
+        'second': 'Geschwindigkeitsbeschränkungen und Überholverbote; **Nicht=** Parkverbote',
+        'third': ''},
+    
+       {'first': 'Wie kann man Kraftstoff sparen?', 
+        'second': '**Nicht=** “Nicht im höchsten Gang fahren”',
+        'third': ''},
+    
+       {'first': 'Womit sichert man Ladung und Fahrzeuge?', 
+        'second': 'Ladung= Zurrgurte, Sicherungsnetze; Fahrzeuge= Unterlegkeile',
+        'third': ''},
+    
+       {'first': 'Wie darf man Straßenbahnen, die in der Mitte der Fahrbahn fahren, überholen?', 
+        'second': 'Rechts überholen; Links nur in Einbahnstraßen oder wo die Schienen zu weit rechts liegen',
+        'third': ''},
+    
+       {'first': 'Was bedeutet eine schneller blinkende Kontrollleuchte des Blinkers?', 
+        'second': 'Leuchtmittel defekt; **Nicht=** Warnblinklicht',
+        'third': ''},
+    
+       {'first': 'Rundes, rot umrandetes Schild mit einem Auto drinnen', 
+        'second': '=Verbot für mehrspurige Kfz (Pkw + Lkw)',
+        'third': ''},
+    
+       {'first': 'Was passiert, wenn man mit Frontantrieb in der Kurve zu stark beschleunigt?', 
+        'second': 'Das Fahrzeug kann über die Vorderachse ausbrechen',
+        'third': ''},
+    
+       {'first': 'Hat der Bremskraftverstärker etwas mit der Kupplung zutun?', 
+        'second': 'Nein',
+        'third': ''},
+    
+       {'first': 'Was sollte überprüft werden, wenn die Reifen ungleichmäßig abgenutzt sind?', 
+        'second': 'Reifendruck, Fahrwerkseinstellung, **Stoßdämpfer**',
+        'third': ''},
+    
+       {'first': 'Was gilt in Umweltzonen für Krafträder?', 
+        'second': 'Sie dürfen auch einfahren',
+        'third': ''},
+    
+       {'first': 'Was verursacht ein Dachgepäckträger **nicht**?', 
+        'second': 'Lärm',
+        'third': ''},
+    
+       {'first': 'Was bedeutet die Zentralverriegelung?', 
+        'second': 'Das Auto ist **nur** von außen nicht zu öffnen',
+        'third': ''},
+    
+       {'first': 'Was bedeutet ein absolutes Halteverbot mit Pfeil nach links?', 
+        'second': 'Beginnend',
+        'third': ''},
+    
+       {'first': 'Was bedeutet ein absolutes Halteverbot mit Pfeil nach rechts?', 
+        'second': 'Endend',
+        'third': ''}
 
 ]
 
@@ -394,97 +396,9 @@ var Vokabeltest_Lektion = [
 Vokabeltest2_Anzeigetext = "Vokabeltest 2"
 var vokabeltest_2_Lektion = [
 
-    {'first':'sich für etw. engagieren', 
-    'second':'to become involved in', 
-    'third':''},
-
-    {'first':'an etw. teilnehmen; <br> sich an etw. beteiligen', 
-    'second':'to participate in', 
-    'third':''},
-
-    {'first':'passiv sein / sich enthalten', 
-    'second':'to remain passive', 
-    'third':''},
-
-    {'first':'die Meinung ändern', 
-    'second':'to change sb`s mind', 
-    'third':''},
-
-    {'first':'sich gegen etw. entscheiden',
-    'second':'to decide against sth', 
-    'third':''},
-
-    {'first':'Verantwortung übernehmen', 
-    'second':'to take on responsibility', 
-    'third':''},
-
-    {'first':'sich freiwillig melden; <br> Freiwilligendienst leisten', 
-    'second':'to volunteer', 
-    'third':''},
-
-    {'first':'die eigene Identität entwickeln', 
-    'second':'to develop your identity', 
-    'third':''},
-
-    {'first':'den eigenen Horizont erweitern', 
-    'second':'to broaden your horizons', 
-    'third':''},
-
-    {'first':'jmdn. ermutigen etw. zu tun', 
-    'second':'to encourage sb to do sth', 
-    'third':''},
-
-    {'first':'sich auf jmdn. / etw. verlassen', 
-    'second':'to rely on sb / sth', 
-    'third':''},
-
-    {'first':'von jmdm. verlangen etw. zu tun', 
-    'second':'to demand sb to do sth', 
-    'third':''},
-
-    {'first':'Jugend', 
-    'second':'adolescence (no pl)', 
-    'third':''},
-
-    {'first':'jmdn. erziehen', 
-    'second':'to bring up sb', 
-    'third':''},
-
-    {'first':'jmdn. unterrichten', 
-    'second':'to educate sb', 
-    'third':''},
-
-    {'first':'erwachsen; reif', 
-    'second':'mature', 
-    'third':''},
-
-    {'first':'Selbstvertrauen', 
-    'second':'self-confidence', 
-    'third':''},
-
-    {'first':'etw. zugestehen / gewähren', 
-    'second':'to grant sth', 
-    'third':''},
-
-    {'first':'jmdm. vertrauen', 
-    'second':'to trust sb', 
-    'third':''},
-
-    {'first':'Minderheit', 
-    'second':'minority', 
-    'third':''},
-
-    {'first':'jmdn. diskriminieren / benachteiligen', 
-    'second':'to discriminate against sb', 
-    'third':''},
-
-    {'first':'gegen etw. verstoßen', 
-    'second':'to violate sth', 
-    'third':''},
-
-    {'first':'etw. ablehnen', 
-    'second':'to reject sth', 
-    'third':''},
+          {'first':'Wann und wo dürfen Anhänger (z. Gsm. > 2 t) innerorts geparkt werden?',
+        'second':'Sonn- und Feiertagen sowie von 22_00 - 06_00 in Gewerbegebieten und auf gekennzeichneten Plätzen in reinen Wohngebieten; Nicht in Sondergebieten',
+        'third':''},
 
 ]
 

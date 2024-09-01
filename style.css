@@ -542,7 +542,7 @@ position: relative;
   transform: translate(-50%, -50%);
   top: 25%;
   left: 50%;
-  font-size: calc(1.5rem + 0.8vw);
+  font-size: calc(1.2rem + 0.8vw);
 
   animation-name: lernen_lat;
   animation-duration: 0.3s;
@@ -558,8 +558,8 @@ position: relative;
   transform: translate(-50%, -50%);
   bottom: -460px;
   left: 50%;
-  font-size: calc(1.5rem + 0.8vw);
-  width: 1000px;
+  font-size: calc(1.2rem + 0.8vw);
+  width: 900px;
 
   animation-name: lernen_de_sonst;
   animation-duration: 0.3s;
@@ -659,6 +659,7 @@ position: relative;
   top: -40px;
   left: 50%;
   font-size: calc(1rem + 0.3vw);
+  white-space: nowrap;
 }
 
 .noch_länge_lek {
@@ -667,6 +668,7 @@ position: relative;
   top: -15px;
   left: 50%;
   font-size: calc(1rem + 0.3vw);
+  white-space: nowrap;
 }
 
 
@@ -677,6 +679,7 @@ position: relative;
   top: -28px;
   left: 20%;
   font-size: calc(1rem + 0.3vw);
+  white-space: nowrap;
 }
 
 
@@ -692,7 +695,7 @@ position: relative;
   transform: translate(-50%, -50%);
   bottom: -160px;
   left: 50%;
-  width: 800px;
+  width: 900px;
 
 }
 
@@ -708,7 +711,9 @@ position: relative;
   font-family: Maiandra GD;
   color: #fff;
   border-radius: 5px;
-  padding: 10px 25px;
+  padding: 0.7vw 1.5vw;
+  margin-left: 3vw;
+  
 
   background: transparent;
   cursor: pointer;
@@ -794,12 +799,12 @@ position: relative;
 
 /* button-aufdecken */
 .btn-aufdecken {
-  margin-right: 50px;
   font-family: Maiandra GD;
 
   color: rgb(77, 77, 77);
   border-radius: 5px;
-  padding: 10px 25px;
+  padding: 0.7vw 1.5vw;
+  margin-left: 3vw;
 
   background: transparent;
   cursor: pointer;
@@ -863,12 +868,11 @@ position: relative;
 
 /* button_nicht_gewusst */
 .btn-nicht_gewusst {
-  margin-right: 50px;
   font-family: Maiandra GD;
 
   color: rgb(255, 0, 1);
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.7vw;
 
   background: transparent;
   cursor: pointer;
@@ -881,7 +885,6 @@ position: relative;
 
 
   width: 26%;
-  max-height: 70px;
   font-size: calc(1rem + 0.7vw);
   white-space: nowrap;
 
@@ -923,6 +926,50 @@ position: relative;
   width: 100%;
   transition: 700ms ease all;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px)  {
+  
+  .btn-nicht_gewusst {
+    width: 18%;
+  }
+  
+  .btn-gewusst {
+    width: 18%;
+  }
+
+  .btn-aufdecken {
+    width: 18%;
+  }
+
+}
+
+
+@media (max-width: 540px)  {
+  
+  .btn-nicht_gewusst {
+    width: 15%;
+  }
+  
+  .btn-gewusst {
+    width: 15%;
+  }
+
+  .btn-aufdecken {
+    width: 15%;
+  }
+
+}
+
 
 
 
