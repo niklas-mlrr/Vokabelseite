@@ -450,6 +450,12 @@ var vokabeltest_2_Lektion = [
    {'first': 'Was bedeutet ein absolutes Halteverbot mit Pfeil nach rechts?', 
     'second': 'Endend',
     'third': ''}
+    
+    {'first': 'Auf welche Geschw. muss ein Fahrzeug zugelassen sein, um auf die Autobahn zu dürfen?',
+    'second': '> 60 km/h',
+    'third': ''}
+    
+    
 
 ]
 
