@@ -60,6 +60,16 @@ var Vokabeltest_Lektion = [
     {'first':'suo iure',
     'second':'mit vollem Recht',
     'third':''},
+    
+    
+    {'first':'aliquis',
+    'second':'irgendeiner',
+    'third':'aluquid'},
+    
+    
+    {'first':'ut',
+    'second':'1. damit <br> 2. dass <br> 3. wenn auch',
+    'third':''},
 
 
 ]
