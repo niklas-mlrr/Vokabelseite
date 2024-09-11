@@ -21,7 +21,7 @@ var Vokabeltest_Lektion = [
     'second':'hier: theoretische Kenntnis, Theorie, Lehre, Wissenschaft',
     'third':'-ionis f'},
 
-    {'first':'ars, artis f',
+    {'first':'ars',
     'second':'Kunst, Wissenschaft',
     'third':'artis f'},
 
