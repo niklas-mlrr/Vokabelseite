@@ -579,3 +579,88 @@ var de_officiis = [
      'third':'+ Abl.'},    
 
 ]
+
+
+
+
+
+
+
+
+
+oratio_pro_archia_Anzeigetext = "Oratio pro Archia"
+var oratio_pro_archia = [
+
+    {'first':'ingenium',
+    'second':'Talent, Begabung',
+    'third':'-ii n'},
+
+    {'first':'iudex',
+    'second':'Richter',
+    'third':'-icis m'},
+
+    {'first':'mediocris',
+    'second':'mittelmäßig, unbedeutend, gering',
+    'third':'-e'},
+
+    {'first':'versari',
+    'second':'sich mit etw. beschäftigen',
+    'third':'-or, versatus sum in (+ Abl.)'},
+
+    {'first':'ratio',
+    'second':'hier= theoretische Kenntnis, <br> Theorie, Lehre, Wissenschaft',
+    'third':'-ionis f'},
+
+    {'first':'ars',
+    'second':'Kunst, Wissenschaft',
+    'third':'artis f'},
+
+    {'first':'studium',
+    'second':'Beschäftigung mit etw.',
+    'third':'-in (+ Gen.)'},
+
+    {'first':'disciplina',
+    'second':'Unterweisung, Lehre',
+    'third':'-ae f'},
+
+    {'first':'proficisci',
+    'second':'von etw. ausgehen',
+    'third':'-or, profectus sum a (+ Abl.)'},
+
+    {'first':'aetas',
+    'second':'Leben, Lebensalter',
+    'third':'-tatis f'},
+
+    {'first':'vel',
+    'second':'sogar, wohl',
+    'third':''},
+
+    {'first':'fructus',
+    'second':'Ertrag, Gewinn',
+    'third':'-us m'},
+
+    {'first':'repetere',
+    'second':'zurückverlangen, wieder fordern',
+    'third':'-o, -ivi, -itum'},
+
+    {'first':'prope ',
+    'second':'beinahe, fast',
+    'third':'(Adv.)'},
+
+    {'first':'suo iure',
+    'second':'mit vollem Recht',
+    'third':''},
+    
+    
+    {'first':'aliquis',
+    'second':'irgendeiner',
+    'third':'aluquid'},
+    
+    
+    {'first':'ut',
+    'second':'1. damit <br> 2. dass <br> 3. wenn auch',
+    'third':''},
+
+
+
+]
