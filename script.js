@@ -97,6 +97,7 @@ function buildTableVokabeltest_Lektion(data) {
 		var row = `<tr class="row">
 							<td class="first">${data[i].first}</td>
 							<td class="second">${data[i].second}</td>
+							<td>${data[i].third}</td>
 						</tr>`
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
@@ -128,6 +129,7 @@ function buildTablevokabeltest_2_Lektion(data) {
 		var row = `<tr class="row">
 							<td class="first">${data[i].first}</td>		
 							<td class="second">${data[i].second}</td>
+							<td>${data[i].third}</td>
 						</tr>`
 						//<td>${data[i].third}</td>
 						// Muss eine Zeile nach oben (über </tr>), damit es wieder normal funktioniert
