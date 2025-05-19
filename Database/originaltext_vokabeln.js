@@ -664,3 +664,92 @@ var oratio_pro_archia = [
 
 
 ]
+
+
+
+
+ovid_test_eins_Anzeigetext = "Ovid Test Eins"
+var ovid_test_eins = [
+
+    {'first':'ventus', 
+    'second':'Wind', 
+    'third':'i m.'},
+
+    {'first':'mundus', 
+    'second':'Welt ', 
+    'third':'i m.'},
+
+    {'first':'radius', 
+    'second':'Strahl', 
+    'third':'i m.'},
+
+    {'first':'vesper', 
+    'second':'Abend', 
+    'third':'i m.'},
+
+    {'first':'frater', 
+    'second':'Bruder', 
+    'third':'is m.'},
+
+    {'first':'sol', 
+    'second':'die Sonne', 
+    'third':'is m.'},
+
+    {'first':'fabricator', 
+    'second':'Hersteller, Schöpfer', 
+    'third':'oris m.'},
+
+    {'first':'tractus', 
+    'second':'das Ziehen, der Zug', 
+    'third':'us m.'},
+
+    {'first':'fulmen', 
+    'second':'Blitz(schlag)', 
+    'third':'inis n.'},
+
+    {'first':'flamen', 
+    'second':'das Blasen, das Wehen', 
+    'third':'inis n.'},
+
+    {'first':'regnum', 
+    'second':'das Reich', 
+    'third':'i n.'},
+
+    {'first':'discordia', 
+    'second':'Zwietracht', 
+    'third':'ae f.'},
+
+    {'first':'humanus', 
+    'second':'menschlich', 
+    'third':'a, um'},
+    
+    {'first':'diversus', 
+    'second':'verschieden', 
+    'third':'a, um'},
+
+    {'first':'permittere', 
+    'second':'erlauben', 
+    'third':'-mitto, -misi, -missum'},
+
+    {'first':'tepescere', 
+    'second':'erwärmen', 
+    'third':'-pesco, -pui, ---'},
+
+    {'first':'recedere', 
+    'second':'entweichen, sich zurückziehen', 
+    'third':'-cedo, -cessi, -cessum'},
+
+    {'first':'laniare (auf der <br> Vok.-Liste steht lanire)', 
+    'second':'zerreißen', 
+    'third':'-o, -avi, -atum (regelmäßig)'},
+
+    {'first':'obsistere', 
+    'second':'sich jmdm. in <br>den Weg stellen, wehren', 
+    'third':'-sisto, -stiti, -stitum'},
+
+    {'first':'passim', 
+    'second':'überall, zerstreut', 
+    'third':''},
+
+
+]

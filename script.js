@@ -283,6 +283,22 @@ function buildTableoratio_pro_archia(data) {
 		tableoratio_pro_archia.innerHTML += row
 	}
 }
+buildTableovid_test_eins(ovid_test_eins)
+
+function buildTableovid_test_eins(data) {
+	document.getElementById('ovid_test_eins_Anzeigetext').innerHTML = ovid_test_eins_Anzeigetext
+	var tableovid_test_eins = document.getElementById('tableovid_test_eins')
+
+	for (var i = 0; i < data.length; i++) {
+
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+						<td>${data[i].third}</td>
+				  </tr>`
+		tableovid_test_eins.innerHTML += row
+	}
+}
 
 
 
@@ -572,6 +588,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_oratio_pro_archia") {
 		hide_all_außeroratio_pro_archia()
 	}
+	if (userOption.value == "#lek_ovid_test_eins") {
+		hide_all_außerovid_test_eins()
+	}
 
 	
 }
@@ -646,6 +665,7 @@ selected_s_28_odysseus = document.getElementsByClassName('insgesamts_28_odysseus
 selected_Lupus_et_agnus = document.getElementsByClassName('insgesamtLupus_et_agnus')
 selected_de_officiis = document.getElementsByClassName('insgesamtde_officiis')
 selected_oratio_pro_archia = document.getElementsByClassName('insgesamtoratio_pro_archia')
+selected_ovid_test_eins = document.getElementsByClassName('insgesamtovid_test_eins')
 
 
 
@@ -724,6 +744,7 @@ function hide_all() {
 	selected_Lupus_et_agnus[0].classList.add('hidden');
 	selected_de_officiis[0].classList.add('hidden');
 	selected_oratio_pro_archia[0].classList.add('hidden');
+	selected_ovid_test_eins[0].classList.add('hidden');
 
 
 
@@ -752,6 +773,7 @@ function all() {
 	selected_Lupus_et_agnus[0].classList.remove('hidden');
 	selected_de_officiis[0].classList.remove('hidden');
 	selected_oratio_pro_archia[0].classList.remove('hidden');
+	selected_ovid_test_eins[0].classList.remove('hidden');
 
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
@@ -1346,6 +1368,17 @@ function hide_all_außeroratio_pro_archia() {
 		}
 }
 
+function hide_all_außerovid_test_eins() {
+	hide_all()
+	selected_ovid_test_eins[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
+}
+
 
 
 
@@ -1674,6 +1707,12 @@ console.log (userOption.value)
 			lektion_ausgewählt = true
 		}
 
+		if (userOption.value == "lernen_originaltexte_select_ovid_test_eins") {
+			ausgewählt_lektion = "ovid_test_eins"
+			lernen_noch_länge = ovid_test_eins.length
+			lektion_ausgewählt = true
+		}
+
 
 
 
@@ -1755,6 +1794,7 @@ document.getElementById('lernen_originaltexte_select_s_28_odysseus').innerHTML =
 document.getElementById('lernen_originaltexte_select_Lupus_et_agnus').innerHTML = Lupus_et_agnus_Anzeigetext + " - " + Lupus_et_agnus.length + " W";
 document.getElementById('lernen_originaltexte_select_de_officiis').innerHTML = de_officiis_Anzeigetext + " - " + de_officiis.length + " W";
 document.getElementById('lernen_originaltexte_select_oratio_pro_archia').innerHTML = oratio_pro_archia_Anzeigetext + " - " + oratio_pro_archia.length + " W";
+document.getElementById('lernen_originaltexte_select_ovid_test_eins').innerHTML = ovid_test_eins_Anzeigetext + " - " + ovid_test_eins.length + " W";
 
 
 
@@ -2367,6 +2407,13 @@ function neue_vok_standard() {
 		lernen_lektion_anzeige = oratio_pro_archia_Anzeigetext
 		länge_lek = "Gesamt: " + oratio_pro_archia.length + " Wörter"
 		länge_lek_number = oratio_pro_archia.length
+	}
+
+	if (ausgewählt_lektion == "ovid_test_eins") {
+		random_item = ovid_test_eins[Math.floor(Math.random() * ovid_test_eins.length)];
+		lernen_lektion_anzeige = ovid_test_eins_Anzeigetext
+		länge_lek = "Gesamt: " + ovid_test_eins.length + " Wörter"
+		länge_lek_number = ovid_test_eins.length
 	}
 
 
