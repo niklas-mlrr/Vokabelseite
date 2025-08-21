@@ -37,7 +37,6 @@ random_background()
 
 function random_background() {
 	var random = Math.round(10 * Math.random()) + 1;
-	console.log(random)
 	document.getElementById("background").src = 'Background-Images/' + random + '.jpg'
 }
 
@@ -1654,9 +1653,7 @@ function lernen() {
 			lektion_ausgewählt = true
 		}
 		
-	
-			//ausgewählt_lektion = checkboxField[i]
-console.log (userOption.value)
+
 	}
 
 
@@ -1719,10 +1716,6 @@ console.log (userOption.value)
 			lektion_ausgewählt = true
 		}
 
-
-
-
-		console.log (userOption.value)
 
 	}
 
@@ -1832,25 +1825,6 @@ function lernen_standard_weiter() {
 function lernen_weiter() {
 
 if (lektion_ausgewählt === true){
-
-
-//	checkboxField = document.forms[0].lernen_checked;
-/*
-	for (i = 0; i < checkboxField.length; i++) {
-		if (checkboxField[i].checked) {
-			console.log(checkboxField[i].value); //loggt die ausgewählte Lektion
-*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2081,7 +2055,6 @@ function lernen_einfach_richtig_oder_nicht() {
 		gewusst()
 
 		if (lernen_einfach_btn_selected == 1) {
-			console.log("gewusst 1")
 			lernen_einfach_btn_1_1[0].classList.add('lernen_einfach_richtig');
 			setTimeout(() => {
 				lernen_einfach_btn_1_1[0].classList.remove('lernen_einfach_richtig');
@@ -2089,7 +2062,6 @@ function lernen_einfach_richtig_oder_nicht() {
 
 		}
 		if (lernen_einfach_btn_selected == 2) {
-			console.log("gewusst 2")
 			lernen_einfach_btn_2_1[0].classList.add('lernen_einfach_richtig');
 
 			setTimeout(() => {
@@ -2099,7 +2071,6 @@ function lernen_einfach_richtig_oder_nicht() {
 
 		}
 		if (lernen_einfach_btn_selected == 3) {
-			console.log("gewusst 3")
 			lernen_einfach_btn_3_1[0].classList.add('lernen_einfach_richtig');
 			setTimeout(() => {
 				lernen_einfach_btn_3_1[0].classList.remove('lernen_einfach_richtig');
@@ -2117,14 +2088,12 @@ function lernen_einfach_richtig_oder_nicht() {
 
 
 		if (lernen_einfach_btn_selected == 1) {
-			console.log("nicht gewusst 1")
 			lernen_einfach_btn_1_1[0].classList.add('lernen_einfach_falsch');
 			setTimeout(() => {
 				lernen_einfach_btn_1_1[0].classList.remove('lernen_einfach_falsch');
 			}, 1000);
 		}
 		if (lernen_einfach_btn_selected == 2) {
-			console.log("nicht gewusst 2")
 			lernen_einfach_btn_2_1[0].classList.add('lernen_einfach_falsch');
 
 			setTimeout(() => {
@@ -2133,7 +2102,6 @@ function lernen_einfach_richtig_oder_nicht() {
 			}, 1000);
 		}
 		if (lernen_einfach_btn_selected == 3) {
-			console.log("nicht gewusst 3")
 			lernen_einfach_btn_3_1[0].classList.add('lernen_einfach_falsch');
 			setTimeout(() => {
 				lernen_einfach_btn_3_1[0].classList.remove('lernen_einfach_falsch');
@@ -2145,7 +2113,6 @@ function lernen_einfach_richtig_oder_nicht() {
 
 
 		if (lernen_einfach_btn_richtig == 1) {
-			console.log("richtig 1")
 			lernen_einfach_btn_1_1[0].classList.add('lernen_einfach_richtig');
 			setTimeout(() => {
 				lernen_einfach_btn_1_1[0].classList.remove('lernen_einfach_richtig');
@@ -2153,7 +2120,6 @@ function lernen_einfach_richtig_oder_nicht() {
 
 		}
 		if (lernen_einfach_btn_richtig == 2) {
-			console.log("richtig 2")
 			lernen_einfach_btn_2_1[0].classList.add('lernen_einfach_richtig');
 
 			setTimeout(() => {
@@ -2163,7 +2129,6 @@ function lernen_einfach_richtig_oder_nicht() {
 
 		}
 		if (lernen_einfach_btn_richtig == 3) {
-			console.log("richtig 3")
 			lernen_einfach_btn_3_1[0].classList.add('lernen_einfach_richtig');
 			setTimeout(() => {
 				lernen_einfach_btn_3_1[0].classList.remove('lernen_einfach_richtig');
@@ -2279,12 +2244,10 @@ function neue_vok() {
 
 			lernen_einfach_abgleich = erstes_wort
 
-			console.log(lernen_einfach_abgleich)
 			if ((lernen_einfach_abgleich == lernen_einfach_erste_option_abgleich) || (lernen_einfach_abgleich == lernen_einfach_zweite_option_abgleich) || (lernen_einfach_abgleich == lernen_einfach_dritte_option_abgleich)) {
 
 			} else {
 
-				console.log("Abgleich")
 				neue_vok()
 
 			}
@@ -2293,7 +2256,6 @@ function neue_vok() {
 
 
 			if ((lernen_einfach_erste_option == lernen_einfach_zweite_option) | (lernen_einfach_erste_option == lernen_einfach_dritte_option) | (lernen_einfach_zweite_option == lernen_einfach_dritte_option)) {
-				console.log("Mind. eine Übereinstimmung")
 				neue_vok()
 			}
 
@@ -2308,8 +2270,6 @@ function neue_vok() {
 			random_3 = Math.round(2 * Math.random()) + 1;
 
 			if (random_3 == 1) {
-				//console.log(random_3)
-
 				document.getElementById('lernen_einfach_btn_3').innerHTML = lernen_einfach_erste_option
 				document.getElementById('lernen_einfach_btn_2').innerHTML = lernen_einfach_zweite_option
 				document.getElementById('lernen_einfach_btn_1').innerHTML = lernen_einfach_dritte_option
@@ -2317,7 +2277,6 @@ function neue_vok() {
 				lernen_einfach_btn_richtig = 1
 			}
 			if (random_3 == 2) {
-				console.log(random_3)
 				document.getElementById('lernen_einfach_btn_1').innerHTML = lernen_einfach_erste_option
 				document.getElementById('lernen_einfach_btn_3').innerHTML = lernen_einfach_zweite_option
 				document.getElementById('lernen_einfach_btn_2').innerHTML = lernen_einfach_dritte_option
@@ -2325,7 +2284,6 @@ function neue_vok() {
 				lernen_einfach_btn_richtig = 2
 			}
 			if (random_3 == 3) {
-				console.log(random_3)
 				document.getElementById('lernen_einfach_btn_1').innerHTML = lernen_einfach_erste_option
 				document.getElementById('lernen_einfach_btn_2').innerHTML = lernen_einfach_zweite_option
 				document.getElementById('lernen_einfach_btn_3').innerHTML = lernen_einfach_dritte_option
@@ -2424,22 +2382,6 @@ function neue_vok_standard() {
 
 
 
-	
-
-
-/* Hier funktioniert es auch mit "Variabelzahlen" bis ins "unendliche" (Auch wenn die Zehnerstelle anders ist)
-   ChatGPTs ausgabe (ohne Kontext):
-
-   Die obige Schleife verwendet eine Template-Literal-Syntax, um die ID-Nummer in den ID-Namen und den Arraynamen einzufügen.
-
-   Der Code verwendet die toString-Methode und die padStart-Methode, um sicherzustellen, dass die ID-Nummer immer mit zwei Stellen 
-   angezeigt wird (z.B. "01" anstelle von "1"). Wenn der Wert von i bereits zwei Stellen hat, wird er unverändert zurückgegeben.
-
-   
-*/
-
-// console.log(ausgewählt_lektion)
-
 for (let i = 1; i <= 45; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
 	if (ausgewählt_lektion == id) {
@@ -2471,13 +2413,10 @@ for (let i = 1; i <= 45; i++) {
 	all_lernen[0].classList.remove('hidden');
 
 
-
-
-	console.log(random_item)
 	random_item = JSON.stringify(random_item)
 
 	// +1 wegen der suche. sonst nicht
-	// erster Buchstabe : plus 2
+	// erster Buchstabe: plus 2
 	erster_doppelpunkt = random_item.indexOf(":") + 1
 	zweiter_doppelpunkt = random_item.indexOf(":", erster_doppelpunkt) + 1
 	dritter_doppelpunkt = random_item.indexOf(":", zweiter_doppelpunkt) + 1
@@ -2559,7 +2498,6 @@ for (let i = 1; i <= 45; i++) {
 function geschaft() {
 
 	geschafte_wörter.push(erstes_wort);
-	console.log("geschafte_wörter: " + geschafte_wörter);
 
 	lernen_noch_länge = lernen_noch_länge - 1
 	setTimeout(() => {
@@ -2582,7 +2520,6 @@ function geschaft() {
 
 
 function lernen_auswählen_viva_selected() {
-	console.log("VIVA")
 	viva_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden');
 	viva_div[0].classList.remove('hidden_trotzdem_platz');
@@ -2594,7 +2531,6 @@ function lernen_auswählen_viva_selected() {
 }
 
 function lernen_auswählen_originaltexte_selected() {
-	console.log("Originaltexte")
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.remove('hidden_trotzdem_platz');
@@ -2606,7 +2542,6 @@ function lernen_auswählen_originaltexte_selected() {
 }
 
 function lernen_auswählen_vokabeltest_selected() {
-	console.log("Vokabeltest")
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden_trotzdem_platz');
@@ -2631,7 +2566,6 @@ if (aktuell_ausgewählt === "viva") {
 
 
 function lernen_auswählen_vokabeltest_2_selected() {
-	console.log("Vokabeltest 2")
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden_trotzdem_platz');
