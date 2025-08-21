@@ -1,5 +1,5 @@
 GitHub Repo:
-https://github.com/TechNikFuture/Vokabelseite
+https://github.com/niklas-mlrr/Vokabelseite
 
 
 2.0.1:

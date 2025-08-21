@@ -51,10 +51,11 @@
                 
                 <select onchange="augewählte_lektion()" id="Lektion_select" class="Lektion_select">
                     <option disabled selected>Nur ... anzeigen</option>
-                    <option class="auswahl_Vokabeltest hidden" value="#lek_Vokabeltest_Lektion">Latein Vokabeltest</option>
-                    <option class="auswahl_vokabeltest_2 hidden" value="#lek_vokabeltest_2_Lektion">The digial age: Englisch - Deutsch</option>
+                    <option id="vokabeltest1_option" class="auswahl_Vokabeltest hidden" value="#lek_Vokabeltest_Lektion">Vokabeltest 1</option>
+                    <option id="vokabeltest2_option" class="auswahl_vokabeltest_2 hidden" value="#lek_vokabeltest_2_Lektion">Vokabeltest 2</option>
                     <option class="bold" value="#all">Alle</option>
     
+                    <option disabled>Viva</option>
                     <option value="#lek_Vokabeln_aus_keiner_Lektion">Vokabeln aus keiner Lektion</option>
                     <option value="#lek_01">01</option>
                     <option value="#lek_02">02</option>
@@ -1609,12 +1610,12 @@
                 
                 <div class="checkbox vokabeltest_checkbox">
                     <input onclick="lernen_auswählen_vokabeltest_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
-                  <label class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Latein Vokabeltest</label>
+                  <label id="lernen_vokabeltest1_label" class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest 1</label>
               </div>
                 
                 <div class="checkbox vokabeltest_2_checkbox">
                     <input onclick="lernen_auswählen_vokabeltest_2_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="vokabeltest_2_Lektion" type="checkbox" id="lernen_vokabeltest_2_Lektion">
-                  <label class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">The digial age: Englisch - Deutsch</label>
+                  <label id="lernen_vokabeltest2_label" class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">Vokabeltest 2</label>
               </div>
                 
 
@@ -1757,5 +1758,5 @@
 
 
 </div>
-    </body>
-    </html>
+</body>
+</html>

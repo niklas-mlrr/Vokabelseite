@@ -64,6 +64,7 @@ vokabeltest_2_checkbox = document.getElementsByClassName('vokabeltest_2_checkbox
 
 
 
+
 insgesamtVokabeltest_Lektion[0].classList.add('hidden');
 insgesamtvokabeltest_2_Lektion[0].classList.add('hidden');
 //lernen_auswählen_vokabeltest[0].classList.add('hidden');
@@ -88,7 +89,9 @@ if(vokabeltest_lektion_anzeigen == true) {
 buildTableVokabeltest_Lektion(Vokabeltest_Lektion)
 
 function buildTableVokabeltest_Lektion(data) {
-	document.getElementById('Vokabeltest_Anzeigetext').innerHTML = Vokabeltest_Anzeigetext
+	document.getElementById('Vokabeltest_Anzeigetext').innerHTML = Vokabeltest_Anzeigetext;
+	document.getElementById('lernen_vokabeltest1_label').textContent = Vokabeltest_Anzeigetext;
+	document.getElementById('vokabeltest1_option').textContent = Vokabeltest_Anzeigetext;
 
 	var tableVokabeltest_Lektion = document.getElementById('tableVokabeltest_Lektion')
 
@@ -122,6 +125,9 @@ buildTablevokabeltest_2_Lektion(vokabeltest_2_Lektion)
 
 function buildTablevokabeltest_2_Lektion(data) {
 	document.getElementById('Vokabeltest2_Anzeigetext').innerHTML = Vokabeltest2_Anzeigetext
+	document.getElementById('lernen_vokabeltest2_label').textContent = Vokabeltest2_Anzeigetext;
+	document.getElementById('vokabeltest2_option').textContent = Vokabeltest2_Anzeigetext;
+
 	var tablevokabeltest_2_Lektion = document.getElementById('tablevokabeltest_2_Lektion')
 
 	for (var i = 0; i < data.length; i++) {
