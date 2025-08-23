@@ -211,7 +211,7 @@ th {
 
 
   width: 400px;
-  height: 500px;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1016,27 +1016,54 @@ position: relative;
 
 
 .checkbox_haken_mit_ohne_sonstige_formen_form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .checkbox_haken_mit_ohne_sonstige_formen {
 
-  position: relative;
-  bottom: -127px;
-  margin-left: 13px;
-  margin-right: 13px;
-  height: 45px;
-  width: 350px;
+    position: relative;
+    bottom: -180px;
+    margin-left: 13px;
+    margin-right: 13px;
+    height: 45px;
+    left: -8px;
 
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1.5rem;
-  color: white;
-  font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.checkbox_haken_swap_checked_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkbox_haken_swap_checked {
+
+    position: relative;
+    bottom: -170px;
+    margin-left: 13px;
+    margin-right: 13px;
+    height: 45px;
+    left: -8px;
+
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight: bold;
 }
 
 

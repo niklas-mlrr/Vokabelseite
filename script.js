@@ -1806,7 +1806,6 @@ aktuell_lernen = false
 
 
 function lernen_einfach_weiter() {
-
 	lernen_modus = "einfach"
 	lernen_weiter()
 }
@@ -1827,12 +1826,20 @@ if (lektion_ausgewählt === true){
 
 
 			checkboxField_formen = document.forms[0].checkbox_haken_mit_ohne_sonstige_formen_checked;
+            checkboxField_swap = document.forms[1].checkbox_haken_swap_checked;
 
 			if (checkboxField_formen.checked) {
 				mit_formen = true
 			} else {
 				mit_formen = false
 			}
+
+
+            if (checkboxField_swap.checked) {
+                swap_array = true
+            } else {
+                swap_array = false
+            }
 
 
 
@@ -2300,12 +2307,13 @@ function neue_vok_standard() {
 
 
 
-
-
-
-
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
-		random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(Vokabeltest_Lektion)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+		    random_item = Vokabeltest_Lektion[Math.floor(Math.random() * Vokabeltest_Lektion.length)];
+        }
 		lernen_lektion_anzeige = Vokabeltest_Anzeigetext
 		länge_lek = "Gesamt: " + Vokabeltest_Lektion.length + " Wörter"
 		länge_lek_number = Vokabeltest_Lektion.length
@@ -2314,7 +2322,12 @@ function neue_vok_standard() {
 
 
 	if (ausgewählt_lektion == "vokabeltest_2_Lektion") {
-		random_item = vokabeltest_2_Lektion[Math.floor(Math.random() * vokabeltest_2_Lektion.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(vokabeltest_2_Lektion)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = vokabeltest_2_Lektion[Math.floor(Math.random() * vokabeltest_2_Lektion.length)];
+        }
 		lernen_lektion_anzeige = Vokabeltest2_Anzeigetext
 		länge_lek = "Gesamt: " + vokabeltest_2_Lektion.length + " Wörter"
 		länge_lek_number = vokabeltest_2_Lektion.length
@@ -2323,56 +2336,96 @@ function neue_vok_standard() {
 
 
 	if (ausgewählt_lektion == "bellum_gallicum") {
-		random_item = bellum_gallicum[Math.floor(Math.random() * bellum_gallicum.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(bellum_gallicum)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = bellum_gallicum[Math.floor(Math.random() * bellum_gallicum.length)];
+        }
 		lernen_lektion_anzeige = bellum_gallicum_Anzeigetext
 		länge_lek = "Gesamt: " + bellum_gallicum.length + " Wörter"
 		länge_lek_number = bellum_gallicum.length
 	}
 
 	if (ausgewählt_lektion == "s_6_prometheus") {
-		random_item = s_6_prometheus[Math.floor(Math.random() * s_6_prometheus.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(s_6_prometheus)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = s_6_prometheus[Math.floor(Math.random() * s_6_prometheus.length)];
+        }
 		lernen_lektion_anzeige = s_6_prometheus_Anzeigetext
 		länge_lek = "Gesamt: " + s_6_prometheus.length + " Wörter"
 		länge_lek_number = s_6_prometheus.length
 	}
 
 	if (ausgewählt_lektion == "s_8_tantalus") {
-		random_item = s_8_tantalus[Math.floor(Math.random() * s_8_tantalus.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(s_8_tantalus)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = s_8_tantalus[Math.floor(Math.random() * s_8_tantalus.length)];
+        }
 		lernen_lektion_anzeige = s_8_tantalus_Anzeigetext
 		länge_lek = "Gesamt: " + s_8_tantalus.length + " Wörter"
 		länge_lek_number = s_8_tantalus.length
 	}
 
 	if (ausgewählt_lektion == "s_28_odysseus") {
-		random_item = s_28_odysseus[Math.floor(Math.random() * s_28_odysseus.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(s_28_odysseus)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = s_28_odysseus[Math.floor(Math.random() * s_28_odysseus.length)];
+        }
 		lernen_lektion_anzeige = s_28_odysseus_Anzeigetext
 		länge_lek = "Gesamt: " + s_28_odysseus.length + " Wörter"
 		länge_lek_number = s_28_odysseus.length
 	}
 
 	if (ausgewählt_lektion == "Lupus_et_agnus") {
-		random_item = Lupus_et_agnus[Math.floor(Math.random() * Lupus_et_agnus.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(Lupus_et_agnus)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = Lupus_et_agnus[Math.floor(Math.random() * Lupus_et_agnus.length)];
+        }
 		lernen_lektion_anzeige = Lupus_et_agnus_Anzeigetext
 		länge_lek = "Gesamt: " + Lupus_et_agnus.length + " Wörter"
 		länge_lek_number = Lupus_et_agnus.length
 	}
 
 	if (ausgewählt_lektion == "de_officiis") {
-		random_item = de_officiis[Math.floor(Math.random() * de_officiis.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(de_officiis)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = de_officiis[Math.floor(Math.random() * de_officiis.length)];
+        }
 		lernen_lektion_anzeige = de_officiis_Anzeigetext
 		länge_lek = "Gesamt: " + de_officiis.length + " Wörter"
 		länge_lek_number = de_officiis.length
 	}
 
 	if (ausgewählt_lektion == "oratio_pro_archia") {
-		random_item = oratio_pro_archia[Math.floor(Math.random() * oratio_pro_archia.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(oratio_pro_archia)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = oratio_pro_archia[Math.floor(Math.random() * oratio_pro_archia.length)];
+        }
 		lernen_lektion_anzeige = oratio_pro_archia_Anzeigetext
 		länge_lek = "Gesamt: " + oratio_pro_archia.length + " Wörter"
 		länge_lek_number = oratio_pro_archia.length
 	}
 
 	if (ausgewählt_lektion == "ovid_test_eins") {
-		random_item = ovid_test_eins[Math.floor(Math.random() * ovid_test_eins.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(ovid_test_eins)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = ovid_test_eins[Math.floor(Math.random() * ovid_test_eins.length)];
+        }
 		lernen_lektion_anzeige = ovid_test_eins_Anzeigetext
 		länge_lek = "Gesamt: " + ovid_test_eins.length + " Wörter"
 		länge_lek_number = ovid_test_eins.length
@@ -2384,7 +2437,12 @@ for (let i = 1; i <= 45; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
 	if (ausgewählt_lektion == id) {
 		let array = window[id];
-		random_item = array[Math.floor(Math.random() * array.length)];
+        if(swap_array == true) {
+            swapped_array = swapFirstSecond(array)
+            random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+        } else {
+            random_item = array[Math.floor(Math.random() * array.length)];
+        }
 		lernen_lektion_anzeige = `Lektion ${i}`;
 		länge_lek = `Gesamt: ${array.length} Wörter`;
 		länge_lek_number = array.length;
@@ -2415,6 +2473,8 @@ for (let i = 1; i <= 45; i++) {
 
 	// +1 wegen der suche. sonst nicht
 	// erster Buchstabe: plus 2
+	
+
 	erster_doppelpunkt = random_item.indexOf(":") + 1
 	zweiter_doppelpunkt = random_item.indexOf(":", erster_doppelpunkt) + 1
 	dritter_doppelpunkt = random_item.indexOf(":", zweiter_doppelpunkt) + 1
@@ -2622,3 +2682,22 @@ if (vokabeltest_lektion_anzeigen == false) {
 if (vokabeltest_2_lektion_anzeigen == false) {
 	vokabeltest_2_checkbox[0].classList.add('hidden');
 }
+
+
+
+
+// Swaps 'first' and 'second' for each object in the array and returns a new (non-mutated) array.
+function swapFirstSecond(arr) {
+    if (!Array.isArray(arr)) return arr;
+    return arr.map(function(obj) {
+        if (obj && typeof obj === 'object') {
+            return {
+                first: obj.second,
+                second: obj.first,
+                third: obj.third
+            };
+        }
+        return obj;
+    });
+}
+
