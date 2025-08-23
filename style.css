@@ -23,7 +23,6 @@
   color: black;
   text-align: center;
   
-
 }
 
 #background {
@@ -47,20 +46,15 @@ body {
   align-items: center;
   justify-content: center;
   background-color: white;
-
 }
 
 html {
-
   scroll-behavior: smooth;
-
 }
 
 
 
 .insgesamt_tabelle {
-
-
   z-index: 1;
   position: relative;
 
@@ -78,8 +72,6 @@ html {
   margin-bottom: 1.5cm;
   margin-left: 0.7cm;
   margin-right: 0.7cm;
-
-
 }
 
 
@@ -91,7 +83,6 @@ html {
   margin-bottom: 0.5cm;
   margin-left: 0.7cm;
   margin-right: 0.7cm;
-
 }
 
 .table {
@@ -107,7 +98,6 @@ html {
   border-collapse: collapse;
   empty-cells: show;
   font-size: calc(1rem + 0.3vw);
-
 }
 
 
@@ -138,7 +128,6 @@ html {
 
 .eng_first {
   border-right: 1px dashed rgba(0, 0, 0, 0.9);
-
 }
 
 .eng_second {
@@ -153,7 +142,6 @@ th {
   padding-right: 10px;
   padding-top: 1px;
   padding-bottom: 1px;
-
 }
 
 
@@ -211,7 +199,7 @@ th {
 
 
   width: 400px;
-  height: 550px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,13 +214,13 @@ th {
 
 .lernen_auswählen_viva_oder_originaltexte {
   position: relative;
-  top: 80px;
+  top: 20px;
 }
 
 
 .lernen_dropdown_div {
   position: relative;
-  top: 50px;
+  top: 20px;
 }
 
 
@@ -241,8 +229,8 @@ th {
 
 .checkbox {
   position: relative;
-  left: 12%;
-  top: -100px;
+  left: 8%;
+  top: -65px;
   justify-content: center;
   height: 50px;
   width: 300px;
@@ -313,7 +301,6 @@ th {
   align-items: center;
   border-radius: 1.5rem;
   color: white;
-
 }
 
 .latein_lektion_auswahlmenü_btn:hover,
@@ -331,7 +318,7 @@ th {
   position: relative;
   height: 80px;
   width: 150px;
-  bottom: 10px;
+  bottom: 130px;
   left: -10px;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
@@ -353,7 +340,7 @@ th {
 position: relative;
   height: 80px;
   width: 150px;
-  bottom: 10px;
+  bottom: 130px;
   left: 10px;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
@@ -426,7 +413,6 @@ position: relative;
     height: 230px;
     width: 300px;
   }
-
 }
 
 
@@ -435,7 +421,6 @@ position: relative;
   .lernen_einfach_btn {
     width: 20vw;
   }
-
 }
 
 
@@ -456,10 +441,7 @@ position: relative;
 
 
 .lernen_einfach_richtig {
-
   background-color: #8ae2169c;
-
-
 }
 
 
@@ -495,7 +477,6 @@ position: relative;
   height: 44px;
   top: 27px;
   right: -15px;
-
 }
 
 
@@ -507,17 +488,13 @@ position: relative;
 
 
 .lernen_design_css {
-
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0px 0px 16px 0 rgba(10, 8, 17, 0.35);
   backdrop-filter: blur(10px) saturate(100%);
   -webkit-backdrop-filter: blur(10px) saturate(100%);
-
-
 }
 
 .all_lernen {
-
   font-size: calc(1rem + 0.3vw);
   z-index: 1;
   position: absolute;
@@ -531,7 +508,6 @@ position: relative;
   display: inline-grid;
   align-items: center;
   border-radius: 1.5rem;
-
 }
 
 #lernen_lek {
@@ -542,7 +518,6 @@ position: relative;
   left: 50%;
   font-size: 45px;
   width: 1500px;
-
 }
 
 .lernen_lat {
@@ -583,7 +558,6 @@ position: relative;
 
 
 @keyframes lernen_lösung_lat {
-
   0% {
     top: 25%;
   }
@@ -596,7 +570,6 @@ position: relative;
 
 
 @keyframes lernen_lösung_de_sonst {
-
   0% {
     opacity: 0%;
     bottom: -1000px;
@@ -614,7 +587,6 @@ position: relative;
 
 
 @keyframes lernen_lat {
-
   0% {
     top: 20%;
   }
@@ -627,7 +599,6 @@ position: relative;
 
 
 @keyframes lernen_de_sonst {
-
   0% {
     bottom: 0%;
 
@@ -639,7 +610,6 @@ position: relative;
 }
 
 .lösung_gezeigt_lat {
-
   animation-name: lernen_lösung_lat;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
@@ -650,7 +620,6 @@ position: relative;
 
 
 .lösung_gezeigt_de_sonst {
-
   animation-name: lernen_lösung_de_sonst;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
@@ -704,7 +673,6 @@ position: relative;
   bottom: -160px;
   left: 50%;
   width: 900px;
-
 }
 
 
@@ -956,7 +924,6 @@ position: relative;
   .btn-aufdecken {
     width: 18%;
   }
-
 }
 
 
@@ -973,7 +940,6 @@ position: relative;
   .btn-aufdecken {
     width: 15%;
   }
-
 }
 
 
@@ -1015,16 +981,15 @@ position: relative;
 
 
 
-.checkbox_haken_mit_ohne_sonstige_formen_form{
+.checkbox_haken_mit_ohne_sonstige_formen_form {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .checkbox_haken_mit_ohne_sonstige_formen {
-
     position: relative;
-    bottom: -180px;
+    bottom: -100px;
     margin-left: 13px;
     margin-right: 13px;
     height: 45px;
@@ -1036,7 +1001,6 @@ position: relative;
     align-items: center;
     border-radius: 1.5rem;
     color: white;
-    font-weight: bold;
 }
 
 
@@ -1048,9 +1012,8 @@ position: relative;
 }
 
 .checkbox_haken_swap_checked {
-
     position: relative;
-    bottom: -170px;
+    bottom: -130px;
     margin-left: 13px;
     margin-right: 13px;
     height: 45px;
@@ -1063,7 +1026,6 @@ position: relative;
     align-items: center;
     border-radius: 1.5rem;
     color: white;
-    font-weight: bold;
 }
 
 
@@ -1076,12 +1038,11 @@ position: relative;
   font-family: 'Maiandra GD';
   position: relative;
   padding: 16px;
-  width: 90%;
+  width: 97%;
   height: 60px;
   border-radius: 1rem;
   font-size: calc(1rem + 0.3vw);
-  top: -40px;
-
+  top: -25px;
 }
 
 .lernen_lektion_oder_originaltext_select:focus,
@@ -1092,7 +1053,6 @@ position: relative;
 
 .lernen_lektion_oder_originaltext_select option {
   background: white;
-
 }
 
 
@@ -1334,7 +1294,6 @@ nav {
 
 .Lektion_select option {
   background: white;
-
 }
 
 
@@ -1354,8 +1313,6 @@ nav {
 
   left: 25px;
   top: 80px;
-
-
 }
 
 .version_headline {
@@ -1363,7 +1320,6 @@ nav {
   text-decoration: underline;
   font-size: calc(1rem + 0.9vw);
   top: 5px;
-
 }
 
 .version_number_latest {
@@ -1382,7 +1338,6 @@ nav {
   cursor: pointer;
   width: 45px;
   height: 45px;
-
 }
 
 
@@ -1396,7 +1351,5 @@ nav {
 
 
 .bold {
-
   font-weight: bold;
-
 }

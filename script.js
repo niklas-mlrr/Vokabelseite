@@ -1,8 +1,3 @@
-
-
-
-
-
 //Suche
 /*
 $('th').on('click', function(){
@@ -1412,6 +1407,10 @@ function lernen() {
 		$('input[type="checkbox"][class="only_select___nicht_löschen"]').not(this).prop('checked', false);
 	 });
 
+    $('input[type="checkbox"][class="checkbox_haken_swap_both"]').on('change', function() {
+        $('input[type="checkbox"][class="checkbox_haken_swap_both"]').not(this).prop('checked', false);
+    });
+
 
 
 	var urlMenu = document.getElementById('lernen_viva_lektion_select');
@@ -1827,6 +1826,8 @@ if (lektion_ausgewählt === true){
 
 			checkboxField_formen = document.forms[0].checkbox_haken_mit_ohne_sonstige_formen_checked;
             checkboxField_swap = document.forms[1].checkbox_haken_swap_checked;
+            checkboxField_swap_random = document.forms[1].checkbox_haken_swap_random_checked;
+
 
 			if (checkboxField_formen.checked) {
 				mit_formen = true
@@ -1839,6 +1840,12 @@ if (lektion_ausgewählt === true){
                 swap_array = true
             } else {
                 swap_array = false
+            }
+
+            if (checkboxField_swap_random.checked) {
+                swap_array_random = true
+            } else {
+                swap_array_random = false
             }
 
 
@@ -2213,6 +2220,7 @@ function lernen_fertig() {
 function neue_vok() {
 
 	if (lernen_modus == "standard") {
+        swap_already_decided = false
 		neue_vok_standard()
 	} else {
 
@@ -2221,7 +2229,18 @@ function neue_vok() {
 		function neue_vok_einfach() {
 
 
-
+            // To prevent mixed languages
+            swap_already_decided = false
+            if(swap_array_random == true) {
+                random_value_swap = Math.floor(Math.random() * 2)
+                console.log(random_value_swap)
+                if(random_value_swap == 1) {
+                    swap_array = true
+                } else {
+                    swap_array = false
+                }
+                swap_already_decided = true
+            }
 
 			neue_vok_standard()
 			if (mit_formen == true) {
@@ -2306,6 +2325,17 @@ function neue_vok() {
 function neue_vok_standard() {
 
 
+    if(swap_array_random == true && !swap_already_decided) {
+        random_value_swap = Math.floor(Math.random() * 2)
+        console.log(random_value_swap)
+        if(random_value_swap == 1) {
+            swap_array = true
+        } else {
+            swap_array = false
+        }
+    }
+
+    console.log("Swap: " + swap_array)
 
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
         if(swap_array == true) {
@@ -2700,4 +2730,3 @@ function swapFirstSecond(arr) {
         return obj;
     });
 }
-
