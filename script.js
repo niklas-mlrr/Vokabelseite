@@ -2233,7 +2233,7 @@ function neue_vok() {
             swap_already_decided = false
             if(swap_array_random == true) {
                 random_value_swap = Math.floor(Math.random() * 2)
-                console.log(random_value_swap)
+
                 if(random_value_swap == 1) {
                     swap_array = true
                 } else {
@@ -2327,7 +2327,7 @@ function neue_vok_standard() {
 
     if(swap_array_random == true && !swap_already_decided) {
         random_value_swap = Math.floor(Math.random() * 2)
-        console.log(random_value_swap)
+
         if(random_value_swap == 1) {
             swap_array = true
         } else {
@@ -2335,7 +2335,7 @@ function neue_vok_standard() {
         }
     }
 
-    console.log("Swap: " + swap_array)
+
 
 	if (ausgewählt_lektion == "Vokabeltest_Lektion") {
         if(swap_array == true) {
