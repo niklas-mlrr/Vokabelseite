@@ -2585,7 +2585,13 @@ for (let i = 1; i <= 45; i++) {
 
 function geschaft() {
 
-	geschafte_wörter.push(erstes_wort);
+
+	if(swap_array){
+		geschafte_wörter.push(zweites_wort);
+	} else {
+		geschafte_wörter.push(erstes_wort);
+	}
+
 
 	lernen_noch_länge = lernen_noch_länge - 1
 	setTimeout(() => {
