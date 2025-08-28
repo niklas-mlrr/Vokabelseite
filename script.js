@@ -2547,6 +2547,11 @@ for (let i = 1; i <= 45; i++) {
 	//console.log(prozent_beim_ersten_mal)
 
 
+if(swap_array) {
+	temp = erstes_wort
+	erstes_wort = zweites wort
+	zweites wort = temp
+	}
 
 
 
@@ -2554,6 +2559,7 @@ for (let i = 1; i <= 45; i++) {
 	if(erstes_wort === letztes_wort) {
 		console.log("B2B")
 	}
+
 
 	if ((geschafte_wörter.includes(erstes_wort)) || erstes_wort === letztes_wort) {
 		neue_vok_standard()
@@ -2578,6 +2584,11 @@ for (let i = 1; i <= 45; i++) {
 
 	}
 
+if(swap_array) {
+	temp = erstes_wort
+	erstes_wort = zweites wort
+	zweites wort = temp
+	}
 
 
 } //neu_vok_standard ende
@@ -2592,6 +2603,8 @@ function geschaft() {
 		geschafte_wörter.push(erstes_wort);
 	}
 
+console.log("Swap? " + swap_array) 
+console.log(geschafte_wörter);
 
 	lernen_noch_länge = lernen_noch_länge - 1
 	setTimeout(() => {
