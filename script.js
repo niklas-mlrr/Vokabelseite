@@ -2549,8 +2549,8 @@ for (let i = 1; i <= 45; i++) {
 
 if(swap_array) {
 	temp = erstes_wort
-	erstes_wort = zweites wort
-	zweites wort = temp
+	erstes_wort = zweites_wort
+	zweites_wort = temp
 	}
 
 
@@ -2586,8 +2586,8 @@ if(swap_array) {
 
 if(swap_array) {
 	temp = erstes_wort
-	erstes_wort = zweites wort
-	zweites wort = temp
+	erstes_wort = zweites_wort
+	zweites_wort = temp
 	}
 
 
