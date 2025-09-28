@@ -10,6 +10,7 @@
         <script src="https://vokabelseite-vokabeltests.netlify.app/vokabeltests.js" defer></script>
         <script src="/Database/viva_vokabeln.js" defer></script>
         <script src="/Database/originaltext_vokabeln.js" defer></script>
+        <script src="/Database/englisch_vokabeln.js" defer></script>
         <script src="script.js" defer></script>
 
 
@@ -103,7 +104,6 @@
                     <option value="#lek_44">44</option>
                     <option value="#lek_45">45</option>
                     <option disabled>Originaltextvokabeln</option>
-                    
                     <option value="#lek_bellum_gallicum">Bellum Gallicum</option>
                     <option value="#lek_s_6_prometheus">S. 6 Prometheus</option>
                     <option value="#lek_s_8_tantalus">S. 8 Tantalus</option>
@@ -112,6 +112,8 @@
                     <option value="#lek_de_officiis">De officiis</option>
                     <option value="#lek_oratio_pro_archia">Oratio pro Archia</option>
                     <option value="#lek_ovid_test_eins">Ovid Test Eins</option>
+                    <option disabled>Englisch Vokabeln</option>
+                    <option value="#lek_englisch_12_1__29_08_25">Englisch Vokabeltest 29.08.25 - 12.1</option>
     
                 </select>
     <br>
@@ -1519,7 +1521,7 @@
 </div>
         <div class="insgesamtovid_test_eins hidden">
             <br><br><br><br>
-            <p class="Lektion_anzeige" id="ovid_test_eins_Anzeigetext">Ovid Test Eins</p>
+            <p class="Lektion_anzeige" id="ovid_test_eins_Anzeigetext">Englisch Vokabeltest 29.08.25 - 12.1</p>
 
 <section class="insgesamt_tabelle">
     <div class="insgesamt_tabelle_inside">
@@ -1540,11 +1542,27 @@
 
 
 
+        <div class="insgesamtenglisch_12_1__29_08_25 hidden">
+            <br><br><br><br>
+            <p class="Lektion_anzeige" id="englisch_12_1__29_08_25_Anzeigetext">Ovid Test Eins</p>
+
+<section class="insgesamt_tabelle">
+    <div class="insgesamt_tabelle_inside">
+        <table class="table">
+            <tr  class="headline">
+                <th>Latein</th>
+                <th>Deutsch</th>
+                <th>Sonstiges</th>
+            </tr>
+            <tbody id="tableenglisch_12_1__29_08_25" class="table_body">
+                            
+            </tbody>
+        </table>
+    </div>
+</section>
+</div>
 
 
-
-        
-       
 
 
 
@@ -1585,139 +1603,140 @@
     <div class="checkbox-container">
 
 
-
-
-
-
+        <div class="lernen_auswählen_viva_oder_originaltexte">
+            <div class="checkbox">
+                <input onclick="lernen_auswählen_viva_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Viva" type="checkbox" id="Viva">
+                <label for="Viva">Viva</label>
+            </div>
             
-            <div class="lernen_auswählen_viva_oder_originaltexte">
-                
-                <div class="checkbox">
-                    <input onclick="lernen_auswählen_viva_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Viva" type="checkbox" id="Viva">
-                    <label for="Viva">Viva</label>
-                </div>
-                
-                
-                <div class="checkbox">
-                    <input onclick="lernen_auswählen_originaltexte_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Originaltexte" type="checkbox" id="Originaltexte">
-                    <label for="Originaltexte">Originaltexte</label>
-                </div>
-                
-                <div class="checkbox vokabeltest_checkbox">
-                    <input onclick="lernen_auswählen_vokabeltest_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
-                  <label id="lernen_vokabeltest1_label" class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest 1</label>
-              </div>
-                
-                <div class="checkbox vokabeltest_2_checkbox">
-                    <input onclick="lernen_auswählen_vokabeltest_2_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="vokabeltest_2_Lektion" type="checkbox" id="lernen_vokabeltest_2_Lektion">
-                  <label id="lernen_vokabeltest2_label" class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">Vokabeltest 2</label>
-              </div>
-                
-
-      </div>
-
-      <div class="lernen_dropdown_div">
-
-
-
-
-      <div class="viva_div hidden_trotzdem_platz">
-            <select id="lernen_viva_lektion_select" class="lernen_lektion_oder_originaltext_select">
-                <option value="lektion_auswählen" selected>Lektion wählen</option>
-                <option value="lernen_viva_lektion_select_01" id="lernen_viva_lektion_select_01"></option>
-                <option value="lernen_viva_lektion_select_02" id="lernen_viva_lektion_select_02"></option>
-                <option value="lernen_viva_lektion_select_03" id="lernen_viva_lektion_select_03"></option>
-                <option value="lernen_viva_lektion_select_04" id="lernen_viva_lektion_select_04"></option>
-                <option value="lernen_viva_lektion_select_05" id="lernen_viva_lektion_select_05"></option>
-                <option value="lernen_viva_lektion_select_06" id="lernen_viva_lektion_select_06"></option>
-                <option value="lernen_viva_lektion_select_07" id="lernen_viva_lektion_select_07"></option>
-                <option value="lernen_viva_lektion_select_08" id="lernen_viva_lektion_select_08"></option>
-                <option value="lernen_viva_lektion_select_09" id="lernen_viva_lektion_select_09"></option>
-                <option value="lernen_viva_lektion_select_10" id="lernen_viva_lektion_select_10"></option>
-                <option value="lernen_viva_lektion_select_11" id="lernen_viva_lektion_select_11"></option>
-                <option value="lernen_viva_lektion_select_12" id="lernen_viva_lektion_select_12"></option>
-                <option value="lernen_viva_lektion_select_13" id="lernen_viva_lektion_select_13"></option>
-                <option value="lernen_viva_lektion_select_14" id="lernen_viva_lektion_select_14"></option>
-                <option value="lernen_viva_lektion_select_15" id="lernen_viva_lektion_select_15"></option>
-                <option value="lernen_viva_lektion_select_16" id="lernen_viva_lektion_select_16"></option>
-                <option value="lernen_viva_lektion_select_17" id="lernen_viva_lektion_select_17"></option>
-                <option value="lernen_viva_lektion_select_18" id="lernen_viva_lektion_select_18"></option>
-                <option value="lernen_viva_lektion_select_19" id="lernen_viva_lektion_select_19"></option>
-                <option value="lernen_viva_lektion_select_20" id="lernen_viva_lektion_select_20"></option>
-                <option value="lernen_viva_lektion_select_21" id="lernen_viva_lektion_select_21"></option>
-                <option value="lernen_viva_lektion_select_22" id="lernen_viva_lektion_select_22"></option>
-                <option value="lernen_viva_lektion_select_23" id="lernen_viva_lektion_select_23"></option>
-                <option value="lernen_viva_lektion_select_24" id="lernen_viva_lektion_select_24"></option>
-                <option value="lernen_viva_lektion_select_25" id="lernen_viva_lektion_select_25"></option>
-                <option value="lernen_viva_lektion_select_26" id="lernen_viva_lektion_select_26"></option>
-                <option value="lernen_viva_lektion_select_27" id="lernen_viva_lektion_select_27"></option>
-                <option value="lernen_viva_lektion_select_28" id="lernen_viva_lektion_select_28"></option>
-                <option value="lernen_viva_lektion_select_29" id="lernen_viva_lektion_select_29"></option>
-                <option value="lernen_viva_lektion_select_30" id="lernen_viva_lektion_select_30"></option>
-                <option value="lernen_viva_lektion_select_31" id="lernen_viva_lektion_select_31"></option>
-                <option value="lernen_viva_lektion_select_32" id="lernen_viva_lektion_select_32"></option>
-                <option value="lernen_viva_lektion_select_33" id="lernen_viva_lektion_select_33"></option>
-                <option value="lernen_viva_lektion_select_34" id="lernen_viva_lektion_select_34"></option>
-                <option value="lernen_viva_lektion_select_35" id="lernen_viva_lektion_select_35"></option>
-                <option value="lernen_viva_lektion_select_36" id="lernen_viva_lektion_select_36"></option>
-                <option value="lernen_viva_lektion_select_37" id="lernen_viva_lektion_select_37"></option>
-                <option value="lernen_viva_lektion_select_38" id="lernen_viva_lektion_select_38"></option>
-                <option value="lernen_viva_lektion_select_39" id="lernen_viva_lektion_select_39"></option>
-                <option value="lernen_viva_lektion_select_40" id="lernen_viva_lektion_select_40"></option>
-                <option value="lernen_viva_lektion_select_41" id="lernen_viva_lektion_select_41"></option>
-                <option value="lernen_viva_lektion_select_42" id="lernen_viva_lektion_select_42"></option>
-                <option value="lernen_viva_lektion_select_43" id="lernen_viva_lektion_select_43"></option>
-                <option value="lernen_viva_lektion_select_44" id="lernen_viva_lektion_select_44"></option>
-                <option value="lernen_viva_lektion_select_45" id="lernen_viva_lektion_select_45"></option>
             
-    </select>
-</div>
+            <div class="checkbox">
+                <input onclick="lernen_auswählen_originaltexte_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Originaltexte" type="checkbox" id="Originaltexte">
+                <label for="Originaltexte">Originaltexte</label>
+            </div>
+            <div class="checkbox">
+                <input onclick="lernen_auswählen_englisch_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Englisch" type="checkbox" id="Englisch">
+                <label for="Englisch">Englisch</label>
+            </div>
+            
+            <div class="checkbox vokabeltest_checkbox">
+                <input onclick="lernen_auswählen_vokabeltest_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="Vokabeltest_Lektion" type="checkbox" id="lernen_Vokabeltest_Lektion">
+              <label id="lernen_vokabeltest1_label" class="lernen_auswahl_Vokabeltest_Lektion" for="lernen_Vokabeltest_Lektion">Vokabeltest 1</label>
+          </div>
+            
+            <div class="checkbox vokabeltest_2_checkbox">
+                <input onclick="lernen_auswählen_vokabeltest_2_selected()" name="lernen_checked" class="only_select___nicht_löschen" value="vokabeltest_2_Lektion" type="checkbox" id="lernen_vokabeltest_2_Lektion">
+              <label id="lernen_vokabeltest2_label" class="lernen_auswahl_vokabeltest_2_Lektion" for="lernen_vokabeltest_2_Lektion">Vokabeltest 2</label>
+          </div>
+            
+        </div>
+
+        <div class="lernen_dropdown_div">
+
+            <div class="viva_div hidden_trotzdem_platz">
+                <select id="lernen_viva_lektion_select" class="lernen_lektion_oder_originaltext_select">
+                    <option value="lektion_auswählen" selected>Lektion Vokabeln wählen</option>
+                    <option value="lernen_viva_lektion_select_01" id="lernen_viva_lektion_select_01"></option>
+                    <option value="lernen_viva_lektion_select_02" id="lernen_viva_lektion_select_02"></option>
+                    <option value="lernen_viva_lektion_select_03" id="lernen_viva_lektion_select_03"></option>
+                    <option value="lernen_viva_lektion_select_04" id="lernen_viva_lektion_select_04"></option>
+                    <option value="lernen_viva_lektion_select_05" id="lernen_viva_lektion_select_05"></option>
+                    <option value="lernen_viva_lektion_select_06" id="lernen_viva_lektion_select_06"></option>
+                    <option value="lernen_viva_lektion_select_07" id="lernen_viva_lektion_select_07"></option>
+                    <option value="lernen_viva_lektion_select_08" id="lernen_viva_lektion_select_08"></option>
+                    <option value="lernen_viva_lektion_select_09" id="lernen_viva_lektion_select_09"></option>
+                    <option value="lernen_viva_lektion_select_10" id="lernen_viva_lektion_select_10"></option>
+                    <option value="lernen_viva_lektion_select_11" id="lernen_viva_lektion_select_11"></option>
+                    <option value="lernen_viva_lektion_select_12" id="lernen_viva_lektion_select_12"></option>
+                    <option value="lernen_viva_lektion_select_13" id="lernen_viva_lektion_select_13"></option>
+                    <option value="lernen_viva_lektion_select_14" id="lernen_viva_lektion_select_14"></option>
+                    <option value="lernen_viva_lektion_select_15" id="lernen_viva_lektion_select_15"></option>
+                    <option value="lernen_viva_lektion_select_16" id="lernen_viva_lektion_select_16"></option>
+                    <option value="lernen_viva_lektion_select_17" id="lernen_viva_lektion_select_17"></option>
+                    <option value="lernen_viva_lektion_select_18" id="lernen_viva_lektion_select_18"></option>
+                    <option value="lernen_viva_lektion_select_19" id="lernen_viva_lektion_select_19"></option>
+                    <option value="lernen_viva_lektion_select_20" id="lernen_viva_lektion_select_20"></option>
+                    <option value="lernen_viva_lektion_select_21" id="lernen_viva_lektion_select_21"></option>
+                    <option value="lernen_viva_lektion_select_22" id="lernen_viva_lektion_select_22"></option>
+                    <option value="lernen_viva_lektion_select_23" id="lernen_viva_lektion_select_23"></option>
+                    <option value="lernen_viva_lektion_select_24" id="lernen_viva_lektion_select_24"></option>
+                    <option value="lernen_viva_lektion_select_25" id="lernen_viva_lektion_select_25"></option>
+                    <option value="lernen_viva_lektion_select_26" id="lernen_viva_lektion_select_26"></option>
+                    <option value="lernen_viva_lektion_select_27" id="lernen_viva_lektion_select_27"></option>
+                    <option value="lernen_viva_lektion_select_28" id="lernen_viva_lektion_select_28"></option>
+                    <option value="lernen_viva_lektion_select_29" id="lernen_viva_lektion_select_29"></option>
+                    <option value="lernen_viva_lektion_select_30" id="lernen_viva_lektion_select_30"></option>
+                    <option value="lernen_viva_lektion_select_31" id="lernen_viva_lektion_select_31"></option>
+                    <option value="lernen_viva_lektion_select_32" id="lernen_viva_lektion_select_32"></option>
+                    <option value="lernen_viva_lektion_select_33" id="lernen_viva_lektion_select_33"></option>
+                    <option value="lernen_viva_lektion_select_34" id="lernen_viva_lektion_select_34"></option>
+                    <option value="lernen_viva_lektion_select_35" id="lernen_viva_lektion_select_35"></option>
+                    <option value="lernen_viva_lektion_select_36" id="lernen_viva_lektion_select_36"></option>
+                    <option value="lernen_viva_lektion_select_37" id="lernen_viva_lektion_select_37"></option>
+                    <option value="lernen_viva_lektion_select_38" id="lernen_viva_lektion_select_38"></option>
+                    <option value="lernen_viva_lektion_select_39" id="lernen_viva_lektion_select_39"></option>
+                    <option value="lernen_viva_lektion_select_40" id="lernen_viva_lektion_select_40"></option>
+                    <option value="lernen_viva_lektion_select_41" id="lernen_viva_lektion_select_41"></option>
+                    <option value="lernen_viva_lektion_select_42" id="lernen_viva_lektion_select_42"></option>
+                    <option value="lernen_viva_lektion_select_43" id="lernen_viva_lektion_select_43"></option>
+                    <option value="lernen_viva_lektion_select_44" id="lernen_viva_lektion_select_44"></option>
+                    <option value="lernen_viva_lektion_select_45" id="lernen_viva_lektion_select_45"></option>
+                </select>
+            </div>
 
 
-<div class="originaltexte_div hidden_trotzdem_platz">
-            <select id="lernen_originaltexte_select" class="lernen_lektion_oder_originaltext_select">
-                <option value="originaltext_auswählen" selected>Originaltext wählen</option>
-                <option value="lernen_originaltexte_select_bellum_gallicum" id="lernen_originaltexte_select_bellum_gallicum"></option>
-                <option value="lernen_originaltexte_select_s_6_prometheus" id="lernen_originaltexte_select_s_6_prometheus"></option>
-                <option value="lernen_originaltexte_select_s_8_tantalus" id="lernen_originaltexte_select_s_8_tantalus"></option>
-                <option value="lernen_originaltexte_select_s_28_odysseus" id="lernen_originaltexte_select_s_28_odysseus"></option>
-                <option value="lernen_originaltexte_select_Lupus_et_agnus" id="lernen_originaltexte_select_Lupus_et_agnus"></option>
-                <option value="lernen_originaltexte_select_de_officiis" id="lernen_originaltexte_select_de_officiis"></option>
-                <option value="lernen_originaltexte_select_oratio_pro_archia" id="lernen_originaltexte_select_oratio_pro_archia"></option>
-                <option value="lernen_originaltexte_select_ovid_test_eins" id="lernen_originaltexte_select_ovid_test_eins"></option>
-    </select>
-</div>
+            <div class="originaltexte_div hidden_trotzdem_platz">
+                <select id="lernen_originaltexte_select" class="lernen_lektion_oder_originaltext_select">
+                    <option value="originaltext_auswählen" selected>Originaltext Vokabeln wählen</option>
+                    <option value="lernen_originaltexte_select_bellum_gallicum" id="lernen_originaltexte_select_bellum_gallicum"></option>
+                    <option value="lernen_originaltexte_select_s_6_prometheus" id="lernen_originaltexte_select_s_6_prometheus"></option>
+                    <option value="lernen_originaltexte_select_s_8_tantalus" id="lernen_originaltexte_select_s_8_tantalus"></option>
+                    <option value="lernen_originaltexte_select_s_28_odysseus" id="lernen_originaltexte_select_s_28_odysseus"></option>
+                    <option value="lernen_originaltexte_select_Lupus_et_agnus" id="lernen_originaltexte_select_Lupus_et_agnus"></option>
+                    <option value="lernen_originaltexte_select_de_officiis" id="lernen_originaltexte_select_de_officiis"></option>
+                    <option value="lernen_originaltexte_select_oratio_pro_archia" id="lernen_originaltexte_select_oratio_pro_archia"></option>
+                    <option value="lernen_originaltexte_select_ovid_test_eins" id="lernen_originaltexte_select_ovid_test_eins"></option>
+                </select>
+            </div>
 
-</div>
-
-
-<form class="checkbox_haken_mit_ohne_sonstige_formen_form">
-    <div class="checkbox_haken_mit_ohne_sonstige_formen">
-      <input name="checkbox_haken_mit_ohne_sonstige_formen_checked" value="checkbox_haken_mit_ohne_sonstige_formen_value" type="checkbox" id="checkbox_haken_mit_ohne_sonstige_formen">
-      <label for="checkbox_haken_mit_ohne_sonstige_formen">Mit sonstigen Formen</label>
-      </div>
-</form>
-
-
-
-<form class="checkbox_haken_swap_checked_form">
-    <div class="checkbox_haken_swap_checked">
-        <input name="checkbox_haken_swap_checked" value="checkbox_haken_swap_checked_value" type="checkbox" id="checkbox_haken_swap_checked" class="checkbox_haken_swap_both">
-        <label for="checkbox_haken_swap_checked">Übersetzungsrichtung tauschen</label>
+            <div class="englisch_div hidden_trotzdem_platz">
+                <select id="lernen_englisch_select" class="lernen_lektion_oder_originaltext_select test">
+                    <option value="englisch_auswählen" selected>Englisch Vokabeln wählen</option>
+                    <option value="lernen_englisch_select_englisch_12_1__29_08_25" id="lernen_englisch_select_englisch_12_1__29_08_25"></option>
+                </select>
+            </div>
+        
     </div>
 
-    <div class="checkbox_haken_swap_checked">
-        <input name="checkbox_haken_swap_random_checked" value="checkbox_haken_swap_random_checked_value" type="checkbox" id="checkbox_haken_swap_random_checked"  class="checkbox_haken_swap_both">
-        <label for="checkbox_haken_swap_random_checked">Übersetzungsrichtung random</label>
-    </div>
-</form>
+        
 
+    <form class="checkbox_haken_mit_ohne_sonstige_formen_form">
+        <div class="checkbox_haken_mit_ohne_sonstige_formen">
+          <input name="checkbox_haken_mit_ohne_sonstige_formen_checked" value="checkbox_haken_mit_ohne_sonstige_formen_value" type="checkbox" id="checkbox_haken_mit_ohne_sonstige_formen">
+          <label for="checkbox_haken_mit_ohne_sonstige_formen">Mit sonstigen Formen</label>
+        </div>
+    </form>
+
+
+
+    <form class="checkbox_haken_swap_checked_form">
+        <div class="checkbox_haken_swap_checked">
+            <input name="checkbox_haken_swap_checked" value="checkbox_haken_swap_checked_value" type="checkbox" id="checkbox_haken_swap_checked" class="checkbox_haken_swap_both">
+            <label for="checkbox_haken_swap_checked">Übersetzungsrichtung tauschen</label>
+        </div>
+
+        <div class="checkbox_haken_swap_checked">
+            <input name="checkbox_haken_swap_random_checked" value="checkbox_haken_swap_random_checked_value" type="checkbox" id="checkbox_haken_swap_random_checked"  class="checkbox_haken_swap_both">
+            <label for="checkbox_haken_swap_random_checked">Übersetzungsrichtung random</label>
+        </div>
+    </form>
+
+    <div class="lernen_weiter_buttons">
 
     <ion-icon name="lernen_einfach_weiter_button" class="lernen_einfach_weiter_button_latein" onclick="lernen_einfach_weiter()">Lernen - <br> Einfach</ion-icon>
     <ion-icon name="lernen_standard_weiter_button" class="lernen_standard_weiter_button_latein" onclick="lernen_standard_weiter()" >Lernen -  <br> Standard</ion-icon>
 </div>
 </div>
-
 
 
 

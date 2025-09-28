@@ -199,7 +199,7 @@ th {
 
 
   width: 400px;
-  height: 600px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,7 +236,6 @@ th {
   width: 300px;
   margin: 0px;
 }
-
 
 
 
@@ -1054,6 +1053,7 @@ position: relative;
 .lernen_lektion_oder_originaltext_select option {
   background: white;
 }
+
 
 
 

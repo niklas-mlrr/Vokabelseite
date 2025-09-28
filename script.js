@@ -298,6 +298,21 @@ function buildTableovid_test_eins(data) {
 	}
 }
 
+function buildTableenglisch_12_1__29_08_25(data) {
+	document.getElementById('englisch_12_1__29_08_25_Anzeigetext').innerHTML = englisch_12_1__29_08_25_Anzeigetext
+	var tableenglisch_12_1__29_08_25 = document.getElementById('tableenglisch_12_1__29_08_25')
+	for (var i = 0; i < data.length; i++) {
+		var row = `<tr class="row">
+						<td class="first">${data[i].first}</td>
+						<td class="second">${data[i].second}</td>
+						<td>${data[i].third}</td>
+				</tr>`
+		tableenglisch_12_1__29_08_25.innerHTML += row
+	}
+}
+
+buildTableenglisch_12_1__29_08_25(englisch_12_1__29_08_25)
+
 
 
 
@@ -589,6 +604,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_ovid_test_eins") {
 		hide_all_außerovid_test_eins()
 	}
+	if (userOption.value == "#lek_englisch_12_1__29_08_25") {
+		hide_all_außerenglisch_12_1__29_08_25()
+	}
 
 	
 }
@@ -600,10 +618,12 @@ body = document.getElementsByClassName('body')
 
 viva_div = document.getElementsByClassName('viva_div')
 originaltexte_div = document.getElementsByClassName('originaltexte_div')
+englisch_div = document.getElementsByClassName('englisch_div')
 
 
 viva_div[0].classList.add('hidden');
 originaltexte_div[0].classList.add('hidden_trotzdem_platz');
+englisch_div[0].classList.add('hidden');
 
 
 
@@ -664,6 +684,7 @@ selected_Lupus_et_agnus = document.getElementsByClassName('insgesamtLupus_et_agn
 selected_de_officiis = document.getElementsByClassName('insgesamtde_officiis')
 selected_oratio_pro_archia = document.getElementsByClassName('insgesamtoratio_pro_archia')
 selected_ovid_test_eins = document.getElementsByClassName('insgesamtovid_test_eins')
+selected_englisch_12_1__29_08_25 = document.getElementsByClassName('insgesamtenglisch_12_1__29_08_25')
 
 
 
@@ -743,6 +764,7 @@ function hide_all() {
 	selected_de_officiis[0].classList.add('hidden');
 	selected_oratio_pro_archia[0].classList.add('hidden');
 	selected_ovid_test_eins[0].classList.add('hidden');
+	selected_englisch_12_1__29_08_25[0].classList.add('hidden');
 
 
 
@@ -772,6 +794,7 @@ function all() {
 	selected_de_officiis[0].classList.remove('hidden');
 	selected_oratio_pro_archia[0].classList.remove('hidden');
 	selected_ovid_test_eins[0].classList.remove('hidden');
+	selected_englisch_12_1__29_08_25[0].classList.remove('hidden');
 
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
@@ -1377,10 +1400,16 @@ function hide_all_außerovid_test_eins() {
 		}
 }
 
-
-
-
-
+function hide_all_außerenglisch_12_1__29_08_25() {
+	hide_all()
+	selected_englisch_12_1__29_08_25[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
+}
 
 
 
@@ -1713,11 +1742,26 @@ function lernen() {
 			lektion_ausgewählt = true
 		}
 
+		if (userOption.value == "lernen_originaltexte_select_englisch_12_1__29_08_25") {
+			ausgewählt_lektion = "englisch_12_1__29_08_25"
+			lernen_noch_länge = englisch_12_1__29_08_25.length
+			lektion_ausgewählt = true
+		}
+
 
 	}
 
+	var urlMenu = document.getElementById('lernen_englisch_select');
+	urlMenu.onchange = function lernen_englisch_select_function() {
+		var userOption = this.options[this.selectedIndex];
 
+		if (userOption.value == "lernen_englisch_select_englisch_12_1__29_08_25") {
+			ausgewählt_lektion = "englisch_12_1__29_08_25"
+			lernen_noch_länge = englisch_12_1__29_08_25.length
+			lektion_ausgewählt = true
+		}
 
+	}
 
 	
 
@@ -1782,7 +1826,6 @@ document.getElementById('lernen_viva_lektion_select_45').innerHTML = "Lektion 45
 
 
 
-
 document.getElementById('lernen_originaltexte_select_bellum_gallicum').innerHTML = bellum_gallicum_Anzeigetext + " - " + bellum_gallicum.length + " W";
 document.getElementById('lernen_originaltexte_select_s_6_prometheus').innerHTML = s_6_prometheus_Anzeigetext + " - " + s_6_prometheus.length + " W";
 document.getElementById('lernen_originaltexte_select_s_8_tantalus').innerHTML = s_8_tantalus_Anzeigetext + " - " + s_8_tantalus.length + " W";
@@ -1793,6 +1836,8 @@ document.getElementById('lernen_originaltexte_select_oratio_pro_archia').innerHT
 document.getElementById('lernen_originaltexte_select_ovid_test_eins').innerHTML = ovid_test_eins_Anzeigetext + " - " + ovid_test_eins.length + " W";
 
 
+
+document.getElementById('lernen_englisch_select_englisch_12_1__29_08_25').innerHTML = englisch_12_1__29_08_25_Anzeigetext + " - " + englisch_12_1__29_08_25.length + " W";
 
 
 
@@ -2461,7 +2506,17 @@ function neue_vok_standard() {
 		länge_lek_number = ovid_test_eins.length
 	}
 
-
+	if(ausgewählt_lektion == "englisch_12_1__29_08_25") {
+		if(swap_array == true) {
+			swapped_array = swapFirstSecond(englisch_12_1__29_08_25)
+			random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+		} else {
+			random_item = englisch_12_1__29_08_25[Math.floor(Math.random() * englisch_12_1__29_08_25.length)];
+		}
+		lernen_lektion_anzeige = englisch_12_1__29_08_25_Anzeigetext
+		länge_lek = "Gesamt: " + englisch_12_1__29_08_25.length + " Wörter"
+		länge_lek_number = englisch_12_1__29_08_25.length
+	}
 
 for (let i = 1; i <= 45; i++) {
 	let id = `Lektion${i.toString().padStart(2, '0')}`;
@@ -2605,30 +2660,55 @@ function geschaft() {
 
 function lernen_auswählen_viva_selected() {
 	viva_div[0].classList.remove('hidden');
-	originaltexte_div[0].classList.add('hidden');
 	viva_div[0].classList.remove('hidden_trotzdem_platz');
 
-	lektion_ausgewählt = false
+	originaltexte_div[0].classList.add('hidden');
+	englisch_div[0].classList.add('hidden');
 
+
+
+	lektion_ausgewählt = false
 	aktuell_ausgewählt = "viva"
 	clear_select_originaltexte()
+	clear_select_englisch()
 }
 
 function lernen_auswählen_originaltexte_selected() {
-	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.remove('hidden_trotzdem_platz');
-	
-	lektion_ausgewählt = false
 
+	viva_div[0].classList.add('hidden');
+	englisch_div[0].classList.add('hidden');
+	
+
+
+	lektion_ausgewählt = false
 	aktuell_ausgewählt = "originaltexte"
 	clear_select_viva()
+	clear_select_englisch()
+}
+
+function lernen_auswählen_englisch_selected() {
+	englisch_div[0].classList.remove('hidden');
+	englisch_div[0].classList.remove('hidden_trotzdem_platz');
+
+	viva_div[0].classList.add('hidden');
+	originaltexte_div[0].classList.add('hidden');
+
+
+
+	lektion_ausgewählt = false
+	aktuell_ausgewählt = "englisch"
+	clear_select_viva()
+	clear_select_originaltexte()
 }
 
 function lernen_auswählen_vokabeltest_selected() {
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden_trotzdem_platz');
+	englisch_div[0].classList.add('hidden');
+
 
 
 	lektion_ausgewählt = true
@@ -2637,22 +2717,26 @@ function lernen_auswählen_vokabeltest_selected() {
 
 		lernen_noch_länge = Vokabeltest_Lektion.length;
 
-if(typeof aktuell_ausgewählt !== 'undefined') {
+	if(typeof aktuell_ausgewählt !== 'undefined') {
 
-if (aktuell_ausgewählt === "viva") {
-	clear_select_viva()
-}else {
-	clear_select_originaltexte()
-}
-}
+		if (aktuell_ausgewählt === "viva") {
+			clear_select_viva()
+		} else if (aktuell_ausgewählt === "originaltexte") {
+			clear_select_originaltexte()
+		} else {
+			clear_select_englisch()
+		}
+
+
+	}
 
 }
-
 
 function lernen_auswählen_vokabeltest_2_selected() {
 	viva_div[0].classList.add('hidden');
 	originaltexte_div[0].classList.remove('hidden');
 	originaltexte_div[0].classList.add('hidden_trotzdem_platz');
+	englisch_div[0].classList.add('hidden');
 
 
 	lektion_ausgewählt = true
@@ -2661,14 +2745,17 @@ function lernen_auswählen_vokabeltest_2_selected() {
 
 		lernen_noch_länge = vokabeltest_2_Lektion.length;
 
-if(typeof aktuell_ausgewählt !== 'undefined') {
+	if(typeof aktuell_ausgewählt !== 'undefined') {
 
-if (aktuell_ausgewählt === "viva") {
-	clear_select_viva()
-}else {
-	clear_select_originaltexte()
-}
-}
+		if (aktuell_ausgewählt === "viva") {
+			clear_select_viva()
+		} else if (aktuell_ausgewählt === "originaltexte") {
+			clear_select_originaltexte()
+		} else {
+			clear_select_englisch()
+		}
+
+	}
 
 }
 
@@ -2699,6 +2786,14 @@ function clear_select_viva() {
 	}
 }
 
+function clear_select_englisch() {
+	var clear = document.getElementById("lernen_englisch_select")
+	for (var i=0; i<clear.length; i++) {
+		if (clear.options[i].selected) {
+			clear.options[i].selected = false
+		}
+	}
+}
 
 
 if (vokabeltest_lektion_anzeigen == false) {
