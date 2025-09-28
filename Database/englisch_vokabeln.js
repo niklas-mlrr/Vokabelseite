@@ -1,4 +1,4 @@
-var englisch_12_1__29_08_25_Anzeigetext = "Englisch Vokabeltest 29.08.25 - 12.1"
+var englisch_12_1__29_08_25_Anzeigetext = "29.08.25 - 12.1"
 var englisch_12_1__29_08_25 = [
 
     {'first':'Administration', 

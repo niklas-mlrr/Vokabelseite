@@ -225,6 +225,12 @@ th {
 
 
 
+.lernen_lektion_oder_originaltext_select.test {
+  width: auto;
+  min-width: 296.81px; /* Adjust this value as needed */
+}
+
+
 
 
 .checkbox {
