@@ -438,6 +438,291 @@ var englisch_12_1__29_08_25 = [
     'second':'etw. aufrechterhalten', 
     'third':''}
    
+]
 
+
+var englisch_12_1__01_10_25_Anzeigetext = "01.10.25 - 12.1"
+var englisch_12_1__01_10_25 = [
+
+    {'first':'System der gegenseitigen <br> Kontrolle (Gewaltenteilung)', 
+    'second':'(system of) checks and balances', 
+    'third':''},
+
+    {'first':'etw. aufrechterhalten', 
+    'second':'to maintain sth', 
+    'third':''},
+
+    {'first':'Gleichgewicht der Kräfte', 
+    'second':'balance of power', 
+    'third':''},
+
+    {'first':'hier= gelten, zutreffen', 
+    'second':'to apply', 
+    'third':''},
+
+    {'first':'leiten', 
+    'second':'to head sth', 
+    'third':''},
+
+    {'first':'Gouverneur(in)', 
+    'second':'governor', 
+    'third':''},
+
+    {'first':'Kammer', 
+    'second':'chamber', 
+    'third':''},
+
+    {'first':'Senat', 
+    'second':'Senate', 
+    'third':''},
+
+    {'first':'Abgeordnetenhaus in den USA', 
+    'second':'House of Representatives', 
+    'third':''},
+
+    {'first':'Vize-Präsident(in)', 
+    'second':'Vice President', 
+    'third':''},
+
+    {'first':'jmdn. wählen', 
+    'second':'to elect sb', 
+    'third':''},
+
+    {'first':'hier= Amtszeit', 
+    'second':'term', 
+    'third':''},
+
+    {'first':'Bevölkerung', 
+    'second':'population', 
+    'third':''},
+
+    {'first':'eine Gesetzesvorlage zurückweisen', 
+    'second':'to reject a bill', 
+    'third':''},
+
+    {'first':'Ablehnung, Zurückweisung', 
+    'second':'rejection', 
+    'third':''},
+
+    {'first':'Einzelperson', 
+    'second':'individual', 
+    'third':''},
+
+    {'first':'hier= Oberhaupt', 
+    'second':'head', 
+    'third':''},
+
+    {'first':'Oberbefehlshaber(in) (der Streitkräfte)', 
+    'second':'Commander-in-Chief', 
+    'third':''},
+
+    {'first':'Streitkräfte', 
+    'second':'armed forces', 
+    'third':''},
+
+    {'first':'jmdn. ernennen / in ein Amt berufen', 
+    'second':'to appoint sb (to a post)', 
+    'third':''},
+
+    {'first':'Außenminister(in)', 
+    'second':'Secretary of State', 
+    'third':''},
+
+    {'first':'Finanzminister(in)', 
+    'second':'Treasury Secretary', 
+    'third':''},
+
+    {'first':'Innenminister(in)', 
+    'second':'Interior Secretary', 
+    'third':''},
+
+    {'first':'Verteidigungsminister(in)', 
+    'second':'Defense Secretary', 
+    'third':''},
+
+    {'first':'Generalbundesanwalt/-anwältin', 
+    'second':'Attorney General', 
+    'third':''},
+
+    {'first':'einer Sache zustimmen', 
+    'second':'to approve sth', 
+    'third':''},
+
+    {'first':'Zustimmung', 
+    'second':'approval', 
+    'third':''},
+
+    {'first':'Ernennung', 
+    'second':'appointment', 
+    'third':''},
+
+    {'first':'Gesetzgebung', 
+    'second':'legislation', 
+    'third':''},
+
+    {'first':'Einspruch gegen ein Gesetz erheben', 
+    'second':'to veto (a law)', 
+    'third':''},
+
+    {'first':'ein Gesetz verabschieden', 
+    'second':'to pass a law', 
+    'third':''},
+
+    {'first':'ein Veto ablehnen', 
+    'second':'to overrule a veto', 
+    'third':''},
+
+    {'first':'jmdn. überstimmen', 
+    'second':'to overrule sb', 
+    'third':''},
+
+    {'first':'Mehrheit', 
+    'second':'majority', 
+    'third':''},
+
+    {'first':'einen Vertrag ratifizieren', 
+    'second':'to ratify a treaty', 
+    'third':''},
+
+    {'first':'einen Vertrag unterschreiben', 
+    'second':'to sign a treaty', 
+    'third':''},
+
+    {'first':'(jmdm.) den Krieg erklären', 
+    'second':'to declare war (on sb)', 
+    'third':''},
+
+    {'first':'etw. bestätigen', 
+    'second':'to confirm sth', 
+    'third':''},
+
+    {'first':'etw. für verfassungswidrig erklären', 
+    'second':'to declare sth unconstitutional', 
+    'third':''},
+
+    {'first':'Richter(in)', 
+    'second':'judge', 
+    'third':''},
+
+
+
+
+
+
+    {'first':'etw. festschreiben', 
+    'second':'to lay down sth', 
+    'third':''},
+
+    {'first':'eine Amtszeit durchlaufen', 
+    'second':'to serve a term', 
+    'third':''},
+
+    {'first':'im Amt bleiben', 
+    'second':'to remain in office', 
+    'third':''},
+
+    {'first':'Staatsbürger(in)', 
+    'second':'citizen', 
+    'third':''},
+
+    {'first':'hier= Etappe', 
+    'second':'stage', 
+    'third':''},
+
+    {'first':'als Präsident(in) kandidieren', 
+    'second':'to run for President', 
+    'third':''},
+
+    {'first':'Vorwahl', 
+    'second':'primary', 
+    'third':''},
+
+    {'first':'Vorversammlung von Wählern <br> zur Vorbereitung einer <br> Wahl und Ernennung <br> eines Kandidaten', 
+    'second':'caucus', 
+    'third':''},
+
+    {'first':'Delegierte(r)', 
+    'second':'delegate', 
+    'third':''},
+
+    {'first':'jmdn. vertreten', 
+    'second':'to represent sb', 
+    'third':''},
+
+    {'first':'Vertreter(in)', 
+    'second':'representative', 
+    'third':''},
+
+    {'first':'Versammlung, Parteitag', 
+    'second':'convention', 
+    'third':''},
+
+    {'first':'Präsidentschaftskandidat(in)', 
+    'second':'presidential nominee', 
+    'third':''},
+
+    {'first':'Kandidat(in) für die Vizepräsidentschaft', 
+    'second':'running-mate', 
+    'third':''},
+
+    {'first':'Wahlkampf', 
+    'second':'election campaign', 
+    'third':''},
+
+    {'first':'Schaltjahr', 
+    'second':'leap year', 
+    'third':''},
+
+    {'first':'Wähler(in)', 
+    'second':'voter', 
+    'third':''},
+
+    {'first':'jmdn. wählen, für jmdn. stimmen', 
+    'second':'to vote for sb', 
+    'third':''},
+
+    {'first':'Wahlmann / Wahlfrau bei <br> einer Präsidentschaftswahl', 
+    'second':'presidential elector', 
+    'third':''},
+
+    {'first':'Gremium der <br> Wahlmänner und Wahlfrauen', 
+    'second':'Electoral College', 
+    'third':''},
+
+    {'first':'sich verpflichten etw. zu tun', 
+    'second':'to pledge to do sth', 
+    'third':''},
+
+    {'first':'Versprechen, Zusicherung', 
+    'second':'pledge', 
+    'third':''},
+
+    {'first':'seine Stimme abgeben', 
+    'second':'to cast one\'s vote', 
+    'third':''},
+
+    {'first':'jmdn. vereidigen', 
+    'second':'to swear sb in', 
+    'third':''},
+
+    {'first':'einen Eid ablegen', 
+    'second':'to swear an oath', 
+    'third':''},
+
+    {'first':'Feier zur Amtseinführung', 
+    'second':'Inauguration Ceremony', 
+    'third':''},
+
+    {'first':'jmdn. feierlich in ein Amt einführen', 
+    'second':'to inaugurate sb', 
+    'third':''},
+
+    {'first':'eine Rede / Ansprache halten', 
+    'second':'to deliver a speech / an address', 
+    'third':''},
+
+    {'first':'Antrittsrede', 
+    'second':'Inaugural Address', 
+    'third':''},
 
 ]
