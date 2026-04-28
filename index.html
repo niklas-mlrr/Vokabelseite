@@ -45,7 +45,11 @@
               but hey, it's pure CSS magic.
               -->
               <ul id="menu">
-                <ion-icon name="lernen_button" class="lernen_button" onclick="lernen()">Lernen</ion-icon>   
+                <ion-icon name="lernen_button" class="lernen_button" onclick="lernen()">Lernen</ion-icon>
+
+                <br><br>
+
+                <ion-icon name="fehlerliste_button" class="lernen_button" onclick="fehlerlisteAnzeigen()">Fehlerliste</ion-icon>
 
                 <br><br>
 
@@ -1806,5 +1810,30 @@
 
 
 </div>
+
+<!-- Feedback Modal -->
+<div id="lernen_feedback" class="lernen_feedback hidden">
+    <h2>Session abgeschlossen</h2>
+    <p id="lernen_feedback_stats"></p>
+    <div id="lernen_feedback_fehlerliste"></div>
+    <div class="lernen_feedback_buttons">
+        <button class="lernen_feedback_nicht_zaehlen" onclick="feedbackNichtZaehlen()">Diese Session nicht mit in die Statistik zählen</button>
+        <button class="lernen_feedback_schliessen" onclick="feedbackSchliessen()">Schliessen</button>
+    </div>
+</div>
+
+<!-- Fehlerliste Overlay -->
+<div id="fehlerliste_overlay" class="fehlerliste_overlay hidden">
+    <h2>Fehlerliste</h2>
+    <select id="fehlerliste_lektion_select" class="lernen_lektion_oder_originaltext_select" onchange="fehlerlisteLektionWechseln()">
+        <option disabled selected>Lektion wählen</option>
+    </select>
+    <div id="fehlerliste_inhalt"></div>
+    <div class="fehlerliste_buttons">
+        <button class="fehlerliste_reset" onclick="fehlerlisteReset()">Alle Fehler löschen</button>
+        <button class="fehlerliste_schliessen" onclick="fehlerlisteSchliessen()">Schliessen</button>
+    </div>
+</div>
+
 </body>
 </html>
