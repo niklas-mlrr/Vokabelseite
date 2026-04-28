@@ -1830,7 +1830,10 @@
     </select>
     <div id="fehlerliste_inhalt"></div>
     <div class="fehlerliste_buttons">
-        <button class="fehlerliste_reset" onclick="fehlerlisteReset()">Alle Fehler löschen</button>
+        <div style="display: flex; gap: 10px; justify-content: center;">
+            <button class="fehlerliste_reset" onclick="fehlerlisteSetReset()">Alle Fehler dieses Set's löschen</button>
+            <button class="fehlerliste_reset" onclick="fehlerlisteReset()">Alle Fehler aller Set's löschen</button>
+        </div>
         <button class="fehlerliste_schliessen" onclick="fehlerlisteSchliessen()">Schliessen</button>
     </div>
 </div>

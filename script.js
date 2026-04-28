@@ -54,7 +54,8 @@ function fehlerSpeichern(lessonKey, vocabItem) {
     let fehlerDaten = JSON.parse(localStorage.getItem(key)) || {};
     let vocabKey = vocabItem.first + '|' + vocabItem.second;
     if (!fehlerDaten[vocabKey]) {
-        fehlerDaten[vocabKey] = { first: vocabItem.first, second: vocabItem.second, third: vocabItem.third, count: 0 };
+        fehlerDaten[vocabKey] = { first: vocabItem.first, second: vocabItem.second, count: 0 };
+        if (vocabItem.third) fehlerDaten[vocabKey].third = vocabItem.third;
     }
     fehlerDaten[vocabKey].count++;
     localStorage.setItem(key, JSON.stringify(fehlerDaten));
@@ -108,7 +109,9 @@ function sessionFehlerHinzufügen(vocabItem) {
     if (existing) {
         existing.count++;
     } else {
-        session_fehler.push({ first: vocabItem.first, second: vocabItem.second, third: vocabItem.third, count: 1 });
+        let entry = { first: vocabItem.first, second: vocabItem.second, count: 1 };
+        if (vocabItem.third) entry.third = vocabItem.third;
+        session_fehler.push(entry);
     }
 }
 
@@ -2041,6 +2044,7 @@ if (lektion_ausgewählt === true){
 			nicht_beim_ersten_mal = [];
 			letztes_wort = "";
 			session_fehler = [];
+			session_vokabeln_abgefragt = false;
 
 
 
@@ -2174,8 +2178,10 @@ function nicht_gewusst() {
 function nicht_geschaft_länger_1() {
 	if (lösung_angezeigt == true) {
 		gesamt_fehleranzahl ++
-		fehlerSpeichern(ausgewählt_lektion, random_item);
-		sessionFehlerHinzufügen(random_item);
+		let fehlerFirst = swap_array ? zweites_wort : erstes_wort;
+		let fehlerSecond = swap_array ? erstes_wort : zweites_wort;
+		fehlerSpeichern(ausgewählt_lektion, { first: fehlerFirst, second: fehlerSecond, third: drittes_wort });
+		sessionFehlerHinzufügen({ first: fehlerFirst, second: fehlerSecond, third: drittes_wort });
 		document.getElementById("gesamt_fehleranzahl").innerHTML = "Gesamte <br> Fehleranzahl: " + gesamt_fehleranzahl
 		neue_vok()
 		//lösung_angezeigt = true
@@ -2253,8 +2259,10 @@ function lernen_einfach_richtig_oder_nicht() {
 	} else {
 		lösung_angezeigt = true
 		nicht_gewusst()
-		fehlerSpeichern(ausgewählt_lektion, random_item);
-		sessionFehlerHinzufügen(random_item);
+		let fehlerFirst = swap_array ? zweites_wort : erstes_wort;
+		let fehlerSecond = swap_array ? erstes_wort : zweites_wort;
+		fehlerSpeichern(ausgewählt_lektion, { first: fehlerFirst, second: fehlerSecond, third: drittes_wort });
+		sessionFehlerHinzufügen({ first: fehlerFirst, second: fehlerSecond, third: drittes_wort });
 
 		if (lernen_einfach_btn_selected == 1) {
 			lernen_einfach_btn_1_1[0].classList.add('lernen_einfach_falsch');
@@ -2736,18 +2744,18 @@ for (let i = 1; i <= 45; i++) {
 	if (geschafte_wörter.includes(erstes_wort) || geschafte_wörter.includes(zweites_wort) || erstes_wort === letztes_wort) {
 		neue_vok_standard()
 	} else {
-
-
 		document.getElementById("lernen_lek").innerHTML = lernen_lektion_anzeige
 		document.getElementById("länge_lek").innerHTML = länge_lek
 
 		if (lernen_modus == "standard") {
 			setTimeout(() => {
 				document.getElementById("lernen_lat").innerHTML = erstes_wort
+				if (!session_vokabeln_abgefragt) session_vokabeln_abgefragt = true;
 			}, 300);
 		} else {
 			setTimeout(() => {
 				document.getElementById("lernen_lat").innerHTML = erstes_wort
+				if (!session_vokabeln_abgefragt) session_vokabeln_abgefragt = true;
 			}, 1000);
 		}
 
@@ -2955,20 +2963,25 @@ function feedbackAnzeigen() {
     let liste = document.getElementById('lernen_feedback_fehlerliste');
 
     modal.classList.remove('hidden');
+    all_all[0].classList.add('hidden');
     all_all[0].classList.add('blur');
 
     if (session_fehler && session_fehler.length > 0) {
         let gesamt = session_fehler.reduce((sum, f) => sum + f.count, 0);
         stats.innerHTML = 'Gesamtfehler in dieser Session: ' + gesamt + '<br>Vokabeln mit Fehlern: ' + session_fehler.length;
 
-        let table = '<table class="lernen_feedback_fehler_tabelle"><tr><th>Vokabel</th><th>Uebersetzung</th><th>Fehler</th></tr>';
-        for (let f of session_fehler) {
+        let sorted = session_fehler.slice().sort((a, b) => b.count - a.count);
+        let table = '<table class="lernen_feedback_fehler_tabelle"><tr><th>Vokabel</th><th>Übersetzung</th><th>Fehler</th></tr>';
+        for (let f of sorted) {
             table += '<tr><td>' + f.first + '</td><td>' + f.second + '</td><td>' + f.count + 'x</td></tr>';
         }
         table += '</table>';
         liste.innerHTML = table;
-    } else {
+    } else if (session_vokabeln_abgefragt) {
         stats.innerHTML = 'Perfekt! Keine Fehler in dieser Session.';
+        liste.innerHTML = '';
+    } else {
+        stats.innerHTML = 'Session beendet. Es wurden keine Vokabeln abgefragt.';
         liste.innerHTML = '';
     }
 }
@@ -3004,6 +3017,7 @@ function fehlerlisteAnzeigen() {
     let overlay = document.getElementById('fehlerliste_overlay');
     let select = document.getElementById('fehlerliste_lektion_select');
     overlay.classList.remove('hidden');
+    all_all[0].classList.add('hidden');
     all_all[0].classList.add('blur');
 
     let keys = alleFehlerKeys();
@@ -3034,11 +3048,9 @@ function fehlerlisteLektionWechseln() {
         return;
     }
 
-    let table = '<table class="fehlerliste_tabelle"><tr><th>Vokabel</th><th>Uebersetzung</th><th>Fehler</th><th></th></tr>';
+    let table = '<table class="fehlerliste_tabelle"><tr><th>Vokabel</th><th>Übersetzung</th><th>Fehler</th></tr>';
     for (let f of fehler) {
-        let vocabKey = f.first + '|' + f.second;
-        table += '<tr><td>' + f.first + '</td><td>' + f.second + '</td><td>' + f.count + 'x</td>';
-        table += '<td><button class="fehlerliste_loeschen_btn" onclick="fehlerlisteEintraegeLoeschen(\'' + lessonKey + '\', \'' + vocabKey + '\')">Loeschen</button></td></tr>';
+        table += '<tr><td>' + f.first + '</td><td>' + f.second + '</td><td>' + f.count + 'x</td></tr>';
     }
     table += '</table>';
     inhalt.innerHTML = table;
@@ -3047,6 +3059,15 @@ function fehlerlisteLektionWechseln() {
 function fehlerlisteEintraegeLoeschen(lessonKey, vocabKey) {
     fehlerLöschen(lessonKey, vocabKey);
     fehlerlisteLektionWechseln();
+}
+
+function fehlerlisteSetReset() {
+    let lessonKey = document.getElementById('fehlerliste_lektion_select').value;
+    if (lessonKey && confirm('Moechtest du wirklich alle Fehler dieses Sets loeschen?')) {
+        localStorage.removeItem('fehler_' + lessonKey);
+        fehlerlisteLektionWechseln();
+        document.getElementById('fehlerliste_inhalt').innerHTML = '<p>Keine Fehler fuer diese Lektion.</p>';
+    }
 }
 
 function fehlerlisteReset() {
@@ -3059,5 +3080,6 @@ function fehlerlisteReset() {
 
 function fehlerlisteSchliessen() {
     document.getElementById('fehlerliste_overlay').classList.add('hidden');
+    all_all[0].classList.remove('hidden');
     all_all[0].classList.remove('blur');
 }

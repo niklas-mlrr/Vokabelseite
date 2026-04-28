@@ -1191,7 +1191,7 @@ nav {
 #menu {
   position: relative;
   width: 200px;
-  height: 300px;
+  min-height: 100vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -1443,19 +1443,20 @@ nav {
     left: 50%;
     background: #ddddddea;
     box-shadow: 0px 0px 16px 0 rgba(10, 8, 17, 0.35);
-    width: 600px;
-    max-height: 75vh;
+    width: 700px;
+    min-height: 550px;
+    max-height: 85vh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 1.5rem;
-    padding: 20px;
+    padding: 40px 30px 30px 30px;
 }
 
 .fehlerliste_overlay h2 {
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .fehlerliste_tabelle {
@@ -1516,16 +1517,16 @@ nav {
 .fehlerliste_reset {
     font-family: Maiandra GD;
     cursor: pointer;
-    background-color: #dd3422;
+    background-color: #999999;
     color: white;
     border: none;
-    border-radius: 1.5rem;
-    padding: 10px 20px;
-    font-size: calc(0.9rem + 0.2vw);
+    border-radius: 1rem;
+    padding: 6px 14px;
+    font-size: calc(0.8rem + 0.2vw);
 }
 
 .fehlerliste_reset:hover {
-    background-color: #932317;
+    background-color: #777777;
 }
 
 .blur {
