@@ -3021,7 +3021,7 @@ function fehlerlisteAnzeigen() {
     all_all[0].classList.add('blur');
 
     let keys = alleFehlerKeys();
-    select.innerHTML = '<option disabled selected>Lektion waehlen</option>';
+    select.innerHTML = '<option disabled selected>Set auswählen</option>';
 
     for (let k of keys) {
         let option = document.createElement('option');
