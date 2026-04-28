@@ -3014,6 +3014,7 @@ function feedbackSchliessen() {
 }
 
 function fehlerlisteAnzeigen() {
+	document.getElementById('nav_btn').click();
     let overlay = document.getElementById('fehlerliste_overlay');
     let select = document.getElementById('fehlerliste_lektion_select');
     overlay.classList.remove('hidden');
