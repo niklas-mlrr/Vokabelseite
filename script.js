@@ -394,6 +394,19 @@ function buildTableenglisch_12_1__01_10_25(data) {
 	}
 }
 
+buildTableenglisch_12_2__29_04_26(englisch_12_2__29_04_26)
+function buildTableenglisch_12_2__29_04_26(data) {
+	document.getElementById('englisch_12_2__29_04_26_Anzeigetext').innerHTML = englisch_12_2__29_04_26_Anzeigetext
+	var tableenglisch_12_2__29_04_26 = document.getElementById('tableenglisch_12_2__29_04_26')
+	for (var i = 0; i < data.length; i++) {
+		var row = `<tr class="row">
+							<td class="first">${data[i].first}</td>
+							<td>${data[i].second}</td>
+						</tr>`
+		tableenglisch_12_2__29_04_26.innerHTML += row
+	}
+}
+
 
 
 
@@ -691,6 +704,9 @@ urlMenu.onchange = function () {
 	if (userOption.value == "#lek_englisch_12_1__01_10_25") {
 		hide_all_außerenglisch_12_1__01_10_25()
 	}
+	if (userOption.value == "#lek_englisch_12_2__29_04_26") {
+		hide_all_außerenglisch_12_2__29_04_26()
+	}
 
 	
 }
@@ -770,6 +786,7 @@ selected_oratio_pro_archia = document.getElementsByClassName('insgesamtoratio_pr
 selected_ovid_test_eins = document.getElementsByClassName('insgesamtovid_test_eins')
 selected_englisch_12_1__29_08_25 = document.getElementsByClassName('insgesamtenglisch_12_1__29_08_25')
 selected_englisch_12_1__01_10_25 = document.getElementsByClassName('insgesamtenglisch_12_1__01_10_25')
+selected_englisch_12_2__29_04_26 = document.getElementsByClassName('insgesamtenglisch_12_2__29_04_26')
 
 
 
@@ -851,6 +868,7 @@ function hide_all() {
 	selected_ovid_test_eins[0].classList.add('hidden');
 	selected_englisch_12_1__29_08_25[0].classList.add('hidden');
 	selected_englisch_12_1__01_10_25[0].classList.add('hidden');
+	selected_englisch_12_2__29_04_26[0].classList.add('hidden');
 
 
 
@@ -882,6 +900,7 @@ function all() {
 	selected_ovid_test_eins[0].classList.remove('hidden');
 	selected_englisch_12_1__29_08_25[0].classList.remove('hidden');
 	selected_englisch_12_1__01_10_25[0].classList.remove('hidden');
+	selected_englisch_12_2__29_04_26[0].classList.remove('hidden');
 
 	for (const elem of selected) {
 		elem[0].classList.remove('hidden');
@@ -1509,6 +1528,17 @@ function hide_all_außerenglisch_12_1__01_10_25() {
 		}
 }
 
+function hide_all_außerenglisch_12_2__29_04_26() {
+	hide_all()
+	selected_englisch_12_2__29_04_26[0].classList.remove('hidden');
+	if(vokabeltest_lektion_anzeigen == true) {
+		selected_Vokabeltest_Lektion[0].classList.add('hidden');
+		}
+	if(vokabeltest_2_lektion_anzeigen == true) {
+		selected_vokabeltest_2_Lektion[0].classList.add('hidden');
+		}
+}
+
 
 
 
@@ -1845,12 +1875,18 @@ function lernen() {
 			lernen_noch_länge = englisch_12_1__29_08_25.length
 			lektion_ausgewählt = true
 		}
-
+		
 		if (userOption.value == "lernen_originaltexte_select_englisch_12_1__01_10_25") {
 			ausgewählt_lektion = "englisch_12_1__01_10_25"
 			lernen_noch_länge = englisch_12_1__01_10_25.length
 			lektion_ausgewählt = true
 		}
+		if (userOption.value == "lernen_originaltexte_select_englisch_12_2__29_04_26") {
+			ausgewählt_lektion = "englisch_12_2__29_04_26"
+			lernen_noch_länge = englisch_12_2__29_04_26.length
+			lektion_ausgewählt = true
+		}
+
 
 
 	}
@@ -1867,6 +1903,11 @@ function lernen() {
 		if (userOption.value == "lernen_englisch_select_englisch_12_1__01_10_25") {
 			ausgewählt_lektion = "englisch_12_1__01_10_25"
 			lernen_noch_länge = englisch_12_1__01_10_25.length
+			lektion_ausgewählt = true
+		}
+		if (userOption.value == "lernen_englisch_select_englisch_12_2__29_04_26") {
+			ausgewählt_lektion = "englisch_12_2__29_04_26"
+			lernen_noch_länge = englisch_12_2__29_04_26.length
 			lektion_ausgewählt = true
 		}
 
@@ -1948,6 +1989,7 @@ document.getElementById('lernen_originaltexte_select_ovid_test_eins').innerHTML 
 
 document.getElementById('lernen_englisch_select_englisch_12_1__29_08_25').innerHTML = englisch_12_1__29_08_25_Anzeigetext + " - " + englisch_12_1__29_08_25.length + " W";
 document.getElementById('lernen_englisch_select_englisch_12_1__01_10_25').innerHTML = englisch_12_1__01_10_25_Anzeigetext + " - " + englisch_12_1__01_10_25.length + " W";
+document.getElementById('lernen_englisch_select_englisch_12_2__29_04_26').innerHTML = englisch_12_2__29_04_26_Anzeigetext + " - " + englisch_12_2__29_04_26.length + " W";
 
 
 
@@ -2647,6 +2689,18 @@ function neue_vok_standard() {
 		lernen_lektion_anzeige = englisch_12_1__01_10_25_Anzeigetext
 		länge_lek = "Gesamt: " + englisch_12_1__01_10_25.length + " Wörter"
 		länge_lek_number = englisch_12_1__01_10_25.length
+	}
+
+	if(ausgewählt_lektion == "englisch_12_2__29_04_26") {
+		if(swap_array == true) {
+			swapped_array = swapFirstSecond(englisch_12_2__29_04_26)
+			random_item = swapped_array[Math.floor(Math.random() * swapped_array.length)];
+		} else {
+			random_item = englisch_12_2__29_04_26[Math.floor(Math.random() * englisch_12_2__29_04_26.length)];
+		}
+		lernen_lektion_anzeige = englisch_12_2__29_04_26_Anzeigetext
+		länge_lek = "Gesamt: " + englisch_12_2__29_04_26.length + " Wörter"
+		länge_lek_number = englisch_12_2__29_04_26.length
 	}
 
 
