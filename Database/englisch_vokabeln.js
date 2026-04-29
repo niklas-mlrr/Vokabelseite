@@ -726,3 +726,473 @@ var englisch_12_1__01_10_25 = [
     'third':''},
 
 ]
+
+
+
+
+
+var englisch_12_2__29_04_26_Anzeigetext = "27.04.25 - 12.2"
+var englisch_12_2__29_04_26 = [
+
+
+
+        {'first':'adolescence',
+    'second':'Jugend(alter)',
+    'third':''},
+
+    {'first':'adolescent',
+    'second':'Heranwachsende(r), <br> Jugendliche(r)',
+    'third':''},
+
+    {'first':'transition',
+    'second':'Übergang',
+    'third':''},
+
+    {'first':'the onset of puberty',
+    'second':'der Beginn der Pubertät',
+    'third':''},
+
+    {'first':'to enter a new phase',
+    'second':'in eine neue Phase eintreten',
+    'third':''},
+
+    {'first':'sense of identity',
+    'second':'Identitätsbewusstsein',
+    'third':''},
+
+    {'first':'to rebel (against sb/sth)',
+    'second':'(gegen jmdn./etw.) rebellieren',
+    'third':''},
+
+    {'first':'to question sth',
+    'second':'etw. infrage stellen',
+    'third':''},
+
+    {'first':'to accept sth',
+    'second':'etw. akzeptieren',
+    'third':''},
+
+    {'first':'close-knit',
+    'second':'eng verbunden',
+    'third':''},
+
+    {'first':'difference of opinion',
+    'second':'Meinungsverschiedenheit',
+    'third':''},
+
+    {'first':'household chore(s)',
+    'second':'Hausarbeit',
+    'third':''},
+
+    {'first':'to moan about sth/sb',
+    'second':'über etw./jmdn. <br> schimpfen/maulen',
+    'third':''},
+
+    {'first':'to nag sb',
+    'second':'an jmdm. herumnörgeln',
+    'third':''},
+
+    {'first':'to criticize sb',
+    'second':'jmdn. kritisieren',
+    'third':''},
+
+    {'first':'criticism',
+    'second':'Kritik',
+    'third':''},
+
+    {'first':'to tell sb off (for doing sth)',
+    'second':'mit jmdm. (wegen etw.) schimpfen',
+    'third':''},
+
+    {'first':'to answer (sb) back',
+    'second':'(jmdm.) frech antworten',
+    'third':''},
+
+    {'first':'to sulk',
+    'second':'schmollen',
+    'third':''},
+
+    {'first':'to lose one\'s temper',
+    'second':'die Beherrschung verlieren',
+    'third':''},
+
+    {'first':'to admit sth',
+    'second':'etw. zugeben',
+    'third':''},
+
+    {'first':'to deny sth',
+    'second':'etw. abstreiten',
+    'third':''},
+
+    {'first':'to go through sth',
+    'second':'etw. durchmachen',
+    'third':''},
+
+    {'first':'to accept sb',
+    'second':'jmdn. akzeptieren',
+    'third':''},
+
+    {'first':'peer',
+    'second':'Gleichaltrige(r)',
+    'third':''},
+
+    {'first':'peer group',
+    'second':'Gruppe von Gleichaltrigen',
+    'third':''},
+
+    {'first':'pressure',
+    'second':'Druck, Zwang',
+    'third':''},
+
+    {'first':'to mature',
+    'second':'reifen, erwachsen werden',
+    'third':''},
+
+    {'first':'maturity',
+    'second':'Erwachsen sein, Reife',
+    'third':''},
+
+    {'first':'to accept responsibility <br> (for sth)',
+    'second':'(die) Verantwortung <br> (für etw.) übernehmen',
+    'third':''},
+
+    {'first':'to live up to sb',
+    'second':'jmdm. ebenbürtig sein',
+    'third':''},
+
+    {'first':'to live up to sb\'s expectations',
+    'second':'jmds. Erwartungen gerecht werden',
+    'third':''},
+
+    {'first':'to turn to sb',
+    'second':'sich an jmdn. wenden',
+    'third':''},
+
+    {'first':'helpline',
+    'second':'telefonischer Beratungsdienst',
+    'third':''},
+
+    {'first':'to give advice to sb',
+    'second':'jmdm. einen Rat geben',
+    'third':''},
+
+    {'first':'to advise sb to do sth',
+    'second':'jmdm. raten etw. zu tun',
+    'third':''},
+
+    {'first':'to remain anonymous',
+    'second':'anonym bleiben',
+    'third':''},
+
+    {'first':'to form close ties',
+    'second':'enge Bindungen eingehen',
+    'third':''},
+
+    {'first':'to hang out',
+    'second':'Zeit verbringen, sich herumtreiben',
+    'third':''},
+
+    {'first':'clique',
+    'second':'Clique',
+    'third':''},
+
+    {'first':'unique',
+    'second':'einmalig, einzigartig',
+    'third':''},
+
+    {'first':'mood swing',
+    'second':'Stimmungsschwankung',
+    'third':''},
+
+    {'first':'to be on the brink of doing sth',
+    'second':'kurz davor sein, etw. zu tun',
+    'third':''},
+
+    {'first':'adult',
+    'second':'Erwachsene(r)',
+    'third':''},
+
+    {'first':'to stand',
+    'second':'hier: aushalten',
+    'third':''},
+
+
+
+
+
+
+
+    {'first':'to look up to sb',
+    'second':'zu jmdm. aufschauen',
+    'third':''},
+
+    {'first':'to emulate sb',
+    'second':'jmdm. nacheifern',
+    'third':''},
+
+    {'first':'values',
+    'second':'Werte (moralisch)',
+    'third':''},
+
+    {'first':'public figure',
+    'second':'Person des öffentlichen Lebens',
+    'third':''},
+
+    {'first':'humanitarian',
+    'second':'Menschenfreund(in)',
+    'third':''},
+
+    {'first':'humanity',
+    'second':'Menschlichkeit, Menschheit',
+    'third':''},
+
+    {'first':'desire',
+    'second':'Wunsch, Verlangen',
+    'third':''},
+
+    {'first':'common good',
+    'second':'Gemeinwohl',
+    'third':''},
+
+    {'first':'compassion',
+    'second':'Mitgefühl',
+    'third':''},
+
+    {'first':'trustworthiness',
+    'second':'Vertrauenswürdigkeit, <br> Zuverlässigkeit',
+    'third':''},
+
+
+        {'first':'trustworthy',
+    'second':'vertrauenswürdig',
+    'third':''},
+
+    {'first':'commitment',
+    'second':'Engagement',
+    'third':''},
+
+    {'first':'courage',
+    'second':'Mut',
+    'third':''},
+
+    {'first':'humility',
+    'second':'Bescheidenheit',
+    'third':''},
+
+    {'first':'humble',
+    'second':'bescheiden',
+    'third':''},
+
+    {'first':'wisdom',
+    'second':'Weisheit',
+    'third':''},
+
+    {'first':'looks',
+    'second':'Aussehen',
+    'third':''},
+
+    {'first':'glamorous',
+    'second':'glamourös',
+    'third':''},
+
+    {'first':'to imitate sth/sb',
+    'second':'etw./jmdn. imitieren',
+    'third':''},
+
+    {'first':'manner',
+    'second':'Art',
+    'third':''},
+
+    {'first':'to behave inappropriately',
+    'second':'sich unangemessen verhalten',
+    'third':''},
+
+    {'first':'achievement',
+    'second':'Leistung, Errungenschaft',
+    'third':''},
+
+    {'first':'to set up on one\'s own',
+    'second':'einen eigenen Haushalt gründen',
+    'third':''},
+
+    {'first':'to go to university',
+    'second':'studieren',
+    'third':''},
+
+    {'first':'to gain work experience',
+    'second':'Berufserfahrung sammeln',
+    'third':''},
+
+    {'first':'military service',
+    'second':'Wehr-/Militärdienst',
+    'third':''},
+
+    {'first':'community service',
+    'second':'hier: Zivildienst',
+    'third':''},
+
+    {'first':'to fend for oneself',
+    'second':'allein zurechtkommen',
+    'third':''},
+
+    {'first':'daunting',
+    'second':'entmutigend',
+    'third':''},
+
+    {'first':'to take a gap year',
+    'second':'ein Jahr aussetzen',
+    'third':''},
+
+    {'first':'to settle down',
+    'second':'ein geregeltes Leben beginnen',
+    'third':''},
+
+    {'first':'to do voluntary work',
+    'second':'ehrenamtlich tätig sein',
+    'third':''},
+
+    {'first':'to volunteer (for/to do sth)',
+    'second':'sich freiwillig zu etw. melden',
+    'third':''},
+
+    {'first':'volunteer',
+    'second':'Freiwillige(r)',
+    'third':''},
+
+    {'first':'driving licence',
+    'second':'Führerschein',
+    'third':''},
+
+    {'first':'to pursue an interest',
+    'second':'ein Interesse verfolgen',
+    'third':''},
+
+
+
+
+
+
+
+
+    {'first':'relationship',
+    'second':'Beziehung, Verhältnis',
+    'third':''},
+
+    {'first':'to have a crush on sb',
+    'second':'für jmdn. schwärmen',
+    'third':''},
+
+    {'first':'love at first sight',
+    'second':'Liebe auf den ersten Blick',
+    'third':''},
+
+    {'first':'to fancy sb',
+    'second':'für jmdn. schwärmen',
+    'third':''},
+
+    {'first':'unrequited love',
+    'second':'unerwiderte Liebe',
+    'third':''},
+
+    {'first':'to make the first move',
+    'second':'den ersten Schritt tun',
+    'third':''},
+
+    {'first':'to ask sb out',
+    'second':'sich mit jmdm. verabreden, <br> jmdn. zu einem Rendezvous einladen',
+    'third':''},
+
+    {'first':'to go on a date with sb',
+    'second':'ein Rendezvous mit jmdm. haben',
+    'third':''},
+
+    {'first':'blind date',
+    'second':'Blind Date',
+    'third':''},
+
+    {'first':'to enjoy sb\'s company',
+    'second':'gerne mit jmdm. zusammen sein',
+    'third':''},
+
+    {'first':'to break it off',
+    'second':'Schluss machen',
+    'third':''},
+
+    {'first':'to break up',
+    'second':'Schluss machen',
+    'third':''},
+
+    {'first':'to get on well with sb',
+    'second':'gut mit jmdm. auskommen',
+    'third':''},
+
+    {'first':'to be on the <br> same wavelength (as sb)',
+    'second':'(mit jmdm.) auf der <br> gleichen Wellenlänge sein',
+    'third':''},
+
+    {'first':'to fall in love (with sb)',
+    'second':'sich (in jmdn.) verlieben',
+    'third':''},
+
+    {'first':'mutual',
+    'second':'gegenseitig',
+    'third':''},
+
+    {'first':'to go out with sb',
+    'second':'mit jmdm. (aus)gehen',
+    'third':''},
+
+    {'first':'boyfriend/girlfriend',
+    'second':'fester Freund / feste Freundin',
+    'third':''},
+
+    {'first':'to have a row (with sb)',
+    'second':'sich (mit jmdm.) streiten',
+    'third':''},
+
+    {'first':'to dump sb',
+    'second':'mit jmdm. Schluss machen',
+    'third':''},
+
+    {'first':'to break up (with sb)',
+    'second':'sich (von jmdm.) trennen',
+    'third':''},
+
+    {'first':'to be over',
+    'second':'vorbei sein',
+    'third':''},
+
+    {'first':'to be heartbroken',
+    'second':'untröstlich sein',
+    'third':''},
+
+    {'first':'to trust sb',
+    'second':'jmdm. vertrauen',
+    'third':''},
+
+    {'first':'to mistrust sb',
+    'second':'jmdm. misstrauen',
+    'third':''},
+
+    {'first':'single',
+    'second':'allein',
+    'third':''},
+
+    {'first':'singleton',
+    'second':'Single',
+    'third':''},
+
+    {'first':'to patch things up',
+    'second':'einen Streit beilegen',
+    'third':''},
+
+    {'first':'to be in love',
+    'second':'verliebt sein',
+    'third':''},
+
+    {'first':'to be single',
+    'second':'allein sein',
+    'third':''}
+
+
+]
